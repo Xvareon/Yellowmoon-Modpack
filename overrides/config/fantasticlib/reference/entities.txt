@@ -112,9 +112,9 @@ ancientwarfarestructure:aw_gate
 ancientwarfarestructure:seat
 ancientwarfarevehicle:vehicle
 ancientwarfarevehicle:missile
+quark:seat
 quark:gravisand
 quark:chest_passenger
-quark:seat
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive

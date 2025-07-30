@@ -4280,6 +4280,8 @@ ancientwarfarenpc:upkeep_order_copy
 ancientwarfarenpc:routing_order_copy
 ancientwarfarenpc:combat_order_copy
 ancientwarfarenpc:work_order_copy
+quark:elytra_dyeing
+quark:firework_cloning
 quark:chute
 quark:sugar_block
 quark:sugar
@@ -4319,8 +4321,6 @@ quark:stained_glass_12
 quark:stained_glass_13
 quark:stained_glass_14
 quark:stained_glass_15
-quark:elytra_dyeing
-quark:firework_cloning
 quark:arrow_ender
 quark:arrow_explosive
 quark:arrow_torch
