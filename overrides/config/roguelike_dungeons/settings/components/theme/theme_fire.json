@@ -1,0 +1,51 @@
+{
+  "name": "theme:fire",
+  "themes": [
+    {"base": "SANDSTONERED", "level": [0,1]},
+    {
+      	"base": "SANDSTONERED",
+      	"level": 2,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:magma_bricks"},
+		"walls": {"name": "quark:magma_bricks"},
+        	"pillar": {"name": "minecraft:magma"},
+        	"stair": {"name": "quark:magma_bricks_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "minecraft:lava"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:magma_bricks"},
+		"walls": {"name": "quark:magma_bricks"},
+        	"pillar": {"name": "minecraft:magma"},
+        	"stair": {"name": "quark:magma_bricks_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "minecraft:lava"}
+      	}
+    },
+    {
+      	"base": "SANDSTONERED",
+      	"level": 3,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:biome_brick", "meta": 0},
+		"walls": {"name": "quark:biome_brick", "meta": 0},
+        	"pillar": {"name": "minecraft:magma"},
+        	"stair": {"name": "quark:fire_stone_brick_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "minecraft:lava"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:biome_brick", "meta": 0},
+		"walls": {"name": "quark:biome_brick", "meta": 0},
+        	"pillar": {"name": "minecraft:magma"},
+        	"stair": {"name": "quark:fire_stone_brick_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "minecraft:lava"}
+      	}
+    },
+    {"base": "HELL", "level": 4}
+  ]
+}

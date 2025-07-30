@@ -1,0 +1,134 @@
+{
+  "name": "spawners:spiders",
+  "spawners": [
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "minecraft:spider"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "primitivemobs:mother_spider"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "minecraft:cave_spider"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "twilightforest:swarm_spider"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "twilightforest:king_spider"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "twilightforest:hedge_spider"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "betteranimalsplus:tarantula"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "weight": 4,
+          "name": "minecraft:spider"
+        },
+        {
+          "weight": 1,
+          "name": "minecraft:cave_spider"
+        },
+        {
+          "weight": 1,
+          "name": "betteranimalsplus:tarantula"
+        }
+      ]
+    }
+  ]
+}

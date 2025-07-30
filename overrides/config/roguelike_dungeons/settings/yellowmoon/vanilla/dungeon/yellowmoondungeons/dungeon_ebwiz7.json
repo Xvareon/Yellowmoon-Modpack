@@ -1,0 +1,16 @@
+{
+  "name": "yellowmoon:dungeon_ebwiz7",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["SANDY"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:ebwiz7",
+    "tower:ebwiz7"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "yellowmoon:dungeon_dread",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["SNOWY"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "spawners:dread",
+    "theme:dread",
+    "tower:dread"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "yellowmoon:dungeon_rogue_brick",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["HILLS", "MOUNTAIN"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "spawners:end",
+    "theme:quartz"
+  ],
+  "tower": {
+    "type": "ROGUE",
+    "theme": {
+      "base": "BRICK"
+    }
+  }
+}

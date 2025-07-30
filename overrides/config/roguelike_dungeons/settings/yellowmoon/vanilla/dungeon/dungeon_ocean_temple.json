@@ -1,0 +1,17 @@
+{
+  "name": "yellowmoon:dungeon_ocean_temple",
+  "exclusive": true,
+  "criteria":{ "biomeTypes": ["OCEAN", "BEACH"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "spawners:guardian",
+    "theme:ocean_temple",
+    "tower:ocean_temple"
+  ]
+}

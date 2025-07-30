@@ -1,0 +1,21 @@
+{
+  "name": "yellowmoon:dungeon_cave",
+  "exclusive": true,
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:cave",
+    "filter:muddy",
+    "filter:viney"
+  ],
+  "tower": {
+    "type": "HOLE",
+    "theme": {"base": "CAVE"}
+  },
+  "criteria": {"biomeTypes": ["FOREST", "MESA", "PLAINS", "SANDY", "SNOWY"]}
+}

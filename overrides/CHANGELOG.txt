@@ -1,0 +1,16 @@
+Version 4.6
+- Removed playerrevive as curseforge export still included it in the zip
+
+Version 4.5
+- Adjusted Primitive Mobs spawnrates again (hopefully this is the last time)
+- Buffed Grottol spawnrate
+- Buffed Mowzies Mobs bosses HP
+- Increased stoneling spawnrate again
+- Replaced Player Revive with Hardcore Revival because of various bugs
+- Removed Creative Core
+- Added In Control 
+- Buffed all ender dragon, wither, hirschgeist, slider, valkyrie, valkyrie queen, and twilight forest bosses' damage and health
+- Buffed Fossils and Archaeology mobs damage and health
+- Buffed Ice and Fire hydra damage and health
+- Buffed Battle Tower Golem damage and health
+- Buffed Twilight Forest Skeleton Druid

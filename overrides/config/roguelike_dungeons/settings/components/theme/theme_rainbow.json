@@ -1,0 +1,9 @@
+{
+  "name": "theme:rainbow",
+  "themes": [
+	{"base": "TERRACOTTA", "level": [0,1]},
+	{"base": "ETHOTOWER", "level": [2]},
+	{"base": "BUMBO", "level": [3]},
+	{"base": "RAINBOW", "level": [4]}
+  ]
+}

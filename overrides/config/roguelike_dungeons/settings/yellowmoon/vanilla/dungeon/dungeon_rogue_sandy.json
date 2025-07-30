@@ -1,0 +1,35 @@
+{
+  "name": "yellowmoon:dungeon_rogue_sandy",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["SANDY"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "spawners:nether"
+  ],
+  "filters": [
+    {"level": [3], "name": "vine"},
+    {"level": [4], "name": "mud"}
+  ],
+  "rooms": [
+    {"level": [4], "frequency": "random", "type": "BLAZE", "weight": 10}
+  ],
+  "themes": [
+    {"level": [0, 1], "base": "PYRAMID"},
+    {"level": [1], "base": "SANDSTONE"},
+    {"level": [2], "base": "SANDSTONERED"},
+    {"level": [3], "base": "ENDER"},
+    {"level": [4], "base": "NETHER_FORTRESS"}
+  ],
+  "tower": {
+    "type": "ROGUE",
+    "theme": {
+      "base": "PYRAMID"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "yellowmoon:dungeon_ebwiz4",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["MOUNTAIN"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:ebwiz4",
+    "tower:ebwiz4"
+  ]
+}

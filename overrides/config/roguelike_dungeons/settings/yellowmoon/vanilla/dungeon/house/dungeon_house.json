@@ -1,0 +1,22 @@
+{
+  "name": "yellowmoon:dungeon_house",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["FOREST", "HILLS", "MOUNTAIN", "PLAINS"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:forest",
+    "layout:dense_medium"
+  ],
+  "tower": {
+    "type": "HOUSE",
+    "theme": {
+      "base": "HOUSE"
+    }
+  }
+}

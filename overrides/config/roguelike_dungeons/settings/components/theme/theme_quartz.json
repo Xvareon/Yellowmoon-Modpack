@@ -1,0 +1,9 @@
+{
+  "name": "theme:quartz",
+  "themes": [
+	{"base": "BRICK", "level": [0,1]},
+	{"base": "QUARTZ", "level": [2]},
+	{"base": "CHECKER", "level": [3]},
+	{"base": "PURPUR", "level": [4]}
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "name": "theme:aether",
+  "themes": [
+    {"base": "ETHO", "level": [0]},  
+    {
+      "base": "ETHO",
+      "level": 1,
+      "primary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:aether_grass"}, "weight": 70},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:enchanted_aether_grass"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:quicksoil"}, "weight": 10}
+          ]
+	},
+	"walls": {"name": "aether_legacy:aerogel"},
+        "pillar": {"name": "aether_legacy:icestone", "meta": 1},
+        "stair": {"name": "aether_legacy:aerogel_stairs"},
+        "lightblock": {"name": "minecraft:glowstone"},
+        "liquid": {"name": "minecraft:water"}
+      },
+      "secondary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:aether_grass"}, "weight": 70},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:enchanted_aether_grass"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:quicksoil"}, "weight": 10}
+          ]
+	},
+	"walls": {"name": "aether_legacy:aerogel"},
+        "pillar": {"name": "aether_legacy:icestone", "meta": 1},
+        "stair": {"name": "aether_legacy:aerogel_stairs"},
+        "lightblock": {"name": "minecraft:glowstone"},
+        "liquid": {"name": "minecraft:water"}
+      }
+    },
+    {
+      "base": "ETHO",
+      "level": 2,
+      "primary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_block", "meta": 0}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_trap", "meta": 1}, "weight": 5}
+          ]
+	},
+	"walls": {"name": "aether_legacy:dungeon_block", "meta": 0},
+        "pillar": {"name": "aether_legacy:dungeon_block", "meta": 1},
+        "stair": {"name": "aether_legacy:carved_stairs"},
+        "lightblock": {"name": "minecraft:glowstone"},
+        "liquid": {"name": "minecraft:water"}
+      },
+      "secondary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_block", "meta": 0}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_trap", "meta": 1}, "weight": 5}
+          ]
+	},
+	"walls": {"name": "aether_legacy:dungeon_block", "meta": 0},
+        "pillar": {"name": "aether_legacy:dungeon_block", "meta": 1},
+        "stair": {"name": "aether_legacy:carved_stairs"},
+        "lightblock": {"name": "minecraft:glowstone"},
+        "liquid": {"name": "minecraft:water"}
+      }
+    },
+    {
+      "base": "ETHO",
+      "level": 3,
+      "primary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_block", "meta": 2}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:aercloud", "meta": 1}, "weight": 30}
+          ]
+	},
+	"walls": {"name": "aether_legacy:dungeon_block", "meta": 2},
+        "pillar": {"name": "aether_legacy:dungeon_block", "meta": 3},
+        "stair": {"name": "aether_legacy:angelic_stairs"},
+        "lightblock": {"name": "minecraft:glowstone"},
+        "liquid": {"name": "minecraft:water"}
+      },
+      "secondary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_block", "meta": 2}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:aercloud", "meta": 1}, "weight": 30}
+          ]
+	},
+	"walls": {"name": "aether_legacy:dungeon_block", "meta": 2},
+        "pillar": {"name": "aether_legacy:dungeon_block", "meta": 3},
+        "stair": {"name": "aether_legacy:angelic_stairs"},
+        "lightblock": {"name": "minecraft:glowstone"},
+        "liquid": {"name": "minecraft:water"}
+      }
+    },
+    {
+      "base": "NETHER",
+      "level": 4,
+      "primary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_block", "meta": 4}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_trap", "meta": 5}, "weight": 5}
+          ]
+	},
+	"walls": {"name": "aether_legacy:dungeon_block", "meta": 4},
+        "pillar": {"name": "aether_legacy:dungeon_block", "meta": 5},
+        "stair": {"name": "aether_legacy:hellfire_stairs"},
+        "lightblock": {"name": "minecraft:glowstone"},
+        "liquid": {"name": "minecraft:water"}
+      },
+      "secondary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_block", "meta": 4}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "aether_legacy:dungeon_trap", "meta": 5}, "weight": 5}
+          ]
+	},
+	"walls": {"name": "aether_legacy:dungeon_block", "meta": 4},
+        "pillar": {"name": "aether_legacy:dungeon_block", "meta": 5},
+        "stair": {"name": "aether_legacy:hellfire_stairs"},
+        "lightblock": {"name": "minecraft:glowstone"},
+        "liquid": {"name": "minecraft:water"}
+      }
+    }
+  ]
+}

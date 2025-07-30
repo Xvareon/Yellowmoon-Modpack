@@ -1,0 +1,17 @@
+{
+  "name": "tower:dread",
+  "tower": {
+    "type": "ETHO",
+    "theme": {
+      "base": "ENIKO",
+      "primary": {
+        "walls": {"name": "iceandfire:dread_stone_bricks"}
+      },
+      "secondary": {
+        "pillar": {"name": "iceandfire:dread_stone_face"},
+        "walls": {"name": "iceandfire:dread_stone_bricks"},
+	"stair": {"name": "iceandfire:dread_stone_stairs"}
+      }
+    }
+  }
+}

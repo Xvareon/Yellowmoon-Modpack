@@ -1,0 +1,15 @@
+{
+  "name": "yellowmoon:dungeon_desert_builtin_custom_loot",
+  "exclusive": true,
+  "inherit": [
+    "builtin:dungeon_desert_no_loot",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "layout:dense_medium",
+    "yellowmoon:loot_yellowmoon"
+  ]
+}

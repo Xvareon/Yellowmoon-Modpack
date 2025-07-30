@@ -1,0 +1,16 @@
+{
+  "name": "yellowmoon:dungeon_ebwiz6",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["PLAINS"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:ebwiz6",
+    "tower:ebwiz6"
+  ]
+}

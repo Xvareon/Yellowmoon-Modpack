@@ -1,0 +1,16 @@
+{
+  "name": "yellowmoon:dungeon_ebwiz5",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["FOREST"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:ebwiz5",
+    "tower:ebwiz5"
+  ]
+}

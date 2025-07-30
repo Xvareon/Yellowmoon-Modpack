@@ -1,0 +1,26 @@
+{
+  "name": "yellowmoon:dungeon_forest_temple",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["FOREST"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:forest"
+  ],
+  "tower": {
+    "type": "WITCH",
+    "theme": {
+      "base": "SEWER"
+    }
+  },
+  "filters": [
+    {"name": "vine", "level": [1,2,3]},
+    {"name": "cobweb", "level": [2]},
+    {"name": "mud", "level": [3,4]}
+  ]
+}

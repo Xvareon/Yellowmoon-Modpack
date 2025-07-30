@@ -1,0 +1,7338 @@
+{
+  "name": "yellowmoon:loot_yellowmoon",
+  "lootRules": [
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:obsidian"
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "minecraft:experience_bottle"
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "minecraft:brown_mushroom"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:bone"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:bowl"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:brick"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:clay_ball"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:coal",
+            "meta": 1
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:deadbush"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:flint"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:dye",
+            "meta": 15
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:egg"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:feather"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:glass_bottle"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:glass"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:leather"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:leather_boots"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:leaves"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:netherbrick"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:painting"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:paper"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:poisonous_potato"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:red_flower"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:red_mushroom"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:reeds"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:rabbit_hide"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:rotten_flesh"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:slime_ball"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:snowball"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:stick"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:string"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:tripwire_hook"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:vine"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:web"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:wheat_seeds"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:yellow_flower"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:book"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:fire_charge"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:flower_pot"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:prismarine_shard"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:rabbit_foot"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:skull",
+            "meta": 0
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:waterlily"
+          },
+          "weight": 10
+        }
+      ],
+      "each": true,
+      "quantity": 1
+    },
+    {
+      "level": 4,
+      "each": true,
+      "quantity": 3,
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:gold_block",
+            "min": 1,
+            "max": 2
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:emerald_block",
+            "min": 1,
+            "max": 2
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:iron_block",
+            "min": 1,
+            "max": 2
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:lapis_block",
+            "min": 1,
+            "max": 2
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_block",
+            "min": 1,
+            "max": 2
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:obsidian",
+            "min": 1,
+            "max": 10
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond",
+            "min": 1,
+            "max": 2
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "quark:blaze_lantern"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "ebwizardry:astral_diamond"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "ebwizardry:grand_crystal"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:experience_bottle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "waystones:return_scroll"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:teleport_stone"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:spiderhook"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:flamethrower"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:boots_cloud"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:dagger_ninja"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:battle_axe_bull"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:great_sword_bull"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:great_sword_monking"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:bubble_rifle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:king_crown"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:sword_spider"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:alchemy_bag"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:staff_thunder"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:staff_spider"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:staff_gun"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:staff_vampiric"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:staff_wind"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:helmet_dragon"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:helmet_slime"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:chestplate_slime"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:leggings_slime"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:boots_slime"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:helmet_bull"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:chestplate_bull"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:leggings_bull"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:boots_bull"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:helmet_turtle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:chestplate_turtle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:leggings_turtle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:boots_turtle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:helmet_inquisition"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:chestplate_inquisition"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:leggings_inquisition"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:boots_inquisition"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:siren_flute"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:cockatrice_scepter"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:charm_of_life_2"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:charm_of_keeping_3"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:triple_bow"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:seeker_bow"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ice_bow"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ender_bow"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:cube_of_annihilation"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:block_and_chain"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:phoenix_bow"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:notch_hammer"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:swet_cape"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:invisibility_cape"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:agility_cape"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_cape"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:neptune_gloves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:phoenix_gloves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:obsidian_gloves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_gloves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:cloud_staff"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:regeneration_stone"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:healing_stone"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:repulsion_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "artifacts:snorkel"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "artifacts:night_vision_goggles"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:magicmirror"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:phantomprism"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:trinketapple"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:trinketballoon"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:trinketblackdragonscale"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:trinketbrokenheart"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:trinketmagiclenses"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:trinketobsidianskull"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:trinketshulkerheart"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:trinketvitamins"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "bountifulbaubles:ringoverclocking"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:devoritium_block"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": [
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "type": "enchanted_book",
+            "ench": 30
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "type": "enchanted_book",
+            "ench": 35
+          },
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "level": [
+        2,
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "type": "specialty",
+            "level": 4,
+            "ench": true
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "type": "weapon",
+            "level": 4,
+            "ench": true
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "type": "tool",
+            "level": 4,
+            "ench": true
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "type": "specialty",
+            "level": 4
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "type": "weapon",
+            "level": 4
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "type": "tool",
+            "level": 4
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "type": "specialty",
+            "equipment": "helmet",
+            "level": 4,
+            "ench": true
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "specialty",
+            "equipment": "chest",
+            "level": 4,
+            "ench": true
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "specialty",
+            "equipment": "legs",
+            "level": 4,
+            "ench": true
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "specialty",
+            "equipment": "feet",
+            "level": 4,
+            "ench": true
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "specialty",
+            "equipment": "sword",
+            "quality": "diamond",
+            "level": 4,
+            "ench": true
+          },
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:gold_ingot",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "minecraft:emerald",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "minecraft:iron_ingot",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "minecraft:lapis_block",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "minecraft:obsidian",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "quark:blaze_lantern"
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:astral_diamond_shard"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:grand_crystal"
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "minecraft:experience_bottle"
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "waystones:return_scroll"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:devoritium_block"
+          },
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:experience_bottle"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:gold_ingot"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:emerald"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:iron_ingot"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:lapis_block"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "firstaid:bandage",
+            "min": 0,
+            "max": 12
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:torch",
+            "min": 16,
+            "max": 64
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "betteranimalsplus:fried_egg",
+            "min": 1,
+            "max": 12
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "biomesoplenty:ricebowl",
+            "min": 1,
+            "max": 2
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:purified_water_bottle",
+            "meta": 0,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:obsidian"
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "name": "firstaid:bandage",
+            "min": 0,
+            "max": 12
+          },
+          "weight": 20
+        },
+        {
+          "data": {
+            "name": "twilightforest:ironwood_sword"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ironwood_pickaxe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ironwood_shovel"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ironwood_axe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:fiery_sword"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:fiery_pickaxe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:steeleaf_sword"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:steeleaf_pickaxe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:steeleaf_shovel"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:steeleaf_axe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:knightmetal_sword"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:knightmetal_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:knightmetal_pickaxe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:knightmetal_axe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ice_sword"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:amphithere_macuahuitl"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:deathworm_gauntlet_yellow"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:deathworm_gauntlet_white"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:deathworm_gauntlet_red"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:hippogryph_sword"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:pixie_wand"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:hippocampus_slapper"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:myrmex_desert_swarm"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "iceandfire:myrmex_jungle_swarm"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:peacock_fan"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:mazebreaker_pickaxe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:holy_sword"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "aether_legacy:flaming_sword"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "aether_legacy:lightning_sword"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "aether_legacy:vampire_blade"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "aether_legacy:pig_slayer"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_lance"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_pickaxe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_axe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_shovel"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:backpack"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:dagger_iron"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:great_sword_iron"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:spear_iron"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:dagger_diamond"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:great_sword_diamond"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:spear_diamond"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:sword_moonlight"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:sword_sunshine"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:sword_turtle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:staff_fire"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:staff_poison"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:staff_healing"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_bull"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_carl"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_dragonslayer"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_fire"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_goblin"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_monking"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_moon"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_mummy"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_pigman"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_pirate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_pirate2"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_rainbow"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_reflective"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_rusted"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_skeleton_friends"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_specter"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_spider"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_sun"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_tomb"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_triton"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_turtle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_walker"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_walker_king"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_warped"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:shield_zombie"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "mod_lavacow:beast_claw"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "mod_lavacow:bonesword"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:battleaxe_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:battleaxe_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:battleaxe_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:battleaxe_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:dagger_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:dagger_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:dagger_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:dagger_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:glaive_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:glaive_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:glaive_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:glaive_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:greatsword_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:greatsword_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:greatsword_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:greatsword_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:halberd_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:halberd_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:halberd_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:halberd_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:hammer_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:hammer_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:hammer_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:hammer_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:katana_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:katana_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:katana_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:katana_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:lance_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:lance_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:lance_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:lance_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:longbow_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:longbow_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:longbow_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:longbow_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:longsword_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:longsword_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:longsword_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:longsword_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:mace_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:mace_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:mace_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:mace_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:pike_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:pike_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:pike_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:pike_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:rapier_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:rapier_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:rapier_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:rapier_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:saber_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:saber_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:saber_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:saber_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:spear_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:spear_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:spear_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:spear_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:staff_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:staff_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:staff_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:staff_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:warhammer_desert"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:warhammer_desert_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:warhammer_jungle"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartanfire:warhammer_jungle_venom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:battleaxe_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:battleaxe_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:battleaxe_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:battleaxe_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:dagger_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:dagger_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:dagger_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:dagger_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:glaive_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:glaive_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:glaive_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:glaive_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:greatsword_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:greatsword_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:greatsword_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:greatsword_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:halberd_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:halberd_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:halberd_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:halberd_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:hammer_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:hammer_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:hammer_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:hammer_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:katana_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:katana_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:katana_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:katana_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:lance_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:lance_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:lance_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:lance_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:longbow_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:longbow_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:longbow_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:longbow_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:longsword_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:longsword_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:longsword_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:longsword_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:mace_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:mace_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:mace_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:mace_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:parrying_dagger_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:parrying_dagger_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:parrying_dagger_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:parrying_dagger_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:pike_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:pike_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:pike_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:pike_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:rapier_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:rapier_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:rapier_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:rapier_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:saber_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:saber_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:saber_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:saber_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:spear_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:spear_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:spear_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:spear_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:staff_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:staff_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:staff_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:staff_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:warhammer_fiery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:warhammer_ironwood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:warhammer_knightly"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "spartantwilight:warhammer_steeleaf"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:firebomb",
+            "min": 0,
+            "max": 12
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spark_bomb",
+            "min": 0,
+            "max": 12
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "ebwizardry:poison_bomb",
+            "min": 0,
+            "max": 12
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "ebwizardry:smoke_bomb",
+            "min": 0,
+            "max": 12
+          },
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:golden_apple",
+            "meta": "0"
+          },
+          "weight": 20
+        },
+        {
+          "data": {
+            "name": "minecraft:golden_apple",
+            "meta": "1"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "cqrepoured:helmet_iron_dyable"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:chestplate_iron_dyable"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:leggings_iron_dyable"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:boots_iron_dyable"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:helmet_diamond_dyable"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:chestplate_diamond_dyable"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:leggings_diamond_dyable"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:boots_diamond_dyable"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:helmet_heavy_iron"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:chestplate_heavy_iron"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:leggings_heavy_iron"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:boots_heavy_iron"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:helmet_heavy_diamond"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:chestplate_heavy_diamond"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:leggings_heavy_diamond"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "cqrepoured:boots_heavy_diamond"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:iron_plate_faceplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:iron_plate_chestpiece"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:iron_plate_greaves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:iron_plate_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:steel_plate_faceplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:steel_plate_chestpiece"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:steel_plate_greaves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:steel_plate_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:diamond_plate_faceplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:diamond_plate_chestpiece"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:diamond_plate_greaves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:diamond_plate_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:mithril_plate_faceplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:mithril_plate_chestpiece"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:mithril_plate_greaves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "dungeontactics:mithril_plate_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ironwood_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ironwood_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ironwood_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:ironwood_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:fiery_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:fiery_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:fiery_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:fiery_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:steeleaf_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:steeleaf_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:steeleaf_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:steeleaf_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:knightmetal_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:knightmetal_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:knightmetal_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:knightmetal_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:arctic_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:arctic_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:arctic_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "twilightforest:arctic_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "toroquest:toro_armor_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "toroquest:toro_armor_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "toroquest:toro_armor_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "toroquest:toro_armor_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "toroquest:samurai_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "toroquest:samurai_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "toroquest:samurai_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "toroquest:samurai_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:neptune_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:neptune_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:neptune_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:neptune_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:phoenix_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:phoenix_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:phoenix_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:phoenix_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:obsidian_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:obsidian_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:obsidian_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:obsidian_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_helmet"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_chestplate"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_leggings"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:valkyrie_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:sentry_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_hat_fire"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_robe_fire"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_leggings_fire"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_boots_fire"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_hat_ice"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_robe_ice"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_leggings_ice"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_boots_ice"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_hat_lightning"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_robe_lightning"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_leggings_lightning"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_boots_lightning"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_hat_necromancy"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_robe_necromancy"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_leggings_necromancy"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_boots_necromancy"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_hat_earth"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_robe_earth"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_leggings_earth"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_boots_earth"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_hat_sorcery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_robe_sorcery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_leggings_sorcery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:wizard_boots_sorcery"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:cookie",
+            "min": 2,
+            "max": 8
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "dungeontactics:toast",
+            "min": 1,
+            "max": 2
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "biomesoplenty:ricebowl",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:apple",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:golden_carrot",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:cooked_porkchop",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:cooked_chicken",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:cooked_beef",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:cooked_rabbit",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:cooked_fish",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "betteranimalsplus:venisoncooked",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "betteranimalsplus:pheasantcooked",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "betteranimalsplus:turkey_leg_cooked",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "betteranimalsplus:eel_meat_cooked",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "betteranimalsplus:turkey_cooked",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:baked_potato",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:rabbit_stew"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "aether_legacy:gummy_swet",
+            "meta": 0
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "aether_legacy:gummy_swet",
+            "meta": 1
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:purified_water_bottle",
+            "meta": 0,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 0
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 1
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 2
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 3
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 4
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 5
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 6
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 7
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 8
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:juice",
+            "meta": 9
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:mushroom_stew"
+          },
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "name": "firstaid:bandage",
+            "min": 0,
+            "max": 12
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:coal",
+            "min": 16,
+            "max": 64
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:flint",
+            "min": 8,
+            "max": 16
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:glass_bottle",
+            "min": 4,
+            "max": 8
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:gunpowder",
+            "min": 16,
+            "max": 16
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:lead"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "simpledifficulty:charcoal_filter",
+            "min": 4,
+            "max": 16
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:paper",
+            "min": 16,
+            "max": 16
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:stick",
+            "min": 32,
+            "max": 32
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:tnt",
+            "min": 4,
+            "max": 4
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:arrow",
+            "min": 16,
+            "max": 64
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:torch",
+            "min": 16,
+            "max": 64
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "minecraft:cobblestone",
+            "min": 16,
+            "max": 64
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:log",
+            "min": 8,
+            "max": 16
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "minecraft:planks",
+            "min": 16,
+            "max": 64
+          },
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:fermented_spider_eye"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:ghast_tear"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:glowstone_dust"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:golden_carrot"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:magma_cream"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:rabbit_foot"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:speckled_melon"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:spider_eye"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:nether_wart",
+            "min": 0,
+            "max": 4
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:sugar"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:gunpowder",
+            "min": 0,
+            "max": 3
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "minecraft:redstone",
+            "min": 0,
+            "max": 3
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "firstaid:bandage",
+            "min": 0,
+            "max": 12
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "VILE"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "LAUDANUM"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "TEQUILA"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "MOONSHINE"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "ABSINTHE"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "RAGE"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "STOUT"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "STAMINA"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "NECTAR"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "COFFEE"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "mixture",
+            "name": "AURA"
+          },
+          "weight": 3
+        }
+      ],
+      "each": true,
+      "quantity": 1
+    },
+    {
+      "level": [
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "0"
+          },
+          "weight": 65
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "1"
+          },
+          "weight": 65
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "2"
+          },
+          "weight": 65
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "3"
+          },
+          "weight": 65
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "4"
+          },
+          "weight": 65
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "5"
+          },
+          "weight": 65
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "6"
+          },
+          "weight": 65
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "7"
+          },
+          "weight": 65
+        },
+        {
+          "data": {
+            "name": "ebwizardry:identification_scroll"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:unsealing_scroll"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "minecraft:totem_of_undying"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_condensing"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_siphoning"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_battlemage"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_combustion"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_fire_melee"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_fire_biome"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_disintegration"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_meteor"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_ice_melee"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_ice_biome"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_shattering"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_lightning_melee"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_storm"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_seeking"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_hammer"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_stormcloud"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_soulbinding"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_leeching"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_necromancy_melee"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_mind_control"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_poison"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_earth_melee"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_earth_biome"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_full_moon"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_evoker"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_extraction"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_mana_return"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_blockwrangler"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_conjurer"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_defender"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_paladin"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ring_interdiction"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_arcane_defence"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_warding"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_wisdom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_fire_protection"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_fire_cloaking"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_ice_immunity"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_ice_protection"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_frost_warding"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_potential"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_channeling"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_lich"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_wither_immunity"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_glide"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_banishing"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_anchoring"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_recovery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_transience"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_resurrection"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_auto_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:amulet_absorption"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_haggler"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_experience_tome"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_move_speed"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_spell_discovery"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_auto_smelt"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_lava_walking"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_storm"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_minion_health"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_minion_variants"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_undead_helmets"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_hunger_casting"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_flight"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_growth"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_abseiling"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_silk_touch"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_sixth_sense"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_stop_time"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_light"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_transportation"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_black_hole"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_mount_teleporting"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ebwizardry:charm_feeding"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ring_power"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ring_quicksand"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ring_mana_lesser"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ring_mana_greater"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:amulet_mana"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:amulet_power"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_mana_flask"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_ice_cream"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_elemental_grimoire"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_reanimation"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_power_orb"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_omnicron"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_spectral_army"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_philosophers_stone"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_clover"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_majestic_mana"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_guardian_blade"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:belt_scroll_holder"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:head_merchant"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:head_minions"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:charm_glyph_vitality"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "0"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "1"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "2"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "3"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "4"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "5"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "6"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "name": "ebwizardry:magic_crystal",
+            "meta": "7"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "name": "ebwizardry:identification_scroll"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "name": "ebwizardry:ruined_spell_book"
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "name": "ebwizardry:small_mana_flask"
+          },
+          "weight": 60
+        },
+        {
+          "data": {
+            "name": "ebwizardry:medium_mana_flask"
+          },
+          "weight": 60
+        },
+        {
+          "data": {
+            "name": "ebwizardry:large_mana_flask"
+          },
+          "weight": 60
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "1"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "2"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "3"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "4"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "5"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "6"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "7"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "8"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "9"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "10"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "11"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "12"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "13"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "14"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "15"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "16"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "17"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "18"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "19"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "20"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "21"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "22"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "23"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "24"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "25"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "26"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "27"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "28"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "29"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "30"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "31"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "32"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "33"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "34"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "35"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "36"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "37"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "38"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "39"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "40"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "41"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "42"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "43"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "44"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "45"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "46"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "47"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "48"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "49"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "50"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "51"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "52"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "53"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "54"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "55"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "56"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "57"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "58"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "59"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "60"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "61"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "62"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "63"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "64"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "65"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "66"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "67"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "68"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "69"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "70"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "71"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "72"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "73"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "74"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "75"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "76"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "77"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "78"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "79"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "80"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "81"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "82"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "83"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "84"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "85"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "86"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "87"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "88"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "89"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "90"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "91"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "92"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "93"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "94"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "95"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "96"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "97"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "98"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "99"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "100"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "101"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "102"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "103"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "104"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "105"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "106"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "107"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "108"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "109"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "110"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "111"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "112"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "113"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "114"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "115"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "116"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "117"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "118"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "119"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "120"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "121"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "122"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "123"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "124"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "125"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "126"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "127"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "128"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "129"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "130"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "131"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "132"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "133"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "134"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "135"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "136"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "137"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "138"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "139"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "140"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "141"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "142"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "143"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "144"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "145"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "146"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "147"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "148"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "149"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "150"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "151"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "152"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "153"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "154"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "155"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "156"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "157"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "158"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "159"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "160"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "161"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "162"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "163"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "164"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "165"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "166"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "167"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "168"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "169"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "170"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "171"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "172"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "173"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "174"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "175"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "176"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "177"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "178"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "179"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "180"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "181"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "182"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "183"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "184"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "185"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "186"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "187"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ebwizardry:spell_book",
+            "meta": "188"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "278"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "299"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "301"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "306"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "317"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "251"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "254"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "261"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "282"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "283"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "289"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "307"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "313"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "314"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "315"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "316"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "320"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "327"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "328"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "336"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "237"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "253"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "258"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "262"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "265"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "271"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "274"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "275"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "276"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "277"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "279"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "284"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "296"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "302"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "304"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "318"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "319"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "321"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "322"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "323"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "324"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "329"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "330"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "333"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "334"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "335"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "337"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "280"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "281"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "303"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "312"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "331"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spell_book",
+            "meta": "332"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "222"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "223"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "224"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "225"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "226"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "227"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "228"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "229"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "230"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "231"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "232"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "233"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "234"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "235"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "236"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "237"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "238"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "239"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "240"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "241"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "242"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "243"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "244"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "245"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "246"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "247"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "248"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "249"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "250"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "251"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "252"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "253"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "254"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "255"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "256"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "257"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "258"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "259"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "260"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "261"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "262"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "263"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "264"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "265"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "266"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "267"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "268"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "269"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "270"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "271"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "272"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "273"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "274"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "275"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "276"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "277"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "278"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "279"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "280"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "281"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "282"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "283"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "284"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "285"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "286"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "287"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "288"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "289"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "290"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "291"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "292"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "293"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "294"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "295"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "296"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "297"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "298"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "299"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "300"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "301"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "302"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "303"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "304"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "305"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "306"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "307"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "308"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "309"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "310"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "311"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "312"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "313"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "314"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "315"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "316"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "317"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "318"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "319"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "320"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "321"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "322"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "323"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "324"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "325"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "326"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "327"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "328"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "329"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "330"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "331"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "332"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "333"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "334"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "335"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "336"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "337"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "338"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "339"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "340"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "341"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "342"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "343"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "344"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "345"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "346"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "347"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "348"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "349"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "350"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "351"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "352"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "353"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "354"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "355"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "356"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "357"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "358"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "359"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "360"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "361"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "362"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "363"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "364"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "365"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "366"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "367"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "368"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "369"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "370"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "371"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "372"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "373"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "374"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "375"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "376"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "377"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "378"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "379"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "380"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "381"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "382"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "383"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "384"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "385"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "386"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "387"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "388"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "389"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "390"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "391"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "392"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "393"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "394"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "395"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "396"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "397"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "398"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "ancientspellcraft:ancient_spellcraft_spell_book",
+            "meta": "399"
+          },
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}

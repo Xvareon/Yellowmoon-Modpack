@@ -1,0 +1,26 @@
+// Feel free to rename and customize this file.
+// Extend from this dungeon (inherit it) to have a personal, custom base
+{
+  "name": "yellowmoon:dungeon_base",
+
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["PLAINS"]},
+  // Specifies which settings this dungeon will extend from (inherit from).
+  "inherit": [
+    "base:dungeon_base",
+    "yellowmoon:loot_yellowmoon", // add your own loot
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:aether"
+  ],
+  "tower": {
+    "type": "ETHO",
+    "theme": {
+      "base": "ENIKO"
+    }
+  }
+}

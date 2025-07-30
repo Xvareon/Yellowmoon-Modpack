@@ -1,0 +1,80 @@
+{
+  "name": "spawners:creeper",
+  "spawners": [
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "minecraft:creeper"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "ancientspellcraft:void_creeper"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "primitivemobs:rocket_creeper"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "primitivemobs:festive_creeper"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "primitivemobs:support_creeper"
+        }
+      ]
+    }
+  ]
+}

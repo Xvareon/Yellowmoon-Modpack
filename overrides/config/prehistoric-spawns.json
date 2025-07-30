@@ -1,0 +1,1000 @@
+{
+  "spawns": {
+    "allosaurus": [
+      {
+        "biomes": [
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "minecraft:savanna",
+          "minecraft:mutated_savanna",
+          "minecraft:redwood_taiga",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grassland",
+          "biomesoplenty:grove",
+          "biomesoplenty:lush_desert",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 3
+      },
+      {
+        "biomes": [
+          "minecraft:taiga",
+          "minecraft:savanna_rock",
+          "minecraft:river",
+          "biomesoplenty:lush_desert",
+          "biomesoplenty:orchard",
+          "biomesoplenty:outback"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "ankylosaurus": [
+      {
+        "biomes": [
+          "minecraft:jungle_edge",
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:grove",
+          "biomesoplenty:lavender_fields",
+          "biomesoplenty:orchard",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:origin_island",
+          "biomesoplenty:tropical_island"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      },
+      {
+        "biomes": [
+          "minecraft:savanna",
+          "biomesoplenty:redwood_forest",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "arthropleura": [
+      {
+        "biomes": [
+          "minecraft:jungle",
+          "minecraft:jungle_edge",
+          "minecraft:swampland",
+          "biomesoplenty:bog",
+          "biomesoplenty:eucalyptus_forest",
+          "biomesoplenty:fungi_forest",
+          "biomesoplenty:lush_swamp",
+          "biomesoplenty:marsh",
+          "biomesoplenty:temperate_rainforest",
+          "biomesoplenty:tropical_rainforest",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 2
+      },
+      {
+        "biomes": [
+          "minecraft:jungle_hills",
+          "minecraft:mutated_swampland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 1
+      }
+    ],
+    "brachiosaurus": [
+      {
+        "biomes": [
+          "minecraft:jungle_edge",
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:grove",
+          "biomesoplenty:lavender_fields",
+          "biomesoplenty:orchard",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:origin_island",
+          "biomesoplenty:tropical_island"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 3
+      },
+      {
+        "biomes": [
+          "minecraft:savanna",
+          "biomesoplenty:redwood_forest",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 3
+      }
+    ],
+    "ceratosaurus": [
+      {
+        "biomes": [
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "minecraft:river",
+          "biomesoplenty:bog",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 3
+      }
+    ],
+    "crassigyrinus": [
+      {
+        "biomes": [
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "biomesoplenty:bog",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "compsognathus": [
+      {
+        "biomes": [
+          "minecraft:jungle",
+          "minecraft:jungle_edge",
+          "minecraft:swampland",
+          "biomesoplenty:bog",
+          "biomesoplenty:eucalyptus_forest",
+          "biomesoplenty:fungi_forest",
+          "biomesoplenty:lush_swamp",
+          "biomesoplenty:marsh",
+          "biomesoplenty:temperate_rainforest",
+          "biomesoplenty:tropical_rainforest",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      },
+      {
+        "biomes": [
+          "minecraft:jungle_hills",
+          "minecraft:mutated_swampland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "confusciusornis": [
+      {
+        "biomes": [
+          "minecraft:beaches",
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "minecraft:stone_beach",
+          "biomesoplenty:bog",
+          "biomesoplenty:gravel_beach",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:origin_beach",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland",
+          "biomesoplenty:white_beach"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "deinonychus": [
+      {
+        "biomes": [
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "minecraft:river",
+          "biomesoplenty:bog",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "dilophosaurus": [
+      {
+        "biomes": [
+          "minecraft:jungle",
+          "minecraft:jungle_hills",
+          "minecraft:jungle_edge",
+          "minecraft:mutated_jungle",
+          "minecraft:mutated_jungle_edge",
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "biomesoplenty:bamboo_forest",
+          "biomesoplenty:bog",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:lush_swamp",
+          "biomesoplenty:marsh",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:origin_island",
+          "biomesoplenty:rainforest",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:tropical_rainforest",
+          "biomesoplenty:wetland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "diplocaulus": [
+      {
+        "biomes": [
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "biomesoplenty:bog",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "diplodocus": [
+      {
+        "biomes": [
+          "minecraft:jungle_edge",
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:grove",
+          "biomesoplenty:lavender_fields",
+          "biomesoplenty:orchard",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:origin_island",
+          "biomesoplenty:tropical_island"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 2
+      },
+      {
+        "biomes": [
+          "minecraft:savanna",
+          "biomesoplenty:redwood_forest",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "dodo": [
+      {
+        "biomes": [
+          "minecraft:beaches",
+          "minecraft:jungle",
+          "minecraft:jungle_hills",
+          "minecraft:jungle_edge",
+          "minecraft:mutated_jungle",
+          "minecraft:mutated_jungle_edge",
+          "biomesoplenty:bamboo_forest",
+          "biomesoplenty:gravel_beach",
+          "biomesoplenty:lush_swamp",
+          "biomesoplenty:marsh",
+          "biomesoplenty:origin_beach",
+          "biomesoplenty:origin_island",
+          "biomesoplenty:rainforest",
+          "biomesoplenty:tropical_rainforest",
+          "biomesoplenty:white_beach"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "dryosaurus": [
+      {
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:mutated_birch_forest",
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grove",
+          "biomesoplenty:orchard",
+          "biomesoplenty:shield",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 3
+      }
+    ],
+    "edaphosaurus": [
+      {
+        "biomes": [
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "biomesoplenty:bog",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "elasmotherium": [
+      {
+        "biomes": [
+          "minecraft:ice_flats",
+          "minecraft:ice_mountains",
+          "biomesoplenty:cold_desert",
+          "biomesoplenty:glacier",
+          "biomesoplenty:highland",
+          "biomesoplenty:moor",
+          "biomesoplenty:tundra"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "gallimimus": [
+      {
+        "biomes": [
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "minecraft:river",
+          "biomesoplenty:bog",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 3
+      }
+    ],
+    "gastornis": [
+      {
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:mutated_birch_forest",
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grove",
+          "biomesoplenty:orchard",
+          "biomesoplenty:shield",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 3
+      }
+    ],
+    "henodus": [
+      {
+        "biomes": [
+          "minecraft:beaches",
+          "minecraft:stone_beach",
+          "biomesoplenty:gravel_beach",
+          "biomesoplenty:origin_beach",
+          "biomesoplenty:white_beach"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "ichthyosaurus": [
+      {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:frozen_ocean",
+          "biomesoplenty:coral_reef",
+          "biomesoplenty:kelp_forest"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "kelenken": [
+      {
+        "biomes": [
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grassland",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:steppe"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 3
+      }
+    ],
+    "liopleurodon": [
+      {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:frozen_ocean",
+          "biomesoplenty:coral_reef",
+          "biomesoplenty:kelp_forest"
+        ],
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "mammoth": [
+      {
+        "biomes": [
+          "minecraft:taiga_cold",
+          "minecraft:redwood_taiga",
+          "minecraft:ice_flats",
+          "minecraft:ice_mountains",
+          "biomesoplenty:coniferous_forest",
+          "biomesoplenty:highland",
+          "biomesoplenty:moor",
+          "biomesoplenty:snowy_coniferous_forest",
+          "biomesoplenty:tundra"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "megalania": [
+      {
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:mutated_birch_forest",
+          "minecraft:birch_forest_hills",
+          "minecraft:mutated_birch_forest_hills",
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "biomesoplenty:boreal_forest",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grove",
+          "biomesoplenty:maple_woods",
+          "biomesoplenty:orchard",
+          "biomesoplenty:shield",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:temperate_rainforest",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 2
+      },
+      {
+        "biomes": [
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:flower_field",
+          "biomesoplenty:grassland",
+          "biomesoplenty:lavender_fields",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:steppe"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "megaloceros": [
+      {
+        "biomes": [
+          "minecraft:ice_flats",
+          "minecraft:ice_mountains",
+          "biomesoplenty:cold_desert",
+          "biomesoplenty:glacier",
+          "biomesoplenty:highland",
+          "biomesoplenty:moor",
+          "biomesoplenty:tundra"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "megalodon": [
+      {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:frozen_ocean",
+          "biomesoplenty:coral_reef",
+          "biomesoplenty:kelp_forest"
+        ],
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "megalograptus": [
+      {
+        "biomes": [
+          "minecraft:beaches",
+          "minecraft:stone_beach",
+          "biomesoplenty:gravel_beach",
+          "biomesoplenty:origin_beach",
+          "biomesoplenty:white_beach"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 4
+      }
+    ],
+    "meganeura": [
+      {
+        "biomes": [
+          "minecraft:beaches",
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "minecraft:stone_beach",
+          "biomesoplenty:bog",
+          "biomesoplenty:gravel_beach",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:origin_beach",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland",
+          "biomesoplenty:white_beach"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "mosasaurus": [
+      {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:frozen_ocean",
+          "biomesoplenty:coral_reef",
+          "biomesoplenty:kelp_forest"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "ornitolestes": [
+      {
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:mutated_birch_forest",
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grove",
+          "biomesoplenty:orchard",
+          "biomesoplenty:shield",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "pachycephalosaurus": [
+      {
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:mutated_birch_forest",
+          "minecraft:birch_forest_hills",
+          "minecraft:mutated_birch_forest_hills",
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:boreal_forest",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:flower_field",
+          "biomesoplenty:grassland",
+          "biomesoplenty:grove",
+          "biomesoplenty:lavender_fields",
+          "biomesoplenty:maple_woods",
+          "biomesoplenty:orchard",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shield",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:steppe",
+          "biomesoplenty:temperate_rainforest",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "parasaurolophus": [
+      {
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:mutated_birch_forest",
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grassland",
+          "biomesoplenty:grove",
+          "biomesoplenty:orchard",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shield",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:steppe",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "phorusrhacos": [
+      {
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:mutated_birch_forest",
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grassland",
+          "biomesoplenty:grove",
+          "biomesoplenty:orchard",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shield",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:steppe",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 3
+      }
+    ],
+    "platybelodon": [
+      {
+        "biomes": [
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:bog",
+          "biomesoplenty:grassland",
+          "biomesoplenty:marsh",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:steppe"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "plesiosaurus": [
+      {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:frozen_ocean",
+          "biomesoplenty:coral_reef",
+          "biomesoplenty:kelp_forest"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "pteranodon": [
+      {
+        "biomes": [
+          "minecraft:beaches",
+          "minecraft:stone_beach",
+          "biomesoplenty:gravel_beach",
+          "biomesoplenty:origin_beach",
+          "biomesoplenty:white_beach"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 6
+      }
+    ],
+    "quagga": [
+      {
+        "biomes": [
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grassland",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:steppe"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "sarcosuchus": [
+      {
+        "biomes": [
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "minecraft:river",
+          "biomesoplenty:bog",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "smilodon": [
+      {
+        "biomes": [
+          "minecraft:extreme_hills",
+          "minecraft:smaller_extreme_hills",
+          "minecraft:extreme_hills_with_trees",
+          "minecraft:taiga_cold",
+          "minecraft:taiga_cold_hills",
+          "minecraft:redwood_taiga",
+          "minecraft:redwood_taiga_hills",
+          "minecraft:ice_flats",
+          "minecraft:ice_mountains",
+          "biomesoplenty:coniferous_forest",
+          "biomesoplenty:crag",
+          "biomesoplenty:highland",
+          "biomesoplenty:moor",
+          "biomesoplenty:mountain",
+          "biomesoplenty:mountain_foothills",
+          "biomesoplenty:snowy_coniferous_forest",
+          "biomesoplenty:tundra"
+        ],
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "spinosaurus": [
+      {
+        "biomes": [
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "minecraft:river",
+          "biomesoplenty:bog",
+          "biomesoplenty:land_of_lakes",
+          "biomesoplenty:marsh",
+          "biomesoplenty:quagmire",
+          "biomesoplenty:sacred_springs",
+          "biomesoplenty:wetland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "stegosaurus": [
+      {
+        "biomes": [
+          "minecraft:jungle_edge",
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "minecraft:savanna",
+          "minecraft:mutated_savanna",
+          "biomesoplenty:grove",
+          "biomesoplenty:lavender_fields",
+          "biomesoplenty:orchard",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:origin_island",
+          "biomesoplenty:tropical_island"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      },
+      {
+        "biomes": [
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "biomesoplenty:redwood_forest",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 4
+      }
+    ],
+    "therizinosaurus": [
+      {
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:mutated_birch_forest",
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grove",
+          "biomesoplenty:orchard",
+          "biomesoplenty:shield",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 2
+      }
+    ],
+    "titanis": [
+      {
+        "biomes": [
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grassland",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:steppe"
+        ],
+        "spawnWeight": 1,
+        "packMin": 1,
+        "packMax": 3
+      }
+    ],
+    "triceratops": [
+      {
+        "biomes": [
+          "minecraft:jungle_edge",
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "biomesoplenty:grove",
+          "biomesoplenty:lavender_fields",
+          "biomesoplenty:orchard",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:origin_island",
+          "biomesoplenty:tropical_island"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 4
+      },
+      {
+        "biomes": [
+          "minecraft:savanna",
+          "biomesoplenty:redwood_forest",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 1,
+        "packMin": 2,
+        "packMax": 3
+      }
+    ],
+    "tyrannosaurus": [
+      {
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:mutated_birch_forest",
+          "minecraft:forest",
+          "minecraft:mutated_forest",
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "minecraft:river",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:grassland",
+          "biomesoplenty:grove",
+          "biomesoplenty:orchard",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:shield",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:steppe",
+          "biomesoplenty:woodland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 3
+      }
+    ],
+    "velociraptor": [
+      {
+        "biomes": [
+          "minecraft:savanna",
+          "minecraft:savanna_rock",
+          "minecraft:mutated_savanna",
+          "minecraft:mutated_savanna_rock",
+          "biomesoplenty:brushland",
+          "biomesoplenty:chaparral",
+          "biomesoplenty:prairie",
+          "biomesoplenty:lush_desert",
+          "biomesoplenty:oasis",
+          "biomesoplenty:outback",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:xeric_shrubland"
+        ],
+        "spawnWeight": 2,
+        "packMin": 2,
+        "packMax": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "theme:ebwiz4",
+  "themes": [
+    {
+      "base": "TEMPLE",
+      "primary": {
+        "lightblock": {"name": "quark:crystal", "meta": 8},
+        "liquid": {"name": "biomesoplenty:poison"},
+        "door": {"name": "minecraft:iron_door"},
+        "pillar": {"name": "ebwizardry:runestone_pedestal", "meta": 4},
+        "walls": {"name": "ebwizardry:runestone", "meta": 4},
+        "floor": {"name": "ebwizardry:runestone", "meta": 4},
+	"stair": {"name": "quark:biotite_stairs"}
+      },
+      "secondary": {
+        "lightblock": {"name": "quark:crystal", "meta": 8},
+        "liquid": {"name": "biomesoplenty:poison"},
+        "door": {"name": "minecraft:iron_door"},
+        "pillar": {"name": "ebwizardry:runestone_pedestal", "meta": 4},
+        "walls": {"name": "ebwizardry:runestone", "meta": 4},
+        "floor": {"name": "ebwizardry:runestone", "meta": 4},
+	"stair": {"name": "quark:biotite_stairs"}
+      }
+    }
+  ]
+}
+

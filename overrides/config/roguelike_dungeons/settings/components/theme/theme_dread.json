@@ -1,0 +1,60 @@
+{
+  "name": "theme:dread",
+  "themes": [
+    {
+      "base": "SNOW",
+      "primary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_bricks"}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_bricks_chiseled"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_tile"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "biomesoplenty:blue_fire"}, "weight": 5}
+	  ]
+	},
+        "walls": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_bricks"}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_bricks_chiseled"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_tile"}, "weight": 30}
+	  ]
+	},
+        "pillar": {"name": "iceandfire:dread_stone_face"},
+        "stair": {"name": "iceandfire:dread_stone_stairs"},
+        "lightblock": {"name": "biomesoplenty:crystal"},
+        "liquid": {"name": "biomesoplenty:poison"}
+      },
+      "secondary": {
+        "door": {"name": "minecraft:iron_door"},
+        "floor": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_bricks"}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_bricks_chiseled"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_tile"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "biomesoplenty:blue_fire"}, "weight": 5}
+	  ]
+	},
+        "walls": {
+	  "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_bricks"}, "weight": 90},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_bricks_chiseled"}, "weight": 30},
+            {"type": "METABLOCK", "data": {"name": "iceandfire:dread_stone_tile"}, "weight": 30}
+	  ]
+	},
+        "pillar": {"name": "iceandfire:dread_stone_face"},
+        "stair": {"name": "iceandfire:dread_stone_stairs"},
+        "lightblock": {"name": "biomesoplenty:crystal"},
+        "liquid": {"name": "biomesoplenty:poison"}
+      }
+    }
+  ]
+}

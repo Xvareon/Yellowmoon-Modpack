@@ -1,0 +1,167 @@
+{
+  "name": "theme:flesh",
+  "themes": [
+    {
+      "base": "NETHER",
+      "primary": {
+        "door": {
+          "name": "minecraft:iron_door"
+        },
+        "floor": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "biomesoplenty:flesh"
+              },
+              "weight": 70
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "charm:rotten_flesh_block"
+              },
+              "weight": 40
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "nether_wart_block"
+              },
+              "weight": 30
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:monster_box"
+              },
+              "weight": 1
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "biomesoplenty:blood"
+              },
+              "weight": 10
+            }
+          ]
+        },
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "biomesoplenty:flesh"
+              },
+              "weight": 70
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "charm:rotten_flesh_block"
+              },
+              "weight": 40
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "nether_wart_block"
+              },
+              "weight": 30
+            }
+          ]
+        },
+        "pillar": {
+          "name": "minecraft:bone_block"
+        },
+        "stair": {
+          "name": "quark:polished_netherrack_bricks_stairs"
+        },
+        "lightblock": {
+          "name": "minecraft:glowstone"
+        },
+        "liquid": {
+          "name": "biomesoplenty:blood"
+        }
+      },
+      "secondary": {
+        "door": {
+          "name": "minecraft:iron_door"
+        },
+        "floor": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "biomesoplenty:flesh"
+              },
+              "weight": 70
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "charm:rotten_flesh_block"
+              },
+              "weight": 40
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "nether_wart_block"
+              },
+              "weight": 30
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "biomesoplenty:blood"
+              },
+              "weight": 10
+            }
+          ]
+        },
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "biomesoplenty:flesh"
+              },
+              "weight": 70
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "charm:rotten_flesh_block"
+              },
+              "weight": 40
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "nether_wart_block"
+              },
+              "weight": 30
+            }
+          ]
+        },
+        "pillar": {
+          "name": "minecraft:bone_block"
+        },
+        "stair": {
+          "name": "quark:polished_netherrack_bricks_stairs"
+        },
+        "lightblock": {
+          "name": "minecraft:glowstone"
+        },
+        "liquid": {
+          "name": "biomesoplenty:blood"
+        }
+      }
+    }
+  ]
+}

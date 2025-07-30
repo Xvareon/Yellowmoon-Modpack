@@ -1,0 +1,21 @@
+{
+  "name": "yellowmoon:dungeon_midori",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["SANDY"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:midori"
+  ],
+  "tower": {
+    "type": "JUNGLE",
+    "theme": {
+      "base": "SANDSTONE"
+    }
+  }
+}

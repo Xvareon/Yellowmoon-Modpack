@@ -1,0 +1,21 @@
+{
+  "name": "yellowmoon:dungeon_flesh",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["SWAMP"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:flesh"
+  ],
+  "tower": {
+    "type": "HOLE",
+    "theme": {
+      "base": "NETHER"
+    }
+  }
+}

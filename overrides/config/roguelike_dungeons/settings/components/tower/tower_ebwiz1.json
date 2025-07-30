@@ -1,0 +1,17 @@
+{
+  "name": "tower:ebwiz1",
+  "tower": {
+    "type": "ENIKO",
+    "theme": {
+      "base": "ENIKO",
+      "primary": {
+        "walls": {"name": "ebwizardry:runestone", "meta": 1}
+      },
+      "secondary": {
+        "pillar": {"name": "ebwizardry:runestone_pedestal", "meta": 1},
+        "walls": {"name": "ebwizardry:runestone", "meta": 1},
+	"stair": {"name": "quark:biotite_stairs"}
+      }
+    }
+  }
+}

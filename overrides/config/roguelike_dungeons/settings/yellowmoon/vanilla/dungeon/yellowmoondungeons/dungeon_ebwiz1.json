@@ -1,0 +1,16 @@
+{
+  "name": "yellowmoon:dungeon_ebwiz1",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["MESA"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:ebwiz1",
+    "tower:ebwiz1"
+  ]
+}

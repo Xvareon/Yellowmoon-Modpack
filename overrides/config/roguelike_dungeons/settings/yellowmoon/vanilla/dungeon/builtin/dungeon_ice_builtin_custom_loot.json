@@ -1,0 +1,16 @@
+{
+  "name": "yellowmoon:dungeon_ice_builtin_custom_loot",
+  "exclusive": true,
+  "inherit": [
+    "builtin:dungeon_ice_no_loot",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "layout:dense_medium",
+    "theme:ice",
+    "yellowmoon:loot_yellowmoon"
+  ]
+}

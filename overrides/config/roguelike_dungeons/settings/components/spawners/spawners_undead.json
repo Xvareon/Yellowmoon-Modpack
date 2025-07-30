@@ -1,0 +1,321 @@
+{
+  "name": "spawners:undead",
+  "spawners": [
+    {
+      "level": [
+        0
+      ],
+      "weight": 1,
+      "potentials": [
+        {
+          "weight": 1,
+          "name": "minecraft:zombie"
+        }
+      ]
+    },
+    {
+      "level": [
+        0
+      ],
+      "weight": 1,
+      "potentials": [
+        {
+          "weight": 1,
+          "name": "minecraft:skeleton"
+        }
+      ]
+    },
+    {
+      "level": [
+        0
+      ],
+      "weight": 1,
+      "potentials": [
+        {
+          "weight": 1,
+          "name": "minecraft:zombie"
+        },
+        {
+          "weight": 1,
+          "name": "minecraft:skeleton"
+        },
+        {
+          "weight": 6,
+          "name": "minecraft:husk"
+        },
+        {
+          "weight": 6,
+          "name": "minecraft:stray"
+        },
+        {
+          "weight": 6,
+          "name": "quark:wraith"
+        },
+        {
+          "weight": 5,
+          "name": "quark:dweller"
+        },
+        {
+          "weight": 6,
+          "name": "quark:ashen"
+        },
+        {
+          "weight": 6,
+          "name": "quark:pirate"
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:forsaken"
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:undertaker"
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:unburied",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:mummy",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:zombiefrozen",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:zombiemushroom",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "iceandfire:if_troll",
+          "equip": true
+        },
+        {
+          "weight": 5,
+          "name": "ancientspellcraft:skeleton_mage",
+          "equip": true
+        },
+        {
+          "weight": 5,
+          "name": "primitivemobs:skeleton_warrior",
+          "equip": true
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weight": 1,
+      "potentials": [
+        {
+          "weight": 1,
+          "name": "minecraft:zombie"
+        },
+        {
+          "weight": 6,
+          "name": "minecraft:husk"
+        },
+        {
+          "weight": 6,
+          "name": "minecraft:stray"
+        },
+        {
+          "weight": 6,
+          "name": "quark:wraith"
+        },
+        {
+          "weight": 5,
+          "name": "quark:dweller"
+        },
+        {
+          "weight": 6,
+          "name": "quark:ashen"
+        },
+        {
+          "weight": 6,
+          "name": "quark:pirate"
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:forsaken"
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:undertaker"
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:unburied"
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:mummy"
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:zombiefrozen"
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:zombiemushroom"
+        },
+        {
+          "weight": 6,
+          "name": "iceandfire:if_troll"
+        },
+        {
+          "weight": 5,
+          "name": "ancientspellcraft:skeleton_mage",
+          "equip": true
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weight": 1,
+      "potentials": [
+        {
+          "weight": 1,
+          "name": "minecraft:skeleton",
+          "equip": true
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weight": 1,
+      "potentials": [
+        {
+          "weight": 1,
+          "name": "minecraft:wither_skeleton",
+          "equip": true
+        }
+      ]
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weight": 1,
+      "potentials": [
+        {
+          "weight": 1,
+          "name": "minecraft:skeleton",
+          "equip": true
+        },
+        {
+          "weight": 5,
+          "name": "minecraft:wither_skeleton",
+          "equip": true
+        },
+        {
+          "weight": 1,
+          "name": "minecraft:zombie",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "minecraft:husk",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "minecraft:stray",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "quark:wraith",
+          "equip": true
+        },
+        {
+          "weight": 5,
+          "name": "quark:dweller",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "quark:ashen",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "quark:pirate",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:forsaken",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:undertaker",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:unburied",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:mummy",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:zombiefrozen",
+          "equip": true
+        },
+        {
+          "weight": 6,
+          "name": "mod_lavacow:zombiemushroom",
+          "equip": true
+        },
+        {
+          "weight": 5,
+          "name": "iceandfire:if_troll",
+          "equip": true
+        },
+        {
+          "weight": 5,
+          "name": "ancientspellcraft:skeleton_mage",
+          "equip": true
+        },
+        {
+          "weight": 5,
+          "name": "primitivemobs:skeleton_warrior",
+          "equip": true
+        }
+      ]
+    }
+  ]
+}

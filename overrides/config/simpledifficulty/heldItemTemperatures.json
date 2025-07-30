@@ -1,0 +1,202 @@
+{
+  "harvestcraft:candledeco9": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco5": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco6": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:ice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -1.0
+    }
+  ],
+  "minecraft:magma": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 5.0
+    }
+  ],
+  "harvestcraft:candledeco7": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "biomesoplenty:hard_ice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -5.0
+    }
+  ],
+  "harvestcraft:candledeco8": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco1": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "iceandfire:dragon_ice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -10.0
+    }
+  ],
+  "harvestcraft:candledeco2": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:torch": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco3": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco4": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco14": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "iceandfire:dread_torch": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -1.0
+    }
+  ],
+  "harvestcraft:candledeco15": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco16": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:lava_bucket": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 5.0
+    }
+  ],
+  "harvestcraft:candledeco10": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco11": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco12": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco13": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "aether_legacy:icestone": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -5.0
+    }
+  ],
+  "minecraft:packed_ice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -5.0
+    }
+  ]
+}

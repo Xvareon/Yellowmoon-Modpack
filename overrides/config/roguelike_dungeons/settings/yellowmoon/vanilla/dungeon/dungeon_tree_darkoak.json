@@ -1,0 +1,30 @@
+{
+  "name": "yellowmoon:dungeon_tree_darkoak",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["FOREST", "MOUNTAINS", "PLAINS"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "rooms:undead"
+  ],
+  "filters": [
+    {"level": [1, 2, 3], "name": "vine"},
+    {"level": [4], "name": "mud"}
+  ],
+  "themes": [
+    {"level": [0, 1], "base": "MINESHAFT"},
+    {"level": [2, 3], "base": "MOSSY"},
+    {"level": [4], "base": "CRYPT"}
+  ],
+  "tower": {
+    "type": "TREE",
+    "theme": {
+      "base": "DARKOAK"
+    }
+  }
+}

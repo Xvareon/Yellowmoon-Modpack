@@ -1,0 +1,125 @@
+{
+  "name": "spawners:blaze",
+  "spawners": [
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "minecraft:blaze"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "ebwizardry:ice_wraith"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "ebwizardry:lightning_wraith"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "ebwizardry:shadow_wraith"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "ebwizardry:storm_elemental"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "ebwizardry:remnant"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "twilightforest:wraith"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "potentials": [
+        {
+          "name": "primitivemobs:void_eye"
+        }
+      ]
+    }
+  ]
+}

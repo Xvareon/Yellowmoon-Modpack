@@ -1,0 +1,72 @@
+{
+  "name": "theme:ice",
+  "themes": [
+    {"base": "ICE", "level": [0,1]},
+    {
+      	"base": "ICE",
+      	"level": 2,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:snow_bricks"},
+		"walls": {"name": "quark:snow_bricks"},
+        	"pillar": {"name": "biomesoplenty:hard_ice", "meta": 0},
+        	"stair": {"name": "quark:snow_bricks_stairs"},
+        	"lightblock": {"name": "sea_lantern"},
+        	"liquid": {"name": "minecraft:water"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:snow_bricks"},
+		"walls": {"name": "quark:snow_bricks"},
+        	"pillar": {"name": "biomesoplenty:hard_ice", "meta": 0},
+        	"stair": {"name": "quark:snow_bricks_stairs"},
+        	"lightblock": {"name": "sea_lantern"},
+        	"liquid": {"name": "minecraft:water"}
+      	}
+    },
+    {
+      	"base": "ICE",
+      	"level": 3,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:biome_brick", "meta": 1},
+		"walls": {"name": "quark:biome_brick", "meta": 1},
+        	"pillar": {"name": "biomesoplenty:hard_ice", "meta": 0},
+        	"stair": {"name": "quark:icy_stone_brick_stairs"},
+        	"lightblock": {"name": "sea_lantern"},
+        	"liquid": {"name": "minecraft:water"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:biome_brick", "meta": 1},
+		"walls": {"name": "quark:biome_brick", "meta": 1},
+        	"pillar": {"name": "biomesoplenty:hard_ice", "meta": 0},
+        	"stair": {"name": "quark:icy_stone_brick_stairs"},
+        	"lightblock": {"name": "sea_lantern"},
+        	"liquid": {"name": "minecraft:water"}
+      	}
+    },
+    {
+      	"base": "ICE",
+      	"level": 4,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:duskbound_block"},
+		"walls": {"name": "quark:duskbound_block"},
+        	"pillar": {"name": "aether_legacy:icestone"},
+        	"stair": {"name": "quark:duskbound_block_stairs"},
+        	"lightblock": {"name": "quark:duskbound_lantern"},
+        	"liquid": {"name": "minecraft:water"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+		"floor": {"name": "quark:duskbound_block"},
+		"walls": {"name": "quark:duskbound_block"},
+        	"pillar": {"name": "aether_legacy:icestone"},
+        	"stair": {"name": "quark:duskbound_block_stairs"},
+        	"lightblock": {"name": "quark:duskbound_lantern"},
+        	"liquid": {"name": "minecraft:water"}
+      	}
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "yellowmoon:dungeon_ebwiz3",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["HILLS"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "theme:ebwiz3",
+    "tower:ebwiz3"
+  ]
+}
