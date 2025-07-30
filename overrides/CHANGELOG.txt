@@ -1,3 +1,11 @@
+Version 4.7
+- Buffed some Fish's Undead Rising mob spawnrates
+- Adjusted Primitive Mobs spawnrates for the last time
+- Buffed Quark Crab spawnrate again
+- Buffed some Better Animals spawnrate
+- Buffed Gorgon and Dread Queen health and damage
+- Buffed Ancient Beast mobs spawnrates
+
 Version 4.6
 - Removed playerrevive as curseforge export still included it in the zip
 

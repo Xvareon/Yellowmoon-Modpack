@@ -7623,8 +7623,8 @@ tfspellpack:sortingwood_lectern:0
 tfspellpack:sortingwood_lectern:3
 tfspellpack:sortingwood_lectern:4
 tfspellpack:sortingwood_lectern:5
-toroquest:royalblock:0
 toroquest:torospawnerblock:0
+toroquest:royalblock:0
 waystones:waystone:0
 waystones:waystone:3
 waystones:waystone:4
