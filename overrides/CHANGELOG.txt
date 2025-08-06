@@ -1,24 +1,31 @@
-Version 4.7
-- Buffed some Fish's Undead Rising mob spawnrates
-- Adjusted Primitive Mobs spawnrates for the last time
-- Buffed Quark Crab spawnrate again
-- Buffed some Better Animals spawnrate
-- Buffed Gorgon and Dread Queen health and damage
-- Buffed Ancient Beast mobs spawnrates
+Version 4.8
 
-Version 4.6
-- Removed playerrevive as curseforge export still included it in the zip
+- Added crafttweaker
+-- Tweaked recipe for ender pearl bottle, backpack, and waystones for balance
+-- Added recipe for Dreadwood Log
+-- Fixed earplug recipe to accept any wood type
+-- Removed Aether Legacy recipe for saddle
+-- Added recipe for Dragon Canteen
+-- Added recipe for dragon heart to flesh
+-- Removed Ice and Fire recipe for dragon skull to bonemeal
+-- Added recipe for dragon skull to dragon bone
+-- Added recipe for manuscript to paper
+-- Added recipe for Ozzy Liner chestplate and leggings
+-- Added recipe for Tome of Transcribing
+-- Added recipe for Tome of the Diligent
+-- Added various furnace recipes to iron, gold, and diamond items (you can now recycle a lot of unused items)
+-- Added disintegration tablet recipes to some bountiful baubles
+-- Removed home gem recipe
+-- Tweaked warpstone recipe
+-- Tweaked recall potion brewing recipe
 
-Version 4.5
-- Adjusted Primitive Mobs spawnrates again (hopefully this is the last time)
-- Buffed Grottol spawnrate
-- Buffed Mowzies Mobs bosses HP
-- Increased stoneling spawnrate again
-- Replaced Player Revive with Hardcore Revival because of various bugs
-- Removed Creative Core
-- Added In Control 
-- Buffed all ender dragon, wither, hirschgeist, slider, valkyrie, valkyrie queen, and twilight forest bosses' damage and health
-- Buffed Fossils and Archaeology mobs damage and health
-- Buffed Ice and Fire hydra damage and health
-- Buffed Battle Tower Golem damage and health
-- Buffed Twilight Forest Skeleton Druid
+- Home gems can now spawn in roguelike dungeon chests
+- Waystones now have a minimum xp cost of 1
+- Soulforged weapons can now inflict degraded armor 4 effect upon crit
+- Added Obsidian armor set bonus
+- Removed some trades from shopkeepers that have their recipes added in crafttweaker
+- Slightly raised some Better Animals Plus spawnrates
+- Nerfed primitive mobs spawnrates
+- Raised spawnrates of Beast Slayer mobs
+- Slightly raised spawnrate of quark foxhounds, frogs, and wraiths
+- Removed some unused files/folders in the config and mods folders

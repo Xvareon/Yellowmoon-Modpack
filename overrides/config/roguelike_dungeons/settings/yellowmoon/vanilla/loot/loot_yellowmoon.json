@@ -3726,6 +3726,12 @@
         },
         {
           "data": {
+            "name": "dungeonsmod:home_gem"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
             "name": "minecraft:totem_of_undying"
           },
           "weight": 5
