@@ -1501,6 +1501,7 @@ foodBbqchickenbiscuit
 foodChickenbiscuit
 foodPizzaslice
 shardGlass
+stonePolished
 stoneBasaltPolished
 stoneMarblePolished
 stoneLimestonePolished
@@ -1521,7 +1522,6 @@ bookshelfDarkOak
 blockCandle
 pressurePlateWood
 blockCharcoal
-stonePolished
 ingotSteel
 itemArmor
 itemPakFiller
