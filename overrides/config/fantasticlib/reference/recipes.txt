@@ -4272,6 +4272,8 @@ ancientwarfarenpc:upkeep_order_copy
 ancientwarfarenpc:routing_order_copy
 ancientwarfarenpc:combat_order_copy
 ancientwarfarenpc:work_order_copy
+quark:elytra_dyeing
+quark:firework_cloning
 quark:chute
 quark:sugar_block
 quark:sugar

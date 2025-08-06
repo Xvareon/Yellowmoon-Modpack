@@ -127,6 +127,7 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:15
 key_quark.keybind.playerSort:0
+key_quark.keybind.lockBuilding:0
 key_keybind.baublesinventory:23
 key_key.death_history:12
 key_cos.key.opencosarmorinventory:0
