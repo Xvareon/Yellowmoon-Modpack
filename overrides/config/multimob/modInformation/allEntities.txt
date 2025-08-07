@@ -112,8 +112,13 @@ ancientwarfarestructure:aw_gate
 ancientwarfarestructure:seat
 ancientwarfarevehicle:vehicle
 ancientwarfarevehicle:missile
-quark:seat
 quark:gravisand
+quark:chest_passenger
+quark:seat
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -121,7 +126,6 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:seat
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -131,11 +135,6 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:chest_passenger
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
 biomesoplenty:mudball
 biomesoplenty:bop_boat
 biomesoplenty:wasp

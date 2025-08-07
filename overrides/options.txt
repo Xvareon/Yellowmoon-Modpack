@@ -101,6 +101,7 @@ key_keybind.name.EMOTE_SLOT_5:0
 key_keybind.name.EMOTE_SLOT_6:0
 key_keybind.name.EMOTE_SLOT_7:0
 key_keybind.name.EMOTE_SLOT_8:0
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -119,7 +120,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
 key_quark.keybind.chestDropoff:0
@@ -127,7 +127,6 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:15
 key_quark.keybind.playerSort:0
-key_quark.keybind.lockBuilding:0
 key_keybind.baublesinventory:23
 key_key.death_history:12
 key_cos.key.opencosarmorinventory:0
@@ -141,10 +140,6 @@ key_key.ebwizardry.spell_5:0
 key_key.ebwizardry.spell_6:0
 key_key.ebwizardry.spell_7:0
 key_key.ebwizardry.spell_8:0
-key_key.erebus.glide:0
-key_key.erebus.poweredglide:0
-key_key.erebus.beetleram:19
-key_key.erebus.beetlemine:56
 key_keybinds.show_wounds:35
 key_key.fastEquip.desc:0
 key_key.toggleFoVChanges:0

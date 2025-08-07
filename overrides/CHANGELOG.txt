@@ -1,3 +1,8 @@
+Version 4.9
+
+- Adjusted some spawnrates based on the recent spawn weight changes
+- Added furnace recipe to CQR diamond weapons
+
 Version 4.8
 
 - Added crafttweaker

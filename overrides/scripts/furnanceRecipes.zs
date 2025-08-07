@@ -31,6 +31,10 @@ furnace.addRecipe(<minecraft:diamond>*1,<cqrepoured:chestplate_diamond_dyable:*>
 furnace.addRecipe(<minecraft:diamond>*1,<cqrepoured:leggings_diamond_dyable:*>, 99999);
 furnace.addRecipe(<minecraft:diamond>*1,<cqrepoured:boots_diamond_dyable:*>, 99999);
 
+furnace.addRecipe(<minecraft:diamond>*1,<cqrepoured:dagger_diamond:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<cqrepoured:great_sword_diamond:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<cqrepoured:spear_diamond:*>, 99999);
+
 furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:throwing_knife:*>, 99999);
 furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:throwing_knife_slowness:*>, 99999);
 furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:throwing_knife_weakness:*>, 99999);
