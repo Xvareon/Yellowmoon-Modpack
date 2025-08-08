@@ -43,6 +43,9 @@ ancientbeasts:poison_rifted
 ancientbeasts:long_potion_rifted
 ancientbeasts:potion_undead
 ancientbeasts:long_potion_undead
+quark:resilience
+quark:long_resilience
+quark:strong_resilience
 quark:haste
 quark:long_haste
 quark:strong_haste
@@ -54,9 +57,6 @@ quark:long_resistance
 quark:strong_resistance
 quark:danger_sight
 quark:long_danger_sight
-quark:resilience
-quark:long_resilience
-quark:strong_resilience
 mod_lavacow:corrosive
 mod_lavacow:strong_corrosive
 mod_lavacow:long_corrosive
