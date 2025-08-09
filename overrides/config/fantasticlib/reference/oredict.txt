@@ -171,9 +171,9 @@ blockWoolRed
 blockWoolBlack
 mushroomAny
 tallow
-materialStoneTool
 buttonWood
 gemEnderBiotite
+materialStoneTool
 stoneBasalt
 stoneMarble
 stoneLimestone
@@ -1520,8 +1520,8 @@ bookshelfDarkOak
 blockCandle
 pressurePlateWood
 blockCharcoal
-shardGlass
 stonePolished
+shardGlass
 ingotSteel
 itemArmor
 itemPakFiller

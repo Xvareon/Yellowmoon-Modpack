@@ -1,3 +1,12 @@
+Version 5.0
+
+- Nerfed better animals plus spawnrates
+- Adjusted multi mob spawnrates
+- Adjusted Fish's Undead Rising spawnrates (buffed spawnrates of some mobs, nerfed spawnrates of ravens)
+- Buffed Skeleton King, Dread Queen, and Gorgon
+- Tweaked Simple Storage remotes recipes
+- Added amethyst to terrestrial artifact recipe
+
 Version 4.9
 
 - Adjusted some spawnrates based on the recent spawn weight changes

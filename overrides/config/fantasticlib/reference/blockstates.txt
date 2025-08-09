@@ -3298,6 +3298,10 @@ ancientwarfarestructure:gravestone:0
 ancientwarfarestructure:gravestone:1
 ancientwarfarestructure:gravestone:2
 ancientwarfarestructure:gravestone:3
+quark:glowstone_dust_block:0
+quark:gunpowder_block:0
+quark:gunpowder_block:1
+quark:black_ash:0
 quark:roots:0
 quark:roots:1
 quark:roots:2
@@ -3871,10 +3875,6 @@ quark:blaze_rod:2
 quark:blaze_rod:3
 quark:blaze_rod:4
 quark:blaze_rod:5
-quark:glowstone_dust_block:0
-quark:gunpowder_block:0
-quark:gunpowder_block:1
-quark:black_ash:0
 quark:sandstone_new:0
 quark:sandstone_new:1
 quark:sandstone_new:2
@@ -7623,8 +7623,8 @@ tfspellpack:sortingwood_lectern:0
 tfspellpack:sortingwood_lectern:3
 tfspellpack:sortingwood_lectern:4
 tfspellpack:sortingwood_lectern:5
-toroquest:torospawnerblock:0
 toroquest:royalblock:0
+toroquest:torospawnerblock:0
 waystones:waystone:0
 waystones:waystone:3
 waystones:waystone:4

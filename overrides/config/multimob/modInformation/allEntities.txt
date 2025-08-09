@@ -112,6 +112,13 @@ ancientwarfarestructure:aw_gate
 ancientwarfarestructure:seat
 ancientwarfarevehicle:vehicle
 ancientwarfarevehicle:missile
+quark:pickarang
+quark:arrow_ender
+quark:arrow_explosive
+quark:arrow_torch
+quark:dragon_breath_bottle
+quark:soul_powder
+quark:parrot_egg
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -126,13 +133,6 @@ quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
 quark:chest_passenger
-quark:pickarang
-quark:arrow_ender
-quark:arrow_explosive
-quark:arrow_torch
-quark:dragon_breath_bottle
-quark:soul_powder
-quark:parrot_egg
 quark:seat
 quark:gravisand
 biomesoplenty:mudball
