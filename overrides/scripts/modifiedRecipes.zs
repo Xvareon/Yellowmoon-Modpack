@@ -107,6 +107,36 @@ recipes.addShaped("warpStone",<waystones:warp_stone>,[
     [<iceandfire:amythest_gem>,<minecraft:ender_pearl>,<iceandfire:amythest_gem>]
 ]);
 
+recipes.addShaped("remoteBasic",<storagenetwork:remote:0>,[
+    [<storagenetwork:kabel>,<minecraft:gold_ingot>,<storagenetwork:kabel>],
+    [<minecraft:gold_ingot>,<storagenetwork:master>,<minecraft:gold_ingot>],
+    [<storagenetwork:kabel>,<minecraft:gold_ingot>,<storagenetwork:kabel>]
+]);
+
+recipes.addShaped("remoteNoCraft",<storagenetwork:remote:3>,[
+    [<storagenetwork:ex_kabel>,<minecraft:glowstone>,<storagenetwork:ex_kabel>],
+    [<minecraft:ender_pearl>,<storagenetwork:remote:0>,<minecraft:ender_pearl>],
+    [<storagenetwork:ex_kabel>,<minecraft:magma>,<storagenetwork:ex_kabel>]
+]);
+
+recipes.addShaped("remoteWithCraft",<storagenetwork:remote:2>,[
+    [<storagenetwork:process_kabel>,<biomesoplenty:terrestrial_artifact>,<storagenetwork:process_kabel>],
+    [<charm:ender_pearl_block>,<storagenetwork:remote:3>,<charm:ender_pearl_block>],
+    [<storagenetwork:process_kabel>,<aether_legacy:icestone>,<storagenetwork:process_kabel>]
+]);
+
+recipes.addShaped("remoteAdv",<storagenetwork:remote:1>,[
+    [<storagenetwork:simple_kabel>,<minecraft:nether_star>,<storagenetwork:simple_kabel>],
+    [<quark:biotite_block>,<storagenetwork:remote:2>,<quark:biotite_block>],
+    [<storagenetwork:simple_kabel>,<biomesoplenty:crystal>,<storagenetwork:simple_kabel>]
+]);
+
+recipes.addShaped("terrestrialArtifact",<biomesoplenty:terrestrial_artifact>,[
+    [<biomesoplenty:gem:1>,<biomesoplenty:gem:3>,<biomesoplenty:gem:7>|<mod_lavacow:ancient_amber>|<fossil:amber>],
+    [<biomesoplenty:gem:2>,<biomesoplenty:gem:5>,<biomesoplenty:gem:6>|<iceandfire:sapphire_gem>],
+    [<biomesoplenty:gem:4>,<minecraft:emerald>,<iceandfire:amythest_gem>]
+]);
+
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:mundane"}), <minecraft:quartz>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <waystones:return_scroll>, <bountifulbaubles:potionrecall>);
 

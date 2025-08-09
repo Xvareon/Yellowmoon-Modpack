@@ -14,7 +14,9 @@
             "twilightforest:knight_phantom",
             "twilightforest:ur_ghast",
             "twilightforest:yeti_alpha",
-            "twilightforest:snow_queen"
+            "twilightforest:snow_queen",
+            "iceandfire:gorgon",
+            "iceandfire:dread_queen"
         ],
         "onjoin": true,
         "damagemultiply": 6,
@@ -100,9 +102,7 @@
             "iceandfire:if_hydra",
             "twilightforest:skeleton_druid",
             "battletowers:golem",
-            "minecraft:ghast",
-            "iceandfire:gorgon",
-            "iceandfire:dread_queen"
+            "minecraft:ghast"
         ],
         "onjoin": true,
         "damagemultiply": 4,
