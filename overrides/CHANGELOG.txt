@@ -1,3 +1,8 @@
+Version 5.2
+
+- Nerfed void eye and trollager spawnrate
+- Disabled Totem of Undying from being used in the inventory (charm), causing a death bug
+
 Version 5.1
 
 - Adjusted the spawnrates of primitive mobs
