@@ -85,7 +85,7 @@ minimapFrame:0
 minimapFrameColor:9
 compassColor:9
 northCompassColor:-1
-showDimensionName:true
+showDimensionName:false
 displayMultipleWaypointInfo:1
 entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
