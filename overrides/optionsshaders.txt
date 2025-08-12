@@ -1,5 +1,5 @@
-#Wed Aug 06 10:18:01 SGT 2025
-shaderPack=ComplementaryUnbound_r5.5.1.zip
+#Sat Aug 09 23:27:25 SGT 2025
+shaderPack=ComplementaryReimagined_r5.5.1.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

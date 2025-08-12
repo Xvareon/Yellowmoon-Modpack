@@ -1,1 +1,25 @@
-[]
+[
+    {
+        "dimension": -23,
+        "mobs": [
+            {
+                "mob": "fossil:fossil.anubite",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "battletowers:golem",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "toroquest:toroquest_orc",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    }
+]

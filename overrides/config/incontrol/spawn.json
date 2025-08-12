@@ -1,5 +1,6 @@
 [
     {  
+        "dimension": [-1, 0, 1, 4, 7, 312],
         "mob": [
             "minecraft:ender_dragon",
             "minecraft:wither",
@@ -18,9 +19,28 @@
             "iceandfire:gorgon",
             "iceandfire:dread_queen"
         ],
-        "onjoin": true,
         "damagemultiply": 6,
-        "healthmultiply": 15
+        "healthmultiply": 15,
+        "onjoin": true
+    },
+    {
+        "mob": [
+            "twilightforest:wand_bolt",
+            "twilightforest:nature_bolt",
+            "twilightforest:tome_bolt",
+            "twilightforest:seeker_arrow",
+            "twilightforest:ice_arrow",
+            "twilightforest:chain_block",
+            "iceandfire:hydra_arrow",
+            "ebwizardry:firebomb",
+            "ebwizardry:poison_bomb",
+            "ebwizardry:spark_bomb",
+            "ebwizardry:lightning_hammer",
+            "necromancersdelight:frost_bomb",
+            "ebwizardry:ice_charge"
+        ],
+        "damagemultiply": 2,
+        "onjoin": true
     },
     {
         "mob": [
@@ -34,12 +54,22 @@
             "ebwizardry:magic_fireball",
             "ebwizardry:large_magic_fireball",
             "ebwizardry:iceball",
-            "ebwizardry:meteor"
+            "ebwizardry:meteor",
+            "twilightforest:lich_bolt",
+            "twilightforest:hydra_mortar",
+            "twilightforest:lich_bomb",
+            "twilightforest:cube_of_annihilation",
+            "iceandfire:dragonarrow",
+            "iceandfire:dragonfirecharge",
+            "iceandfire:dragonicecharge",
+            "iceandfire:dragonlightningcharge",
+            "iceandfire:tide_trident"
         ],
-        "onjoin": true,
-        "damagemultiply": 4
+        "damagemultiply": 4,
+        "onjoin": true
     },
     {  
+        "dimension": [-1, 0, 1, 4, 7, 312],
         "mob": [
             "fossil:fossil.nautilus",
             "fossil:fossil.coelacanth",
@@ -102,10 +132,89 @@
             "iceandfire:if_hydra",
             "twilightforest:skeleton_druid",
             "battletowers:golem",
-            "minecraft:ghast"
+            "dungeontactics:towerguardian",
+            "minecraft:ghast",
+            "fossil:fossil.anubite",
+            "twilightforest:yeti",
+            "twilightforest:winter_wolf",
+            "twilightforest:mini_ghast",
+            "twilightforest:tower_ghast",
+            "twilightforest:tower_termite",
+            "twilightforest:tower_broodling",
+            "twilightforest:tower_golem",
+            "twilightforest:giant_miner",
+            "twilightforest:armored_giant",
+            "twilightforest:harbinger_cube",
+            "twilightforest:adherent"
         ],
-        "onjoin": true,
         "damagemultiply": 4,
-        "healthmultiply": 4
+        "healthmultiply": 4,
+        "onjoin": true
+    },
+    {
+        "mob": [
+            "betteranimalsplus:brownbear",
+            "betteranimalsplus:blackbear",
+            "betteranimalsplus:deer",
+            "betteranimalsplus:lammergeier",
+            "betteranimalsplus:feralwolf",
+            "betteranimalsplus:coyote",
+            "betteranimalsplus:fox",
+            "betteranimalsplus:tarantula",
+            "betteranimalsplus:goat",
+            "betteranimalsplus:jellyfish",
+            "betteranimalsplus:pheasant",
+            "betteranimalsplus:reindeer",
+            "betteranimalsplus:boar",
+            "betteranimalsplus:squirrel",
+            "betteranimalsplus:songbird",
+            "betteranimalsplus:badger",
+            "betteranimalsplus:lamprey",
+            "betteranimalsplus:nautilus",
+            "betteranimalsplus:crab",
+            "betteranimalsplus:horseshoecrab",
+            "betteranimalsplus:shark",
+            "betteranimalsplus:moose",
+            "betteranimalsplus:turkey",
+            "betteranimalsplus:zotzpyre",
+            "betteranimalsplus:bobbit_worm",
+            "betteranimalsplus:goose",
+            "betteranimalsplus:eel_freshwater",
+            "betteranimalsplus:eel_saltwater",
+            "betteranimalsplus:whale",
+            "betteranimalsplus:walrus"
+        ],
+        "healthmultiply": 2,
+        "onjoin": true
+    },
+    {
+        "dimension": -23,
+        "mob": "battletowers:golem",
+        "mincount": {
+            "amount": 12,
+            "mob": "battletowers:golem",
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": -23,
+        "mob": "fossil:fossil.anubite",
+        "mincount": {
+            "amount": 50,
+            "mob": "fossil:fossil.anubite",
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": -23,
+        "mob": "toroquest:toroquest_orc",
+        "mincount": {
+            "amount": 20,
+            "mob": "toroquest:toroquest_orc",
+            "perplayer": true
+        },
+        "result": "deny"
     }
 ]

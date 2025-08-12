@@ -10,6 +10,7 @@ recipes.remove(<dungeonsmod:home_gem>);
 recipes.remove(<waystones:warp_stone>);
 recipes.remove(<storagenetwork:remote>);
 recipes.remove(<biomesoplenty:terrestrial_artifact>);
+recipes.remove(<fossil:whip>);
 recipes.removeByRecipeName("storagenetwork:remote1");
 recipes.removeByRecipeName("storagenetwork:remote2");
 recipes.removeByRecipeName("storagenetwork:remote3");
