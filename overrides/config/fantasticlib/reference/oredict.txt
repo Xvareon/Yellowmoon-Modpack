@@ -170,10 +170,10 @@ blockWoolGreen
 blockWoolRed
 blockWoolBlack
 mushroomAny
-tallow
+materialStoneTool
 buttonWood
 gemEnderBiotite
-materialStoneTool
+tallow
 stoneBasalt
 stoneMarble
 stoneLimestone
@@ -1509,6 +1509,8 @@ stoneBrimstonePolished
 stonePermafrostPolished
 blockPrismarineElderBrick
 blockPrismarineElderDark
+shardGlass
+stonePolished
 trapdoorWood
 bookshelf
 bookshelfOak
@@ -1520,8 +1522,6 @@ bookshelfDarkOak
 blockCandle
 pressurePlateWood
 blockCharcoal
-stonePolished
-shardGlass
 ingotSteel
 itemArmor
 itemPakFiller

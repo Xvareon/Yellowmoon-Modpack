@@ -137,6 +137,12 @@ recipes.addShaped("terrestrialArtifact",<biomesoplenty:terrestrial_artifact>,[
     [<biomesoplenty:gem:4>,<minecraft:emerald>,<iceandfire:amythest_gem>]
 ]);
 
+recipes.addShaped("whip",<fossil:whip>,[
+    [null,null,<quark:chain>],
+    [null,<minecraft:stick>,<iceandfire:chain>],
+    [<spartanfire:witherbone_pole>,null,<fossil:scarab_gem>]
+]);
+
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:mundane"}), <minecraft:quartz>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <waystones:return_scroll>, <bountifulbaubles:potionrecall>);
 
