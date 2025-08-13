@@ -16,5 +16,7 @@ recipes.removeByRecipeName("storagenetwork:remote2");
 recipes.removeByRecipeName("storagenetwork:remote3");
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("iceandfire:dragon_skull_bonemeal");
+recipes.remove(<quark:framed_glass>);
+recipes.remove(<sereneseasons:greenhouse_glass>);
 
 print("Script ending!");

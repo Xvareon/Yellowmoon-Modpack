@@ -143,6 +143,29 @@ recipes.addShaped("whip",<fossil:whip>,[
     [<spartanfire:witherbone_pole>,null,<fossil:scarab_gem>]
 ]);
 
+recipes.addShaped("gapple",<minecraft:golden_apple:1>,[
+    [null,<dungeontactics:magic_powder>,null],
+    [<dungeontactics:magic_powder>,<minecraft:golden_apple>,<dungeontactics:magic_powder>],
+    [null,<dungeontactics:magic_powder>,null]
+]);
+
+recipes.addShaped("framedGlass",<quark:framed_glass>*4,[
+    [<minecraft:iron_bars>,<minecraft:glass>,<minecraft:iron_bars>],
+    [<minecraft:glass>,<minecraft:iron_ingot>,<minecraft:glass>],
+    [<minecraft:iron_bars>,<minecraft:glass>,<minecraft:iron_bars>]
+]);
+
+recipes.addShaped("ghGlass",<sereneseasons:greenhouse_glass>*4,[
+    [<minecraft:stained_glass:9>,<minecraft:stick>,<minecraft:stained_glass:9>],
+    [<minecraft:stick>,<minecraft:stick>,<minecraft:stick>],
+    [<minecraft:stained_glass:9>,<minecraft:stick>,<minecraft:stained_glass:9>]
+]);
+
+recipes.addShapeless("woolToString",<minecraft:string>*4,[<minecraft:wool:*>]);
+recipes.addShapeless("armorToLeather",<minecraft:leather>,[<minecraft:leather_helmet>|<minecraft:leather_chestplate>|<minecraft:leather_leggings>|<minecraft:leather_boots>|<aether_legacy:leather_gloves>]);
+
+recipes.addShapeless("heartOfGold",<dungeontactics:heart_golden>*3,[<minecraft:golden_apple>,<minecraft:glass_bottle>]);
+
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:mundane"}), <minecraft:quartz>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <waystones:return_scroll>, <bountifulbaubles:potionrecall>);
 
