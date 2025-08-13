@@ -1,3 +1,18 @@
+Version 5.3
+
+- Added Enchanted Golden Apple recipe using magic powder
+- Transformation powder can now transform Horses, Zombie Horses, Skeleton Horses, and Dread Horses
+- Nerfed Nausea and Blindness duration in some weapons
+- Adjusted infernal mob drops (accidentally nerfed rare loot drops)
+- Tweaked Dungeon Glass smelting recipe to use soul sand instead of black stained glass
+- Tweaked Framed Glass recipe
+- Added smelting recipes for various iron, gold, and diamond items
+- Added recipe for Heart of Gold
+- Added smelting recipe for ancient glass and auroralized glass
+- Added wool to string recipe
+- Added leather armor to leather recipe
+- Zombies and Skeleton horses do not burn in daylight now (That includes Dread Horses)
+
 Version 5.2
 
 - Nerfed void eye and trollager spawnrate
