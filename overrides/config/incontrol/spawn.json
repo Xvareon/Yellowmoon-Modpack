@@ -1,6 +1,5 @@
 [
     {  
-        "dimension": [-1, 0, 1, 4, 7, 312],
         "mob": [
             "minecraft:ender_dragon",
             "minecraft:wither",
@@ -156,7 +155,6 @@
             "betteranimalsplus:brownbear",
             "betteranimalsplus:blackbear",
             "betteranimalsplus:deer",
-            "betteranimalsplus:lammergeier",
             "betteranimalsplus:feralwolf",
             "betteranimalsplus:coyote",
             "betteranimalsplus:fox",
@@ -182,7 +180,10 @@
             "betteranimalsplus:eel_freshwater",
             "betteranimalsplus:eel_saltwater",
             "betteranimalsplus:whale",
-            "betteranimalsplus:walrus"
+            "betteranimalsplus:walrus",
+            "betteranimalsplus:lammergeier",
+            "iceandfire:hippogryph",
+            "iceandfire:hippocampus"
         ],
         "healthmultiply": 2,
         "onjoin": true
@@ -213,6 +214,76 @@
         "mincount": {
             "amount": 20,
             "mob": "toroquest:toroquest_orc",
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 1,
+        "mob": "mutantbeasts:mutant_enderman",
+        "mincount": {
+            "amount": 10,
+            "mob": "mutantbeasts:mutant_enderman",
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 1,
+        "mob": "ancientbeasts:rifted_enderman",
+        "maxcount": {
+            "amount": 20,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 1,
+        "mob": "primitivemobs:void_eye",
+        "maxcount": {
+            "amount": 20,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 1,
+        "mob": "ancientbeasts:nekros",
+        "maxcount": {
+            "amount": 20,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 1,
+        "mob": "ancientbeasts:ghost",
+        "mincount": {
+            "amount": 20,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 1,
+        "mob": "mod_lavacow:banshee",
+        "mincount": {
+            "amount": 20,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 1,
+        "mob": "mod_lavacow:ghost_swarmer",
+        "mincount": {
+            "amount": 20,
+            "hostile": true,
             "perplayer": true
         },
         "result": "deny"

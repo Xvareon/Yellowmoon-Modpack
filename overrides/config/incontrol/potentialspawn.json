@@ -21,5 +21,52 @@
                 "groupcountmax": 1
             }
         ]
+    },
+    {
+        "dimension": 1,
+        "mobs": [
+            {
+                "mob": "mutantbeasts:mutant_enderman",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "ancientbeasts:rifted_enderman",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "primitivemobs:void_eye",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "ancientbeasts:nekros",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "ancientbeasts:ghost",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "mod_lavacow:banshee",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "mod_lavacow:ghost_swarmer",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
     }
 ]
