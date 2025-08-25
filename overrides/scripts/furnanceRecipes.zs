@@ -214,13 +214,13 @@ furnace.addRecipe(<minecraft:diamond>*1,<spartanweaponry:mace_diamond:*>, 99999)
 furnace.addRecipe(<minecraft:diamond>*1,<spartanweaponry:glaive_diamond:*>, 99999);
 furnace.addRecipe(<minecraft:diamond>*1,<spartanweaponry:staff_diamond:*>, 99999);
 
-furnace.addRecipe(<minecraft:iron_nugget>*5,<minecraft:shears>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget>*3,<minecraft:flint_and_steel>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*5,<minecraft:shears:*>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*3,<minecraft:flint_and_steel:*>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<minecraft:iron_bars>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*8,<minecraft:iron_trapdoor>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*4,<minecraft:iron_door>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget>*1,<dungeontactics:iron_ring>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget>*1,<bountifulbaubles:ringiron>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*1,<dungeontactics:iron_ring:*>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*1,<bountifulbaubles:ringiron:*>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*5,<iceandfire:chain_link>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<dungeontactics:ironlinks>, 99999);
@@ -231,41 +231,63 @@ furnace.addRecipe(<minecraft:iron_nugget>*1,<quark:iron_rod>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<quark:iron_ladder>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<twilightforest:iron_ladder>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<cqrepoured:bullet_iron>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget>*1,<aether_legacy:iron_ring>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget>*1,<aether_legacy:iron_pendant>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*1,<aether_legacy:iron_ring:*>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*1,<aether_legacy:iron_pendant:*>, 99999);
 
 furnace.addRecipe(<minecraft:gold_nugget>*1,<quark:gold_button>, 99999);
-furnace.addRecipe(<minecraft:gold_nugget>*1,<aether_legacy:golden_ring>, 99999);
-furnace.addRecipe(<minecraft:gold_nugget>*1,<aether_legacy:golden_pendant>, 99999);
-furnace.addRecipe(<minecraft:gold_nugget>*1,<aether_legacy:golden_pendant>, 99999);
-furnace.addRecipe(<minecraft:gold_nugget>*1,<aether_legacy:golden_feather>, 99999);
-furnace.addRecipe(<minecraft:gold_nugget>*1,<twilightforest:minotaur_axe_gold>, 99999);
-furnace.addRecipe(<minecraft:gold_ingot>*1,<dungeontactics:golden_ring>, 99999);
+furnace.addRecipe(<minecraft:gold_nugget>*1,<aether_legacy:golden_ring:*>, 99999);
+furnace.addRecipe(<minecraft:gold_nugget>*1,<aether_legacy:golden_pendant:*>, 99999);
+furnace.addRecipe(<minecraft:gold_nugget>*1,<aether_legacy:golden_feather:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<twilightforest:minotaur_axe_gold:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<dungeontactics:golden_ring:*>, 99999);
 furnace.addRecipe(<minecraft:gold_nugget>*1,<cqrepoured:bullet_gold>, 99999);
-furnace.addRecipe(<minecraft:gold_ingot>*1,<cqrepoured:feather_golden>, 99999);
-furnace.addRecipe(<minecraft:gold_ingot>*1,<aether_legacy:golden_amber>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<cqrepoured:feather_golden:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<aether_legacy:golden_amber:*>, 99999);
 
-furnace.addRecipe(<minecraft:diamond>*1,<twilightforest:minotaur_axe>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<twilightforest:minotaur_axe:*>, 99999);
 furnace.addRecipe(<minecraft:diamond>*8,<quark:diamond_heart>, 99999);
-furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:diamond_ring>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:diamond_ring:*>, 99999);
 furnace.addRecipe(<minecraft:diamond>*1,<cqrepoured:bullet_diamond>, 99999);
 
-furnace.addRecipe(<minecraft:gold_ingot>*3,<bountifulbaubles:crowngold>, 99999);
-furnace.addRecipe(<minecraft:gold_ingot>*6,<cqrepoured:king_crown>, 99999);
-furnace.addRecipe(<minecraft:gold_ingot>*9,<toroquest:royal_helmet>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*3,<bountifulbaubles:crowngold:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*6,<cqrepoured:king_crown:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*9,<toroquest:royal_helmet:*>, 99999);
 furnace.addRecipe(<minecraft:gold_ingot>*9,<ancientwarfarestructure:golden_idol>, 99999);
 furnace.addRecipe(<minecraft:gold_ingot>*9,<mowziesmobs:barako_mask>, 99999);
 furnace.addRecipe(<minecraft:iron_ingot>*9,<mowziesmobs:wrought_axe>, 99999);
 furnace.addRecipe(<minecraft:iron_ingot>*9,<mowziesmobs:wrought_helmet>, 99999);
-furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:engineers_wrench_iron>, 99999);
-furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:engineers_wrench_steel>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:engineers_wrench_iron:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:engineers_wrench_steel:*>, 99999);
 
-furnace.addRecipe(<minecraft:iron_ingot>*1,<fossil:iron_javelin>, 99999);
-furnace.addRecipe(<minecraft:gold_ingot>*1,<fossil:gold_javelin>, 99999);
-furnace.addRecipe(<minecraft:diamond>*1,<fossil:diamond_javelin>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<fossil:iron_javelin:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<fossil:gold_javelin:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<fossil:diamond_javelin:*>, 99999);
 
-furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarenpc:iron_shield>, 99999);
-furnace.addRecipe(<minecraft:gold_ingot>*1,<ancientwarfarenpc:gold_shield>, 99999);
-furnace.addRecipe(<minecraft:diamond>*1,<ancientwarfarenpc:diamond_shield>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarenpc:iron_shield:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<ancientwarfarenpc:gold_shield:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<ancientwarfarenpc:diamond_shield:*>, 99999);
+
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:spear_iron:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<minecraft:bucket>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<minecraft:compass>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<charm:bound_compass>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<minecraft:clock>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarevehicle:ammo_ballista_bolt>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarevehicle:ammo_ballista_bolt_iron>, 99999);
+
+furnace.addRecipe(<minecraft:iron_ingot>*1,<mowziesmobs:barakoa_mask_fury:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<mowziesmobs:barakoa_mask_fear:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<mowziesmobs:barakoa_mask_rage:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<mowziesmobs:barakoa_mask_bliss:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<mowziesmobs:barakoa_mask_misery:*>, 99999);
+
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_hammer_smash:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_hammer_leap:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_cutlass_riposte:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_cutlass_pierce:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_knife_smokebomb:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_knife_multistrike:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_cestus_roar:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_cestus_pummel:*>, 99999);
 
 print("Script ending!");

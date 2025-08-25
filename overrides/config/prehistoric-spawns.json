@@ -473,7 +473,7 @@
           "biomesoplenty:coral_reef",
           "biomesoplenty:kelp_forest"
         ],
-        "spawnWeight": 2,
+        "spawnWeight": 3,
         "packMin": 1,
         "packMax": 2
       }
@@ -561,7 +561,7 @@
           "biomesoplenty:coral_reef",
           "biomesoplenty:kelp_forest"
         ],
-        "spawnWeight": 2,
+        "spawnWeight": 3,
         "packMin": 1,
         "packMax": 2
       }
@@ -611,7 +611,7 @@
           "biomesoplenty:coral_reef",
           "biomesoplenty:kelp_forest"
         ],
-        "spawnWeight": 1,
+        "spawnWeight": 3,
         "packMin": 1,
         "packMax": 2
       }

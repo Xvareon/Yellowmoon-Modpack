@@ -1,65 +1,8 @@
-Version 5.3
+Version 5.4
 
-- Added Enchanted Golden Apple recipe using magic powder
-- Transformation powder can now transform Horses, Zombie Horses, Skeleton Horses, and Dread Horses
-- Nerfed Nausea and Blindness duration in some weapons
-- Adjusted infernal mob drops (accidentally nerfed rare loot drops)
-- Tweaked Dungeon Glass smelting recipe to use soul sand instead of black stained glass
-- Tweaked Framed Glass recipe
-- Added smelting recipes for various iron, gold, and diamond items
-- Added recipe for Heart of Gold
-- Added smelting recipe for ancient glass and auroralized glass
-- Added wool to string recipe
-- Added leather armor to leather recipe
-- Zombies and Skeleton horses do not burn in daylight now (That includes Dread Horses)
-
-Version 5.2
-
-- Nerfed void eye and trollager spawnrate
-- Disabled Totem of Undying from being used in the inventory (charm), causing a death bug
-
-Version 5.1
-
-- Adjusted the spawnrates of primitive mobs
-- Adjusted the spawnrates of better animals plus mobs and buffed their hp
-- Raised spawnrates of Fish's Undead Rising mobs again
-- Raised spawnrates of Beast Slayer mobs again
-- Raised spawnrates of evil wizards, evil class wizards, skeleton mages, and void creepers
-- Slightly increased spell damage from ebwiz and addon spells
-- Raised wand progression
-- Tweaked whip recipe
-- Nerfed frog spawnrate
-- Dread Queen can now spawn in certain AW structures
-- CQR mobs in dungeons now have HP scaling based on the amount of players present
-- Buffed durability and toughness of some CQR armor and nerfed dragon helmet durability
-- Added Wrought Helmet as an alternative helmet to Grand Knight set and added Sol Visage as an alternative to Phoenix set
-- Slightly nerfed anthermite spawnrate
-- Upon world creation, the starting season is always early spring now
-- A lot of new transformations can now be done via transformation powder
-- Tweaked infernal mobs drops
-- Anubites and Dungeontactics tower guardians are now always infernal mobs
-- Increased a lot of projectile damage
-- Buffed some twilight forest final castle mobs
-- Anubites, Battle Tower Golems, and Orcs can now naturally spawn in the Dark Lair dimension
-- Buffed Golden Heart durability from 2000 -> 3000
-- Mob heart drops (healing) chance increased from 20% -> 30%
-- Set a maximum damage and health limit (this prevents some crazy dinosaurs from spawning OP as heck)
-- Adjusted top 2 floor loot of battletowers
-- Added various items that can be used in charm's composter
-- Suspicious soup now restores 10 HP
-- Enabled charm ExtractEnchantments and TallowIncreasesDurability
-- Increased spawn chance of Johnny in roofed forests
-- Elytras can now be separated from chestplates but now have their own durability when attached to it
-- Reviving a player now takes 5 seconds instead of 3
-- Slightly buffed magic feather range
-- Added a lot of mobs to Mowzies freeze effect blacklist
-- Increased naturally charged creepers spawn rate
-- Boats are no longer bouyant
-- Increased Dweller and Ashen spawnrate
-- Nerfed canteen doses
-- Increased chance that mobs can ride other mobs and added zombie/skeleton horse in the rideable list
-- Kermode Bear hide is now obtainable via intestines as well as foul bristles
-- Increased rates of Special AI mobs to spawn
-- Wizards and hostile wizards can now be warped
-- Tree harvesting durability cost per block increased from 1 -> 2
-- Added more zombie player variants
+- Final balance adjustments (recipe changes and mob spawnrates)
+- Wrought Helmet buffs
+- New End Dimension mob spawns
+- New Dungeons from CQR
+- New infernal mob drops
+- Hippogryphs and Hippocampus health buffs

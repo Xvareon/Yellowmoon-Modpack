@@ -1,6 +1,6 @@
 print("Script starting!");
 
-recipes.addShaped("enderPearlBottle",<soulbottle:enderpearl_bottle>*3,[
+recipes.addShaped("enderPearlBottle",<soulbottle:enderpearl_bottle>*1,[
     [<dungeontactics:dungeon_glass>,<minecraft:ender_pearl>,<dungeontactics:dungeon_glass>],
     [<dungeontactics:dungeon_glass>,<quark:soul_bead>,<dungeontactics:dungeon_glass>],
     [<dungeontactics:dungeon_glass>,<dungeontactics:dungeon_glass>,<dungeontactics:dungeon_glass>]
@@ -13,9 +13,9 @@ recipes.addShaped("backpack",<backpacked:backpack>,[
 ]);
 
 recipes.addShaped("waystone",<waystones:waystone>,[
-    [<minecraft:stonebrick>,<minecraft:nether_star>,<minecraft:stonebrick>],
     [<minecraft:stonebrick>,<waystones:warp_stone>,<minecraft:stonebrick>],
-    [<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]
+    [<minecraft:stonebrick>,<minecraft:end_crystal>,<minecraft:stonebrick>],
+    [<minecraft:stonebrick>,<minecraft:beacon>,<minecraft:stonebrick>]
 ]);
 
 recipes.addShaped("dreadWoodLog",<iceandfire:dreadwood_log>*8,[
@@ -162,11 +162,119 @@ recipes.addShaped("ghGlass",<sereneseasons:greenhouse_glass>*4,[
 ]);
 
 recipes.addShapeless("woolToString",<minecraft:string>*4,[<minecraft:wool:*>]);
-recipes.addShapeless("armorToLeather",<minecraft:leather>,[<minecraft:leather_helmet>|<minecraft:leather_chestplate>|<minecraft:leather_leggings>|<minecraft:leather_boots>|<aether_legacy:leather_gloves>]);
+recipes.addShapeless("armorToLeather",<minecraft:leather>,[<minecraft:leather_helmet>|<minecraft:leather_chestplate>|<minecraft:leather_leggings>|<minecraft:leather_boots>|<aether_legacy:leather_gloves>|<minecraft:saddle>]);
 
 recipes.addShapeless("heartOfGold",<dungeontactics:heart_golden>*3,[<minecraft:golden_apple>,<minecraft:glass_bottle>]);
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:mundane"}), <minecraft:quartz>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <waystones:return_scroll>, <bountifulbaubles:potionrecall>);
+
+recipes.addShapeless("cookedEggToFriedEgg",<betteranimalsplus:fried_egg>*1,[<fossil:cooked_egg>]);
+recipes.addShapeless("friedEggToCookedEgg",<fossil:cooked_egg>*1,[<betteranimalsplus:fried_egg>]);
+
+recipes.addShapeless("enderAmethystToMagicPowder",<dungeontactics:magic_powder>*9,[<biomesoplenty:gem:0>]);
+
+recipes.addShapeless("returnScroll",<waystones:return_scroll>*2,[<minecraft:paper>,<dungeontactics:magic_tether>]);
+recipes.addShapeless("boundScroll",<waystones:bound_scroll>*2,[<minecraft:paper>,<dungeontactics:magic_tether>,<iceandfire:amythest_gem>]);
+recipes.addShapeless("warpScroll",<waystones:warp_scroll>*2,[<minecraft:paper>,<dungeontactics:magic_tether>,<iceandfire:amythest_gem>,<dungeontactics:magic_powder>]);
+
+recipes.addShaped("noviceWand",<ebwizardry:magic_wand>,[
+    [null,null,<ebwizardry:magic_crystal:0>],
+    [null,<minecraft:stick>,null],
+    [<biomesoplenty:gem:6>|<iceandfire:sapphire_gem>,null,null]
+]);
+
+recipes.addShaped("noviceWandFire",<ebwizardry:novice_fire_wand>,[
+    [null,null,<ebwizardry:magic_crystal:1>],
+    [null,<minecraft:stick>,null],
+    [<biomesoplenty:gem:1>,null,null]
+]);
+
+recipes.addShaped("noviceWandIce",<ebwizardry:novice_ice_wand>,[
+    [null,null,<ebwizardry:magic_crystal:2>],
+    [null,<minecraft:stick>,null],
+    [<biomesoplenty:gem:4>,null,null]
+]);
+
+recipes.addShaped("noviceWandLightning",<ebwizardry:novice_lightning_wand>,[
+    [null,null,<ebwizardry:magic_crystal:3>],
+    [null,<minecraft:stick>,null],
+    [<biomesoplenty:gem:3>,null,null]
+]);
+
+recipes.addShaped("noviceWandNecromancy",<ebwizardry:novice_necromancy_wand>,[
+    [null,null,<ebwizardry:magic_crystal:4>],
+    [null,<minecraft:stick>,null],
+    [<biomesoplenty:crystal_shard>,null,null]
+]);
+
+recipes.addShaped("noviceWandEarth",<ebwizardry:novice_earth_wand>,[
+    [null,null,<ebwizardry:magic_crystal:5>],
+    [null,<minecraft:stick>,null],
+    [<biomesoplenty:gem:2>,null,null]
+]);
+
+recipes.addShaped("noviceWandSorcery",<ebwizardry:novice_sorcery_wand>,[
+    [null,null,<ebwizardry:magic_crystal:6>],
+    [null,<minecraft:stick>,null],
+    [<biomesoplenty:gem:5>,null,null]
+]);
+
+recipes.addShaped("noviceWandHealing",<ebwizardry:novice_healing_wand>,[
+    [null,null,<ebwizardry:magic_crystal:7>],
+    [null,<minecraft:stick>,null],
+    [<biomesoplenty:gem:7>,null,null]
+]);
+
+recipes.addShaped("heavyLeatherHelmet",<toroquest:toro_armor_helmet>,[
+    [<toroquest:toro_leather>,<toroquest:toro_leather>,<toroquest:toro_leather>],
+    [<toroquest:toro_leather>,null,<toroquest:toro_leather>],
+    [null,null,null]
+]);
+
+recipes.addShaped("heavyLeatherChest",<toroquest:toro_armor_chestplate>,[
+    [<toroquest:toro_leather>,null,<toroquest:toro_leather>],
+    [<toroquest:toro_leather>,<toroquest:toro_leather>,<toroquest:toro_leather>],
+    [<toroquest:toro_leather>,<toroquest:toro_leather>,<toroquest:toro_leather>]
+]);
+
+recipes.addShaped("heavyLeatherLegs",<toroquest:toro_armor_leggings>,[
+    [<toroquest:toro_leather>,<toroquest:toro_leather>,<toroquest:toro_leather>],
+    [<toroquest:toro_leather>,null,<toroquest:toro_leather>],
+    [<toroquest:toro_leather>,null,<toroquest:toro_leather>]
+]);
+
+recipes.addShaped("heavyLeatherBoots",<toroquest:toro_armor_boots>,[
+    [<toroquest:toro_leather>,null,<toroquest:toro_leather>],
+    [<toroquest:toro_leather>,null,<toroquest:toro_leather>],
+    [null,null,null]
+]);
+
+recipes.addShapeless("witherBone",<iceandfire:witherbone>*1,[<minecraft:bone>,<quark:black_ash>]);
+recipes.addShapeless("blackDyeBOP",<biomesoplenty:black_dye>*1,[<quark:black_ash>]);
+recipes.addShapeless("blackDyeQuark",<quark:root_dye:1>*1,[<quark:black_ash>]);
+
+recipes.addShaped("magicMirror",<bountifulbaubles:magicmirror>,[
+    [<bountifulbaubles:spectralsilt>,<bountifulbaubles:potionrecall>,<bountifulbaubles:spectralsilt>],
+    [<minecraft:end_crystal>,<minecraft:beacon>,<minecraft:end_crystal>],
+    [<bountifulbaubles:spectralsilt>,<bountifulbaubles:potionrecall>,<bountifulbaubles:spectralsilt>]
+]);
+
+recipes.addShaped("wormholeMirror",<bountifulbaubles:wormholemirror>,[
+    [<charm:endermite_powder>,<bountifulbaubles:potionwormhole>,<charm:endermite_powder>],
+    [<waystones:warp_stone>,<bountifulbaubles:magicmirror>,<waystones:warp_stone>],
+    [<charm:endermite_powder>,<bountifulbaubles:potionwormhole>,<charm:endermite_powder>]
+]);
+
+recipes.addShapeless("backPergamine",<dungeonsmod:back_pergamine>*1,[<minecraft:paper>,<minecraft:ender_pearl>,<minecraft:skull:*>]);
+recipes.addShapeless("lifeShard",<aether_legacy:life_shard>*1,[<minecraft:glowstone_dust>,<minecraft:redstone>,<minecraft:gunpowder>,<iceandfire:pixie_dust>,<bountifulbaubles:spectralsilt>,<quark:black_ash>,<biomesoplenty:shroompowder>,<dungeontactics:magic_powder>,<biomesoplenty:crystal_shard>]);
+
+recipes.addShaped("magicFeather",<magicfeather:magicfeather>,[
+    [<minecraft:feather>,<iceandfire:pixie_dust>,<cqrepoured:feather_golden>],
+    [<mod_lavacow:feather_black>,<iceandfire:pixie_wings>,<iceandfire:stymphalian_bird_feather>],
+    [<iceandfire:amphithere_feather>,<iceandfire:pixie_dust>,<twilightforest:raven_feather>]
+]);
+
+recipes.addShapeless("sussySoup",<charm:suspicious_soup>*1,[<dungeontactics:spidereye_soup>,<biomesoplenty:shroompowder>]);
 
 print("Script ending!");

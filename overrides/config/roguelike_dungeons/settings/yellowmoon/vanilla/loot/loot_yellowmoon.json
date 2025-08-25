@@ -728,12 +728,6 @@
         },
         {
           "data": {
-            "name": "bountifulbaubles:magicmirror"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
             "name": "bountifulbaubles:phantomprism"
           },
           "weight": 1
@@ -752,7 +746,7 @@
         },
         {
           "data": {
-            "name": "bountifulbaubles:trinketblackdragonscale"
+            "name": "bountifulbaubles:brokenblackdragonscale"
           },
           "weight": 1
         },
@@ -771,12 +765,6 @@
         {
           "data": {
             "name": "bountifulbaubles:trinketobsidianskull"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "bountifulbaubles:trinketshulkerheart"
           },
           "weight": 1
         },
@@ -3734,7 +3722,43 @@
           "data": {
             "name": "minecraft:totem_of_undying"
           },
-          "weight": 5
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "wizardryutils:dusty_amulet"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "wizardryutils:dusty_ring"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "wizardryutils:dusty_charm"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "wizardryutils:dusty_headgear"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "wizardryutils:dusty_belt"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "wizardryutils:dusty_casket"
+          },
+          "weight": 6
         },
         {
           "data": {
@@ -4404,6 +4428,12 @@
             "name": "ebwizardry:large_mana_flask"
           },
           "weight": 60
+        },
+        {
+          "data": {
+            "name": "wizardryutils:dusty_spell_book"
+          },
+          "weight": 90
         },
         {
           "data": {
