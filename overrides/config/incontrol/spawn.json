@@ -62,13 +62,14 @@
             "iceandfire:dragonfirecharge",
             "iceandfire:dragonicecharge",
             "iceandfire:dragonlightningcharge",
-            "iceandfire:tide_trident"
+            "iceandfire:tide_trident",
+            "fossil:fossil.javelin",
+            "fossil:fossil.ancient_javelin"
         ],
         "damagemultiply": 4,
         "onjoin": true
     },
     {  
-        "dimension": [-1, 0, 1, 4, 7, 312],
         "mob": [
             "fossil:fossil.nautilus",
             "fossil:fossil.coelacanth",
@@ -78,8 +79,6 @@
             "fossil:fossil.velociraptor",
             "fossil:fossil.tyrannosaurus",
             "fossil:fossil.pterosaur",
-            "fossil:fossil.plesiosaur",
-            "fossil:fossil.mosasaurus",
             "fossil:fossil.stegosaurus",
             "fossil:fossil.dilophosaurus",
             "fossil:fossil.brachiosaurus",
@@ -89,7 +88,6 @@
             "fossil:fossil.pachycephalosaurus",
             "fossil:fossil.deinonychus",
             "fossil:fossil.gallimimus",
-            "fossil:fossil.liopleurodon",
             "fossil:fossil.allosaurus",
             "fossil:fossil.sarcosuchus",
             "fossil:fossil.ceratosaurus",
@@ -115,25 +113,18 @@
             "fossil:fossil.elasmotherium",
             "fossil:fossil.megaloceros",
             "fossil:fossil.megalania",
-            "fossil:fossil.megalodon",
             "fossil:fossil.platybelodon",
             "fossil:fossil.tiktaalik",
             "fossil:fossil.crassigyrinus",
             "fossil:fossil.diplocaulus",
             "fossil:fossil.edaphosaurus",
             "fossil:fossil.arthropleura",
-            "fossil:fossil.javelin",
-            "fossil:fossil.ancient_javelin",
             "fossil:fossil.failuresaurus",
-            "fossil:fossil.friendlypigzombie",
             "fossil:fossil.tarslime",
-            "fossil:fossil.sentrypigman",
             "iceandfire:if_hydra",
             "twilightforest:skeleton_druid",
-            "battletowers:golem",
             "dungeontactics:towerguardian",
             "minecraft:ghast",
-            "fossil:fossil.anubite",
             "twilightforest:yeti",
             "twilightforest:winter_wolf",
             "twilightforest:mini_ghast",
@@ -186,6 +177,18 @@
             "iceandfire:hippocampus"
         ],
         "healthmultiply": 2,
+        "onjoin": true
+    },
+    {
+        "dimension": [-1, 0, 1, 4, 7, 312],
+        "mob": [
+            "battletowers:golem",
+            "fossil:fossil.sentrypigman",
+            "fossil:fossil.friendlypigzombie",
+            "fossil:fossil.anubite"
+        ],
+        "damagemultiply": 4,
+        "healthmultiply": 4,
         "onjoin": true
     },
     {
@@ -286,6 +289,39 @@
             "hostile": true,
             "perplayer": true
         },
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "fossil:fossil.megalodon",
+            "fossil:fossil.plesiosaur",
+            "fossil:fossil.mosasaurus",
+            "fossil:fossil.liopleurodon"
+        ],
+        "damagemultiply": 4,
+        "healthmultiply": 4,
+        "minheight": 50,
+        "maxheight": 65,
+        "seesky": true,
+        "block": "minecraft:log",
+        "biometype": "WATER",
+        "maxcount": {
+            "amount": 100,
+            "hostile": true,
+            "perplayer": true
+        },
+        "random": 0.1,
+        "potion": "biomesoplenty:curse,200,5",
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": [
+            "fossil:fossil.megalodon",
+            "fossil:fossil.plesiosaur",
+            "fossil:fossil.mosasaurus",
+            "fossil:fossil.liopleurodon"
+        ],
         "result": "deny"
     }
 ]

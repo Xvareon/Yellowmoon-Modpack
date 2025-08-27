@@ -68,5 +68,34 @@
                 "groupcountmax": 1
             }
         ]
+    },
+    {
+        "dimension": 0,
+        "mobs": [
+            {
+                "mob": "fossil:fossil.megalodon",
+                "weight": 6,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "fossil:fossil.plesiosaur",
+                "weight": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "fossil:fossil.mosasaurus",
+                "weight": 6,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "fossil:fossil.liopleurodon",
+                "weight": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
     }
 ]

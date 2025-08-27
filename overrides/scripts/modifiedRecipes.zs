@@ -277,4 +277,6 @@ recipes.addShaped("magicFeather",<magicfeather:magicfeather>,[
 
 recipes.addShapeless("sussySoup",<charm:suspicious_soup>*1,[<dungeontactics:spidereye_soup>,<biomesoplenty:shroompowder>]);
 
+recipes.addShapeless("quartzBlockToQuartz",<minecraft:quartz>*4,[<minecraft:quartz_block>]);
+
 print("Script ending!");
