@@ -1,8 +1,10 @@
-Version 5.4
+Version 5.5
 
-- Final balance adjustments (recipe changes and mob spawnrates)
-- Wrought Helmet buffs
-- New End Dimension mob spawns
-- New Dungeons from CQR
-- New infernal mob drops
-- Hippogryphs and Hippocampus health buffs
+- Added quartz block to quartz recipe
+- Added Erebus
+- Removed BiggerPacketPlz as it was causing performance issues
+- Disabled spell casting animations for ebwiz since it causes memory leaks for client side (FPS decrease)
+- Added setbonus to Rhino Beetle armor set
+- Removed vitamins and sun glasses to roguelike dungeons loot
+- Hostile dinosaurs are much more dangerous now (bears and sharks as well)
+- Some aquatic dinosaurs can now spawn naturally in the ocean

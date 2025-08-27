@@ -134,6 +134,15 @@ biomesoplenty:phantasmagoric_inferno
 biomesoplenty:undergarden
 biomesoplenty:visceral_heap
 ancientspellcraft:pocket
+erebus:underground_jungle
+erebus:volcanic_desert
+erebus:subterranean_savannah
+erebus:elysian_fields
+erebus:ulterior_outback
+erebus:fungal_forest
+erebus:submerged_swamp
+erebus:fields_sub_forest
+erebus:petrified_forest
 fossil:lair of darkness
 fossil:treasure
 fossil:volcano
