@@ -18,7 +18,7 @@
           "biomesoplenty:shrubland",
           "biomesoplenty:woodland"
         ],
-        "spawnWeight": 2,
+        "spawnWeight": 1,
         "packMin": 1,
         "packMax": 3
       },
@@ -51,7 +51,7 @@
           "biomesoplenty:origin_island",
           "biomesoplenty:tropical_island"
         ],
-        "spawnWeight": 2,
+        "spawnWeight": 1,
         "packMin": 2,
         "packMax": 4
       },
@@ -99,8 +99,6 @@
       {
         "biomes": [
           "minecraft:jungle_edge",
-          "minecraft:plains",
-          "minecraft:mutated_plains",
           "biomesoplenty:grove",
           "biomesoplenty:lavender_fields",
           "biomesoplenty:orchard",
@@ -110,9 +108,9 @@
           "biomesoplenty:origin_island",
           "biomesoplenty:tropical_island"
         ],
-        "spawnWeight": 1,
-        "packMin": 2,
-        "packMax": 3
+        "spawnWeight": 2,
+        "packMin": 1,
+        "packMax": 2
       },
       {
         "biomes": [
@@ -664,7 +662,7 @@
           "biomesoplenty:temperate_rainforest",
           "biomesoplenty:woodland"
         ],
-        "spawnWeight": 2,
+        "spawnWeight": 1,
         "packMin": 2,
         "packMax": 4
       }
@@ -690,7 +688,7 @@
           "biomesoplenty:steppe",
           "biomesoplenty:woodland"
         ],
-        "spawnWeight": 2,
+        "spawnWeight": 1,
         "packMin": 2,
         "packMax": 4
       }
@@ -798,7 +796,7 @@
           "biomesoplenty:sacred_springs",
           "biomesoplenty:wetland"
         ],
-        "spawnWeight": 2,
+        "spawnWeight": 3,
         "packMin": 1,
         "packMax": 2
       }
@@ -824,7 +822,7 @@
           "biomesoplenty:snowy_coniferous_forest",
           "biomesoplenty:tundra"
         ],
-        "spawnWeight": 2,
+        "spawnWeight": 1,
         "packMin": 1,
         "packMax": 2
       }
@@ -851,8 +849,6 @@
       {
         "biomes": [
           "minecraft:jungle_edge",
-          "minecraft:plains",
-          "minecraft:mutated_plains",
           "minecraft:savanna",
           "minecraft:mutated_savanna",
           "biomesoplenty:grove",
@@ -865,8 +861,8 @@
           "biomesoplenty:tropical_island"
         ],
         "spawnWeight": 2,
-        "packMin": 2,
-        "packMax": 4
+        "packMin": 1,
+        "packMax": 2
       },
       {
         "biomes": [
@@ -922,8 +918,6 @@
       {
         "biomes": [
           "minecraft:jungle_edge",
-          "minecraft:plains",
-          "minecraft:mutated_plains",
           "biomesoplenty:grove",
           "biomesoplenty:lavender_fields",
           "biomesoplenty:orchard",
@@ -934,8 +928,8 @@
           "biomesoplenty:tropical_island"
         ],
         "spawnWeight": 2,
-        "packMin": 2,
-        "packMax": 4
+        "packMin": 1,
+        "packMax": 2
       },
       {
         "biomes": [
@@ -970,9 +964,9 @@
           "biomesoplenty:steppe",
           "biomesoplenty:woodland"
         ],
-        "spawnWeight": 2,
+        "spawnWeight": 3,
         "packMin": 1,
-        "packMax": 3
+        "packMax": 2
       }
     ],
     "velociraptor": [

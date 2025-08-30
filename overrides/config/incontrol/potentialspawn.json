@@ -74,13 +74,13 @@
         "mobs": [
             {
                 "mob": "fossil:fossil.megalodon",
-                "weight": 6,
+                "weight": 10,
                 "groupcountmin": 1,
                 "groupcountmax": 1
             },
             {
                 "mob": "fossil:fossil.plesiosaur",
-                "weight": 3,
+                "weight": 1,
                 "groupcountmin": 1,
                 "groupcountmax": 1
             },

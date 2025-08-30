@@ -1,10 +1,11 @@
 import mods.jei.JEI;
 
-print("Script starting!");
+print("Script furnaceRecipes starting!");
 
 furnace.remove(<minecraft:gold_nugget>);
 furnace.remove(<minecraft:iron_nugget>);
 furnace.remove(<dungeontactics:dungeon_glass>);
+furnace.remove(<dungeontactics:silver_nugget>);
 
 furnace.addRecipe(<dungeontactics:dungeon_glass>*1,<minecraft:soul_sand>, 99999);
 furnace.addRecipe(<fossil:ancient_glass>*1,<quark:biome_cobblestone:0>, 99999);
@@ -257,7 +258,6 @@ furnace.addRecipe(<minecraft:gold_ingot>*9,<mowziesmobs:barako_mask>, 99999);
 furnace.addRecipe(<minecraft:iron_ingot>*9,<mowziesmobs:wrought_axe>, 99999);
 furnace.addRecipe(<minecraft:iron_ingot>*9,<mowziesmobs:wrought_helmet>, 99999);
 furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:engineers_wrench_iron:*>, 99999);
-furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:engineers_wrench_steel:*>, 99999);
 
 furnace.addRecipe(<minecraft:iron_ingot>*1,<fossil:iron_javelin:*>, 99999);
 furnace.addRecipe(<minecraft:gold_ingot>*1,<fossil:gold_javelin:*>, 99999);
@@ -290,4 +290,453 @@ furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_knife_multistrike
 furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_cestus_roar:*>, 99999);
 furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:master_cestus_pummel:*>, 99999);
 
-print("Script ending!");
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:engineers_wrench_steel:*>, 99999);
+
+furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:iron_plate_faceplate:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:iron_plate_chestpiece:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:iron_plate_greaves:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<dungeontactics:iron_plate_boots:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_plate_faceplate:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_plate_chestpiece:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_plate_greaves:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_plate_boots:*>, 99999);
+
+furnace.addRecipe(<minecraft:gold_ingot>*1,<dungeontactics:golden_plate_faceplate:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<dungeontactics:golden_plate_chestpiece:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<dungeontactics:golden_plate_greaves:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<dungeontactics:golden_plate_boots:*>, 99999);
+
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_plate_faceplate:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_plate_chestpiece:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_plate_greaves:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_plate_boots:*>, 99999);
+
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:diamond_plate_faceplate:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:diamond_plate_chestpiece:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:diamond_plate_greaves:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<dungeontactics:diamond_plate_boots:*>, 99999);
+
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_plate_faceplate:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_plate_chestpiece:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_plate_greaves:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_plate_boots:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_helmet:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_chestplate:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_leggings:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_boots:*>, 99999);
+
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_helmet:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_chestplate:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_leggings:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_boots:*>, 99999);
+
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_helmet:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_chestplate:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_leggings:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_boots:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_hammer:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_hammer:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_hammer:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_battleaxe:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_battleaxe:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_battleaxe:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_glaive:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_glaive:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_glaive:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_club:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_club:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_club:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_sword:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_sword:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_sword:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_cutlass:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_cutlass:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_cutlass:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_knife:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_knife:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_knife:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_cestus:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_cestus:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_cestus:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_shield:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_shield:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_shield:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_sword:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_pickaxe:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_shovel:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_axe:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<dungeontactics:silver_hoe:*>, 99999);
+
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_sword:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_pickaxe:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_shovel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_axe:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:steel_hoe:*>, 99999);
+
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_sword:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_pickaxe:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_shovel:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_axe:*>, 99999);
+furnace.addRecipe(<dungeontactics:mithril_ingot>*1,<dungeontactics:mithril_hoe:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<iceandfire:armor_silver_metal_helmet:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<iceandfire:armor_silver_metal_chestplate:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<iceandfire:armor_silver_metal_leggings:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<iceandfire:armor_silver_metal_boots:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<iceandfire:silver_sword:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<iceandfire:silver_shovel:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<iceandfire:silver_pickaxe:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<iceandfire:silver_axe:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<iceandfire:silver_hoe:*>, 99999);
+
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:dagger_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:longsword_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:katana_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:scythe_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:saber_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:rapier_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:greatsword_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:hammer_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:warhammer_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:spear_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:halberd_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:pike_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:lance_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:longbow_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:crossbow_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:throwing_knife_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:throwing_axe_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:javelin_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:boomerang_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:battleaxe_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:mace_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:glaive_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:staff_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<spartanweaponry:parrying_dagger_silver:*>, 99999);
+
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:dagger_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:longsword_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:katana_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:scythe_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:saber_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:rapier_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:greatsword_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:hammer_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:warhammer_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:spear_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:halberd_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:pike_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:lance_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:longbow_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:crossbow_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:throwing_knife_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:throwing_axe_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:javelin_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:boomerang_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:battleaxe_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:mace_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:glaive_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:staff_steel:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<spartanweaponry:parrying_dagger_steel:*>, 99999);
+
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:katana_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:greatsword_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:longsword_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:saber_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:rapier_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:dagger_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:spear_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:pike_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:lance_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:halberd_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:warhammer_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:hammer_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:throwing_axe_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:throwing_knife_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:longbow_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:crossbow_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:javelin_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:battleaxe_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:boomerang_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:mace_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:staff_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:glaive_ironwood:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<spartantwilight:parrying_dagger_ironwood:*>, 99999);
+
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:katana_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:greatsword_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:longsword_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:saber_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:rapier_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:dagger_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:spear_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:pike_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:lance_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:halberd_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:warhammer_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:hammer_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:throwing_axe_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:throwing_knife_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:longbow_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:crossbow_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:javelin_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:battleaxe_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:boomerang_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:mace_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:staff_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:glaive_fiery:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<spartantwilight:parrying_dagger_fiery:*>, 99999);
+
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:katana_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:greatsword_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:longsword_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:saber_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:rapier_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:dagger_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:spear_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:pike_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:lance_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:halberd_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:warhammer_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:hammer_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:throwing_axe_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:throwing_knife_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:longbow_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:crossbow_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:javelin_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:battleaxe_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:boomerang_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:mace_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:staff_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:glaive_knightly:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<spartantwilight:parrying_dagger_knightly:*>, 99999);
+
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:katana_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:greatsword_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:longsword_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:saber_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:rapier_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:dagger_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:spear_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:pike_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:lance_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:halberd_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:warhammer_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:hammer_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:throwing_axe_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:throwing_knife_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:longbow_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:crossbow_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:javelin_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:battleaxe_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:boomerang_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:mace_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:staff_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:glaive_steeleaf:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<spartantwilight:parrying_dagger_steeleaf:*>, 99999);
+
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<twilightforest:ironwood_helmet:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<twilightforest:ironwood_chestplate:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<twilightforest:ironwood_leggings:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<twilightforest:ironwood_boots:*>, 99999);
+
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<twilightforest:ironwood_sword:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<twilightforest:ironwood_shovel:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<twilightforest:ironwood_pickaxe:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<twilightforest:ironwood_axe:*>, 99999);
+furnace.addRecipe(<twilightforest:ironwood_ingot>*1,<twilightforest:ironwood_hoe:*>, 99999);
+
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<twilightforest:fiery_helmet:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<twilightforest:fiery_chestplate:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<twilightforest:fiery_leggings:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<twilightforest:fiery_boots:*>, 99999);
+
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<twilightforest:fiery_sword:*>, 99999);
+furnace.addRecipe(<twilightforest:fiery_ingot>*1,<twilightforest:fiery_pickaxe:*>, 99999);
+
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<twilightforest:knightmetal_helmet:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<twilightforest:knightmetal_chestplate:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<twilightforest:knightmetal_leggings:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<twilightforest:knightmetal_boots:*>, 99999);
+
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<twilightforest:knightmetal_sword:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<twilightforest:knightmetal_pickaxe:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<twilightforest:knightmetal_axe:*>, 99999);
+furnace.addRecipe(<twilightforest:knightmetal_ingot>*1,<twilightforest:knightmetal_shield:*>, 99999);
+
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<twilightforest:steeleaf_helmet:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<twilightforest:steeleaf_chestplate:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<twilightforest:steeleaf_leggings:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<twilightforest:steeleaf_boots:*>, 99999);
+
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<twilightforest:steeleaf_sword:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<twilightforest:steeleaf_shovel:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<twilightforest:steeleaf_pickaxe:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<twilightforest:steeleaf_axe:*>, 99999);
+furnace.addRecipe(<twilightforest:steeleaf_ingot>*1,<twilightforest:steeleaf_hoe:*>, 99999);
+
+furnace.addRecipe(<iceandfire:dread_shard>*1,<iceandfire:dread_sword:*>, 99999);
+furnace.addRecipe(<iceandfire:dread_shard>*1,<iceandfire:dread_knight_sword:*>, 99999);
+furnace.addRecipe(<iceandfire:dread_shard>*1,<iceandfire:lich_staff:*>, 99999);
+
+furnace.addRecipe(<ancientspellcraft:devoritium_nugget>*2,<ancientspellcraft:devoritium_bars>, 99999);
+furnace.addRecipe(<ancientspellcraft:devoritium_ingot>*1,<ancientspellcraft:devoritium_sword:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:devoritium_ingot>*1,<ancientspellcraft:devoritium_axe:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:devoritium_ingot>*1,<ancientspellcraft:devoritium_door:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:devoritium_ingot>*1,<ancientspellcraft:devoritium_chestplate:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:devoritium_ingot>*1,<ancientspellcraft:devoritium_scimitar:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:devoritium_ingot>*1,<ancientspellcraft:devoritium_shield:*>, 99999);
+
+furnace.addRecipe(<biomesoplenty:gem:0>*4,<minecraft:dragon_breath>, 99999);
+
+furnace.addRecipe(<minecraft:gold_ingot>*1,<minecraft:golden_rail>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<minecraft:rail>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<minecraft:activator_rail>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<minecraft:detector_rail>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:0>*3,<ebwizardry:wizard_hat:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:0>*3,<ebwizardry:wizard_robe:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:0>*3,<ebwizardry:wizard_leggings:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:0>*3,<ebwizardry:wizard_boots:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:1>*3,<ebwizardry:wizard_hat_fire:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:1>*3,<ebwizardry:wizard_robe_fire:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:1>*3,<ebwizardry:wizard_leggings_fire:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:1>*3,<ebwizardry:wizard_boots_fire:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:2>*3,<ebwizardry:wizard_hat_ice:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:2>*3,<ebwizardry:wizard_robe_ice:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:2>*3,<ebwizardry:wizard_leggings_ice:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:2>*3,<ebwizardry:wizard_boots_ice:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:3>*3,<ebwizardry:wizard_hat_lightning:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:3>*3,<ebwizardry:wizard_robe_lightning:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:3>*3,<ebwizardry:wizard_leggings_lightning:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:3>*3,<ebwizardry:wizard_boots_lightning:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:4>*3,<ebwizardry:wizard_hat_necromancy:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:4>*3,<ebwizardry:wizard_robe_necromancy:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:4>*3,<ebwizardry:wizard_leggings_necromancy:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:4>*3,<ebwizardry:wizard_boots_necromancy:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:5>*3,<ebwizardry:wizard_hat_earth:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:5>*3,<ebwizardry:wizard_robe_earth:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:5>*3,<ebwizardry:wizard_leggings_earth:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:5>*3,<ebwizardry:wizard_boots_earth:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:6>*3,<ebwizardry:wizard_hat_sorcery:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:6>*3,<ebwizardry:wizard_robe_sorcery:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:6>*3,<ebwizardry:wizard_leggings_sorcery:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:6>*3,<ebwizardry:wizard_boots_sorcery:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:7>*3,<ebwizardry:wizard_hat_healing:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:7>*3,<ebwizardry:wizard_robe_healing:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:7>*3,<ebwizardry:wizard_leggings_healing:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:7>*3,<ebwizardry:wizard_boots_healing:*>, 99999);
+
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_hat:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_robe:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_leggings:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_boots:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_hat_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_robe_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_leggings_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_boots_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_hat_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_robe_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_leggings_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_boots_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_hat_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_robe_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_leggings_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_boots_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_hat_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_robe_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_leggings_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_boots_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_hat_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_robe_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_leggings_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_boots_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_hat_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_robe_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_leggings_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_boots_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_hat_healing:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_robe_healing:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_leggings_healing:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:enchanted_filament>*3,<ebwizardry:sage_boots_healing:*>, 99999);
+
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_helmet:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_chestplate:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_leggings:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_boots:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_helmet_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_chestplate_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_leggings_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_boots_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_helmet_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_chestplate_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_leggings_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_boots_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_helmet_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_chestplate_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_leggings_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_boots_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_helmet_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_chestplate_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_leggings_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_boots_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_helmet_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_chestplate_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_leggings_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_boots_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_helmet_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_chestplate_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_leggings_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_boots_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_helmet_healing:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_chestplate_healing:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_leggings_healing:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:crystal_silver_nugget>*3,<ebwizardry:battlemage_boots_healing:*>, 99999);
+
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_hood:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_robe:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_leggings:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_boots:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_hood_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_robe_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_leggings_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_boots_fire:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_hood_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_robe_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_leggings_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_boots_ice:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_hood_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_robe_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_leggings_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_boots_lightning:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_hood_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_robe_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_leggings_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_boots_necromancy:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_hood_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_robe_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_leggings_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_boots_earth:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_hood_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_robe_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_leggings_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_boots_sorcery:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_hood_healing:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_robe_healing:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_leggings_healing:*>, 99999);
+furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_boots_healing:*>, 99999);
+
+print("Script furnaceRecipes ending!");

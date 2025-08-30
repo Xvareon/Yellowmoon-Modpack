@@ -1,3 +1,36 @@
+Version 5.6
+
+- Added Breedable Killer Rabbit mod
+- Increased Druid mages spawnrate in Twilight Forest
+- Added a ton of smelting recipes for plate armors and modded items
+- Added various recipes from previously uncraftable items
+- Tweaked Spider Eye soup, plaster, and bandage recipe
+- Ice and Fire structures can now spawn in Twilight Forest
+- Ebwiz wizard towers and libraries can now also spawn in the Aether
+- Crystal flowers can now generate in The Aether as well
+- Tweaked Dragon Meal recipes
+- Tweaked Wand of Shadows recipe (it was too harsh, now its easier to get)
+- Tweaked Warpstone recipe again
+- Lightning knives are now craftable
+- Tweaked Disenchanting table recipe
+- Hid uncraftable disenchanting table variants in JEI
+- Some animals are now more violent
+- Removed Night Vision Goggles and Snorkle from roguelike dungeons, added recipes for them instead
+- Added recipe for dreadwood keyhole block
+- Reduced Fugitive spawnrate
+- Added various recipes to CQRepoured blocks (More building options!)
+- Buffed Fish's Undead Rising spawnrate
+- IAF Dragons and Blackfrost now have resilience, resistance, regeneration, and arcane aegis for some time after they spawn
+- Removed unused deprecated entity culling config
+- Fixed Blackfrost rendering being culled
+- Added some items to intestine drops
+- Disabled Chameleon spawns on non-jungle biomes
+- Added more spectral silt recipes via disintegration tablet
+- Slightly tweaked the texturepack included
+- Adjusted Dinosaur spawnrates
+- Nerfed Deathworm spawnrate but buffed their HP and damage
+- Enabled Medium Taverns from CQR and buffed Tavern spawnrates in general
+
 Version 5.5
 
 - Added quartz block to quartz recipe
