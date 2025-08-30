@@ -1,6 +1,6 @@
 import mods.jei.JEI;
 
-print("Script starting!");
+print("Script removedRecipes starting!");
 
 recipes.remove(<waystones:waystone>);
 recipes.remove(<soulbottle:enderpearl_bottle>);
@@ -32,5 +32,13 @@ recipes.remove(<ebwizardry:novice_healing_wand>);
 recipes.remove(<bountifulbaubles:magicmirror>);
 recipes.remove(<bountifulbaubles:wormholemirror>);
 recipes.remove(<magicfeather:magicfeather>);
+recipes.remove(<dungeontactics:spidereye_soup>);
+recipes.remove(<firstaid:plaster>);
+recipes.remove(<firstaid:bandage>);
+recipes.remove(<iceandfire:dragon_meal>);
+recipes.remove(<iceandfire:sickly_dragon_meal>);
+recipes.remove(<disenchanter:disenchantmenttable>);
+recipes.remove(<dungeontactics:silver_ingot>);
+recipes.remove(<ebwizardry:large_mana_flask>);
 
-print("Script ending!");
+print("Script removedRecipes ending!");

@@ -174,7 +174,8 @@
             "betteranimalsplus:walrus",
             "betteranimalsplus:lammergeier",
             "iceandfire:hippogryph",
-            "iceandfire:hippocampus"
+            "iceandfire:hippocampus",
+            "iceandfire:amphithere"
         ],
         "healthmultiply": 2,
         "onjoin": true
@@ -300,18 +301,32 @@
         ],
         "damagemultiply": 4,
         "healthmultiply": 4,
-        "minheight": 50,
+        "minheight": 30,
         "maxheight": 65,
         "seesky": true,
-        "block": "minecraft:log",
-        "biometype": "WATER",
+        "block": [
+            "minecraft:log",
+            "minecraft:planks",
+            "minecraft:cobblestone",
+            "minecraft:mossy_cobblestone",
+            "minecraft:stone",
+            "minecraft:sand",
+            "minecraft:gravel",
+            "minecraft:clay",
+            "quark:limestone"
+        ],
+        "biometype": "OCEAN",
         "maxcount": {
-            "amount": 100,
+            "amount": 200,
             "hostile": true,
             "perplayer": true
         },
         "random": 0.1,
-        "potion": "biomesoplenty:curse,200,5",
+        "potion": [
+            "biomesoplenty:curse,500,5",
+            "minecraft:water_breathing,500,5",
+            "minecraft:regeneration,500,2"
+        ],
         "onjoin": true,
         "result": "allow"
     },
@@ -323,5 +338,20 @@
             "fossil:fossil.liopleurodon"
         ],
         "result": "deny"
+    },
+    {
+        "mob": [
+            "iceandfire:firedragon",
+            "iceandfire:icedragon",
+            "iceandfire:lightningdragon",
+            "iceandfire:blackfrost"
+        ],
+        "potion": [
+            "quark:resilience,20000000,10",
+            "minecraft:regeneration,20000000,1",
+            "ancientspellcraft:arcane_aegis,20000000,1",
+            "minecraft:resistance,20000000,2"
+        ],
+        "onjoin": true
     }
 ]

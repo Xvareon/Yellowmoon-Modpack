@@ -716,18 +716,6 @@
         },
         {
           "data": {
-            "name": "artifacts:snorkel"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "artifacts:night_vision_goggles"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
             "name": "bountifulbaubles:phantomprism"
           },
           "weight": 1

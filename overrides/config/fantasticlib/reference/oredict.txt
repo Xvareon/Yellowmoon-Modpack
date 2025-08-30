@@ -171,9 +171,9 @@ blockWoolRed
 blockWoolBlack
 buttonWood
 gemEnderBiotite
-materialStoneTool
 mushroomAny
 tallow
+materialStoneTool
 stoneBasalt
 stoneMarble
 stoneLimestone
@@ -1500,7 +1500,6 @@ foodMarshmellowchicks
 foodBbqchickenbiscuit
 foodChickenbiscuit
 foodPizzaslice
-shardGlass
 stoneBasaltPolished
 stoneMarblePolished
 stoneLimestonePolished
@@ -1510,7 +1509,6 @@ stoneBrimstonePolished
 stonePermafrostPolished
 blockPrismarineElderBrick
 blockPrismarineElderDark
-stonePolished
 trapdoorWood
 bookshelf
 bookshelfOak
@@ -1522,6 +1520,8 @@ bookshelfDarkOak
 blockCandle
 pressurePlateWood
 blockCharcoal
+shardGlass
+stonePolished
 oreJade
 orePetrifiedWood
 oreFossil
