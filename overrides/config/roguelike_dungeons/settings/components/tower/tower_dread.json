@@ -10,7 +10,7 @@
       "secondary": {
         "pillar": {"name": "iceandfire:dread_stone_face"},
         "walls": {"name": "iceandfire:dread_stone_bricks"},
-	"stair": {"name": "iceandfire:dread_stone_stairs"}
+	      "stair": {"name": "iceandfire:dread_stone_stairs"}
       }
     }
   }

@@ -1,0 +1,66 @@
+[
+  {
+    "tier": 1,
+    "color": 61440,
+    "affixes": 1,
+    "growthFactor": 1,
+    "chance": 0.05,
+    "potions": ["minecraft:speed;0","minecraft:strength;1","ancientspellcraft:fortified_archery;1"]
+  },
+  {
+    "tier": 2,
+    "color": 16776960,
+    "affixes": 2,
+    "growthFactor": 4,
+    "chance": 0.5,
+    "potions": ["minecraft:speed;1","minecraft:strength;1","minecraft:jump_boost;1","ancientspellcraft:fortified_archery;2"]
+  },
+  {
+    "tier": 3,
+    "color": 6750207,
+    "affixes": 3,
+    "growthFactor": 8,
+    "chance": 0.5,
+    "potions": ["minecraft:speed;2","minecraft:strength;2","minecraft:jump_boost;2","minecraft:resistance;1","ancientspellcraft:fortified_archery;3"]
+  },
+  {
+    "tier": 4,
+    "color": 13382655,
+    "affixes": 4,
+    "growthFactor": 12,
+    "chance": 0.5,
+    "potions": ["minecraft:speed;3","minecraft:strength;3","minecraft:jump_boost;3","minecraft:resistance;1","ancientspellcraft:fortified_archery;3","ancientspellcraft:arcane_aegis;1"]
+  },
+  {
+    "tier": 5,
+    "color": 16747520,
+    "affixes": 5,
+    "growthFactor": 16,
+    "chance": 0.5,
+    "potions": ["minecraft:speed;4","minecraft:strength;4","minecraft:jump_boost;4","minecraft:resistance;2","ancientspellcraft:fortified_archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1"]
+  },
+  {
+    "tier": 6,
+    "color": 16711680,
+    "affixes": 6,
+    "growthFactor": 20,
+    "chance": 0.5,
+    "potions": ["minecraft:speed;4","minecraft:strength;4","minecraft:jump_boost;4","minecraft:resistance;2","ancientspellcraft:fortified_archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1","ancientspellcraft:growth;1"]
+  },
+  {
+    "tier": 7,
+    "color": 0,
+    "affixes": 7,
+    "growthFactor": 24,
+    "chance": 0.5,
+    "potions": ["minecraft:speed;4","minecraft:strength;4","minecraft:jump_boost;4","minecraft:resistance;3","ancientspellcraft:fortified_archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1","ancientspellcraft:growth;1","ebwizardry:static_aura;1"]
+  },
+  {
+    "tier": 8,
+    "color": 16777215,
+    "affixes": 8,
+    "growthFactor": 28,
+    "chance": 0.5,
+    "potions": ["minecraft:speed;4","minecraft:strength;4","minecraft:jump_boost;4","minecraft:resistance;3","ancientspellcraft:fortified_archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1","ancientspellcraft:shrinkage;1","ebwizardry:static_aura;1","ebwizardry:ice_shroud;1"]
+  }
+]

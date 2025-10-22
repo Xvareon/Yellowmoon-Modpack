@@ -374,8 +374,8 @@
           "biomesoplenty:tundra"
         ],
         "spawnWeight": 1,
-        "packMin": 2,
-        "packMax": 4
+        "packMin": 1,
+        "packMax": 1
       }
     ],
     "gallimimus": [
@@ -663,8 +663,8 @@
           "biomesoplenty:woodland"
         ],
         "spawnWeight": 1,
-        "packMin": 2,
-        "packMax": 4
+        "packMin": 1,
+        "packMax": 1
       }
     ],
     "parasaurolophus": [

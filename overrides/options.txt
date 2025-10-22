@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.15492958
 fov:0.125
-gamma:1.0
+gamma:0.0
 saturation:0.0
 renderDistance:8
 guiScale:2
@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["AnimEmis_InF_SW_Blue.zip","Unity-1.12.2-Modded.zip"]
+resourcePacks:["AnimEmis_InF_SW_Blue.zip","Unity-1.12.2-Modded.zip","RLD_Textures.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -45,7 +45,7 @@ reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
 mainHand:right
-attackIndicator:1
+attackIndicator:0
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
@@ -65,7 +65,7 @@ key_key.drop:11
 key_key.inventory:18
 key_key.chat:28
 key_key.playerlist:15
-key_key.pickItem:-98
+key_key.pickItem:-96:SHIFT
 key_key.command:53
 key_key.screenshot:197
 key_key.togglePerspective:58
@@ -101,6 +101,14 @@ key_keybind.name.EMOTE_SLOT_5:0
 key_keybind.name.EMOTE_SLOT_6:0
 key_keybind.name.EMOTE_SLOT_7:0
 key_keybind.name.EMOTE_SLOT_8:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:15
+key_quark.keybind.playerSort:0
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -119,14 +127,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:15
-key_quark.keybind.playerSort:0
-key_quark.keybind.lockBuilding:0
 key_keybind.baublesinventory:23
 key_key.death_history:12
 key_cos.key.opencosarmorinventory:0
@@ -135,11 +135,6 @@ key_key.ebwizardry.previous_spell:-96
 key_key.ebwizardry.spell_1:0
 key_key.ebwizardry.spell_2:0
 key_key.ebwizardry.spell_3:0
-key_key.ebwizardry.spell_4:0
-key_key.ebwizardry.spell_5:0
-key_key.ebwizardry.spell_6:0
-key_key.ebwizardry.spell_7:0
-key_key.ebwizardry.spell_8:0
 key_key.erebus.glide:19:SHIFT
 key_key.erebus.poweredglide:57:SHIFT
 key_key.erebus.beetleram:19
@@ -185,12 +180,14 @@ key_key.jei.previousPage:0
 key_key.jei.nextPage:0
 key_key.jei.bookmark:82
 key_key.jei.toggleBookmarkOverlay:0
+key_key.astikorcarts.desc:36
 key_Seamoth descend:0
 key_key.sethorse.desc:25
 key_key.callhorse.desc:49
 key_key.showstats.desc:27
 key_key.next_image:208
 key_key.previous_image:200
+key_key.carry.desc:42
 key_Reputation GUI:62
 key_key.colytra.toggle.desc:37
 key_key.dungeontactics.rocketjump.desc:57
@@ -200,7 +197,7 @@ key_key.dungeontactics.trinket2.desc:211
 key_key.dungeontactics.trinket3.desc:201
 key_key.dungeontactics.trinket4.desc:209
 key_key.mod_lavacow.special:34
-key_key.mod_lavacow.down:44
+key_key.mod_lavacow.down:45
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -256,6 +253,11 @@ key_key.ancientspellcraft.charm_bauble_activate:0
 key_key.ancientspellcraft.key_warlock_cast:19
 key_key.ancientspellcraft.charm_ring_1_activate:0
 key_key.ancientspellcraft.charm_ring_2_activate:0
+key_key.radial_menu:48:SHIFT
+key_key.use_ring:184
+key_key.use_secondary_ring:184:SHIFT
+key_key.open_pouch:24
+key_key.connect_caving_rope:19
 soundCategory_master:0.102649
 soundCategory_music:0.056338027
 soundCategory_record:1.0

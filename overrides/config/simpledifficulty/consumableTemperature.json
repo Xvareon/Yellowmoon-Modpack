@@ -39,6 +39,16 @@
       "duration": 1200
     }
   ],
+  "iceandfire:ice_dragon_flesh": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "group": "food",
+      "temperature": -4.0,
+      "duration": 3600
+    }
+  ],
   "harvestcraft:ricesoupitem": [
     {
       "identity": {
@@ -279,7 +289,27 @@
       "duration": 1200
     }
   ],
+  "iceandfire:fire_dragon_flesh": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "group": "food",
+      "temperature": 4.0,
+      "duration": 3600
+    }
+  ],
   "harvestcraft:tomatosoupitem": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "group": "food",
+      "temperature": 2.0,
+      "duration": 1200
+    }
+  ],
+  "twilightforest:meef_stroganoff": [
     {
       "identity": {
         "metadata": -1

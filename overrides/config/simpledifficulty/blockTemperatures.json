@@ -145,7 +145,19 @@
       "temperature": 1.0
     }
   ],
+  "rustic:candle": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
   "harvestcraft:candledeco10": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "rustic:candle_gold": [
     {
       "properties": {},
       "temperature": 1.0

@@ -151,7 +151,23 @@
       "temperature": 5.0
     }
   ],
+  "rustic:candle": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
   "harvestcraft:candledeco10": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "rustic:candle_gold": [
     {
       "identity": {
         "metadata": -1

@@ -1,11 +1,4 @@
-import mods.jei.JEI;
-
 print("Script furnaceRecipes starting!");
-
-furnace.remove(<minecraft:gold_nugget>);
-furnace.remove(<minecraft:iron_nugget>);
-furnace.remove(<dungeontactics:dungeon_glass>);
-furnace.remove(<dungeontactics:silver_nugget>);
 
 furnace.addRecipe(<dungeontactics:dungeon_glass>*1,<minecraft:soul_sand>, 99999);
 furnace.addRecipe(<fossil:ancient_glass>*1,<quark:biome_cobblestone:0>, 99999);
@@ -17,15 +10,15 @@ furnace.addRecipe(<minecraft:iron_ingot>*1,<minecraft:chainmail_leggings:*>, 999
 furnace.addRecipe(<minecraft:iron_ingot>*1,<minecraft:chainmail_boots:*>, 99999);
 furnace.addRecipe(<minecraft:iron_ingot>*1,<aether_legacy:chain_gloves:*>, 99999);
 
-furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:helmet_heavy_iron:*>, 99999);
-furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:chestplate_heavy_iron:*>, 99999);
-furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:leggings_heavy_iron:*>, 99999);
-furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:boots_heavy_iron:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*4,<cqrepoured:helmet_heavy_iron:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*4,<cqrepoured:chestplate_heavy_iron:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*4,<cqrepoured:leggings_heavy_iron:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*4,<cqrepoured:boots_heavy_iron:*>, 99999);
 
-furnace.addRecipe(<minecraft:iron_ingot>*4,<cqrepoured:helmet_iron_dyable:*>, 99999);
-furnace.addRecipe(<minecraft:iron_ingot>*4,<cqrepoured:chestplate_iron_dyable:*>, 99999);
-furnace.addRecipe(<minecraft:iron_ingot>*4,<cqrepoured:leggings_iron_dyable:*>, 99999);
-furnace.addRecipe(<minecraft:iron_ingot>*4,<cqrepoured:boots_iron_dyable:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:helmet_iron_dyable:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:chestplate_iron_dyable:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:leggings_iron_dyable:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:boots_iron_dyable:*>, 99999);
 
 furnace.addRecipe(<minecraft:diamond>*4,<cqrepoured:helmet_heavy_diamond:*>, 99999);
 furnace.addRecipe(<minecraft:diamond>*4,<cqrepoured:chestplate_heavy_diamond:*>, 99999);
@@ -223,7 +216,8 @@ furnace.addRecipe(<minecraft:iron_nugget>*4,<minecraft:iron_door>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<dungeontactics:iron_ring:*>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<bountifulbaubles:ringiron:*>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget>*5,<iceandfire:chain_link>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain_sticky>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain_link>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<dungeontactics:ironlinks>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<quark:chain>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<quark:grate>, 99999);
@@ -234,6 +228,13 @@ furnace.addRecipe(<minecraft:iron_nugget>*1,<twilightforest:iron_ladder>, 99999)
 furnace.addRecipe(<minecraft:iron_nugget>*1,<cqrepoured:bullet_iron>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<aether_legacy:iron_ring:*>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<aether_legacy:iron_pendant:*>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*1,<rustic:iron_lattice>, 99999);
+furnace.addRecipe(<minecraft:iron_nugget>*1,<rustic:chain>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<rustic:chandelier>, 99999);
+furnace.addRecipe(<minecraft:gold_nugget>*1,<rustic:chain_gold>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<rustic:chandelier_gold>, 99999);
+furnace.addRecipe(<iceandfire:silver_nugget>*1,<rustic:chain_silver>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<rustic:chandelier_silver>, 99999);
 
 furnace.addRecipe(<minecraft:gold_nugget>*1,<quark:gold_button>, 99999);
 furnace.addRecipe(<minecraft:gold_nugget>*1,<aether_legacy:golden_ring:*>, 99999);
@@ -738,5 +739,122 @@ furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_hoo
 furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_robe_healing:*>, 99999);
 furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_leggings_healing:*>, 99999);
 furnace.addRecipe(<ancientspellcraft:ethereal_essence>*3,<ebwizardry:warlock_boots_healing:*>, 99999);
+
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarenpc:sickle:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarenpc:pitchfork:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarenpc:scythe:*>, 99999);
+
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:high_striker:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:wackerjab:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:taser:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:claws:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:lithen_scythe:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:pirate_hook:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:coin_cannon:*>, 99999);
+furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:backfire_cannon:*>, 99999);
+
+furnace.addRecipe(<minecraft:gold_ingot>*13,<dungeontactics:peg_hammer:*>, 99999);
+
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<better_diving:copper_ore:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*1,<better_diving:silver_ore:*>, 99999);
+
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:copper_sword:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:copper_shovel:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:copper_pickaxe:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:copper_axe:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:copper_hoe:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:armor_copper_metal_helmet:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:armor_copper_metal_chestplate:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:armor_copper_metal_leggings:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:armor_copper_metal_boots:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:2>*9,<mowziesmobs:ice_crystal:*>, 99999);
+furnace.addRecipe(<iceandfire:wither_shard>*16,<iceandfire:cockatrice_eye:*>, 99999);
+furnace.addRecipe(<ebwizardry:astral_diamond>*1,<iceandfire:cyclops_eye:*>, 99999);
+
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfare:component:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarestructure:gate_spawner:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarevehicle:iron_casing:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarevehicle:rough_iron:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarevehicle:fine_iron:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarevehicle:tempered_iron:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarevehicle:armor_iron:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarevehicle:vehicle_upgrade_speed:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfarevehicle:ammo_iron_ball_shot:*>, 99999);
+
+furnace.addRecipe(<minecraft:iron_ingot>*9,<iceandfire:dragonarmor_iron:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*9,<iceandfire:dragonarmor_gold:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*9,<iceandfire:dragonarmor_diamond:*>, 99999);
+furnace.addRecipe(<iceandfire:silver_ingot>*9,<iceandfire:dragonarmor_silver:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot>*9,<iceandfire:dragonarmor_copper:*>, 99999);
+
+furnace.addRecipe(<minecraft:diamond>*1,<baubles:ring:*>, 99999);
+
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:revolver:*>, 99999);
+furnace.addRecipe(<minecraft:gold_ingot>*1,<cqrepoured:captain_revolver:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:musket:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:musket_dagger_iron:*>, 99999);
+furnace.addRecipe(<minecraft:diamond>*1,<cqrepoured:musket_dagger_diamond:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:musket_dagger_monking:*>, 99999);
+furnace.addRecipe(<minecraft:blaze_powder>*1,<cqrepoured:bullet_fire:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:cannon_ball:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:flamethrower>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:bubble_pistol:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:bubble_rifle:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:hookshot:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:longshot:*>, 99999);
+furnace.addRecipe(<minecraft:iron_ingot>*1,<cqrepoured:spiderhook:*>, 99999);
+
+furnace.addRecipe(<minecraft:ghast_tear>*1,<ancientspellcraft:alchemical_essence:*>, 99999);
+
+furnace.addRecipe(<minecraft:diamond>*1,<iceandfire:tide_trident:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:0>*1,<ebwizardry:magic_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:0>*2,<ebwizardry:apprentice_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:0>*3,<ebwizardry:advanced_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:0>*4,<ebwizardry:master_wand:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:1>*1,<ebwizardry:novice_fire_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:1>*2,<ebwizardry:apprentice_fire_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:1>*3,<ebwizardry:advanced_fire_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:1>*4,<ebwizardry:master_fire_wand:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:2>*1,<ebwizardry:novice_ice_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:2>*2,<ebwizardry:apprentice_ice_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:2>*3,<ebwizardry:advanced_ice_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:2>*4,<ebwizardry:master_ice_wand:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:3>*1,<ebwizardry:novice_lightning_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:3>*2,<ebwizardry:apprentice_lightning_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:3>*3,<ebwizardry:advanced_lightning_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:3>*4,<ebwizardry:master_lightning_wand:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:4>*1,<ebwizardry:novice_necromancy_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:4>*2,<ebwizardry:apprentice_necromancy_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:4>*3,<ebwizardry:advanced_necromancy_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:4>*4,<ebwizardry:master_necromancy_wand:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:5>*1,<ebwizardry:novice_earth_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:5>*2,<ebwizardry:apprentice_earth_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:5>*3,<ebwizardry:advanced_earth_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:5>*4,<ebwizardry:master_earth_wand:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:6>*1,<ebwizardry:novice_sorcery_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:6>*2,<ebwizardry:apprentice_sorcery_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:6>*3,<ebwizardry:advanced_sorcery_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:6>*4,<ebwizardry:master_sorcery_wand:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:magic_crystal:7>*1,<ebwizardry:novice_healing_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:7>*2,<ebwizardry:apprentice_healing_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:7>*3,<ebwizardry:advanced_healing_wand:*>, 99999);
+furnace.addRecipe(<ebwizardry:magic_crystal:7>*4,<ebwizardry:master_healing_wand:*>, 99999);
+
+furnace.addRecipe(<ebwizardry:spectral_dust:1>*1,<ebwizardry:magic_crystal:1>, 99999);
+furnace.addRecipe(<ebwizardry:spectral_dust:2>*1,<ebwizardry:magic_crystal:2>, 99999);
+furnace.addRecipe(<ebwizardry:spectral_dust:3>*1,<ebwizardry:magic_crystal:3>, 99999);
+furnace.addRecipe(<ebwizardry:spectral_dust:4>*1,<ebwizardry:magic_crystal:4>, 99999);
+furnace.addRecipe(<ebwizardry:spectral_dust:5>*1,<ebwizardry:magic_crystal:5>, 99999);
+furnace.addRecipe(<ebwizardry:spectral_dust:6>*1,<ebwizardry:magic_crystal:6>, 99999);
+furnace.addRecipe(<ebwizardry:spectral_dust:7>*1,<ebwizardry:magic_crystal:7>, 99999);
 
 print("Script furnaceRecipes ending!");

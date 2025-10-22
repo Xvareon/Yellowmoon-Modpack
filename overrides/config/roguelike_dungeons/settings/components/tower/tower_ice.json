@@ -1,0 +1,17 @@
+{
+  "name": "tower:ice",
+  "tower": {
+    "type": "JUNGLE",
+    "theme": {
+      "base": "ICE",
+      "primary": {
+        "walls": {"name": "quark:snow_bricks"}
+      },
+      "secondary": {
+        "pillar": {"name": "biomesoplenty:hard_ice"},
+        "walls": {"name": "quark:snow_bricks"},
+	      "stair": {"name": "quark:snow_bricks_stairs"}
+      }
+    }
+  }
+}

@@ -9,7 +9,7 @@ radarHideInvisibleEntities:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:false
 minimap:true
-caveMaps:2
+caveMaps:0
 caveZoom:0
 showWaypoints:true
 showIngameWaypoints:false
@@ -44,7 +44,7 @@ defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
 arrowScale:1.5
 arrowColour:0
-smoothDots:true
+smoothDots:false
 worldMap:true
 terrainDepth:true
 terrainSlopes:2
@@ -68,7 +68,7 @@ showAngles:false
 waypointsMutualEdit:true
 compassLocation:1
 compassScale:1
-caveMapsDepth:30
+caveMapsDepth:0
 hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
