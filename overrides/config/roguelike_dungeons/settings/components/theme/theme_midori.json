@@ -11,7 +11,7 @@
         "pillar": {"name": "quark:midori_pillar"},
         "stair": {"name": "quark:midori_block_stairs"},
         "lightblock": {"name": "quark:blaze_lantern"},
-        "liquid": {"name": "biomesoplenty:sand"}
+        "liquid": {"name": "fossil:tar"}
       },
       "secondary": {
         "door": {"name": "minecraft:iron_door"},
@@ -20,7 +20,7 @@
         "pillar": {"name": "quark:midori_pillar"},
         "stair": {"name": "quark:midori_block_stairs"},
         "lightblock": {"name": "quark:blaze_lantern"},
-        "liquid": {"name": "biomesoplenty:sand"}
+        "liquid": {"name": "fossil:tar"}
       }
     },    
     {
@@ -39,7 +39,7 @@
         "pillar": {"name": "biomesoplenty:white_sandstone", "meta": 1},
         "stair": {"name": "biomesoplenty:white_sandstone_stairs", "meta": 0},
         "lightblock": {"name": "sea_lantern"},
-        "liquid": {"name": "biomesoplenty:sand"}
+        "liquid": {"name": "fossil:tar"}
       },
       "secondary": {
         "door": {"name": "minecraft:iron_door"},
@@ -54,7 +54,7 @@
         "pillar": {"name": "biomesoplenty:white_sandstone", "meta": 1},
         "stair": {"name": "biomesoplenty:white_sandstone_stairs", "meta": 0},
         "lightblock": {"name": "sea_lantern"},
-        "liquid": {"name": "biomesoplenty:sand"}
+        "liquid": {"name": "fossil:tar"}
       }
     },
     {
@@ -67,7 +67,7 @@
         "pillar": {"name": "quark:elder_prismarine", "meta": 2},
         "stair": {"name": "quark:elder_prismarine_stairs"},
         "lightblock": {"name": "quark:elder_sea_lantern"},
-        "liquid": {"name": "biomesoplenty:sand"}
+        "liquid": {"name": "fossil:tar"}
       },
       "secondary": {
         "door": {"name": "minecraft:iron_door"},
@@ -76,7 +76,7 @@
         "pillar": {"name": "quark:elder_prismarine", "meta": 2},
         "stair": {"name": "quark:elder_prismarine_stairs"},
         "lightblock": {"name": "quark:elder_sea_lantern"},
-        "liquid": {"name": "biomesoplenty:sand"}
+        "liquid": {"name": "fossil:tar"}
       }
     },
     {
@@ -89,7 +89,7 @@
           "data": [
             {"type": "METABLOCK", "data": {"name": "quark:soul_sandstone", "meta": 0}, "weight": 70},
             {"type": "METABLOCK", "data": {"name": "minecraft:soul_sand"}, "weight": 30},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:sand"}, "weight": 10}
+            {"type": "METABLOCK", "data": {"name": "fossil:tar"}, "weight": 10}
           ]
 	},
 	"walls": {
@@ -102,7 +102,7 @@
         "pillar": {"name": "quark:soul_sandstone", "meta": 1},
         "stair": {"name": "quark:soul_sandstone_stairs"},
         "lightblock": {"name": "quark:elder_sea_lantern"},
-        "liquid": {"name": "biomesoplenty:sand"}
+        "liquid": {"name": "fossil:tar"}
       },
       "secondary": {
         "door": {"name": "minecraft:iron_door"},
@@ -111,7 +111,7 @@
           "data": [
             {"type": "METABLOCK", "data": {"name": "quark:soul_sandstone", "meta": 0}, "weight": 70},
             {"type": "METABLOCK", "data": {"name": "minecraft:soul_sand"}, "weight": 30},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:sand"}, "weight": 10}
+            {"type": "METABLOCK", "data": {"name": "fossil:tar"}, "weight": 10}
           ]
 	},
 	"walls": {
@@ -124,7 +124,7 @@
         "pillar": {"name": "quark:soul_sandstone", "meta": 1},
         "stair": {"name": "quark:soul_sandstone_stairs"},
         "lightblock": {"name": "quark:elder_sea_lantern"},
-        "liquid": {"name": "biomesoplenty:sand"}
+        "liquid": {"name": "fossil:tar"}
       }
     },
     {
@@ -140,7 +140,7 @@
             {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
             {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
             {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey"}, "weight": 20},
+            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey"}, "weight": 20}
           ]
 	},
         "walls": {
@@ -168,7 +168,7 @@
             {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
             {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
             {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey"}, "weight": 20},
+            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey"}, "weight": 20}
           ]
 	},
         "walls": {

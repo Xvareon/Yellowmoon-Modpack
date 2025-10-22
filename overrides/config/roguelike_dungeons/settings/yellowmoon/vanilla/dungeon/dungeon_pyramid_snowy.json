@@ -1,0 +1,30 @@
+{
+  "name": "yellowmoon:dungeon_pyramid_snowy",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["SNOWY"]},
+  "inherit": [
+    "yellowmoon:dungeon_base",
+    "rooms:all",
+    "segments:yellowmoon",
+    "spawners:undead",
+    "spawners:evil_humanoids",
+    "spawners:spiders",
+    "spawners:creeper",
+    "spawners:nether",
+    "theme:ice"
+  ],
+  "filters": [
+    {"level": [3], "name": "vine"},
+    {"level": [4], "name": "mud"}
+  ],
+  "rooms": [
+    {"level": [4], "frequency": "random", "type": "BLAZE", "weight": 10}
+  ],
+  "tower": {
+    "type": "PYRAMID",
+    "theme": {
+      "base": "ICE"
+    }
+  }
+}
+

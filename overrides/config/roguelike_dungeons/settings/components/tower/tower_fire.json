@@ -1,0 +1,17 @@
+{
+  "name": "tower:fire",
+  "tower": {
+    "type": "JUNGLE",
+    "theme": {
+      "base": "SANDSTONERED",
+      "primary": {
+        "walls": {"name": "quark:magma_bricks"}
+      },
+      "secondary": {
+        "pillar": {"name": "minecraft:magma"},
+        "walls": {"name": "quark:magma_bricks"},
+	      "stair": {"name": "quark:magma_bricks_stairs"}
+      }
+    }
+  }
+}

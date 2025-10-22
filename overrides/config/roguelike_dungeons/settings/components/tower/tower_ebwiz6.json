@@ -10,7 +10,7 @@
       "secondary": {
         "pillar": {"name": "ebwizardry:runestone_pedestal", "meta": 6},
         "walls": {"name": "ebwizardry:runestone", "meta": 6},
-	"stair": {"name": "quark:biotite_stairs"}
+	      "stair": {"name": "quark:stone_basalt_bricks_stairs"}
       }
     }
   }

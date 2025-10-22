@@ -1,0 +1,24 @@
+{
+  "enabled": {
+    "book": true,
+    "scroll": true,
+    "wands": true,
+    "npcs": true,
+    "dispensers": true,
+    "commands": true,
+    "treasure": true,
+	"trades": true,
+    "looting": true
+  },
+  "tier": "master",
+  "element": "sorcery",
+  "type": "utility",
+  "cost": 300,
+  "chargeup": 200,
+  "cooldown": 1500,
+  "base_properties": {
+    "effect_radius": 8,
+    "time_increment": 30,
+    "extra_ticks": 1
+  }
+}

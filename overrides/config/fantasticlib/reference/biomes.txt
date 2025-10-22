@@ -168,3 +168,13 @@ twilightforest:highlands_center
 twilightforest:thornlands
 twilightforest:spooky_forest
 aether_legacy:aether_highlands
+thebetweenlands:patchy_islands
+thebetweenlands:swamplands
+thebetweenlands:deep_waters
+thebetweenlands:coarse_islands
+thebetweenlands:raised_isles
+thebetweenlands:sludge_plains
+thebetweenlands:marsh_0
+thebetweenlands:marsh_1
+thebetweenlands:swamplands_clearing
+thebetweenlands:sludge_plains_clearing

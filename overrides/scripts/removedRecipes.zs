@@ -1,6 +1,11 @@
-import mods.jei.JEI;
-
 print("Script removedRecipes starting!");
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:mundane"}), <minecraft:quartz>);
+
+furnace.remove(<minecraft:gold_nugget>);
+furnace.remove(<minecraft:iron_nugget>);
+furnace.remove(<dungeontactics:dungeon_glass>);
+furnace.remove(<dungeontactics:silver_nugget>);
 
 recipes.remove(<waystones:waystone>);
 recipes.remove(<soulbottle:enderpearl_bottle>);
@@ -40,5 +45,41 @@ recipes.remove(<iceandfire:sickly_dragon_meal>);
 recipes.remove(<disenchanter:disenchantmenttable>);
 recipes.remove(<dungeontactics:silver_ingot>);
 recipes.remove(<ebwizardry:large_mana_flask>);
+recipes.remove(<mod_lavacow:goldenheart>);
+recipes.remove(<necromancersdelight:frost_bomb>);
+recipes.remove(<iceandfire:fire_stew>);
+recipes.remove(<iceandfire:frost_stew>);
+recipes.remove(<iceandfire:lightning_stew>);
+recipes.remove(<twilightforest:carminite>);
+recipes.removeByRecipeName("harvestcraft:bratwurstitem");
+recipes.removeByRecipeName("harvestcraft:schnitzelitem_listallporkraw");
+recipes.removeByRecipeName("harvestcraft:schnitzelitem_listallmuttonraw");
+recipes.removeShapeless(<harvestcraft:plainyogurtitem> * 4, [<harvestcraft:plainyogurtitem>, <minecraft:leather>]);
+recipes.remove(<quark:grate>);
+recipes.removeByRecipeName("biomesoplenty:leaf_pile");
+recipes.remove(<storagenetwork:collector_remote>);
+recipes.remove(<storagenetwork:picker_remote>);
+recipes.remove(<dungeontactics:ducttape>);
+recipes.remove(<mod_lavacow:basicbomb>);
+recipes.remove(<ebwizardry:firebomb>);
+recipes.remove(<ebwizardry:poison_bomb>);
+recipes.remove(<ebwizardry:smoke_bomb>);
+recipes.remove(<ebwizardry:spark_bomb>);
+recipes.remove(<necromancersdelight:stink_bomb>);
+recipes.remove(<necromancersdelight:frost_bomb>);
+recipes.remove(<minecraft:fire_charge>);
+recipes.remove(<dungeontactics:ration_standard>);
+recipes.remove(<dungeontactics:ration_iron>);
+recipes.remove(<dungeontactics:ration_gold>);
+recipes.remove(<dungeontactics:bomb_frag>);
+recipes.remove(<dungeontactics:bomb_frag_cluster>);
+recipes.remove(<dungeontactics:bomb_pyro>);
+recipes.remove(<dungeontactics:bomb_pyro_cluster>);
+recipes.remove(<dungeontactics:bomb_porting>);
+recipes.remove(<dungeontactics:bomb_porting_cluster>);
+recipes.remove(<dungeontactics:bomb_cryo>);
+recipes.remove(<dungeontactics:bomb_cryo_cluster>);
+recipes.remove(<dungeontactics:potshot_ammo>);
+recipes.remove(<rustic:lantern_wood>);
 
 print("Script removedRecipes ending!");

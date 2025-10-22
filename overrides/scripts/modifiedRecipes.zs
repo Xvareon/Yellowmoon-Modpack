@@ -15,7 +15,7 @@ recipes.addShaped("backpack",<backpacked:backpack>,[
 recipes.addShaped("waystone",<waystones:waystone>,[
     [<minecraft:stonebrick>,<waystones:warp_stone>,<minecraft:stonebrick>],
     [<minecraft:stonebrick>,<minecraft:end_crystal>,<minecraft:stonebrick>],
-    [<minecraft:stonebrick>,<minecraft:beacon>,<minecraft:stonebrick>]
+    [<quark:biotite_block>,<minecraft:beacon>,<quark:biotite_block>]
 ]);
 
 recipes.addShaped("dreadWoodLog",<iceandfire:dreadwood_log>*8,[
@@ -57,11 +57,11 @@ recipes.addShapeless("ozzyLegs",<armorunder:auto_leggings_liner>,
 );
 
 recipes.addShapeless("tomeOfTranscribing",<ancientspellcraft:charm_transcribing_tome>,
-    [<ebwizardry:ruined_spell_book>,<ebwizardry:crystal_block>,<minecraft:leather>,<minecraft:paper>]
+    [<ebwizardry:ruined_spell_book>,<minecraft:paper>,<minecraft:leather>,<ebwizardry:spectral_dust:*>]
 );
 
 recipes.addShapeless("tomeOfTheDiligent",<ebwizardry:charm_experience_tome>,
-    [<ebwizardry:arcane_tome:1>,<ebwizardry:arcane_tome:2>,<ebwizardry:arcane_tome:3>,<minecraft:book>]
+    [<ebwizardry:arcane_tome:1>,<ebwizardry:arcane_tome:2>,<ebwizardry:arcane_tome:3>,<quark:ancient_tome>]
 );
 
 recipes.addShaped("earPlugs",<iceandfire:earplugs>,[
@@ -103,57 +103,57 @@ recipes.addShapeless("trinketshulkerheart",<bountifulbaubles:spectralsilt>,[<bou
 
 recipes.addShapeless("shieldankh",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<bountifulbaubles:shieldankh>]);
 
-recipes.addShapeless("shockpendant",<bountifulbaubles:spectralsilt>,[<artifacts:shock_pendant>]);
+recipes.addShapeless("shockpendant",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:shock_pendant>]);
 
-recipes.addShapeless("flamependant",<bountifulbaubles:spectralsilt>,[<artifacts:flame_pendant>]);
+recipes.addShapeless("flamependant",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:flame_pendant>]);
 
-recipes.addShapeless("thornpendant",<bountifulbaubles:spectralsilt>,[<artifacts:thorn_pendant>]);
+recipes.addShapeless("thornpendant",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:thorn_pendant>]);
 
-recipes.addShapeless("ultimatependant",<bountifulbaubles:spectralsilt>,[<artifacts:ultimate_pendant>]);
+recipes.addShapeless("ultimatependant",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:ultimate_pendant>]);
 
-recipes.addShapeless("panicnecklace",<bountifulbaubles:spectralsilt>,[<artifacts:panic_necklace>]);
+recipes.addShapeless("panicnecklace",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:panic_necklace>]);
 
-recipes.addShapeless("whoopiecushion",<bountifulbaubles:spectralsilt>,[<artifacts:whoopie_cushion>]);
+recipes.addShapeless("whoopiecushion",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:whoopie_cushion>]);
 
-recipes.addShapeless("bottledcloud",<bountifulbaubles:spectralsilt>,[<artifacts:bottled_cloud>]);
+recipes.addShapeless("bottledcloud",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:bottled_cloud>]);
 
-recipes.addShapeless("bottledfart",<bountifulbaubles:spectralsilt>,[<artifacts:bottled_fart>]);
+recipes.addShapeless("bottledfart",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:bottled_fart>]);
 
-recipes.addShapeless("magmastone",<bountifulbaubles:spectralsilt>,[<artifacts:magma_stone>]);
+recipes.addShapeless("magmastone",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:magma_stone>]);
 
-recipes.addShapeless("feralclaws",<bountifulbaubles:spectralsilt>,[<artifacts:feral_claws>]);
+recipes.addShapeless("feralclaws",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:feral_claws>]);
 
-recipes.addShapeless("powerglove",<bountifulbaubles:spectralsilt>,[<artifacts:power_glove>]);
+recipes.addShapeless("powerglove",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:power_glove>]);
 
-recipes.addShapeless("mechanicalglove",<bountifulbaubles:spectralsilt>,[<artifacts:mechanical_glove>]);
+recipes.addShapeless("mechanicalglove",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:mechanical_glove>]);
 
-recipes.addShapeless("firegauntlet",<bountifulbaubles:spectralsilt>,[<artifacts:fire_gauntlet>]);
+recipes.addShapeless("firegauntlet",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:fire_gauntlet>]);
 
-recipes.addShapeless("drinkinghat",<bountifulbaubles:spectralsilt>,[<artifacts:drinking_hat>]);
+recipes.addShapeless("drinkinghat",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:drinking_hat>]);
 
-recipes.addShapeless("starcloak",<bountifulbaubles:spectralsilt>,[<artifacts:star_cloak>]);
+recipes.addShapeless("starcloak",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:star_cloak>]);
 
-recipes.addShapeless("pocketpiston",<bountifulbaubles:spectralsilt>,[<artifacts:pocket_piston>]);
+recipes.addShapeless("pocketpiston",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:pocket_piston>]);
 
-recipes.addShapeless("antidotevessel",<bountifulbaubles:spectralsilt>,[<artifacts:antidote_vessel>]);
+recipes.addShapeless("antidotevessel",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:antidote_vessel>]);
 
-recipes.addShapeless("bubblewrap",<bountifulbaubles:spectralsilt>,[<artifacts:bubble_wrap>]);
+recipes.addShapeless("bubblewrap",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:bubble_wrap>]);
 
-recipes.addShapeless("sacrificialamulet",<bountifulbaubles:spectralsilt>,[<artifacts:sacrificial_amulet>]);
+recipes.addShapeless("sacrificialamulet",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:sacrificial_amulet>]);
 
-recipes.addShapeless("luckyclover",<bountifulbaubles:spectralsilt>,[<artifacts:lucky_clover>]);
+recipes.addShapeless("luckyclover",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:lucky_clover>]);
 
-recipes.addShapeless("shinyredballoon",<bountifulbaubles:spectralsilt>,[<artifacts:shiny_red_balloon>]);
+recipes.addShapeless("shinyredballoon",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:shiny_red_balloon>]);
 
-recipes.addShapeless("snorkel",<bountifulbaubles:spectralsilt>,[<artifacts:snorkel>]);
+recipes.addShapeless("snorkel",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:snorkel>]);
 
-recipes.addShapeless("luckyhorseshoe",<bountifulbaubles:spectralsilt>,[<artifacts:lucky_horseshoe>]);
+recipes.addShapeless("luckyhorseshoe",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:lucky_horseshoe>]);
 
-recipes.addShapeless("cobaltshield",<bountifulbaubles:spectralsilt>,[<artifacts:cobalt_shield>]);
+recipes.addShapeless("cobaltshield",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:cobalt_shield>]);
 
-recipes.addShapeless("obsidianskull",<bountifulbaubles:spectralsilt>,[<artifacts:obsidian_skull>]);
+recipes.addShapeless("obsidianskull",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:obsidian_skull>]);
 
-recipes.addShapeless("nightvisiongoggles",<bountifulbaubles:spectralsilt>,[<artifacts:night_vision_goggles>]);
+recipes.addShapeless("nightvisiongoggles",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<artifacts:night_vision_goggles>]);
 
 recipes.addShapeless("runeToSilt",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<quark:rune:16>]);
 
@@ -164,27 +164,39 @@ recipes.addShaped("warpStone",<waystones:warp_stone>,[
 ]);
 
 recipes.addShaped("remoteBasic",<storagenetwork:remote:0>,[
-    [<storagenetwork:kabel>,<minecraft:gold_ingot>,<storagenetwork:kabel>],
-    [<minecraft:gold_ingot>,<storagenetwork:master>,<minecraft:gold_ingot>],
-    [<storagenetwork:kabel>,<minecraft:gold_ingot>,<storagenetwork:kabel>]
+    [<storagenetwork:kabel>,<iceandfire:copper_ingot>,<storagenetwork:kabel>],
+    [<minecraft:ender_pearl>,<storagenetwork:master>,<minecraft:ender_pearl>],
+    [<storagenetwork:kabel>,<minecraft:glowstone>,<storagenetwork:kabel>]
 ]);
 
 recipes.addShaped("remoteNoCraft",<storagenetwork:remote:3>,[
-    [<storagenetwork:ex_kabel>,<minecraft:glowstone>,<storagenetwork:ex_kabel>],
-    [<minecraft:ender_pearl>,<storagenetwork:remote:0>,<minecraft:ender_pearl>],
-    [<storagenetwork:ex_kabel>,<minecraft:magma>,<storagenetwork:ex_kabel>]
+    [<storagenetwork:ex_kabel>,<charm:endermite_powder>,<storagenetwork:ex_kabel>],
+    [<charm:ender_pearl_block>,<storagenetwork:remote:0>,<charm:ender_pearl_block>],
+    [<storagenetwork:ex_kabel>,<aether_legacy:icestone>,<storagenetwork:ex_kabel>]
 ]);
 
 recipes.addShaped("remoteWithCraft",<storagenetwork:remote:2>,[
     [<storagenetwork:process_kabel>,<biomesoplenty:terrestrial_artifact>,<storagenetwork:process_kabel>],
-    [<charm:ender_pearl_block>,<storagenetwork:remote:3>,<charm:ender_pearl_block>],
-    [<storagenetwork:process_kabel>,<aether_legacy:icestone>,<storagenetwork:process_kabel>]
+    [<aether_legacy:enchanted_gravitite>,<storagenetwork:remote:3>,<aether_legacy:enchanted_gravitite>],
+    [<storagenetwork:process_kabel>,<erebus:red_gem>,<storagenetwork:process_kabel>]
 ]);
 
 recipes.addShaped("remoteAdv",<storagenetwork:remote:1>,[
     [<storagenetwork:simple_kabel>,<minecraft:nether_star>,<storagenetwork:simple_kabel>],
     [<quark:biotite_block>,<storagenetwork:remote:2>,<quark:biotite_block>],
     [<storagenetwork:simple_kabel>,<biomesoplenty:crystal>,<storagenetwork:simple_kabel>]
+]);
+
+recipes.addShaped("remoteCollector",<storagenetwork:collector_remote>,[
+    [<storagenetwork:im_kabel>,<charm:endermite_powder>,<storagenetwork:im_kabel>],
+    [<charm:ender_pearl_block>,<storagenetwork:remote:3>,<charm:ender_pearl_block>],
+    [<storagenetwork:im_kabel>,<aether_legacy:icestone>,<storagenetwork:im_kabel>]
+]);
+
+recipes.addShaped("remotePicker",<storagenetwork:picker_remote>,[
+    [<storagenetwork:storage_kabel>,<charm:endermite_powder>,<storagenetwork:storage_kabel>],
+    [<charm:ender_pearl_block>,<storagenetwork:remote:3>,<charm:ender_pearl_block>],
+    [<storagenetwork:storage_kabel>,<aether_legacy:icestone>,<storagenetwork:storage_kabel>]
 ]);
 
 recipes.addShaped("terrestrialArtifact",<biomesoplenty:terrestrial_artifact>,[
@@ -218,12 +230,9 @@ recipes.addShaped("ghGlass",<sereneseasons:greenhouse_glass>*4,[
 ]);
 
 recipes.addShapeless("woolToString",<minecraft:string>*4,[<minecraft:wool:*>]);
-recipes.addShapeless("armorToLeather",<minecraft:leather>,[<minecraft:leather_helmet:*>|<minecraft:leather_chestplate:*>|<minecraft:leather_leggings:*>|<minecraft:leather_boots:*>|<aether_legacy:leather_gloves:*>|<minecraft:saddle>]);
+recipes.addShapeless("armorToLeather",<minecraft:leather>,[<minecraft:leather_helmet:*>|<minecraft:leather_chestplate:*>|<minecraft:leather_leggings:*>|<minecraft:leather_boots:*>|<aether_legacy:leather_gloves:*>|<minecraft:saddle>|<cqrepoured:spiked_glove:*>|<spartanweaponry:longbow_leather:*>|<spartanweaponry:crossbow_leather:*>]);
 
 recipes.addShapeless("heartOfGold",<dungeontactics:heart_golden>*3,[<minecraft:golden_apple>,<minecraft:glass_bottle>]);
-
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:mundane"}), <minecraft:quartz>);
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <waystones:return_scroll>, <bountifulbaubles:potionrecall>);
 
 recipes.addShapeless("cookedEggToFriedEgg",<betteranimalsplus:fried_egg>*1,[<fossil:cooked_egg>]);
 recipes.addShapeless("friedEggToCookedEgg",<fossil:cooked_egg>*1,[<betteranimalsplus:fried_egg>]);
@@ -320,7 +329,7 @@ recipes.addShaped("wormholeMirror",<bountifulbaubles:wormholemirror>,[
     [<charm:endermite_powder>,<bountifulbaubles:potionwormhole>,<charm:endermite_powder>]
 ]);
 
-recipes.addShapeless("backPergamine",<dungeonsmod:back_pergamine>*1,[<minecraft:paper>,<minecraft:ender_pearl>,<minecraft:skull:*>]);
+recipes.addShapeless("backPergamine",<dungeonsmod:back_pergamine>*1,[<mod_lavacow:curseweave_cloth>,<minecraft:ender_pearl>,<minecraft:skull:*>]);
 recipes.addShapeless("lifeShard",<aether_legacy:life_shard>*1,[<minecraft:glowstone_dust>,<minecraft:redstone>,<minecraft:gunpowder>,<iceandfire:pixie_dust>,<bountifulbaubles:spectralsilt>,<quark:black_ash>,<biomesoplenty:shroompowder>,<dungeontactics:magic_powder>,<biomesoplenty:crystal_shard>]);
 
 recipes.addShaped("magicFeather",<magicfeather:magicfeather>,[
@@ -332,6 +341,8 @@ recipes.addShaped("magicFeather",<magicfeather:magicfeather>,[
 recipes.addShapeless("sussySoup",<charm:suspicious_soup>*1,[<dungeontactics:spidereye_soup>,<biomesoplenty:shroompowder>]);
 
 recipes.addShapeless("quartzBlockToQuartz",<minecraft:quartz>*4,[<minecraft:quartz_block>]);
+
+recipes.addShapeless("biotiteBlockToBiotite",<quark:biotite>*4,[<quark:biotite_block>]);
 
 recipes.addShapeless("spiderEyeSoup",<dungeontactics:spidereye_soup>*1,[<minecraft:bowl>,<minecraft:spider_eye>,<harvestcraft:saltitem>]);
 
@@ -617,7 +628,6 @@ recipes.addShapeless("goatMilkToMilk",<minecraft:milk_bucket>*1,[<betteranimalsp
 recipes.addShapeless("wholeTurkeyToLegsRaw",<betteranimalsplus:turkey_leg_raw>*1,[<betteranimalsplus:turkey_raw>]);
 recipes.addShapeless("wholeTurkeyToLegsCooked",<betteranimalsplus:turkey_leg_cooked>*1,[<betteranimalsplus:turkey_cooked>]);
 recipes.addShapeless("antlerToBones",<minecraft:bone>*4,[<betteranimalsplus:antler>]);
-recipes.addShapeless("trilliumToGreenDye",<biomesoplenty:green_dye>*2,[<betteranimalsplus:trillium>]);
 
 recipes.addShapeless("spectralMoss",<biomesoplenty:grass:0>*1,[<minecraft:end_stone>,<biomesoplenty:shroompowder>]);
 recipes.addShapeless("grassBlockCraftable",<minecraft:grass>*1,[<minecraft:dirt>,<minecraft:tallgrass:1>|<minecraft:double_plant:2>]);
@@ -665,13 +675,22 @@ recipes.addShaped("enderDragonSkull",<minecraft:skull:5>*1,[
 
 recipes.addShapeless("nametagToPaper",<minecraft:paper>*1,[<minecraft:name_tag:*>]);
 
+recipes.addShapeless("mapsToPaper",<minecraft:paper>*1,[<minecraft:map>|<minecraft:filled_map:*>|<erebus:erebus_map>|<erebus:erebus_map_filled:*>|<twilightforest:magic_map_empty>|<twilightforest:maze_map_empty>|<twilightforest:ore_map_empty>|<twilightforest:magic_map:*>|<twilightforest:maze_map:*>|<twilightforest:ore_map:*>]);
+
 recipes.addShapeless("experienceBottle",<minecraft:experience_bottle>*8,[<minecraft:glass_bottle>,<dungeontactics:flower_xp>]);
 
 recipes.addShapeless("meefStroganoff",<twilightforest:meef_stroganoff>*1,[<minecraft:mushroom_stew>,<twilightforest:cooked_meef>]);
 
-recipes.addShapeless("bbqJackFruit",<harvestcraft:bbqjackfruititem>*1,[<harvestcraft:bbqsauceitem>,<harvestcraft:jackfruititem>]);
-
+recipes.addShaped("toastWithCinnamon",<harvestcraft:toastitem>, [[<ore:cropCinnamon>, <dungeontactics:toast_slice>]]);
+<ore:cropJackfruit>.add(<harvestcraft:jackfruititem>);
 recipes.addShapeless("imitationCrabSticks",<harvestcraft:imitationcrabsticksitem>*3,[<harvestcraft:crabcookeditem>,<minecraft:wheat>,<minecraft:egg>]);
+recipes.addShapeless("cracklins", <harvestcraft:cracklinsitem>, [<ore:toolPot>.reuse(), <ore:listAllporkraw>, <ore:foodOliveoil>, <ore:cropSpiceleaf>]);
+recipes.addShapeless("garlicSteak", <harvestcraft:garlicsteakitem>, [<ore:toolSkillet>.reuse(), <ore:listAllbeefraw>, <ore:cropGarlic>, <ore:foodButter>, <ore:cropSpiceleaf>]);
+recipes.addShapeless("saucedLambKebab", <harvestcraft:saucedlambkebabitem>, [<ore:toolMixingbowl>.reuse(), <ore:foodLambkebab>, <ore:foodPlainYogurt>, <ore:listAllheavycream>, <ore:cropGarlic>, <ore:cropSpiceleaf>, <ore:cropLime>]);
+<ore:cropLychee>.add(<harvestcraft:lycheeitem>);
+recipes.addShapeless("porkrinds", <harvestcraft:porkrindsitem>, [<ore:toolPot>.reuse(), <ore:foodOliveoil>, <ore:listAllporkraw>, <ore:foodSalt>, <ore:foodBlackpepper>]);
+recipes.addShapeless("bratwurst", <harvestcraft:bratwurstitem>, [<ore:toolCuttingboard>.reuse(), <ore:foodPorksausage>, <ore:foodPickles>, <ore:cropOnion>, <ore:foodBread>]);
+recipes.addShapeless("schnitzel", <harvestcraft:schnitzelitem>, [<ore:toolSkillet>.reuse(), <ore:listAllporkraw> | <ore:listAllmuttonraw>, <ore:foodFlour>, <ore:cropLemon>, <ore:foodOliveoil>, <ore:foodBlackpepper>]);
 
 recipes.addShaped("largeManaFlask",<ebwizardry:large_mana_flask>*1,[
     [null,<ebwizardry:crystal_block:0>|<ebwizardry:crystal_block:1>|<ebwizardry:crystal_block:2>|<ebwizardry:crystal_block:3>|<ebwizardry:crystal_block:4>|<ebwizardry:crystal_block:5>|<ebwizardry:crystal_block:6>|<ebwizardry:crystal_block:7>,null],
@@ -695,6 +714,450 @@ recipes.addShaped("stoneTabletLarge",<ancientspellcraft:stone_tablet_large>*1,[
 
 recipes.addShapeless("stoneTabletGrand",<ancientspellcraft:stone_tablet_grand>*1,[<minecraft:dragon_breath>,<ancientspellcraft:stone_tablet_large:*>]);
 
+recipes.addShaped("concretePowderWhite",<minecraft:concrete:0>*8,[
+    [<minecraft:concrete_powder:0>,<minecraft:concrete_powder:0>,<minecraft:concrete_powder:0>],
+    [<minecraft:concrete_powder:0>,<minecraft:water_bucket>,<minecraft:concrete_powder:0>],
+    [<minecraft:concrete_powder:0>,<minecraft:concrete_powder:0>,<minecraft:concrete_powder:0>]
+]);
+
+recipes.addShaped("concretePowderOrange",<minecraft:concrete:1>*8,[
+    [<minecraft:concrete_powder:1>,<minecraft:concrete_powder:1>,<minecraft:concrete_powder:1>],
+    [<minecraft:concrete_powder:1>,<minecraft:water_bucket>,<minecraft:concrete_powder:1>],
+    [<minecraft:concrete_powder:1>,<minecraft:concrete_powder:1>,<minecraft:concrete_powder:1>]
+]);
+
+recipes.addShaped("concretePowderMagenta",<minecraft:concrete:2>*8,[
+    [<minecraft:concrete_powder:2>,<minecraft:concrete_powder:2>,<minecraft:concrete_powder:2>],
+    [<minecraft:concrete_powder:2>,<minecraft:water_bucket>,<minecraft:concrete_powder:2>],
+    [<minecraft:concrete_powder:2>,<minecraft:concrete_powder:2>,<minecraft:concrete_powder:2>]
+]);
+
+recipes.addShaped("concretePowderLightBlue",<minecraft:concrete:3>*8,[
+    [<minecraft:concrete_powder:3>,<minecraft:concrete_powder:3>,<minecraft:concrete_powder:3>],
+    [<minecraft:concrete_powder:3>,<minecraft:water_bucket>,<minecraft:concrete_powder:3>],
+    [<minecraft:concrete_powder:3>,<minecraft:concrete_powder:3>,<minecraft:concrete_powder:3>]
+]);
+
+recipes.addShaped("concretePowderYellow",<minecraft:concrete:4>*8,[
+    [<minecraft:concrete_powder:4>,<minecraft:concrete_powder:4>,<minecraft:concrete_powder:4>],
+    [<minecraft:concrete_powder:4>,<minecraft:water_bucket>,<minecraft:concrete_powder:4>],
+    [<minecraft:concrete_powder:4>,<minecraft:concrete_powder:4>,<minecraft:concrete_powder:4>]
+]);
+
+recipes.addShaped("concretePowderLime",<minecraft:concrete:5>*8,[
+    [<minecraft:concrete_powder:5>,<minecraft:concrete_powder:5>,<minecraft:concrete_powder:5>],
+    [<minecraft:concrete_powder:5>,<minecraft:water_bucket>,<minecraft:concrete_powder:5>],
+    [<minecraft:concrete_powder:5>,<minecraft:concrete_powder:5>,<minecraft:concrete_powder:5>]
+]);
+
+recipes.addShaped("concretePowderPink",<minecraft:concrete:6>*8,[
+    [<minecraft:concrete_powder:6>,<minecraft:concrete_powder:6>,<minecraft:concrete_powder:6>],
+    [<minecraft:concrete_powder:6>,<minecraft:water_bucket>,<minecraft:concrete_powder:6>],
+    [<minecraft:concrete_powder:6>,<minecraft:concrete_powder:6>,<minecraft:concrete_powder:6>]
+]);
+
+recipes.addShaped("concretePowderGray",<minecraft:concrete:7>*8,[
+    [<minecraft:concrete_powder:7>,<minecraft:concrete_powder:7>,<minecraft:concrete_powder:7>],
+    [<minecraft:concrete_powder:7>,<minecraft:water_bucket>,<minecraft:concrete_powder:7>],
+    [<minecraft:concrete_powder:7>,<minecraft:concrete_powder:7>,<minecraft:concrete_powder:7>]
+]);
+
+recipes.addShaped("concretePowderLightGray",<minecraft:concrete:8>*8,[
+    [<minecraft:concrete_powder:8>,<minecraft:concrete_powder:8>,<minecraft:concrete_powder:8>],
+    [<minecraft:concrete_powder:8>,<minecraft:water_bucket>,<minecraft:concrete_powder:8>],
+    [<minecraft:concrete_powder:8>,<minecraft:concrete_powder:8>,<minecraft:concrete_powder:8>]
+]);
+
+recipes.addShaped("concretePowderCyan",<minecraft:concrete:9>*8,[
+    [<minecraft:concrete_powder:9>,<minecraft:concrete_powder:9>,<minecraft:concrete_powder:9>],
+    [<minecraft:concrete_powder:9>,<minecraft:water_bucket>,<minecraft:concrete_powder:9>],
+    [<minecraft:concrete_powder:9>,<minecraft:concrete_powder:9>,<minecraft:concrete_powder:9>]
+]);
+
+recipes.addShaped("concretePowderPurple",<minecraft:concrete:10>*8,[
+    [<minecraft:concrete_powder:10>,<minecraft:concrete_powder:10>,<minecraft:concrete_powder:10>],
+    [<minecraft:concrete_powder:10>,<minecraft:water_bucket>,<minecraft:concrete_powder:10>],
+    [<minecraft:concrete_powder:10>,<minecraft:concrete_powder:10>,<minecraft:concrete_powder:10>]
+]);
+
+recipes.addShaped("concretePowderBlue",<minecraft:concrete:11>*8,[
+    [<minecraft:concrete_powder:11>,<minecraft:concrete_powder:11>,<minecraft:concrete_powder:11>],
+    [<minecraft:concrete_powder:11>,<minecraft:water_bucket>,<minecraft:concrete_powder:11>],
+    [<minecraft:concrete_powder:11>,<minecraft:concrete_powder:11>,<minecraft:concrete_powder:11>]
+]);
+
+recipes.addShaped("concretePowderBrown",<minecraft:concrete:12>*8,[
+    [<minecraft:concrete_powder:12>,<minecraft:concrete_powder:12>,<minecraft:concrete_powder:12>],
+    [<minecraft:concrete_powder:12>,<minecraft:water_bucket>,<minecraft:concrete_powder:12>],
+    [<minecraft:concrete_powder:12>,<minecraft:concrete_powder:12>,<minecraft:concrete_powder:12>]
+]);
+
+recipes.addShaped("concretePowderGreen",<minecraft:concrete:13>*8,[
+    [<minecraft:concrete_powder:13>,<minecraft:concrete_powder:13>,<minecraft:concrete_powder:13>],
+    [<minecraft:concrete_powder:13>,<minecraft:water_bucket>,<minecraft:concrete_powder:13>],
+    [<minecraft:concrete_powder:13>,<minecraft:concrete_powder:13>,<minecraft:concrete_powder:13>]
+]);
+
+recipes.addShaped("concretePowderRed",<minecraft:concrete:14>*8,[
+    [<minecraft:concrete_powder:14>,<minecraft:concrete_powder:14>,<minecraft:concrete_powder:14>],
+    [<minecraft:concrete_powder:14>,<minecraft:water_bucket>,<minecraft:concrete_powder:14>],
+    [<minecraft:concrete_powder:14>,<minecraft:concrete_powder:14>,<minecraft:concrete_powder:14>]
+]);
+
+recipes.addShaped("concretePowderBlack",<minecraft:concrete:15>*8,[
+    [<minecraft:concrete_powder:15>,<minecraft:concrete_powder:15>,<minecraft:concrete_powder:15>],
+    [<minecraft:concrete_powder:15>,<minecraft:water_bucket>,<minecraft:concrete_powder:15>],
+    [<minecraft:concrete_powder:15>,<minecraft:concrete_powder:15>,<minecraft:concrete_powder:15>]
+]);
+
+recipes.addShaped("goldenHeart",<mod_lavacow:goldenheart>*1,[
+    [<minecraft:gold_block>,<minecraft:nether_star>,<minecraft:gold_block>],
+    [<minecraft:gold_block>,<mod_lavacow:soulforged_heart>,<minecraft:gold_block>],
+    [<minecraft:gold_block>,<iceandfire:hydra_heart>,<minecraft:gold_block>]
+]);
+
+recipes.addShapeless("cockatriceSkullToWitherBone",<iceandfire:witherbone>*4,[<iceandfire:cockatrice_skull>]);
+
+recipes.addShapeless("chargedEmerald",<charm:charged_emerald>*1,[<minecraft:emerald>,<ebwizardry:magic_crystal:3>]);
+
+recipes.addShapeless("fireDragonStew",<iceandfire:fire_stew>*1,[<mod_lavacow:moltenbeef>,<iceandfire:fire_lily>,<minecraft:bowl>,<ebwizardry:magic_crystal:1>]);
+recipes.addShapeless("frostDragonStew",<iceandfire:frost_stew>*1,[<fossil:iced_meat>,<iceandfire:frost_lily>,<minecraft:bowl>,<ebwizardry:magic_crystal:2>]);
+recipes.addShapeless("lightningDragonStew",<iceandfire:lightning_stew>*1,[<charm:charged_emerald>,<iceandfire:lightning_lily>,<minecraft:bowl>,<ebwizardry:magic_crystal:3>]);
+
+recipes.addShapeless("fireDragonBlood",<iceandfire:fire_dragon_blood>*1,[<minecraft:glass_bottle>,<iceandfire:fire_dragon_heart>]);
+recipes.addShapeless("iceDragonBlood",<iceandfire:ice_dragon_blood>*1,[<minecraft:glass_bottle>,<iceandfire:ice_dragon_heart>]);
+recipes.addShapeless("lightningDragonBlood",<iceandfire:lightning_dragon_blood>*1,[<minecraft:glass_bottle>,<iceandfire:lightning_dragon_heart>]);
+
+recipes.addShaped("carminiteBlood",<twilightforest:carminite>*8,[
+    [<minecraft:redstone>,<twilightforest:borer_essence>,<minecraft:redstone>],
+    [<twilightforest:borer_essence>,<minecraft:ghast_tear>,<twilightforest:borer_essence>],
+    [<minecraft:redstone>,<twilightforest:borer_essence>,<minecraft:redstone>]
+]);
+
+recipes.addShapeless("reinforcedCompoundGogglesAlt",<erebus:rein_compound_goggles>,[<erebus:rein_exoskeleton_helmet>,<erebus:compound_goggles>]);
+
+recipes.addShaped("mycelialNetherrack",<biomesoplenty:grass:8>*6,[
+    [<mod_lavacow:hyphae>,<mod_lavacow:hyphae>,<mod_lavacow:hyphae>],
+    [<minecraft:netherrack>,<minecraft:netherrack>,<minecraft:netherrack>],
+    [<minecraft:netherrack>,<minecraft:netherrack>,<minecraft:netherrack>]
+]);
+
+recipes.addShaped("overgrownNetherrack",<biomesoplenty:grass:6>*6,[
+    [<biomesoplenty:plant_1:7>,<biomesoplenty:plant_1:7>,<biomesoplenty:plant_1:7>],
+    [<minecraft:netherrack>,<minecraft:netherrack>,<minecraft:netherrack>],
+    [<minecraft:netherrack>,<minecraft:netherrack>,<minecraft:netherrack>]
+]);
+
+recipes.addShapeless("reedToSticks",<minecraft:stick>*1,[<biomesoplenty:plant_1:8>]);
+
+recipes.addShapeless("lilypad",<minecraft:waterlily>*2,[<minecraft:dye:15>,<minecraft:waterlily>]);
+recipes.addShapeless("deadbush",<minecraft:deadbush>*2,[<minecraft:dye:15>,<minecraft:deadbush>]);
+recipes.addShapeless("dandelion",<minecraft:yellow_flower:0>*2,[<minecraft:dye:15>,<minecraft:yellow_flower:0>]);
+recipes.addShapeless("poppy",<minecraft:red_flower:0>*2,[<minecraft:dye:15>,<minecraft:red_flower:0>]);
+recipes.addShapeless("blueOrchid",<minecraft:red_flower:1>*2,[<minecraft:dye:15>,<minecraft:red_flower:1>]);
+recipes.addShapeless("allium",<minecraft:red_flower:2>*2,[<minecraft:dye:15>,<minecraft:red_flower:2>]);
+recipes.addShapeless("azureBluet",<minecraft:red_flower:3>*2,[<minecraft:dye:15>,<minecraft:red_flower:3>]);
+recipes.addShapeless("redTulip",<minecraft:red_flower:4>*2,[<minecraft:dye:15>,<minecraft:red_flower:4>]);
+recipes.addShapeless("orangeTulip",<minecraft:red_flower:5>*2,[<minecraft:dye:15>,<minecraft:red_flower:5>]);
+recipes.addShapeless("whiteTulip",<minecraft:red_flower:6>*2,[<minecraft:dye:15>,<minecraft:red_flower:6>]);
+recipes.addShapeless("pinkTulip",<minecraft:red_flower:7>*2,[<minecraft:dye:15>,<minecraft:red_flower:7>]);
+recipes.addShapeless("oxeyeDaisy",<minecraft:red_flower:8>*2,[<minecraft:dye:15>,<minecraft:red_flower:8>]);
+recipes.addShapeless("sunflower",<minecraft:double_plant:0>*2,[<minecraft:dye:15>,<minecraft:double_plant:0>]);
+recipes.addShapeless("lilac",<minecraft:double_plant:1>*2,[<minecraft:dye:15>,<minecraft:double_plant:1>]);
+recipes.addShapeless("rosebush",<minecraft:double_plant:4>*2,[<minecraft:dye:15>,<minecraft:double_plant:4>]);
+recipes.addShapeless("peony",<minecraft:double_plant:5>*2,[<minecraft:dye:15>,<minecraft:double_plant:5>]);
+
+recipes.addShapeless("purpleFlower",<aether_legacy:purple_flower>*2,[<minecraft:dye:15>,<aether_legacy:purple_flower>]);
+recipes.addShapeless("whiteFlower",<aether_legacy:white_flower>*2,[<minecraft:dye:15>,<aether_legacy:white_flower>]);
+
+recipes.addShapeless("mediumLily",<biomesoplenty:waterlily:0>*2,[<minecraft:dye:15>,<biomesoplenty:waterlily:0>]);
+recipes.addShapeless("smallLily",<biomesoplenty:waterlily:1>*2,[<minecraft:dye:15>,<biomesoplenty:waterlily:1>]);
+recipes.addShapeless("tinyLily",<biomesoplenty:waterlily:2>*2,[<minecraft:dye:15>,<biomesoplenty:waterlily:2>]);
+recipes.addShapeless("floweredLily",<biomesoplenty:waterlily:3>*2,[<minecraft:dye:15>,<biomesoplenty:waterlily:3>]);
+recipes.addShapeless("poisonIvy",<biomesoplenty:plant_0:4>*2,[<minecraft:dye:15>,<biomesoplenty:plant_0:4>]);
+recipes.addShapeless("spectralFern",<biomesoplenty:plant_1:1>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:1>]);
+recipes.addShapeless("thornsPlant",<biomesoplenty:plant_1:2>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:2>]);
 recipes.addShapeless("wildRice",<biomesoplenty:plant_1:3>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:3>]);
+recipes.addShapeless("cattailPlant",<biomesoplenty:plant_1:4>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:4>]);
+recipes.addShapeless("riverCane",<biomesoplenty:plant_1:5>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:5>]);
+recipes.addShapeless("tinyCactus",<biomesoplenty:plant_1:6>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:6>]);
+recipes.addShapeless("reedPlant",<biomesoplenty:plant_1:8>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:8>]);
+recipes.addShapeless("rootPlant",<biomesoplenty:plant_1:9>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:9>]);
+recipes.addShapeless("rafflesia",<biomesoplenty:plant_1:10>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:10>]);
+recipes.addShapeless("barleyPlant",<biomesoplenty:plant_1:11>*2,[<minecraft:dye:15>,<biomesoplenty:plant_1:11>]);
+recipes.addShapeless("flaxPlant",<biomesoplenty:double_plant:0>*2,[<minecraft:dye:15>,<biomesoplenty:double_plant:0>]);
+recipes.addShapeless("tallCattail",<biomesoplenty:double_plant:1>*2,[<minecraft:dye:15>,<biomesoplenty:double_plant:1>]);
+recipes.addShapeless("eyeBulbPlant",<biomesoplenty:double_plant:2>*2,[<minecraft:dye:15>,<biomesoplenty:double_plant:2>]);
+recipes.addShapeless("seaOats",<biomesoplenty:double_plant:3>*2,[<minecraft:dye:15>,<biomesoplenty:double_plant:3>]);
+recipes.addShapeless("toadstoolMushroom",<biomesoplenty:mushroom:0>*2,[<minecraft:dye:15>,<biomesoplenty:mushroom:0>]);
+recipes.addShapeless("portobelloMushroom",<biomesoplenty:mushroom:1>*2,[<minecraft:dye:15>,<biomesoplenty:mushroom:1>]);
+recipes.addShapeless("blueMilkCapMushroom",<biomesoplenty:mushroom:2>*2,[<minecraft:dye:15>,<biomesoplenty:mushroom:2>]);
+recipes.addShapeless("glowShroomBOP",<biomesoplenty:mushroom:3>*2,[<minecraft:dye:15>,<biomesoplenty:mushroom:3>]);
+recipes.addShapeless("flatMushroom",<biomesoplenty:mushroom:4>*2,[<minecraft:dye:15>,<biomesoplenty:mushroom:4>]);
+recipes.addShapeless("shadowShroom",<biomesoplenty:mushroom:5>*2,[<minecraft:dye:15>,<biomesoplenty:mushroom:5>]);
+recipes.addShapeless("bramblePlant",<biomesoplenty:bramble_plant>*2,[<minecraft:dye:15>,<biomesoplenty:bramble_plant>]);
+recipes.addShapeless("clover",<biomesoplenty:flower_0:0>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:0>]);
+recipes.addShapeless("swampflower",<biomesoplenty:flower_0:1>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:1>]);
+recipes.addShapeless("deathbloom",<biomesoplenty:flower_0:2>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:2>]);
+recipes.addShapeless("glowflower",<biomesoplenty:flower_0:3>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:3>]);
+recipes.addShapeless("blueHydrangea",<biomesoplenty:flower_0:4>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:4>]);
+recipes.addShapeless("orangeCosmos",<biomesoplenty:flower_0:5>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:5>]);
+recipes.addShapeless("pinkDafodil",<biomesoplenty:flower_0:6>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:6>]);
+recipes.addShapeless("wildflower",<biomesoplenty:flower_0:7>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:7>]);
+recipes.addShapeless("violetflower",<biomesoplenty:flower_0:8>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:8>]);
+recipes.addShapeless("whiteAnemone",<biomesoplenty:flower_0:9>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:9>]);
+recipes.addShapeless("enderLotus",<biomesoplenty:flower_0:10>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:10>]);
+recipes.addShapeless("bromeliad",<biomesoplenty:flower_0:11>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:11>]);
+recipes.addShapeless("wiltedLily",<biomesoplenty:flower_0:12>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:12>]);
+recipes.addShapeless("pinkHibiscus",<biomesoplenty:flower_0:13>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:13>]);
+recipes.addShapeless("lilyOfTheValley",<biomesoplenty:flower_0:14>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:14>]);
+recipes.addShapeless("burningBlossom",<biomesoplenty:flower_0:15>*2,[<minecraft:dye:15>,<biomesoplenty:flower_0:15>]);
+recipes.addShapeless("lavenderFlower",<biomesoplenty:flower_1:0>*2,[<minecraft:dye:15>,<biomesoplenty:flower_1:0>]);
+recipes.addShapeless("goldenrodFlower",<biomesoplenty:flower_1:1>*2,[<minecraft:dye:15>,<biomesoplenty:flower_1:1>]);
+recipes.addShapeless("bluebells",<biomesoplenty:flower_1:2>*2,[<minecraft:dye:15>,<biomesoplenty:flower_1:2>]);
+recipes.addShapeless("minersDelight",<biomesoplenty:flower_1:3>*2,[<minecraft:dye:15>,<biomesoplenty:flower_1:3>]);
+recipes.addShapeless("icyIris",<biomesoplenty:flower_1:4>*2,[<minecraft:dye:15>,<biomesoplenty:flower_1:4>]);
+recipes.addShapeless("roseFlower",<biomesoplenty:flower_1:5>*2,[<minecraft:dye:15>,<biomesoplenty:flower_1:5>]);
+
+recipes.addShapeless("hugeLilyPad",<twilightforest:huge_lilypad>*2,[<minecraft:dye:15>,<twilightforest:huge_lilypad>]);
+recipes.addShapeless("hugeWaterLily",<twilightforest:huge_waterlily>*2,[<minecraft:dye:15>,<twilightforest:huge_waterlily>]);
+recipes.addShapeless("mushGloom",<twilightforest:twilight_plant:4>*2,[<minecraft:dye:15>,<twilightforest:twilight_plant:4>]);
+
+recipes.addShapeless("nettle",<erebus:small_plant:0>*2,[<minecraft:dye:15>,<erebus:small_plant:0>]);
+recipes.addShapeless("nettleBlooming",<erebus:small_plant:1>*2,[<minecraft:dye:15>,<erebus:small_plant:1>]);
+recipes.addShapeless("swampPlant",<erebus:small_plant:2>*2,[<minecraft:dye:15>,<erebus:small_plant:2>]);
+recipes.addShapeless("desertShrub",<erebus:small_plant:3>*2,[<minecraft:dye:15>,<erebus:small_plant:3>]);
+recipes.addShapeless("firebloom",<erebus:small_plant:4>*2,[<minecraft:dye:15>,<erebus:small_plant:4>]);
+recipes.addShapeless("bullrush",<erebus:double_plant:0>*2,[<minecraft:dye:15>,<erebus:double_plant:0>]);
+recipes.addShapeless("weepingBluebell",<erebus:double_plant:1>*2,[<minecraft:dye:15>,<erebus:double_plant:1>]);
+recipes.addShapeless("sundew",<erebus:double_plant:2>*2,[<minecraft:dye:15>,<erebus:double_plant:2>]);
+recipes.addShapeless("droughtedShrub",<erebus:double_plant:3>*2,[<minecraft:dye:15>,<erebus:double_plant:3>]);
+recipes.addShapeless("tallBloom",<erebus:double_plant:4>*2,[<minecraft:dye:15>,<erebus:double_plant:4>]);
+recipes.addShapeless("tangledStalkMushroom",<erebus:double_plant:5>*2,[<minecraft:dye:15>,<erebus:double_plant:5>]);
+recipes.addShapeless("highCappedMushroom",<erebus:double_plant:6>*2,[<minecraft:dye:15>,<erebus:double_plant:6>]);
+
+recipes.addShapeless("trillium",<betteranimalsplus:trillium>*2,[<minecraft:dye:15>,<betteranimalsplus:trillium>]);
+
+recipes.addShapeless("hyphae",<mod_lavacow:hyphae>*1,[<mod_lavacow:cordy_shroom>]);
+recipes.addShapeless("cordyceps",<mod_lavacow:cordy_shroom>*2,[<biomesoplenty:fleshchunk>,<mod_lavacow:cordy_shroom>]);
+recipes.addShapeless("veilshroom",<mod_lavacow:veil_shroom>*2,[<minecraft:dye:15>,<mod_lavacow:veil_shroom>]);
+
+recipes.addShapeless("sanguineRose",<dungeontactics:flower_sanguine>*2,[<minecraft:dye:15>,<dungeontactics:flower_sanguine>,<dungeontactics:magic_powder>]);
+recipes.addShapeless("elderflower",<dungeontactics:flower_xp>*2,[<minecraft:dye:15>,<dungeontactics:flower_xp>,<dungeontactics:magic_powder>]);
+recipes.addShapeless("bramble",<dungeontactics:flower_bramble>*2,[<minecraft:dye:15>,<dungeontactics:flower_bramble>,<dungeontactics:magic_powder>]);
+recipes.addShapeless("barkvine",<dungeontactics:flower_bark>*2,[<minecraft:dye:15>,<dungeontactics:flower_bark>,<dungeontactics:magic_powder>]);
+recipes.addShapeless("cinderbloom",<dungeontactics:flower_cinder>*2,[<minecraft:dye:15>,<dungeontactics:flower_cinder>,<dungeontactics:magic_powder>]);
+recipes.addShapeless("tangleweed",<dungeontactics:flower_tangle>*2,[<minecraft:dye:15>,<dungeontactics:flower_tangle>,<dungeontactics:magic_powder>]);
+recipes.addShapeless("ailingNettle",<dungeontactics:flower_ailment>*2,[<minecraft:dye:15>,<dungeontactics:flower_ailment>,<dungeontactics:magic_powder>]);
+recipes.addShapeless("fadeleaf",<dungeontactics:flower_fade>*2,[<minecraft:dye:15>,<dungeontactics:flower_fade>,<dungeontactics:magic_powder>]);
+recipes.addShapeless("featherBlossom",<dungeontactics:flower_feather>*2,[<minecraft:dye:15>,<dungeontactics:flower_feather>,<dungeontactics:magic_powder>]);
+
+recipes.addShapeless("cqrCannonBall",<cqrepoured:cannon_ball>*1,[<cqrepoured:bullet_iron>,<cqrepoured:bullet_iron>]);
+
+recipes.addShapeless("deadLeafPile",<biomesoplenty:plant_0:12>*4,[<biomesoplenty:leaves_1:9>]);
+
+recipes.addShapeless("leafPileFour",<biomesoplenty:plant_0:11>*4,[<ore:treeLeaves>]);
+
+recipes.addShapeless("grateOne",<quark:grate>*1,[<minecraft:iron_bars>]);
+recipes.addShapeless("grateFour",<quark:grate>*4,[<minecraft:iron_bars>,<minecraft:iron_bars>,<minecraft:iron_bars>,<minecraft:iron_bars>]);
+recipes.addShapeless("grateToIronBarsOne",<minecraft:iron_bars>*1,[<quark:grate>]);
+recipes.addShapeless("grateToIronBarsFour",<minecraft:iron_bars>*4,[<quark:grate>,<quark:grate>,<quark:grate>,<quark:grate>]);
+
+recipes.addShapeless("philosophersStone",<ancientspellcraft:charm_philosophers_stone>*1,[<ancientspellcraft:alchemical_essence>,<ancientspellcraft:alchemical_essence>,<ancientspellcraft:alchemical_essence>,<twilightforest:carminite>]);
+
+recipes.addShaped("magicDucttape",<dungeontactics:ducttape>*1,[
+    [<ore:slimeball>,<ore:slimeball>,<ore:slimeball>],
+    [<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
+    [<ore:paper>,<ore:paper>,<ore:paper>]
+]);
+
+recipes.addShapeless("curseWeaveToPaper",<minecraft:paper>*1,[<mod_lavacow:curseweave_cloth>]);
+
+recipes.addShapeless("silkySludgeToSlime",<minecraft:slime_ball>*1,[<mod_lavacow:silky_sludge>]);
+
+recipes.addShapeless("fleshChunkToRottenFlesh",<minecraft:rotten_flesh>*1,[<biomesoplenty:fleshchunk>]);
+
+recipes.addShapeless("cursedFabric",<mod_lavacow:cursed_fabric>*1,[<minecraft:rotten_flesh>,<harvestcraft:wovencottonitem>]);
+
+recipes.addShapeless("diseasedWheat",<mod_lavacow:diseased_wheat>*1,[<minecraft:rotten_flesh>,<minecraft:wheat>]);
+
+recipes.addShapeless("plaguedPorkchop",<mod_lavacow:plagued_porkchop>*1,[<minecraft:rotten_flesh>,<minecraft:porkchop>]);
+
+recipes.addShapeless("compostToBonemeal",<minecraft:dye:15>*3,[<erebus:compost>]);
+
+recipes.addShaped("spellSlayer",<ancientspellcraft:devoritium_scimitar>,[
+    [<minecraft:dragon_breath>,<ancientspellcraft:devoritium_ingot>,<minecraft:dragon_breath>],
+    [<quark:biotite>,<ancientspellcraft:devoritium_sword>,<quark:biotite>],
+    [<ancientspellcraft:alchemical_essence>,<ancientspellcraft:devoritium_ingot>,<ancientspellcraft:alchemical_essence>]
+]);
+
+recipes.addShapeless("trilliumToLimeDye",<minecraft:dye:10>*1,[<betteranimalsplus:trillium>]);
+
+recipes.addShaped("basicBombCharge",<mod_lavacow:basicbomb>*2,[
+    [<minecraft:string>],
+    [<spartanweaponry:material:2>]
+]);
+
+recipes.addShapeless("fireCharge",<minecraft:fire_charge>*4,[<minecraft:blaze_powder>,<minecraft:gunpowder>,<minecraft:coal:0>|<minecraft:coal:1>]);
+recipes.addShapeless("fireBombCharge",<ebwizardry:firebomb>*4,[<minecraft:blaze_powder>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
+recipes.addShapeless("poisonBombCharge",<ebwizardry:poison_bomb>*4,[<minecraft:spider_eye>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
+recipes.addShapeless("smokeBombCharge",<ebwizardry:smoke_bomb>*4,[<minecraft:coal:0>|<minecraft:coal:1>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
+recipes.addShapeless("sparkBombCharge",<ebwizardry:spark_bomb>*4,[<ebwizardry:magic_crystal:3>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
+recipes.addShapeless("frostBombCharge",<necromancersdelight:frost_bomb>*4,[<ebwizardry:magic_crystal:2>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
+recipes.addShapeless("stinkBombCharge",<necromancersdelight:stink_bomb>*4,[<mod_lavacow:foul_bristle>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
+
+recipes.addShapeless("bombFrag",<dungeontactics:bomb_frag>*3,[<minecraft:string>,<minecraft:gunpowder>,<minecraft:flower_pot>]);
+recipes.addShapeless("bombFragCluster",<dungeontactics:bomb_frag_cluster>*1,[<dungeontactics:bomb_frag>,<dungeontactics:bomb_frag>,<dungeontactics:bomb_frag>]);
+recipes.addShapeless("bombPyro",<dungeontactics:bomb_pyro>*3,[<minecraft:string>,<minecraft:gunpowder>,<minecraft:flower_pot>]);
+recipes.addShapeless("bombPyroCluster",<dungeontactics:bomb_pyro_cluster>*1,[<dungeontactics:bomb_pyro>,<dungeontactics:bomb_pyro>,<dungeontactics:bomb_pyro>]);
+recipes.addShapeless("bombPorting",<dungeontactics:bomb_porting>*3,[<minecraft:string>,<minecraft:gunpowder>,<minecraft:flower_pot>]);
+recipes.addShapeless("bombPortingCluster",<dungeontactics:bomb_porting_cluster>*1,[<dungeontactics:bomb_porting>,<dungeontactics:bomb_porting>,<dungeontactics:bomb_porting>]);
+recipes.addShapeless("bombCryo",<dungeontactics:bomb_cryo>*3,[<minecraft:string>,<minecraft:gunpowder>,<minecraft:flower_pot>]);
+recipes.addShapeless("bombCryoCluster",<dungeontactics:bomb_cryo_cluster>*1,[<dungeontactics:bomb_cryo>,<dungeontactics:bomb_cryo>,<dungeontactics:bomb_cryo>]);
+recipes.addShapeless("potshotAmmo",<dungeontactics:potshot_ammo>*3,[<minecraft:gunpowder>,<minecraft:paper>,<minecraft:cobblestone>]);
+
+recipes.addShapeless("tallowToTallow",<rustic:tallow>*1,[<quark:tallow>]);
+
+recipes.addShapeless("cqrStaff",<cqrepoured:staff>,[<spartanweaponry:material:1>,<minecraft:string>,<spartanweaponry:material:1>]);
+
+recipes.addShaped("honeyBlock",<biomesoplenty:honey_block:0>,[
+    [<biomesoplenty:jar_filled:0>,<biomesoplenty:jar_filled:0>],
+    [<biomesoplenty:jar_filled:0>,<biomesoplenty:jar_filled:0>]
+]);
+
+recipes.addShaped("woodenLanternCrafted",<rustic:lantern_wood>*4,[
+    [null,<ore:plankWood>,null],
+    [<minecraft:glass_pane>,<minecraft:coal:0>|<minecraft:coal:1>,<minecraft:glass_pane>],
+    [null,<ore:plankWood>,null]
+]);
+
+recipes.addShaped("monkingDagger",<cqrepoured:dagger_monking>,[
+    [null,null,<cqrepoured:bone_monking>],
+    [null,<cqrepoured:bone_monking>,null],
+    [<spartanweaponry:material:0>,null,null]
+]);
+
+recipes.addShaped("monkingGreatsword",<cqrepoured:great_sword_monking>,[
+    [null,<cqrepoured:bone_monking>,null],
+    [<cqrepoured:bone_monking>,<cqrepoured:bone_monking>,<cqrepoured:bone_monking>],
+    [<cqrepoured:bone_monking>,<spartanweaponry:material:0>,<cqrepoured:bone_monking>]
+]);
+
+recipes.addShaped("bullGreatSword",<cqrepoured:great_sword_bull>,[
+    [null,<cqrepoured:horn_bull>,null],
+    [<cqrepoured:horn_bull>,<cqrepoured:horn_bull>,<cqrepoured:horn_bull>],
+    [<cqrepoured:horn_bull>,<spartanweaponry:material:0>,<cqrepoured:horn_bull>]
+]);
+
+recipes.addShaped("bullBattleAxe",<cqrepoured:battle_axe_bull>,[
+    [<cqrepoured:horn_bull>,<cqrepoured:horn_bull>,<cqrepoured:horn_bull>],
+    [<cqrepoured:horn_bull>,<spartanweaponry:material:0>,<cqrepoured:horn_bull>],
+    [null,<spartanweaponry:material:0>,null]
+]);
+
+recipes.addShaped("bullHelmet",<cqrepoured:helmet_bull>,[
+    [<cqrepoured:horn_bull>,<cqrepoured:leather_bull>,<cqrepoured:horn_bull>],
+    [<cqrepoured:leather_bull>,null,<cqrepoured:leather_bull>]
+]);
+
+recipes.addShaped("bullChestplate",<cqrepoured:chestplate_bull>,[
+    [<cqrepoured:horn_bull>,null,<cqrepoured:horn_bull>],
+    [<cqrepoured:leather_bull>,<cqrepoured:leather_bull>,<cqrepoured:leather_bull>],
+    [<cqrepoured:leather_bull>,<cqrepoured:leather_bull>,<cqrepoured:leather_bull>]
+]);
+
+recipes.addShaped("bullLeggings",<cqrepoured:leggings_bull>,[
+    [<cqrepoured:leather_bull>,<cqrepoured:leather_bull>,<cqrepoured:leather_bull>],
+    [<cqrepoured:leather_bull>,null,<cqrepoured:leather_bull>],
+    [<cqrepoured:leather_bull>,null,<cqrepoured:leather_bull>]
+]);
+
+recipes.addShaped("bullBoots",<cqrepoured:boots_bull>,[
+    [<cqrepoured:leather_bull>,null,<cqrepoured:leather_bull>],
+    [<cqrepoured:leather_bull>,null,<cqrepoured:leather_bull>]
+]);
+
+recipes.addShaped("slimeHelmet",<cqrepoured:helmet_slime>,[
+    [<cqrepoured:ball_slime>,<cqrepoured:ball_slime>,<cqrepoured:ball_slime>],
+    [<cqrepoured:ball_slime>,null,<cqrepoured:ball_slime>]
+]);
+
+recipes.addShaped("slimeChestplate",<cqrepoured:chestplate_slime>,[
+    [<cqrepoured:ball_slime>,null,<cqrepoured:ball_slime>],
+    [<cqrepoured:ball_slime>,<cqrepoured:ball_slime>,<cqrepoured:ball_slime>],
+    [<cqrepoured:ball_slime>,<cqrepoured:ball_slime>,<cqrepoured:ball_slime>]
+]);
+
+recipes.addShaped("slimeLeggings",<cqrepoured:leggings_slime>,[
+    [<cqrepoured:ball_slime>,<cqrepoured:ball_slime>,<cqrepoured:ball_slime>],
+    [<cqrepoured:ball_slime>,null,<cqrepoured:ball_slime>],
+    [<cqrepoured:ball_slime>,null,<cqrepoured:ball_slime>]
+]);
+
+recipes.addShaped("slimeBoots",<cqrepoured:boots_slime>,[
+    [<cqrepoured:ball_slime>,null,<cqrepoured:ball_slime>],
+    [<cqrepoured:ball_slime>,null,<cqrepoured:ball_slime>]
+]);
+
+recipes.addShaped("turtleHelmet",<cqrepoured:helmet_turtle>,[
+    [<cqrepoured:scale_turtle>,<cqrepoured:scale_turtle>,<cqrepoured:scale_turtle>],
+    [<cqrepoured:scale_turtle>,null,<cqrepoured:scale_turtle>]
+]);
+
+recipes.addShaped("turtleChestplate",<cqrepoured:chestplate_turtle>,[
+    [<cqrepoured:scale_turtle>,null,<cqrepoured:scale_turtle>],
+    [<cqrepoured:scale_turtle>,<cqrepoured:scale_turtle>,<cqrepoured:scale_turtle>],
+    [<cqrepoured:scale_turtle>,<cqrepoured:scale_turtle>,<cqrepoured:scale_turtle>]
+]);
+
+recipes.addShaped("turtleLeggings",<cqrepoured:leggings_turtle>,[
+    [<cqrepoured:scale_turtle>,<cqrepoured:scale_turtle>,<cqrepoured:scale_turtle>],
+    [<cqrepoured:scale_turtle>,null,<cqrepoured:scale_turtle>],
+    [<cqrepoured:scale_turtle>,null,<cqrepoured:scale_turtle>]
+]);
+
+recipes.addShaped("turtleBoots",<cqrepoured:boots_turtle>,[
+    [<cqrepoured:scale_turtle>,null,<cqrepoured:scale_turtle>],
+    [<cqrepoured:scale_turtle>,null,<cqrepoured:scale_turtle>]
+]);
+
+recipes.addShaped("turtleSword",<cqrepoured:sword_turtle>,[
+    [<cqrepoured:scale_turtle>],
+    [<cqrepoured:scale_turtle>],
+    [<spartanweaponry:material:0>]
+]);
+
+recipes.addShaped("spiderHelmet",<cqrepoured:helmet_spider>,[
+    [<cqrepoured:leather_spider>,<cqrepoured:giant_spider_poison>,<cqrepoured:leather_spider>],
+    [<cqrepoured:leather_spider>,null,<cqrepoured:leather_spider>]
+]);
+
+recipes.addShaped("spiderChestplate",<cqrepoured:chestplate_spider>,[
+    [<cqrepoured:leather_spider>,null,<cqrepoured:leather_spider>],
+    [<cqrepoured:leather_spider>,<cqrepoured:giant_spider_poison>,<cqrepoured:leather_spider>],
+    [<cqrepoured:leather_spider>,<cqrepoured:leather_spider>,<cqrepoured:leather_spider>]
+]);
+
+recipes.addShaped("spiderLeggings",<cqrepoured:leggings_spider>,[
+    [<cqrepoured:leather_spider>,<cqrepoured:giant_spider_poison>,<cqrepoured:leather_spider>],
+    [<cqrepoured:leather_spider>,null,<cqrepoured:leather_spider>],
+    [<cqrepoured:leather_spider>,null,<cqrepoured:leather_spider>]
+]);
+
+recipes.addShaped("spiderBoots",<cqrepoured:boots_spider>,[
+    [<cqrepoured:leather_spider>,null,<cqrepoured:leather_spider>],
+    [<cqrepoured:leather_spider>,null,<cqrepoured:leather_spider>]
+]);
+
+recipes.addShaped("spiderSword",<cqrepoured:sword_spider>,[
+    [<cqrepoured:giant_spider_poison>],
+    [<cqrepoured:giant_spider_poison>],
+    [<spartanweaponry:material:0>]
+]);
+
+recipes.addShaped("spiderStaff",<cqrepoured:staff_spider>,[
+    [<cqrepoured:giant_spider_poison>],
+    [<cqrepoured:staff>]
+]);
 
 print("Script modifiedRecipes ending!");

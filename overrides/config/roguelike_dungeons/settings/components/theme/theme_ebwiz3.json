@@ -5,21 +5,21 @@
       "base": "TEMPLE",
       "primary": {
         "lightblock": {"name": "quark:crystal", "meta": 6},
-        "liquid": {"name": "minecraft:water"},
+        "liquid": {"name": "fossil:tar"},
         "door": {"name": "minecraft:iron_door"},
         "pillar": {"name": "ebwizardry:runestone_pedestal", "meta": 3},
         "walls": {"name": "ebwizardry:runestone", "meta": 3},
         "floor": {"name": "ebwizardry:runestone", "meta": 3},
-	"stair": {"name": "quark:biotite_stairs"}
+	      "stair": {"name": "quark:stone_basalt_bricks_stairs"}
       },
       "secondary": {
         "lightblock": {"name": "quark:crystal", "meta": 6},
-        "liquid": {"name": "minecraft:water"},
+        "liquid": {"name": "fossil:tar"},
         "door": {"name": "minecraft:iron_door"},
         "pillar": {"name": "ebwizardry:runestone_pedestal", "meta": 3},
         "walls": {"name": "ebwizardry:runestone", "meta": 3},
         "floor": {"name": "ebwizardry:runestone", "meta": 3},
-	"stair": {"name": "quark:biotite_stairs"}
+	      "stair": {"name": "quark:stone_basalt_bricks_stairs"}
       }
     }
   ]

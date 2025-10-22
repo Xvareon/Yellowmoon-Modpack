@@ -27,7 +27,7 @@
         "pillar": {"name": "iceandfire:dread_stone_face"},
         "stair": {"name": "iceandfire:dread_stone_stairs"},
         "lightblock": {"name": "biomesoplenty:crystal"},
-        "liquid": {"name": "biomesoplenty:poison"}
+        "liquid": {"name": "erebus:formic_acid"}
       },
       "secondary": {
         "door": {"name": "minecraft:iron_door"},
@@ -53,7 +53,7 @@
         "pillar": {"name": "iceandfire:dread_stone_face"},
         "stair": {"name": "iceandfire:dread_stone_stairs"},
         "lightblock": {"name": "biomesoplenty:crystal"},
-        "liquid": {"name": "biomesoplenty:poison"}
+        "liquid": {"name": "erebus:formic_acid"}
       }
     }
   ]
