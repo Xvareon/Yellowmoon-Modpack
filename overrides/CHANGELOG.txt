@@ -1,3 +1,20 @@
+Version 5.8
+
+- Disabled day/night cycle overlay by default (Dunno how this turned on)
+- Added foxhound, sandmonster, and cockatrice mobs to blacklist of plagued and infested champions
+- Updated Essential
+- Updated Simple Voice Chat
+- Updated Merge Enchantments
+- Added B.A.S.E
+- Added Content Tweaker (new custom spells!)
+- Updated WizardryUtils
+- Added Lost Aether Content
+- Reset equipments.json
+- Added more potion variety to potion throwing improved mobs
+- Added Dodo Egg (primitive mobs) to intestine drops
+- Terrible feather can now be crafted into normal feathers
+- Slightly reduced cast time of intimidate spell but reduced the duration to be half of the cooldown
+
 Version 5.7
 
 - Added The Betweenlands!
@@ -24,7 +41,7 @@ Version 5.7
 -- Removed slowness from flesh spells
 -- A ton of spell adjustments for rebalancing
 -- Reenabled and rebalanced Intimidate spell!
--- Amnesia scroll does not use the whole stack now (AS, not yet)
+-- Amnesia scroll does not use the whole stack now
 -- Added a way to craft Spell Slayer
 -- Buffed Spell Blade damage
 - Added FermiumBooter

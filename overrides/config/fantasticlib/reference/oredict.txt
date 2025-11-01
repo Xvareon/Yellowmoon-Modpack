@@ -170,10 +170,10 @@ blockWoolGreen
 blockWoolRed
 blockWoolBlack
 materialStoneTool
-mushroomAny
-tallow
 buttonWood
 gemEnderBiotite
+mushroomAny
+tallow
 stoneBasalt
 stoneMarble
 stoneLimestone

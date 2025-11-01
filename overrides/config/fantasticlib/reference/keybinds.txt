@@ -189,7 +189,6 @@ key.categories.randomtweaks
 key.reloadSoundSystem
 key.toggleFoVChanges
 key.togglePotionParticles
-key.toggleTimeOfDayOverlay
 
 key.spartanweaponry:category.title
 key.spartanweaponry.access_quiver

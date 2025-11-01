@@ -14,11 +14,11 @@
   "element": "necromancy",
   "type": "alteration",
   "cost": 200,
-  "chargeup": 100,
+  "chargeup": 60,
   "cooldown": 1000,
   "base_properties": {
     "effect_radius": 8,
-    "effect_duration": 600,
+    "effect_duration": 500,
     "effect_strength": 0
   }
 }

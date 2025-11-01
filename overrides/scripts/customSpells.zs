@@ -1,0 +1,27 @@
+print("Script customSpells starting!");
+
+#loader contenttweaker
+
+mods.wizardryutils.MinionSpells.create("cow_minion", "net.minecraft.entity.passive.EntityCow");
+mods.wizardryutils.MinionSpells.create("summon_grizzlybear", "its_meow.betteranimalsplus.common.entity.EntityBear");
+mods.wizardryutils.MinionSpells.create("summon_sandmonster", "com.unoriginal.ancientbeasts.entity.Entities.EntitySandy");
+mods.wizardryutils.MinionSpells.create("summon_ghost", "com.unoriginal.ancientbeasts.entity.Entities.EntityGhost");
+mods.wizardryutils.MinionSpells.create("summon_nekros", "com.unoriginal.ancientbeasts.entity.Entities.EntityNekros");
+mods.wizardryutils.MinionSpells.create("summon_damcell", "com.unoriginal.ancientbeasts.entity.Entities.EntityDamcell");
+mods.wizardryutils.MinionSpells.create("summon_frostwalker", "com.unoriginal.ancientbeasts.entity.Entities.EntityFrostWalker");
+mods.wizardryutils.MinionSpells.create("summon_boulderer", "com.unoriginal.ancientbeasts.entity.Entities.EntityBoulderer");
+mods.wizardryutils.MinionSpells.create("summon_ashen", "vazkii.quark.world.entity.EntityAshen");
+mods.wizardryutils.MinionSpells.create("summon_dweller", "vazkii.quark.world.entity.EntityDweller");
+mods.wizardryutils.MinionSpells.create("summon_skeletonwarrior", "net.daveyx0.primitivemobs.entity.monster.EntitySkeletonWarrior");
+mods.wizardryutils.MinionSpells.create("summon_voideye", "net.daveyx0.primitivemobs.entity.monster.EntityVoidEye");
+mods.wizardryutils.MinionSpells.create("summon_blazingjuggernaut", "net.daveyx0.primitivemobs.entity.monster.EntityBlazingJuggernaut");
+mods.wizardryutils.MinionSpells.create("summon_voidcreeper", "com.windanesz.ancientspellcraft.entity.living.EntityVoidCreeper");
+mods.wizardryutils.MinionSpells.create("summon_rocketcreeper", "net.daveyx0.primitivemobs.entity.monster.EntityRocketCreeper");
+mods.wizardryutils.MinionSpells.create("summon_festivecreeper", "net.daveyx0.primitivemobs.entity.monster.EntityFestiveCreeper");
+mods.wizardryutils.MinionSpells.create("summon_supportcreeper", "net.daveyx0.primitivemobs.entity.monster.EntitySupportCreeper");
+mods.wizardryutils.MinionSpells.create("summon_undeadcrew", "vazkii.quark.world.entity.EntityPirate");
+
+mods.wizardryutils.ProjectileSpells.create("dreadlich_skull", "com.github.alexthe666.iceandfire.entity.EntityDreadLichSkull");
+mods.wizardryutils.ProjectileSpells.create("ender_burst", "team.cqr.cqrepoured.entity.projectiles.ProjectileHomingEnderEye");
+
+print("Script customSpells ending!");
