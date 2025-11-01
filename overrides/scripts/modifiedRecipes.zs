@@ -1160,4 +1160,6 @@ recipes.addShaped("spiderStaff",<cqrepoured:staff_spider>,[
     [<cqrepoured:staff>]
 ]);
 
+recipes.addShapeless("terribleFeatherToFeather",<minecraft:feather>*3,[<dungeontactics:terrible_feather:*>]);
+
 print("Script modifiedRecipes ending!");

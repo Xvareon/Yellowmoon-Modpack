@@ -1,0 +1,23 @@
+{
+  "enabled": {
+    "book": true,
+    "scroll": true,
+    "wands": true,
+    "npcs": true,
+    "dispensers": true,
+    "commands": true,
+    "treasure": true,
+    "trades": true,
+    "looting": true
+  },
+  "tier": "apprentice",
+  "element": "sorcery",
+  "type": "utility",
+  "cost": 50,
+  "chargeup": 10,
+  "cooldown": 10,
+  "base_properties": {
+    "damage": 4,
+    "range": 30
+  }
+}

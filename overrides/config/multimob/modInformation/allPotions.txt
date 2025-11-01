@@ -111,6 +111,10 @@ twilightforest:frosted
 tfspellpack:mist_cloak
 tfspellpack:ironwood_heart
 ancientspellcraft:curse_of_ender
+ancientspellcraft:curse_of_eternal_combustion
+ancientspellcraft:curse_of_insomnia
+ancientspellcraft:curse_of_eternal_tempest
+ancientspellcraft:curse_of_eternal_frost
 ancientspellcraft:unlimited_power
 ancientspellcraft:martyr
 ancientspellcraft:martyr_beneficial

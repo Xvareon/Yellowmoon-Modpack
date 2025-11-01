@@ -112,6 +112,9 @@ ancientwarfarestructure:aw_gate
 ancientwarfarestructure:seat
 ancientwarfarevehicle:vehicle
 ancientwarfarevehicle:missile
+quark:chest_passenger
+quark:gravisand
+quark:seat
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -121,6 +124,10 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -128,13 +135,6 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:seat
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
-quark:gravisand
-quark:chest_passenger
 biomesoplenty:mudball
 biomesoplenty:bop_boat
 biomesoplenty:wasp
@@ -928,6 +928,7 @@ tfspellpack:acid_rain_cloud
 tfspellpack:cinder_cloud
 tfspellpack:fire_jet
 tfspellpack:dark_mist_cloud
+wizardryutils:dynamic_construct
 zombie_players:zombie_player
 ancientspellcraft:will_o_wisp
 ancientspellcraft:mage_light_entity
@@ -967,6 +968,7 @@ ancientspellcraft:master_bolt
 ancientspellcraft:molten_boulder
 ancientspellcraft:creeper_minion
 ancientspellcraft:pig_zombie_minion
+ancientspellcraft:remnant_minion
 ancientspellcraft:stone_guardian
 ancientspellcraft:stone_guardian_shard
 ancientspellcraft:wizardmerchant
@@ -1065,6 +1067,9 @@ battletowers:golemfireball
 camera:image_frame
 coroutil:bat_smart
 corpse:corpse
+lost_aether:king_aerwhale
+lost_aether:falling_rock
+lost_aether:zephyroo
 notenoughpets:ocelot_nep
 notenoughpets:wolf_nep
 notenoughpets:mooshroom_nep

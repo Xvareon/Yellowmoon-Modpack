@@ -160,7 +160,10 @@
       "betteranimalsplus:lammergeier",
       "iceandfire:hippogryph",
       "iceandfire:hippocampus",
-      "iceandfire:amphithere"
+      "iceandfire:amphithere",
+      "iceandfire:if_cockatrice",
+      "quark:foxhound",
+      "ancientbeasts:sandy"
     ],
     "alwaysOnEntity": [],
     "tier": 1
@@ -270,7 +273,10 @@
       "betteranimalsplus:lammergeier",
       "iceandfire:hippogryph",
       "iceandfire:hippocampus",
-      "iceandfire:amphithere"
+      "iceandfire:amphithere",
+      "iceandfire:if_cockatrice",
+      "quark:foxhound",
+      "ancientbeasts:sandy"
     ],
     "alwaysOnEntity": [],
     "tier": 1
