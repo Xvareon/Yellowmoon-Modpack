@@ -18,11 +18,11 @@ recipes.addShaped("waystone",<waystones:waystone>,[
     [<quark:biotite_block>,<minecraft:beacon>,<quark:biotite_block>]
 ]);
 
-recipes.addShaped("dreadWoodLog",<iceandfire:dreadwood_log>*8,[
-    [<ore:logWood>,<ore:logWood>,<ore:logWood>],
-    [<ore:logWood>,<iceandfire:dread_shard>,<ore:logWood>],
-    [<ore:logWood>,<ore:logWood>,<ore:logWood>]
-]);
+// recipes.addShaped("dreadWoodLog",<iceandfire:dreadwood_log>*8,[
+//    [<ore:logWood>,<ore:logWood>,<ore:logWood>],
+//    [<ore:logWood>,<iceandfire:dread_shard>,<ore:logWood>],
+//    [<ore:logWood>,<ore:logWood>,<ore:logWood>]
+// ]);
 
 recipes.addShapeless("dragonCanteen",<simpledifficulty:dragon_canteen>,
     [<simpledifficulty:iron_canteen>,<iceandfire:fire_dragon_heart>|<iceandfire:ice_dragon_heart>|<iceandfire:lightning_dragon_heart>,<iceandfire:dragonbone>]
@@ -158,9 +158,9 @@ recipes.addShapeless("nightvisiongoggles",<bountifulbaubles:spectralsilt>,[<boun
 recipes.addShapeless("runeToSilt",<bountifulbaubles:spectralsilt>,[<bountifulbaubles:disintegrationtablet>,<quark:rune:16>]);
 
 recipes.addShaped("warpStone",<waystones:warp_stone>,[
-    [<iceandfire:amythest_gem>,<minecraft:ender_pearl>,<iceandfire:amythest_gem>],
+    [<iceandfire:amethyst_gem>,<minecraft:ender_pearl>,<iceandfire:amethyst_gem>],
     [<biomesoplenty:crystal_shard>,<dungeontactics:magic_powder>,<biomesoplenty:crystal_shard>],
-    [<iceandfire:amythest_gem>,<minecraft:ender_pearl>,<iceandfire:amythest_gem>]
+    [<iceandfire:amethyst_gem>,<minecraft:ender_pearl>,<iceandfire:amethyst_gem>]
 ]);
 
 recipes.addShaped("remoteBasic",<storagenetwork:remote:0>,[
@@ -200,15 +200,21 @@ recipes.addShaped("remotePicker",<storagenetwork:picker_remote>,[
 ]);
 
 recipes.addShaped("terrestrialArtifact",<biomesoplenty:terrestrial_artifact>,[
-    [<biomesoplenty:gem:1>,<biomesoplenty:gem:3>,<biomesoplenty:gem:7>|<mod_lavacow:ancient_amber>|<fossil:amber>],
+    [<biomesoplenty:gem:1>|<iceandfire:ruby_gem>,<biomesoplenty:gem:3>,<biomesoplenty:gem:7>|<mod_lavacow:ancient_amber>|<fossil:amber>],
     [<biomesoplenty:gem:2>,<biomesoplenty:gem:5>,<biomesoplenty:gem:6>|<iceandfire:sapphire_gem>],
-    [<biomesoplenty:gem:4>,<minecraft:emerald>,<iceandfire:amythest_gem>]
+    [<biomesoplenty:gem:4>,<minecraft:emerald>,<iceandfire:amethyst_gem>]
 ]);
 
 recipes.addShaped("whip",<fossil:whip>,[
-    [null,null,<iceandfire:chain>],
+    [null,null,<quark:chain>],
     [null,<quark:chain>,<fossil:scarab_gem>],
     [<spartanfire:witherbone_handle>,null,<harvestcraft:wovencottonitem>]
+]);
+
+recipes.addShaped("gapple_basic",<minecraft:golden_apple:0>,[
+    [<minecraft:gold_ingot>,<aether_legacy:ambrosium_shard>,<minecraft:gold_ingot>],
+    [<aether_legacy:ambrosium_shard>,<minecraft:apple>,<aether_legacy:ambrosium_shard>],
+    [<minecraft:gold_ingot>,<aether_legacy:ambrosium_shard>,<minecraft:gold_ingot>]
 ]);
 
 recipes.addShaped("gapple",<minecraft:golden_apple:1>,[
@@ -240,8 +246,8 @@ recipes.addShapeless("friedEggToCookedEgg",<fossil:cooked_egg>*1,[<betteranimals
 recipes.addShapeless("enderAmethystToMagicPowder",<dungeontactics:magic_powder>*9,[<biomesoplenty:gem:0>]);
 
 recipes.addShapeless("returnScroll",<waystones:return_scroll>*2,[<minecraft:paper>,<dungeontactics:magic_tether>]);
-recipes.addShapeless("boundScroll",<waystones:bound_scroll>*2,[<minecraft:paper>,<dungeontactics:magic_tether>,<iceandfire:amythest_gem>]);
-recipes.addShapeless("warpScroll",<waystones:warp_scroll>*2,[<minecraft:paper>,<dungeontactics:magic_tether>,<iceandfire:amythest_gem>,<dungeontactics:magic_powder>]);
+recipes.addShapeless("boundScroll",<waystones:bound_scroll>*2,[<minecraft:paper>,<dungeontactics:magic_tether>,<iceandfire:amethyst_gem>]);
+recipes.addShapeless("warpScroll",<waystones:warp_scroll>*2,[<minecraft:paper>,<dungeontactics:magic_tether>,<iceandfire:amethyst_gem>,<dungeontactics:magic_powder>]);
 
 recipes.addShaped("noviceWand",<ebwizardry:magic_wand>,[
     [null,null,<ebwizardry:magic_crystal:0>],
@@ -252,7 +258,7 @@ recipes.addShaped("noviceWand",<ebwizardry:magic_wand>,[
 recipes.addShaped("noviceWandFire",<ebwizardry:novice_fire_wand>,[
     [null,null,<ebwizardry:magic_crystal:1>],
     [null,<minecraft:stick>,null],
-    [<biomesoplenty:gem:1>,null,null]
+    [<biomesoplenty:gem:1>|<iceandfire:ruby_gem>,null,null]
 ]);
 
 recipes.addShaped("noviceWandIce",<ebwizardry:novice_ice_wand>,[
@@ -270,7 +276,7 @@ recipes.addShaped("noviceWandLightning",<ebwizardry:novice_lightning_wand>,[
 recipes.addShaped("noviceWandNecromancy",<ebwizardry:novice_necromancy_wand>,[
     [null,null,<ebwizardry:magic_crystal:4>],
     [null,<minecraft:stick>,null],
-    [<iceandfire:amythest_gem>,null,null]
+    [<iceandfire:amethyst_gem>,null,null]
 ]);
 
 recipes.addShaped("noviceWandEarth",<ebwizardry:novice_earth_wand>,[
@@ -288,7 +294,7 @@ recipes.addShaped("noviceWandSorcery",<ebwizardry:novice_sorcery_wand>,[
 recipes.addShaped("noviceWandHealing",<ebwizardry:novice_healing_wand>,[
     [null,null,<ebwizardry:magic_crystal:7>],
     [null,<minecraft:stick>,null],
-    [<biomesoplenty:gem:7>,null,null]
+    [<biomesoplenty:gem:7>|<mod_lavacow:ancient_amber>|<fossil:amber>,null,null]
 ]);
 
 recipes.addShaped("heavyLeatherHelmet",<toroquest:toro_armor_helmet>,[
@@ -334,7 +340,7 @@ recipes.addShapeless("lifeShard",<aether_legacy:life_shard>*1,[<minecraft:glowst
 
 recipes.addShaped("magicFeather",<magicfeather:magicfeather>,[
     [<minecraft:feather>,<iceandfire:pixie_dust>,<cqrepoured:feather_golden>],
-    [<mod_lavacow:feather_black>,<iceandfire:pixie_wings>,<iceandfire:stymphalian_bird_feather>],
+    [<mod_lavacow:feather_black>,<aether_legacy:golden_feather>,<iceandfire:stymphalian_bird_feather>],
     [<iceandfire:amphithere_feather>,<iceandfire:pixie_dust>,<twilightforest:raven_feather>]
 ]);
 
@@ -373,7 +379,7 @@ recipes.addShaped("nightVisionGoggles",<artifacts:night_vision_goggles>,[
 
 recipes.addShaped("snorkle",<artifacts:snorkel>,[
     [<bountifulbaubles:spectralsilt>,<minecraft:prismarine_shard>,<bountifulbaubles:spectralsilt>],
-    [<minecraft:prismarine_crystals>,<iceandfire:siren_tear>,<minecraft:prismarine_crystals>],
+    [<minecraft:prismarine_crystals>,<iceandfire:hippocampus_fin>,<minecraft:prismarine_crystals>],
     [<bountifulbaubles:spectralsilt>,<minecraft:prismarine_shard>,<bountifulbaubles:spectralsilt>]
 ]);
 
@@ -967,7 +973,7 @@ recipes.addShapeless("philosophersStone",<ancientspellcraft:charm_philosophers_s
 
 recipes.addShaped("magicDucttape",<dungeontactics:ducttape>*1,[
     [<ore:slimeball>,<ore:slimeball>,<ore:slimeball>],
-    [<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
+    [<dungeontactics:magic_powder>,<dungeontactics:magic_powder>,<dungeontactics:magic_powder>],
     [<ore:paper>,<ore:paper>,<ore:paper>]
 ]);
 
@@ -1161,5 +1167,136 @@ recipes.addShaped("spiderStaff",<cqrepoured:staff_spider>,[
 ]);
 
 recipes.addShapeless("terribleFeatherToFeather",<minecraft:feather>*3,[<dungeontactics:terrible_feather:*>]);
+
+recipes.addShaped("dragonGemFire",<iceandfire:summoning_crystal_fire>,[
+    [<biomesoplenty:gem:1>|<iceandfire:ruby_gem>,<minecraft:ender_pearl>,<biomesoplenty:gem:1>|<iceandfire:ruby_gem>],
+    [<minecraft:ender_pearl>,<iceandfire:fire_dragon_blood>,<minecraft:ender_pearl>],
+    [<biomesoplenty:gem:1>|<iceandfire:ruby_gem>,<minecraft:ender_pearl>,<biomesoplenty:gem:1>|<iceandfire:ruby_gem>]
+]);
+
+recipes.addShaped("dragonGemIce",<iceandfire:summoning_crystal_ice>,[
+    [<biomesoplenty:gem:6>|<iceandfire:sapphire_gem>,<minecraft:ender_pearl>,<biomesoplenty:gem:6>|<iceandfire:sapphire_gem>],
+    [<minecraft:ender_pearl>,<iceandfire:ice_dragon_blood>,<minecraft:ender_pearl>],
+    [<biomesoplenty:gem:6>|<iceandfire:sapphire_gem>,<minecraft:ender_pearl>,<biomesoplenty:gem:6>|<iceandfire:sapphire_gem>]
+]);
+
+recipes.addShapeless("summoning_crystal_fire_reset",<iceandfire:summoning_crystal_fire>,[<iceandfire:summoning_crystal_fire:*>]);
+
+recipes.addShapeless("summoning_crystal_ice_reset",<iceandfire:summoning_crystal_ice>,[<iceandfire:summoning_crystal_ice:*>]);
+
+recipes.addShapeless("glowstoneToGlowstoneDust",<minecraft:glowstone_dust>*4,[<minecraft:glowstone:*>]);
+
+recipes.addShapeless("celestialCrystalsToCrystals",<biomesoplenty:crystal_shard>*4,[<biomesoplenty:crystal:0>]);
+
+recipes.addShaped("bonesToBoneblock",<minecraft:bone_block>,[
+    [<minecraft:bone>,<minecraft:bone>,<minecraft:bone>],
+    [<minecraft:bone>,<minecraft:bone>,<minecraft:bone>],
+    [<minecraft:bone>,<minecraft:bone>,<minecraft:bone>]
+]);
+
+recipes.addShapeless("boneblockToBones",<minecraft:bone>*9,[<minecraft:bone_block:*>]);
+
+recipes.addShapeless("blockOfSticksToSticks",<minecraft:stick>*9,[<ancientbeasts:stick_wall:*>]);
+
+recipes.addShaped("spiderEyesToSludge",<thebetweenlands:sludge>,[
+    [<minecraft:spider_eye>,<minecraft:spider_eye>,<minecraft:spider_eye>],
+    [<minecraft:spider_eye>,<minecraft:spider_eye>,<minecraft:spider_eye>],
+    [<minecraft:spider_eye>,<minecraft:spider_eye>,<minecraft:spider_eye>]
+]);
+
+recipes.addShapeless("sludgeToSpiderEyes",<minecraft:spider_eye>*9,[<thebetweenlands:sludge:*>]);
+
+recipes.addShapeless("netherWartBlockToNetherWarts",<minecraft:nether_wart>*9,[<minecraft:nether_wart_block:*>]);
+
+recipes.addShaped("ironGlassLantern",<dungeontactics:lantern_iron>,[
+    [<minecraft:glass_pane>,<rustic:iron_lantern>,<minecraft:glass_pane>]
+]);
+
+recipes.addShaped("paperLamp",<quark:paper_lantern>,[
+    [null,<ore:stickWood>,null],
+    [<ore:paper>,<minecraft:glowstone>,<ore:paper>],
+    [null,<ore:stickWood>,null]
+]);
+
+recipes.addShaped("blazeLamp",<quark:blaze_lantern>,[
+    [<minecraft:blaze_rod>,<minecraft:blaze_powder>],
+    [<minecraft:blaze_powder>,<minecraft:blaze_rod>]
+]);
+
+recipes.addShaped("seaLamp",<minecraft:sea_lantern>,[
+    [<minecraft:prismarine_shard>,<minecraft:prismarine_crystals>],
+    [<minecraft:prismarine_crystals>,<minecraft:prismarine_shard>]
+]);
+
+recipes.addShaped("xpJar",<disenchanter:experience_jar>,[
+    [<ore:blockGlass>,<minecraft:ender_pearl>,<ore:blockGlass>],
+    [<minecraft:ender_pearl>,<charm:charged_emerald>,<minecraft:ender_pearl>],
+    [<ore:blockGlass>,<minecraft:ender_pearl>,<ore:blockGlass>]
+]);
+
+recipes.addShaped("storageMaster",<storagenetwork:master>,[
+    [<iceandfire:silver_block>,<storagenetwork:kabel>,<iceandfire:silver_block>],
+    [<storagenetwork:kabel>,<minecraft:diamond>,<storagenetwork:kabel>],
+    [<iceandfire:silver_block>,<storagenetwork:kabel>,<iceandfire:silver_block>]
+]);
+
+recipes.addShaped("storageInventory",<storagenetwork:inventory>,[
+    [<iceandfire:silver_ingot>,<storagenetwork:kabel>,<iceandfire:silver_ingot>],
+    [<storagenetwork:kabel>,<minecraft:dropper>,<storagenetwork:kabel>],
+    [<iceandfire:silver_ingot>,<storagenetwork:kabel>,<iceandfire:silver_ingot>]
+]);
+
+recipes.addShaped("storageRequest",<storagenetwork:request>,[
+    [<iceandfire:copper_ingot>,<storagenetwork:kabel>,<iceandfire:copper_ingot>],
+    [<storagenetwork:kabel>,<minecraft:crafting_table>,<storagenetwork:kabel>],
+    [<iceandfire:copper_ingot>,<storagenetwork:kabel>,<iceandfire:copper_ingot>]
+]);
+
+recipes.addShaped("storageKabel",<storagenetwork:kabel>*2,[
+    [null,<iceandfire:copper_ingot>,null],
+    [<iceandfire:silver_ingot>,null,<iceandfire:silver_ingot>],
+    [null,<iceandfire:copper_ingot>,null]
+]);
+
+recipes.addShaped("storageSimpleKabel",<storagenetwork:simple_kabel>*2,[
+    [null,<storagenetwork:kabel>,null],
+    [<storagenetwork:kabel>,null,<storagenetwork:kabel>],
+    [null,<storagenetwork:kabel>,null]
+]);
+
+recipes.addShaped("natureCompass",<naturescompass:naturescompass>,[
+    [<biomesoplenty:sapling_1:7>,<aether_legacy:golden_oak_sapling>,<biomesoplenty:sapling_1:7>],
+    [<aether_legacy:golden_oak_sapling>,<minecraft:compass>,<aether_legacy:golden_oak_sapling>],
+    [<biomesoplenty:sapling_1:7>,<aether_legacy:golden_oak_sapling>,<biomesoplenty:sapling_1:7>]
+]);
+
+recipes.addShapeless("poisonousPotato",<minecraft:poisonous_potato>*1,[<minecraft:potato>,<minecraft:spider_eye>]);
+
+recipes.addShaped("wetaHelmet",<mod_lavacow:chitinarmor_helmet>,[
+    [<erebus:materials:27>,null,<erebus:materials:27>],
+    [<mod_lavacow:chitin>,<mod_lavacow:chitin>,<mod_lavacow:chitin>],
+    [null,<mod_lavacow:weta_jaw>,null]
+]);
+
+recipes.addShaped("wetaChestplate",<mod_lavacow:chitinarmor_chestplate>,[
+    [<erebus:materials:27>,<mod_lavacow:weta_jaw>,<erebus:materials:27>],
+    [<mod_lavacow:chitin>,<mod_lavacow:chitin>,<mod_lavacow:chitin>],
+    [<mod_lavacow:chitin>,<mod_lavacow:chitin>,<mod_lavacow:chitin>]
+]);
+
+recipes.addShaped("wetaLeggings",<mod_lavacow:chitinarmor_leggings>,[
+    [<mod_lavacow:chitin>,<mod_lavacow:chitin>,<mod_lavacow:chitin>],
+    [<erebus:materials:27>,<mod_lavacow:weta_jaw>,<erebus:materials:27>],
+    [<mod_lavacow:chitin>,null,<mod_lavacow:chitin>]
+]);
+
+recipes.addShaped("wetaBoots",<mod_lavacow:chitinarmor_boots>,[
+    [<erebus:materials:27>,<mod_lavacow:weta_jaw>,<erebus:materials:27>],
+    [<mod_lavacow:chitin>,null,<mod_lavacow:chitin>]
+]);
+
+recipes.addShapeless("sapphireBlockToGems",<iceandfire:sapphire_gem>*9,[<biomesoplenty:gem_block:6>]);
+recipes.addShapeless("rubyBlockToGems",<iceandfire:ruby_gem>*9,[<biomesoplenty:gem_block:1>]);
+recipes.addShapeless("amethystBlockToGems",<iceandfire:amethyst_gem>*9,[<biomesoplenty:gem_block:0>]);
 
 print("Script modifiedRecipes ending!");

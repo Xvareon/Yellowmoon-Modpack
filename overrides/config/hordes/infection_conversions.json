@@ -1,0 +1,17 @@
+[
+	{
+		"entity": "minecraft:horse",
+		"converts_to": "minecraft:zombie_horse",
+		"chance": 0.5
+	},
+	{
+		"entity": "betteranimalsplus:boar",
+		"converts_to": "mod_lavacow:undeadswine",
+		"chance": 0.5
+	},
+	{
+		"entity": "mod_lavacow:parasite",
+		"converts_to": "mod_lavacow:vespa",
+		"chance": 0.5
+	}
+]

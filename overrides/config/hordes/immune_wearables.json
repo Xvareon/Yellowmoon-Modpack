@@ -1,0 +1,66 @@
+[
+	{
+		"item": "minecraft:golden_boots",
+		"multiplier": 0.9
+	},
+	{
+		"item": "minecraft:golden_leggings",
+		"multiplier": 0.9
+	},
+	{
+		"item": "minecraft:golden_chestplate",
+		"multiplier": 0.9
+	},
+	{
+		"item": "minecraft:golden_helmet",
+		"multiplier": 0.9
+	},
+	{
+		"item": "iceandfire:armor_silver_metal_boots",
+		"multiplier": 0.9
+	},
+	{
+		"item": "iceandfire:armor_silver_metal_leggings",
+		"multiplier": 0.9
+	},
+	{
+		"item": "iceandfire:armor_silver_metal_chestplate",
+		"multiplier": 0.9
+	},
+	{
+		"item": "iceandfire:armor_silver_metal_helmet",
+		"multiplier": 0.9
+	},
+	{
+		"item": "cqrepoured:boots_inquisition",
+		"multiplier": 0.9
+	},
+	{
+		"item": "cqrepoured:leggings_inquisition",
+		"multiplier": 0.9
+	},
+	{
+		"item": "cqrepoured:chestplate_inquisition",
+		"multiplier": 0.9
+	},
+	{
+		"item": "cqrepoured:helmet_inquisition",
+		"multiplier": 0.9
+	},
+	{
+		"item": "erebus:jade_helmet",
+		"multiplier": 0.9
+	},
+	{
+		"item": "erebus:jade_chestplate",
+		"multiplier": 0.9
+	},
+	{
+		"item": "erebus:jade_leggings",
+		"multiplier": 0.9
+	},
+	{
+		"item": "erebus:jade_boots",
+		"multiplier": 0.9
+	}
+]

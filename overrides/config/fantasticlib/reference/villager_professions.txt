@@ -7,9 +7,6 @@ minecraft:nitwit
 dungeonsmod:traveler
 fossil:archeologist
 fossil:palaeontologist
-iceandfire:fisherman
-iceandfire:craftsman
-iceandfire:shaman
 jmc:cake_baker
 primitivemobs:miner
 primitivemobs:merchant

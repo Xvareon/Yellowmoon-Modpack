@@ -1,0 +1,22 @@
+[
+	{
+		"item": "minecraft:golden_apple:0",
+		"duration": 100
+	},
+	{
+		"item": "minecraft:golden_apple:1",
+		"duration": 200
+	},
+	{
+		"item": "quark:golden_frog_leg",
+		"duration": 150
+	},
+	{
+		"item": "ebwizardry:purifying_elixir",
+		"duration": 200
+	},
+	{
+		"item": "simpledifficulty:juice:5",
+		"duration": 150
+	}
+]

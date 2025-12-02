@@ -1,118 +1,58 @@
-Version 5.8
+Version 6.0
 
-- Disabled day/night cycle overlay by default (Dunno how this turned on)
-- Added foxhound, sandmonster, and cockatrice mobs to blacklist of plagued and infested champions
+=== THIS UPDATE FIXES A LOT OF ICE AND FIRE BUGS BY REPLACING THE CURRENT MOD WITH A MORE UPDATED VERSION, THEREFORE, OLD WORLDS MIGHT BE INCOMPATIBLE ===
+
+- Added Hordes
+-- Every 20 days
+-- Different types of zombies will spawn with the horde
+-- Zombies and parasites (also modded variants except the giant, and mutant) can now infect you with a fatal plague.
+-- The infection can be cured by golden apple, golden apple juice (simple difficulty), golden frog leg, and purifying elixir
+-- Some armor can lessen the chance of infection while Famine and Explorer sets have full immunity
+- Added CQR Spectre Ruin
+- Added updated CQR Final Place version
 - Updated Essential
-- Updated Simple Voice Chat
-- Updated Merge Enchantments
-- Added B.A.S.E
-- Added Content Tweaker (new custom spells!)
-- Updated WizardryUtils
-- Added Lost Aether Content
-- Reset equipments.json
-- Added more potion variety to potion throwing improved mobs
-- Added Dodo Egg (primitive mobs) to intestine drops
-- Terrible feather can now be crafted into normal feathers
-- Slightly reduced cast time of intimidate spell but reduced the duration to be half of the cooldown
-
-Version 5.7
-
-- Added The Betweenlands!
--- Disabled its shaders since it conflicts with other shaders (It sometimes softlocks the game so we have to disable it)
--- Made angler fish hold torches all the time to make them glow since BL shaders are disabled
--- Made fireflies hold torches as well
--- Modified some weapon and armor attributes
-- Added Jade
-- Added Champions
--- Fully customized the tiers and added tiers up to 7, enjoy the chaos!
--- Champions that use the bow are now more dangerous
--- Watch out for champion creepers (You have been warned)
--- Disabled guardianboat entities from improvedmobs from spawning in the Betweenlands
-- Added Rustic
--- Added a ton of berry recipes for crushing tub
-- Added Astikor's Carts
--- Added a ton of entities that can connect to carts (mostly non-aquatic horse-type mobs), including players and carts as well!
-- Added Comforts
-- Added CarryOn
--- Blacklisted some entities and tileitems but increased entity size that can be carried
-- Updated Electroblobs Wizardry, Ancientspellcraft, and Necromancer's Delight
--- More spells and artefacts
--- Shrines now regenerate (yes, with loot!)
--- Removed slowness from flesh spells
--- A ton of spell adjustments for rebalancing
--- Reenabled and rebalanced Intimidate spell!
--- Amnesia scroll does not use the whole stack now
--- Added a way to craft Spell Slayer
--- Buffed Spell Blade damage
-- Added FermiumBooter
-- Added BoatDeleteBegone to fix a critical minecraft bug with entities and chunks (this includes modded entities)
-- Added I&F Amphitheres (a specific version was picked to be compatible with I&F ROTN version)
-- Added Twilight Forest fixes
-- Added Merge Enchantments (You can now combine mutually exclusive enchantments)
-- Updated SetBonus, Fantasticlib, Simple Voice Chat, The Aether, Crafttweaker
-- Adjusted CQR dungeon loot, now has more variance! (No more raiding only the top part *cough*)
-- Rebalanced CQR weapons
-- Increased enchantability of cqr items
-- Erebus insects now come in different sizes!
-- Adjusted Erebus mobs health and damage.
-- Added Quagga to transformation powder list for horses
-- Fixed and added more item recipes (including furnace and brewing recipes, pam's missing recipes, ebwiz wands and crystals)
--- Also added A TON of bonemeal recipes to flowers to duplicate them
-- Attacking does not slow you anymore
-- Crit strike while falling has now an increased chance (10% -> 50%)
-- Nerfed luck potion effect on crit chance (10% -> 5%)
-- Increased silver armor and range damage to undead (150% -> 200%)
-- Adjusted A TON of weapons attributes (damage, reach, knockback, crit chance, and crit damage), some notable are:
--- Buffed Scythes
--- Increased attackspeed of all weapons by 0.1 (I made it too slow in the previous versions)
--- A couple of weapon crit effects have been added and adjusted! Check your weapons now.
--- Cestus and Knives from dungeontactics now have increased reach
--- Added more weapons that can disable shields
-- Added Lygrimul to intestine drops
-- Slightly nerfed lammergeir spawnrate
-- Slightly nerfed reindeer spawnrate
-- Adjusted Dinosaur spawnrates again
-- Buffed Dungeons Mod bosses hp and damage
-- Buffed CQR mobs damage (including bosses)
-- Added more setbonus armors!
-- Added more entries to mobs that cannot drop intestines
-- Added poison ivy and spectral fern drops to some Ultra infernal mobs
-- Made players immune to bleed damage just in case a CQR mob shoots a tipped arrow that has bleeding (Bleed effect disconnects players in servers)
-- Player hunger mechanics has been revamped!
-- Adjusted Famine Set saturation bonus due to hunger mechanic overhaul (Made it less punishing)
-- Auto third person is no longer enabled when the player uses elytra
-- Default sound is now lightning impact instead of xp orb pickup upon game load
-- Changed brightness of the night vision effect
-- Mobs will now glow for 2 seconds when they impede you from sleeping on a bed
-- Reduced Pam gardens drop amount
-- Added Meef Stroganoff, Fire and Ice dragon flesh to consumable temperature food
-- Reduced Dragon Canteen charges from 12 -> 9
-- Removed biotite stairs from certain roguelike dungeons
-- Fixed some roguelike dungeons (default and custom) not spawning
-- Removed Cracked Black Dragon Scale, Obsidian Skull, Ring of Overclocking, and Forbidden Fruit from roguelike dungeon loot
-- Removed some CQR weapons and items from lootpool. Added their components instead and added crafting recipes for them.
-- Adjusted roguelike dungeon spells and artefact loot. Now it is dynamic by using dusty items from wizardryutils
-- Added more loot (including novelty items) to roguelike dungeons.
-- Tweaked Simple Storage remotes recipes (The collect remote bauble was too OP)
-- Texture changes and reverted some textures to their vanilla counterparts
-- Updated Animated and Emissive INF
-- Prevented despawning of tameable BAP animals
-- All armors can now be combined with armorunderwear linings
-- Reset improved mobs equipment.json so that the new armor and weapons can be used by mobs
--- Added Diamond Pickaxe and Giant Pickaxe to items that can spawn in the mainhand
--- Disabled Vespa Shield spawning in the offhand
--- Increased the spawn chance of non-standard weapons that can be held in the mainhand and offhand
-- Added Good Class Wizards, NEP parrots, Zombie/Skeleton/Dread Horses, and Reindeers to offhand hit blacklist (To avoid accidentally killing your pet/mount)
-- Disabled Zombie Players from appearing in Xaeros minimap and worldmap as it was causing a null pointer exception for the getDisplayName() method.
-- Added more Zombie Player variants
-- Added new useful trades to shopkeepers
-- Zombie summoning and baby zombie spawnrate tweaked in forge's config
-- Disabled cavemap by default (this boosts performance a lot + balancing)
-- Enabled removeErroringEntities and removeErroringTileEntities from forge config to remove ticking entities
-- Reenabled King's Guards and Scientists
-- Disabled Aether tips
-- Added Tips
--- Incorporated relevant aether tips
--- Added Yellowmoon tips!
-- Added CIT for Roguelike Dungeons resourcepack
-- Many small changes I cannot list
+- Updated Fermiumbooter
+- Updated I&F Amphithere Mod
+- Updated Spartan Weaponry
+- Added FermiumASM
+- Replaced Ice and Fire ROTN with Ice and Fire Rlcraft
+-- Replaced config and reconfigured
+-- Blooded Dragonscale Armor setbonuses
+-- Removed Tide Trident from Intestine loot as it is now buffed (can be enchanted with the Return enchantment)
+-- Rebalanced Dread Queen Sword and Dread Knight Sword
+-- Added trades in shopkeeprs for daggers with return enchantment (the enchantment cannot be combined in survival, so we do the roundabout way)
+-- Gave a minimal set bonus to tide guardian armor
+-- Some items from the previous version are no longer available but the tradeoff is that there are some new ones introduced!
+-- Disabled generation of silver and copper ore (to make the player gather them from different ways like sea diving, dungeon looting, and dragon hunting)
+- Replaced Spartan Lightning with Spartan Fire: RLCraft Edition
+- Added RLDragonsteel
+- Added Spartan Dragonsteel
+- Added Erebus Fix
+- Disabled natural spawning of wizard merchants in Ancientspellcraft
+- Glowstone, Celestial Crystal, Nether Wart Block, and Block of Sticks can now be crafted back to their crafting material
+- Bone Blocks are now crafted via bones (not bonemeal) and can now be crafted back into bones (removed bone blocks to bonemeal crafting recipe)
+- Spider eyes can now be crafted into sludge vice versa
+- Sea Lantern, Blaze Lantern, Iron Lantern (Dungeon Tactics), and Paper Lamp recipes are made cheaper
+- Toolbelts can now store some key stackable items like sleeping bags, potions, bombs, bandages, mana flasks, etc.
+- Blacklisted carryon entities in toolbelt
+- Tweaked Experience Jar recipe and buffed max xp stored as well as the upgrades
+- Tweaked recipes of some simple storage items to balance them
+- Increased spawn chance of sandstone outcrop from Better Diving
+- Wizard currency now uses ambrosium shards and zanite instead of emerald and gold
+- Added Potioncore
+- Huge set bonus balancing. Almost every set has been rebalanced.
+- Removed vanilla armor (chain, iron, and diamond) set bonuses
+- Reset Equipments.json
+-- Added Lightning, Disorganization, Perplexity, Spinning to equipments.json mobs
+- Dragon Blooded scale armors linings
+- Toroquest Bandits and AW2 NPCs will now fight each other
+- Added Poisonous Potato recipe
+- Changed recipe of Golden Apple
+- Changed animation of some AW2 weapons and buffed them
+- Betweenlands potions and Rustic elixirs can now be stacked to 64
+- Added Get It Together Drops
+- Locational Armor and Armor Toughness has been adjusted
+- Removed dungeon tactics items that are overlapping with iceandfire's
+- Reduced player magic damage scaling in ebwiz from 2.2 -> 2.0
+- Removed shulker spawners from Roguelike Dungeons
+- Ice and Fire gems are now compatible with biomesoplenty gems

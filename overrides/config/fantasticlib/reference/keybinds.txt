@@ -128,6 +128,7 @@ Chat Peek
 Invite Friends
 keybind.name.EMOTE_WHEEL
 Open Friends Gui
+keybind.name.MENU_ACCESS
 Open Cosmetic Studio
 keybind.name.EMOTE_SLOT_6
 keybind.name.EMOTE_SLOT_7

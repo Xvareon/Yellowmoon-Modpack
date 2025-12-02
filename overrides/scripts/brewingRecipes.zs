@@ -4,12 +4,12 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ways
 
 brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:hydra_heart>, <ancientspellcraft:alchemical_essence>);
 brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:gorgon_head>, <ancientspellcraft:alchemical_essence>);
-brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:hippogryph_talon>, <ancientspellcraft:alchemical_essence>);
-brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:pixie_wings>, <ancientspellcraft:alchemical_essence>);
-brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:siren_tear>, <ancientspellcraft:alchemical_essence>);
+// brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:hippogryph_talon>, <ancientspellcraft:alchemical_essence>);
+// brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:pixie_wings>, <ancientspellcraft:alchemical_essence>);
+// brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:siren_tear>, <ancientspellcraft:alchemical_essence>);
 brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:hippocampus_fin>, <ancientspellcraft:alchemical_essence>);
-brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:deathworm_tounge>, <ancientspellcraft:alchemical_essence>);
-brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:cockatrice_eye>, <ancientspellcraft:alchemical_essence>);
+// brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:deathworm_tounge>, <ancientspellcraft:alchemical_essence>);
+// brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:cockatrice_eye>, <ancientspellcraft:alchemical_essence>);
 brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:cyclops_eye>, <ancientspellcraft:alchemical_essence>);
 brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:fire_dragon_flesh>, <ancientspellcraft:alchemical_essence>);
 brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:ice_dragon_flesh>, <ancientspellcraft:alchemical_essence>);

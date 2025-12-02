@@ -21,7 +21,7 @@ mods.wizardryutils.MinionSpells.create("summon_festivecreeper", "net.daveyx0.pri
 mods.wizardryutils.MinionSpells.create("summon_supportcreeper", "net.daveyx0.primitivemobs.entity.monster.EntitySupportCreeper");
 mods.wizardryutils.MinionSpells.create("summon_undeadcrew", "vazkii.quark.world.entity.EntityPirate");
 
-mods.wizardryutils.ProjectileSpells.create("dreadlich_skull", "com.github.alexthe666.iceandfire.entity.EntityDreadLichSkull");
+mods.wizardryutils.ProjectileSpells.create("dreadlich_skull", "com.github.alexthe666.iceandfire.entity.projectile.EntityDreadLichSkull");
 mods.wizardryutils.ProjectileSpells.create("ender_burst", "team.cqr.cqrepoured.entity.projectiles.ProjectileHomingEnderEye");
 
 print("Script customSpells ending!");
