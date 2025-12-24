@@ -39,6 +39,7 @@ Version 6.0
 - Added Aether Winds spell
 - Added Swet Army spell
 - Added Carminite Golem spell
+- Added Remnant Swarm spell
 - Buffed Intimidate spell again since dragons are now immune to it due to having cure (they were the main reason this spell was nerfed)
 - Wizard trading currency has been changed
 - Glowstone, Celestial Crystal, Nether Wart Block, and Block of Sticks can now be crafted back to their crafting material
