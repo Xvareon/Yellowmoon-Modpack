@@ -17,19 +17,19 @@
 	},
 	{
 		"item": "iceandfire:armor_silver_metal_boots",
-		"multiplier": 0.9
+		"multiplier": 0.8
 	},
 	{
 		"item": "iceandfire:armor_silver_metal_leggings",
-		"multiplier": 0.9
+		"multiplier": 0.8
 	},
 	{
 		"item": "iceandfire:armor_silver_metal_chestplate",
-		"multiplier": 0.9
+		"multiplier": 0.8
 	},
 	{
 		"item": "iceandfire:armor_silver_metal_helmet",
-		"multiplier": 0.9
+		"multiplier": 0.8
 	},
 	{
 		"item": "cqrepoured:boots_inquisition",
@@ -61,6 +61,22 @@
 	},
 	{
 		"item": "erebus:jade_boots",
+		"multiplier": 0.9
+	},
+	{
+		"item": "cqrepoured:helmet_dragon",
+		"multiplier": 0.9
+	},
+	{
+		"item": "twilightforest:naga_chestplate",
+		"multiplier": 0.9
+	},
+	{
+		"item": "twilightforest:naga_leggings",
+		"multiplier": 0.9
+	},
+	{
+		"item": "cqrepoured:boots_cloud",
 		"multiplier": 0.9
 	}
 ]

@@ -7,18 +7,18 @@
     "dispensers": true,
     "commands": true,
     "treasure": true,
-	"trades": true,
+    "trades": true,
     "looting": true
   },
   "tier": "master",
-  "element": "necromancy",
-  "type": "alteration",
+  "element": "earth",
+  "type": "minion",
   "cost": 150,
-  "chargeup": 30,
-  "cooldown": 900,
+  "chargeup": 10,
+  "cooldown": 600,
   "base_properties": {
-    "effect_radius": 8,
-    "effect_duration": 600,
-    "effect_strength": 0
+    "minion_lifetime": 600,
+    "minion_count": 8,
+    "summon_radius": 6
   }
 }

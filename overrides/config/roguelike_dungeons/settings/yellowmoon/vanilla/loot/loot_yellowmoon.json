@@ -5051,6 +5051,84 @@
         },
         {
           "data": {
+            "name": "lost_aether:phoenix_pickaxe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:phoenix_axe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:phoenix_shovel"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:phoenix_sword"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:phoenix_cape"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:sentry_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:invisibility_gem"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:power_gloves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:swetty_mask"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:agility_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:zanite_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:gravitite_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:jeb_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
             "name": "aether_legacy:obsidian_helmet"
           },
           "weight": 1

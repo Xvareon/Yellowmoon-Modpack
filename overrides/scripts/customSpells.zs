@@ -24,4 +24,9 @@ mods.wizardryutils.MinionSpells.create("summon_undeadcrew", "vazkii.quark.world.
 mods.wizardryutils.ProjectileSpells.create("dreadlich_skull", "com.github.alexthe666.iceandfire.entity.projectile.EntityDreadLichSkull");
 mods.wizardryutils.ProjectileSpells.create("ender_burst", "team.cqr.cqrepoured.entity.projectiles.ProjectileHomingEnderEye");
 
+mods.wizardryutils.MinionSpells.create("summon_vespa", "com.Fishmod.mod_LavaCow.entities.flying.EntityVespa");
+mods.wizardryutils.MinionSpells.create("summon_aetherwinds", "com.gildedgames.the_aether.entities.hostile.EntityWhirlwind");
+mods.wizardryutils.MinionSpells.create("summon_swetarmy", "com.gildedgames.the_aether.entities.passive.mountable.EntitySwet");
+mods.wizardryutils.MinionSpells.create("summon_carminitegolem", "twilightforest.entity.EntityTFTowerGolem");
+
 print("Script customSpells ending!");

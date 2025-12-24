@@ -85,6 +85,7 @@ mod_lavacow:ravens_grace
 mod_lavacow:long_ravens_grace
 mowziesmobs:poison_resist
 mowziesmobs:long_poison_resist
+potioncore:levitation
 potioncore:flight
 potioncore:long_flight
 potioncore:iron_skin
@@ -103,6 +104,7 @@ potioncore:long_perplexity
 potioncore:lightning
 potioncore:chance
 potioncore:strong_chance
+potioncore:dispel
 potioncore:revival
 potioncore:strong_revival
 potioncore:long_revival

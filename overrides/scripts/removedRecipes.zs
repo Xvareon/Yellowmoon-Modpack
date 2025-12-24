@@ -1,6 +1,7 @@
 print("Script removedRecipes starting!");
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:mundane"}), <minecraft:quartz>);
+brewing.removeRecipe(<bountifulbaubles:potionrecall>, <minecraft:ender_pearl>);
 
 furnace.remove(<minecraft:gold_nugget>);
 furnace.remove(<minecraft:iron_nugget>);
@@ -96,7 +97,6 @@ recipes.remove(<storagenetwork:inventory>);
 recipes.remove(<storagenetwork:kabel>);
 recipes.remove(<storagenetwork:simple_kabel>);
 recipes.remove(<naturescompass:naturescompass>);
-recipes.remove(<minecraft:golden_apple>);
 recipes.remove(<dungeontactics:silver_helmet>);
 recipes.remove(<dungeontactics:silver_chestplate>);
 recipes.remove(<dungeontactics:silver_leggings>);
@@ -110,5 +110,6 @@ recipes.remove(<dungeontactics:silver_pickaxe>);
 recipes.remove(<dungeontactics:silver_shovel>);
 recipes.remove(<dungeontactics:silver_axe>);
 recipes.remove(<dungeontactics:silver_hoe>);
+recipes.remove(<dungeontactics:lantern_magic>);
 
 print("Script removedRecipes ending!");

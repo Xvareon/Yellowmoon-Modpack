@@ -112,6 +112,7 @@ potioncore:disorganization
 potioncore:perplexity
 potioncore:lightning
 potioncore:chance
+potioncore:dispel
 potioncore:revival
 potioncore:bless
 potioncore:magic_shield
