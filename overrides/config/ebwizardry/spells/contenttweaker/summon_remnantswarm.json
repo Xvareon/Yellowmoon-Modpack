@@ -11,14 +11,14 @@
     "looting": true
   },
   "tier": "master",
-  "element": "earth",
+  "element": "sorcery",
   "type": "minion",
   "cost": 150,
-  "chargeup": 10,
-  "cooldown": 600,
+  "chargeup": 20,
+  "cooldown": 200,
   "base_properties": {
     "minion_lifetime": 600,
-    "minion_count": 8,
-    "summon_radius": 8
+    "minion_count": 6,
+    "summon_radius": 6
   }
 }
