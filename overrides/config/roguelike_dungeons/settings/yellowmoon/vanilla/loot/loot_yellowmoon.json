@@ -1216,18 +1216,6 @@
         },
         {
           "data": {
-            "name": "iceandfire:siren_flute"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:cockatrice_scepter"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
             "name": "twilightforest:charm_of_life_2"
           },
           "weight": 1
@@ -3055,60 +3043,6 @@
         {
           "data": {
             "name": "twilightforest:ice_sword"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:amphithere_macuahuitl"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:deathworm_gauntlet_yellow"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:deathworm_gauntlet_white"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:deathworm_gauntlet_red"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:hippogryph_sword"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:pixie_wand"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:hippocampus_slapper"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:myrmex_desert_swarm"
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "iceandfire:myrmex_jungle_swarm"
           },
           "weight": 1
         },
@@ -5112,6 +5046,84 @@
         {
           "data": {
             "name": "aether_legacy:phoenix_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:phoenix_pickaxe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:phoenix_axe"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:phoenix_shovel"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:phoenix_sword"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:phoenix_cape"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:sentry_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:invisibility_gem"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:power_gloves"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:swetty_mask"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:agility_boots"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:zanite_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:gravitite_shield"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "lost_aether:jeb_shield"
           },
           "weight": 1
         },

@@ -440,6 +440,7 @@ iceandfire:dread_knight
 ebwizardry:subsets/elemental_crystals
 thebetweenlands:loot/present_loot
 ancientwarfare:chests/ammo_ballista
+iceandfire:dread_lich_guarantee_key
 thebetweenlands:loot/underwater_ruins_pot
 mod_lavacow:entities/cactyrant_nether
 iceandfire:troll_frost

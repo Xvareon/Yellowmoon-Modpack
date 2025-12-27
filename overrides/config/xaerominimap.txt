@@ -44,7 +44,7 @@ defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
 arrowScale:1.5
 arrowColour:0
-smoothDots:false
+smoothDots:true
 worldMap:true
 terrainDepth:true
 terrainSlopes:2

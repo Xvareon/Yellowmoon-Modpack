@@ -215,9 +215,9 @@ furnace.addRecipe(<minecraft:iron_nugget>*8,<minecraft:iron_trapdoor>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*4,<minecraft:iron_door>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<dungeontactics:iron_ring:*>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<bountifulbaubles:ringiron:*>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain_sticky>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain_link>, 99999);
+// furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain>, 99999);
+// furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain_sticky>, 99999);
+// furnace.addRecipe(<minecraft:iron_nugget>*1,<iceandfire:chain_link>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<dungeontactics:ironlinks>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<quark:chain>, 99999);
 furnace.addRecipe(<minecraft:iron_nugget>*1,<quark:grate>, 99999);
@@ -769,7 +769,7 @@ furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:armor_copper_metal_leg
 furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:armor_copper_metal_boots:*>, 99999);
 
 furnace.addRecipe(<ebwizardry:magic_crystal:2>*9,<mowziesmobs:ice_crystal:*>, 99999);
-furnace.addRecipe(<iceandfire:wither_shard>*16,<iceandfire:cockatrice_eye:*>, 99999);
+// furnace.addRecipe(<iceandfire:wither_shard>*16,<iceandfire:cockatrice_eye:*>, 99999);
 furnace.addRecipe(<ebwizardry:astral_diamond>*1,<iceandfire:cyclops_eye:*>, 99999);
 
 furnace.addRecipe(<minecraft:iron_ingot>*1,<ancientwarfare:component:*>, 99999);

@@ -1,6 +1,7 @@
 print("Script removedRecipes starting!");
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:mundane"}), <minecraft:quartz>);
+brewing.removeRecipe(<bountifulbaubles:potionrecall>, <minecraft:ender_pearl>);
 
 furnace.remove(<minecraft:gold_nugget>);
 furnace.remove(<minecraft:iron_nugget>);
@@ -81,5 +82,34 @@ recipes.remove(<dungeontactics:bomb_cryo>);
 recipes.remove(<dungeontactics:bomb_cryo_cluster>);
 recipes.remove(<dungeontactics:potshot_ammo>);
 recipes.remove(<rustic:lantern_wood>);
+recipes.remove(<iceandfire:summoning_crystal_fire>);
+recipes.remove(<iceandfire:summoning_crystal_ice>);
+recipes.remove(<minecraft:bone_block>);
+recipes.removeByRecipeName("minecraft:bone_meal_from_block");
+recipes.remove(<dungeontactics:lantern_iron>);
+recipes.remove(<quark:paper_lantern>);
+recipes.remove(<quark:blaze_lantern>);
+recipes.remove(<minecraft:sea_lantern>);
+recipes.removeByRecipeName("disenchanter:experience_jar");
+recipes.remove(<storagenetwork:master>);
+recipes.remove(<storagenetwork:request>);
+recipes.remove(<storagenetwork:inventory>);
+recipes.remove(<storagenetwork:kabel>);
+recipes.remove(<storagenetwork:simple_kabel>);
+recipes.remove(<naturescompass:naturescompass>);
+recipes.remove(<dungeontactics:silver_helmet>);
+recipes.remove(<dungeontactics:silver_chestplate>);
+recipes.remove(<dungeontactics:silver_leggings>);
+recipes.remove(<dungeontactics:silver_boots>);
+recipes.remove(<mod_lavacow:chitinarmor_helmet>);
+recipes.remove(<mod_lavacow:chitinarmor_chestplate>);
+recipes.remove(<mod_lavacow:chitinarmor_leggings>);
+recipes.remove(<mod_lavacow:chitinarmor_boots>);
+recipes.remove(<dungeontactics:silver_sword>);
+recipes.remove(<dungeontactics:silver_pickaxe>);
+recipes.remove(<dungeontactics:silver_shovel>);
+recipes.remove(<dungeontactics:silver_axe>);
+recipes.remove(<dungeontactics:silver_hoe>);
+recipes.remove(<dungeontactics:lantern_magic>);
 
 print("Script removedRecipes ending!");
