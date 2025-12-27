@@ -17,13 +17,13 @@
     "displayNameWhenIconFails": false,
     "entityNumber": 1000.0,
     "alwaysDisplayNametags": false,
-    "startFadingAt": 0.0,
     "dotSize": 1.0,
+    "startFadingAt": 0.0,
     "renderOverMinimapFrame": 1.0,
     "displayY": false,
     "icons": 2.0,
-    "names": 1.0,
     "heightLimit": 20.0,
+    "names": 1.0,
     "iconScale": 0.65
   },
   "subCategories": [

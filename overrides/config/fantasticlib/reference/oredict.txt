@@ -170,10 +170,10 @@ blockWoolGreen
 blockWoolRed
 blockWoolBlack
 tallow
+mushroomAny
 buttonWood
 gemEnderBiotite
 materialStoneTool
-mushroomAny
 stoneBasalt
 stoneMarble
 stoneLimestone
@@ -1539,8 +1539,6 @@ bookshelfDarkOak
 blockCandle
 pressurePlateWood
 blockCharcoal
-stonePolished
-shardGlass
 stoneBasaltPolished
 stoneMarblePolished
 stoneLimestonePolished
@@ -1550,6 +1548,8 @@ stoneBrimstonePolished
 stonePermafrostPolished
 blockPrismarineElderBrick
 blockPrismarineElderDark
+shardGlass
+stonePolished
 oreJade
 orePetrifiedWood
 oreFossil

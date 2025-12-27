@@ -1661,6 +1661,7 @@ wizardryutils:spell.summon_vespa
 wizardryutils:spell.summon_aetherwinds
 wizardryutils:spell.summon_swetarmy
 wizardryutils:spell.summon_carminitegolem
+wizardryutils:spell.summon_remnantswarm
 wizardryutils:spell.dreadlich_skull
 wizardryutils:spell.ender_burst
 ancientspellcraft:spell.hellgate
