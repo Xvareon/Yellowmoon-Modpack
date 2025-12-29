@@ -103,6 +103,13 @@ key_keybind.name.EMOTE_SLOT_6:0
 key_keybind.name.EMOTE_SLOT_7:0
 key_keybind.name.EMOTE_SLOT_8:0
 key_keybind.baublesinventory:23
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:15
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.playerSort:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,13 +129,6 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.lockBuilding:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:15
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.playerSort:0
 key_key.death_history:0
 key_cos.key.opencosarmorinventory:0
 key_key.ebwizardry.next_spell:-96

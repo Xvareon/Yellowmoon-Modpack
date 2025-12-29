@@ -13,7 +13,7 @@
     "affixes": 2,
     "growthFactor": 4,
     "chance": 0.5,
-    "potions": ["minecraft:speed;1","minecraft:strength;1","minecraft:jump_boost;1","potioncore:archery;2"]
+    "potions": ["minecraft:speed;1","minecraft:strength;1","minecraft:jump_boost;1","potioncore:archery;1"]
   },
   {
     "tier": 3,
@@ -21,7 +21,7 @@
     "affixes": 3,
     "growthFactor": 8,
     "chance": 0.5,
-    "potions": ["minecraft:speed;1","minecraft:strength;2","minecraft:jump_boost;2","minecraft:resistance;1","potioncore:archery;3"]
+    "potions": ["minecraft:speed;1","minecraft:strength;1","minecraft:jump_boost;2","minecraft:resistance;1","potioncore:archery;2"]
   },
   {
     "tier": 4,
@@ -29,7 +29,7 @@
     "affixes": 4,
     "growthFactor": 12,
     "chance": 0.5,
-    "potions": ["minecraft:speed;1","minecraft:strength;3","minecraft:jump_boost;3","minecraft:resistance;1","potioncore:archery;3","ancientspellcraft:arcane_aegis;1"]
+    "potions": ["minecraft:speed;1","minecraft:strength;2","minecraft:jump_boost;3","minecraft:resistance;1","potioncore:archery;2","ancientspellcraft:arcane_aegis;1"]
   },
   {
     "tier": 5,
@@ -37,7 +37,7 @@
     "affixes": 5,
     "growthFactor": 16,
     "chance": 0.5,
-    "potions": ["minecraft:speed;1","minecraft:strength;4","minecraft:jump_boost;4","minecraft:resistance;2","potioncore:archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1"]
+    "potions": ["minecraft:speed;1","minecraft:strength;2","minecraft:jump_boost;4","minecraft:resistance;1","potioncore:archery;3","ancientspellcraft:arcane_aegis;1","quark:resilience;1"]
   },
   {
     "tier": 6,
@@ -45,7 +45,7 @@
     "affixes": 6,
     "growthFactor": 20,
     "chance": 0.5,
-    "potions": ["minecraft:speed;1","minecraft:strength;4","minecraft:jump_boost;4","minecraft:resistance;2","potioncore:archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1","ancientspellcraft:growth;1"]
+    "potions": ["minecraft:speed;1","minecraft:strength;2","minecraft:jump_boost;4","minecraft:resistance;1","potioncore:archery;3","ancientspellcraft:arcane_aegis;1","quark:resilience;1","ancientspellcraft:growth;1"]
   },
   {
     "tier": 7,
@@ -53,7 +53,7 @@
     "affixes": 7,
     "growthFactor": 24,
     "chance": 0.5,
-    "potions": ["minecraft:speed;2","minecraft:strength;4","minecraft:jump_boost;4","minecraft:resistance;3","potioncore:archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1","ancientspellcraft:growth;1","ebwizardry:static_aura;1"]
+    "potions": ["minecraft:speed;2","minecraft:strength;3","minecraft:jump_boost;4","minecraft:resistance;2","potioncore:archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1","ancientspellcraft:growth;1","ebwizardry:static_aura;1"]
   },
   {
     "tier": 8,
@@ -61,6 +61,6 @@
     "affixes": 8,
     "growthFactor": 28,
     "chance": 0.5,
-    "potions": ["minecraft:speed;2","minecraft:strength;4","minecraft:jump_boost;4","minecraft:resistance;3","potioncore:archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1","ancientspellcraft:shrinkage;1","ebwizardry:static_aura;1","ebwizardry:ice_shroud;1"]
+    "potions": ["minecraft:speed;2","minecraft:strength;3","minecraft:jump_boost;4","minecraft:resistance;2","potioncore:archery;4","ancientspellcraft:arcane_aegis;2","quark:resilience;1","ancientspellcraft:shrinkage;1","ebwizardry:static_aura;1","ebwizardry:ice_shroud;1"]
   }
 ]
