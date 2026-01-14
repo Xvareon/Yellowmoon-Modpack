@@ -262,10 +262,10 @@ gui.xaero_map_zoom_out
 
 jei (Just Enough Items)
 key.jei.bookmark
+key.jei.focusSearch
 key.jei.nextPage
 key.jei.previousPage
 key.jei.recipeBack
-key.jei.focusSearch
 key.jei.showRecipe
 key.jei.showUses
 key.jei.toggleBookmarkOverlay

@@ -1306,4 +1306,20 @@ recipes.addShaped("goldenFeather",<aether_legacy:golden_feather>,[
     [<aether_legacy:ambrosium_shard>,<minecraft:gold_ingot>,<aether_legacy:ambrosium_shard>]
 ]);
 
+recipes.addShaped("tfGlassSwordUnbreakable",
+    <twilightforest:glass_sword>.withTag({
+        Unbreakable: 1,
+        display: {
+            Name: "§6Nether Glass Sword",
+            Lore: [
+                "§7Forged beyond fragility",
+                "§8Star Relic"
+            ]
+        }
+    }),[
+        [<minecraft:nether_star>,<minecraft:nether_star>,<minecraft:nether_star>],
+        [<minecraft:nether_star>,<twilightforest:glass_sword>,<minecraft:nether_star>],
+        [<minecraft:nether_star>,<minecraft:nether_star>,<minecraft:nether_star>]
+]);
+
 print("Script modifiedRecipes ending!");

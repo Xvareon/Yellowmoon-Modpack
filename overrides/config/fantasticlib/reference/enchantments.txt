@@ -85,6 +85,7 @@ mod_lavacow:poisonous
 mod_lavacow:lifesteal
 mod_lavacow:corrosive
 mod_lavacow:critical_boost
+mod_lavacow:dominion
 fossil:archeology
 fossil:paleontology
 bettercombat:gourmand

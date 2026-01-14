@@ -92,6 +92,7 @@ thebetweenlands:loot/wight_fortress_pot
 ancientwarfare:chests/empire_court
 minecraft:entities/stray
 cqrepoured:entities/bosses/dragon_land
+mod_lavacow:entities/ghoul
 ancientwarfare:chests/sealsker
 ancientwarfare:chests/evil
 fossil:aztec_weapons_shop

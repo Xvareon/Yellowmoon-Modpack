@@ -2187,6 +2187,9 @@ mod_lavacow:entity_enigmoth_hurt
 mod_lavacow:entity_enigmoth_death
 mod_lavacow:entity_enigmoth_flying
 mod_lavacow:entity_enigmoth_scales
+mod_lavacow:entity_ghoul_ambient
+mod_lavacow:entity_ghoul_hurt
+mod_lavacow:entity_ghoul_death
 mod_lavacow:random_death_coil_shoot
 mod_lavacow:random_fruit_plant
 mod_lavacow:random_holy_grenade
