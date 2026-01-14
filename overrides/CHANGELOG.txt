@@ -3,6 +3,7 @@ Version 6.3
 - Updated Fish's Undead Rising (fixing the glowshroom bug)
 - Disabled Amphithere Dynamic Trees Smooth Leaves Pass Trough
 - Adjusted Skeleton King Damage and HP
+- Rebalanced bone sword again
 - Downgraded JEI
 - Removed Ender Dragon from always being a champion mob
 - Added recipe for unbreakable glass sword
