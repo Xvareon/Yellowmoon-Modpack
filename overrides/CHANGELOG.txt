@@ -1,3 +1,11 @@
+Version 6.4
+
+- Added FermiumASM
+- Added Ping
+- Adjusted scaling of mobs (they scaled too fast, so we are lowering the curve), Also lowered maximum melee attack multiplier
+- Buffed Barako damage
+- Increased Ghoul spawnrate (FUR)
+
 Version 6.3
 
 - Updated Fish's Undead Rising (fixing the glowshroom bug)
