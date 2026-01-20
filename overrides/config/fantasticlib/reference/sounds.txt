@@ -2665,6 +2665,7 @@ mutantbeasts:entity.mutant_zombie.roar
 mutantbeasts:entity.spider_pig.ambient
 mutantbeasts:entity.spider_pig.death
 mutantbeasts:entity.spider_pig.hurt
+ping:bloop
 primitivemobs:entity.brainslime.slimecharge
 primitivemobs:entity.motherspider.spiderscreech
 primitivemobs:entity.grovesprite.angry

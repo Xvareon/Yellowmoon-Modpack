@@ -154,6 +154,13 @@ key.itemzoom.toggle
 key.itemzoom.zoom.in
 key.itemzoom.zoom.out
 
+ping:key.categories.ping
+key.ping
+ping.key.alert
+ping.key.goto
+ping.key.look
+ping.key.mine
+
 quark.gui.keygroupEmote
 quark.emote.cheer
 quark.emote.clap
