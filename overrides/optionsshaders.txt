@@ -1,5 +1,5 @@
-#Mon Dec 29 12:00:57 SGT 2025
-shaderPack=ComplementaryReimagined_r5.6.1.zip
+#Tue Jan 27 00:32:55 SGT 2026
+shaderPack=BSL_v10.0.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

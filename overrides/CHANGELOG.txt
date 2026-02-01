@@ -1,3 +1,17 @@
+Version 6.5 - THE BED UPDATE
+
+- Added BedBreakBegone
+- Added Bedspreads
+- Added Bed Spawn Backport
+- Nerfed Bone Sword % damage from 5% -> 3% and capped bonus damage to 200
+- Replaced FoamFix with VintageFix for some updated optimizations
+- Added Particle Culling (configured to ignore ebwiz, ancientspellcraft, tfspellpack, twilightforest, betweenlands, beastslayer, fishs undead rising, erebus, and cqr particles)
+- Updated Ice and Fire (Shivaxi Dragon! also a lot of performance fixes!)
+-- Increased maximum dragon flight
+-- Added the shivaxi dragon to the transformation powder list
+-- Dread Queen sword now has different crit potion effect (mind control was useless when it got the freeze effect)
+- Fossils and Archaeology ancient sword now has mind control and buffed crit chance
+
 Version 6.4
 
 - Added FermiumASM
