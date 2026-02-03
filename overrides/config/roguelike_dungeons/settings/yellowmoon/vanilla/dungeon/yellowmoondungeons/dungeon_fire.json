@@ -1,7 +1,7 @@
 {
   "name": "yellowmoon:dungeon_fire",
   "exclusive": true,
-  "criteria": {"biomeTypes": ["MESA"]},
+  "criteria": {"biomeTypes": ["HOT"]},
   "inherit": [
     "yellowmoon:dungeon_base",
     "rooms:all",

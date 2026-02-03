@@ -20,7 +20,7 @@
     {"level": [4], "frequency": "random", "type": "BLAZE", "weight": 10}
   ],
   "themes": [
-    {"level": [0, 1], "base": "PYRAMID"},
+    {"level": [0], "base": "PYRAMID"},
     {"level": [1], "base": "SANDSTONE"},
     {"level": [2], "base": "SANDSTONERED"},
     {"level": [3], "base": "ENDER"},

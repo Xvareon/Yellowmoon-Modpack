@@ -1,0 +1,21 @@
+{
+  "name": "tower:aether",
+  "tower": {
+    "type": "ROGUE",
+    "theme": {
+      "base": "ETHO",
+      "primary": {
+        "pillar": {"name": "aether_legacy:aerogel"},
+        "walls": {"name": "aether_legacy:holystone_brick"},
+        "floor": {"name": "aether_legacy:holystone_brick"},
+	      "stair": {"name": "aether_legacy:holystone_brick_stairs"}
+      },
+      "secondary": {
+        "pillar": {"name": "aether_legacy:aerogel"},
+        "walls": {"name": "aether_legacy:holystone_brick"},
+        "floor": {"name": "aether_legacy:holystone_brick"},
+	      "stair": {"name": "aether_legacy:aerogel_stairs"}
+      }
+    }
+  }
+}

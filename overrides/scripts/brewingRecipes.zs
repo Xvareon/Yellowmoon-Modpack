@@ -6,7 +6,18 @@ brewing.addBrew(<bountifulbaubles:potionwormhole>, <biomesoplenty:shroompowder>,
 
 brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:hydra_heart>, <ancientspellcraft:alchemical_essence>);
 brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:gorgon_head>, <ancientspellcraft:alchemical_essence>);
-// brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:hippogryph_talon>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:hippogryph_talon>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:stymphalian_bird_feather>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:myrmex_stinger>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:troll_tusk>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:iceandfire.deathworm_egg:0>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:iceandfire.deathworm_egg:1>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:hydra_fang>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:sea_serpent_fang>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:amphithere_feather>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:dread_key>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:ghost_ingot>, <ancientspellcraft:alchemical_essence>);
+brewing.addBrew(<minecraft:glass_bottle>, <amphitheremod:shivaxi_feather>, <ancientspellcraft:alchemical_essence>);
 // brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:pixie_wings>, <ancientspellcraft:alchemical_essence>);
 // brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:siren_tear>, <ancientspellcraft:alchemical_essence>);
 brewing.addBrew(<minecraft:glass_bottle>, <iceandfire:hippocampus_fin>, <ancientspellcraft:alchemical_essence>);

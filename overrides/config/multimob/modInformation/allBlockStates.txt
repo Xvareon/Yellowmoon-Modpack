@@ -41614,8 +41614,8 @@ tfspellpack:sortingwood_lectern[facing=north]
 tfspellpack:sortingwood_lectern[facing=south]
 tfspellpack:sortingwood_lectern[facing=west]
 tfspellpack:sortingwood_lectern[facing=east]
-toroquest:torospawnerblock
 toroquest:royalblock
+toroquest:torospawnerblock
 waystones:waystone[base=true,facing=north]
 waystones:waystone[base=true,facing=south]
 waystones:waystone[base=true,facing=west]

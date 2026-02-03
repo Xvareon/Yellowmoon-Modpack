@@ -1,26 +1,177 @@
 {
-  "name": "theme:ocean_temple",
-  "themes": [
-    {
-      "base": "TEMPLE",
-      "primary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {"name": "minecraft:prismarine", "meta": 0},
-        "walls": {"name": "minecraft:prismarine", "meta": 1},
-        "pillar": {"name": "minecraft:quartz_block", "meta": 2},
-        "stair": {"name": "minecraft:quartz_stairs"},
-        "lightblock": {"name": "sea_lantern"},
-        "liquid": {"name": "minecraft:water"}
-      },
-      "secondary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {"name": "minecraft:prismarine", "meta": 0},
-        "walls": {"name": "minecraft:prismarine", "meta": 1},
-        "pillar": {"name": "minecraft:prismarine", "meta": 2},
-        "stair": {"name": "minecraft:quartz_stairs"},
-        "lightblock": {"name": "sea_lantern"},
-        "liquid": {"name": "minecraft:water"}
-      }
-    }
-  ]
+    "name": "theme:ocean_temple",
+    "themes": [
+        {
+            "base": "TEMPLE",
+      	    "level": 0,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {"name": "minecraft:prismarine", "meta": 0},
+                "walls": {"name": "minecraft:prismarine", "meta": 1},
+                "pillar": {"name": "minecraft:quartz_block", "meta": 2},
+                "stair": {"name": "minecraft:quartz_stairs"},
+                "lightblock": {"name": "sea_lantern"},
+                "liquid": {"name": "minecraft:water"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {"name": "minecraft:prismarine", "meta": 0},
+                "walls": {"name": "minecraft:prismarine", "meta": 1},
+                "pillar": {"name": "minecraft:prismarine", "meta": 2},
+                "stair": {"name": "minecraft:quartz_stairs"},
+                "lightblock": {"name": "sea_lantern"},
+                "liquid": {"name": "minecraft:water"}
+            }
+        }, 
+        {
+            "base": "TEMPLE",
+      	    "level": 1,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {"name": "quark:elder_prismarine", "meta": 0},
+                "walls": {"name": "quark:elder_prismarine", "meta": 1},
+                "pillar": {"name": "minecraft:quartz_block", "meta": 2},
+                "stair": {"name": "minecraft:quartz_stairs"},
+                "lightblock": {"name": "quark:elder_sea_lantern"},
+                "liquid": {"name": "minecraft:water"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {"name": "quark:elder_prismarine", "meta": 0},
+                "walls": {"name": "quark:elder_prismarine", "meta": 1},
+                "pillar": {"name": "quark:elder_prismarine", "meta": 2},
+                "stair": {"name": "minecraft:quartz_stairs"},
+                "lightblock": {"name": "quark:elder_sea_lantern"},
+                "liquid": {"name": "minecraft:water"}
+            }
+        },       
+        {
+            "base": "TEMPLE",
+            "level": 2,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:limestone", "meta": 0}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "fossil:ancient_stone"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 5}, "weight": 50},
+                        {"type": "METABLOCK", "data": {"name": "quark:limestone", "meta": 1}, "weight": 20},
+                        {"type": "METABLOCK", "data": {"name": "fossil:ancient_stone_brick"}, "weight": 50}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:limestone", "meta": 0}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "fossil:ancient_stone"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 5}, "weight": 50},
+                        {"type": "METABLOCK", "data": {"name": "quark:limestone", "meta": 1}, "weight": 20},
+                        {"type": "METABLOCK", "data": {"name": "fossil:ancient_stone_brick"}, "weight": 50}
+                    ]
+                },
+                "pillar": {"name": "quark:world_stone_carved", "meta": 5},
+                "stair": {"name": "fossil:ancient_stone_stairs"},
+                "lightblock": {"name": "fossil:skull_lantern"},
+                "liquid": {"name": "twilightforest:molten_knightmetal"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:limestone", "meta": 0}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "fossil:ancient_stone"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 5}, "weight": 50},
+                        {"type": "METABLOCK", "data": {"name": "quark:limestone", "meta": 1}, "weight": 20},
+                        {"type": "METABLOCK", "data": {"name": "fossil:ancient_stone_brick"}, "weight": 50}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:limestone", "meta": 0}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "fossil:ancient_stone"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 5}, "weight": 50},
+                        {"type": "METABLOCK", "data": {"name": "quark:limestone", "meta": 1}, "weight": 20},
+                        {"type": "METABLOCK", "data": {"name": "fossil:ancient_stone_brick"}, "weight": 50}
+                    ]
+                },
+                "pillar": {"name": "quark:world_stone_pavement", "meta": 5},
+                "stair": {"name": "quark:stone_limestone_bricks_stairs"},
+                "lightblock": {"name": "fossil:skull_lantern"},
+                "liquid": {"name": "twilightforest:molten_knightmetal"}
+            }
+        },
+        {
+            "base": "SANDSTONERED",
+            "level": 3,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:white_sandstone", "meta": 0}, "weight": 70},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:white_sand", "meta": 0}, "weight": 30}
+                    ]
+                },
+                "walls": {"name": "biomesoplenty:white_sandstone", "meta": 0},
+                "pillar": {"name": "biomesoplenty:white_sandstone", "meta": 2},
+                "stair": {"name": "biomesoplenty:white_sandstone_stairs", "meta": 0},
+                "lightblock": {"name": "sea_lantern"},
+                "liquid": {"name": "fossil:tar"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:white_sandstone", "meta": 0}, "weight": 70},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:white_sand", "meta": 0}, "weight": 30}
+                    ]
+                },
+                "walls": {"name": "biomesoplenty:white_sandstone", "meta": 1},
+                "pillar": {"name": "biomesoplenty:white_sandstone", "meta": 1},
+                "stair": {"name": "biomesoplenty:white_sandstone_stairs", "meta": 0},
+                "lightblock": {"name": "sea_lantern"},
+                "liquid": {"name": "fossil:tar"}
+            }
+        },    
+        {
+            "base": "NETHER",
+            "level": 4,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:soul_sandstone", "meta": 0}, "weight": 70},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:soul_sand"}, "weight": 30},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:sand"}, "weight": 10}
+                    ]
+                },
+                "walls": {"name": "quark:soul_sandstone", "meta": 0},
+                "pillar": {"name": "quark:soul_sandstone", "meta": 2},
+                "stair": {"name": "quark:soul_sandstone_stairs"},
+                "lightblock": {"name": "quark:elder_sea_lantern"},
+                "liquid": {"name": "biomesoplenty:sand"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:soul_sandstone", "meta": 0}, "weight": 70},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:soul_sand"}, "weight": 30},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:sand"}, "weight": 10}
+                    ]
+                },
+                "walls": {"name": "quark:sandstone_new", "meta": 4},
+                "pillar": {"name": "quark:soul_sandstone", "meta": 1},
+                "stair": {"name": "quark:soul_sandstone_stairs"},
+                "lightblock": {"name": "quark:elder_sea_lantern"},
+                "liquid": {"name": "biomesoplenty:sand"}
+            }
+        }
+    ]
 }

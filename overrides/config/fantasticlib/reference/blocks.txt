@@ -2027,8 +2027,8 @@ tfspellpack:timewood_lectern
 tfspellpack:transwood_lectern
 tfspellpack:minewood_lectern
 tfspellpack:sortingwood_lectern
-toroquest:torospawnerblock
 toroquest:royalblock
+toroquest:torospawnerblock
 waystones:waystone
 ancientspellcraft:nether_fire
 ancientspellcraft:snow_double_slab

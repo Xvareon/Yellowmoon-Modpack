@@ -169,8 +169,8 @@ blockWoolBrown
 blockWoolGreen
 blockWoolRed
 blockWoolBlack
-tallow
 materialStoneTool
+tallow
 mushroomAny
 buttonWood
 gemEnderBiotite
@@ -1532,6 +1532,7 @@ gemGreenMiddleGem
 gemLifeCrystal
 gemScabyst
 stonePolished
+shardGlass
 trapdoorWood
 bookshelf
 bookshelfOak
@@ -1543,7 +1544,6 @@ bookshelfDarkOak
 blockCandle
 pressurePlateWood
 blockCharcoal
-shardGlass
 stoneBasaltPolished
 stoneMarblePolished
 stoneLimestonePolished

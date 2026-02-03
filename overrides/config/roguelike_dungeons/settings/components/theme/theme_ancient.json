@@ -1,0 +1,409 @@
+{
+  "name": "theme:ancient",
+  "themes": [
+    {
+      	"base": "MOSSY",
+      	"level": 0,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_bricks"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_tiles"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:smooth_betweenstone"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_smooth_betweenstone"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_mossy_betweenstone_tiles"}, "weight": 5}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_bricks"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_tiles"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:smooth_betweenstone"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_smooth_betweenstone"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_mossy_betweenstone_tiles"}, "weight": 5}
+				]
+			},
+			"pillar": {"name": "thebetweenlands:betweenstone_pillar"},
+			"stair": {"name": "thebetweenlands:cracked_betweenstone_brick_stairs"},
+        	"lightblock": {"name": "thebetweenlands:glowing_betweenstone_tile"},
+        	"liquid": {"name": "thebetweenlands:swamp_water"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_bricks"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_tiles"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:smooth_betweenstone"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_smooth_betweenstone"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_mossy_betweenstone_tiles"}, "weight": 5}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_bricks"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_tiles"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:smooth_betweenstone"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_smooth_betweenstone"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_betweenstone_tiles"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_mossy_betweenstone_tiles"}, "weight": 5}
+				]
+			},
+			"pillar": {"name": "thebetweenlands:betweenstone_chiseled"},
+			"stair": {"name": "thebetweenlands:mossy_betweenstone_brick_stairs"},
+        	"lightblock": {"name": "thebetweenlands:glowing_betweenstone_tile"},
+        	"liquid": {"name": "thebetweenlands:swamp_water"}
+		}
+    },
+    {
+      	"base": "MOSSY",
+      	"level": 1,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "biomesoplenty:mud_brick_block", "meta": 0}, "weight": 40},
+					{"type": "METABLOCK", "data": {"name": "erebus:mud_brick"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 1}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 2}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 4}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 6}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 7}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 8}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 9}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 10}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 11}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 12}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 13}, "weight": 10}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "biomesoplenty:mud_brick_block", "meta": 0}, "weight": 40},
+					{"type": "METABLOCK", "data": {"name": "erebus:mud_brick"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 1}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 2}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 4}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 6}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 7}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 8}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 9}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 10}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 11}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 12}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 13}, "weight": 10}
+				]
+			},
+			"pillar": {"name": "thebetweenlands:mud_bricks_carved", "meta": 5},
+			"stair": {"name": "biomesoplenty:mud_brick_stairs"},
+        	"lightblock": {"name": "erebus:red_gem", "meta": 2},
+        	"liquid": {"name": "biomesoplenty:sand"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "biomesoplenty:mud_brick_block", "meta": 0}, "weight": 40},
+					{"type": "METABLOCK", "data": {"name": "erebus:mud_brick"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 1}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 2}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 4}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 6}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 7}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 8}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 9}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 10}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 11}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 12}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 13}, "weight": 10}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "biomesoplenty:mud_brick_block", "meta": 0}, "weight": 40},
+					{"type": "METABLOCK", "data": {"name": "erebus:mud_brick"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 1}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 2}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 4}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 6}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 7}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 8}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 9}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 10}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 11}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 12}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:mud_bricks_carved", "meta": 13}, "weight": 10}
+				]
+			},
+			"pillar": {"name": "thebetweenlands:mud_bricks_carved", "meta": 5},
+			"stair": {"name": "biomesoplenty:mud_brick_stairs"},
+        	"lightblock": {"name": "erebus:red_gem", "meta": 2},
+        	"liquid": {"name": "biomesoplenty:sand"}
+      	}
+    },
+    {
+      	"base": "MOSSY",
+      	"level": 2,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:temple_bricks"}, "weight": 50},
+					{"type": "METABLOCK", "data": {"name": "erebus:temple_brick"}, "weight": 50},
+					{"type": "METABLOCK", "data": {"name": "erebus:temple_tile"}, "weight": 10}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:temple_bricks"}, "weight": 50},
+					{"type": "METABLOCK", "data": {"name": "erebus:temple_brick"}, "weight": 50},
+					{"type": "METABLOCK", "data": {"name": "erebus:temple_tile"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "erebus:quick_sand"}, "weight": 1}
+				]
+			},
+			"pillar": {"name": "thebetweenlands:temple_pillar"},
+			"stair": {"name": "thebetweenlands:temple_brick_stairs"},
+        	"lightblock": {"name": "fossil:skull_lantern"},
+        	"liquid": {"name": "twilightforest:molten_knightmetal"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:temple_bricks"}, "weight": 50},
+					{"type": "METABLOCK", "data": {"name": "erebus:temple_brick"}, "weight": 50},
+					{"type": "METABLOCK", "data": {"name": "erebus:temple_tile"}, "weight": 10}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "thebetweenlands:temple_bricks"}, "weight": 50},
+					{"type": "METABLOCK", "data": {"name": "erebus:temple_brick"}, "weight": 50},
+					{"type": "METABLOCK", "data": {"name": "erebus:temple_tile"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "erebus:quick_sand"}, "weight": 1}
+				]
+			},
+			"pillar": {"name": "thebetweenlands:temple_pillar"},
+			"stair": {"name": "thebetweenlands:temple_brick_stairs"},
+        	"lightblock": {"name": "fossil:skull_lantern"},
+        	"liquid": {"name": "twilightforest:molten_knightmetal"}
+      	}
+    },
+    {
+      	"base": "MOSSY",
+      	"level": 3,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "twilightforest:root", "meta": 0}, "weight": 80},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:hedge", "meta": 0}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone_mossy"}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone_weathered"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar_mossy"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar_weathered"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:spiral_bricks"}, "weight": 10}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "twilightforest:root", "meta": 0}, "weight": 80},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:hedge", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone_mossy"}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone_weathered"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar_mossy"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar_weathered"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:spiral_bricks"}, "weight": 10}
+				]
+			},
+			"pillar": {"name": "twilightforest:etched_nagastone_mossy"},
+			"stair": {"name": "twilightforest:nagastone_stairs_mossy", "meta": 0},
+        	"lightblock": {"name": "erebus:red_gem", "meta": 2},
+        	"liquid": {"name": "twilightforest:molten_fierymetal"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "twilightforest:root", "meta": 0}, "weight": 80},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:hedge", "meta": 0}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone_mossy"}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone_weathered"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar_mossy"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar_weathered"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:spiral_bricks"}, "weight": 10}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "twilightforest:root", "meta": 0}, "weight": 80},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:hedge", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone_mossy"}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone_weathered"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:etched_nagastone"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar_mossy"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar_weathered"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:nagastone_pillar"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:spiral_bricks"}, "weight": 10}
+				]
+			},
+			"pillar": {"name": "twilightforest:etched_nagastone_mossy"},
+			"stair": {"name": "twilightforest:nagastone_stairs_mossy", "meta": 0},
+        	"lightblock": {"name": "erebus:red_gem", "meta": 2},
+        	"liquid": {"name": "twilightforest:molten_fierymetal"}
+      	}
+    },
+    {
+      	"base": "MOSSY",
+      	"level": 4,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 0}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 1}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 2}, "weight": 30},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 3}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 4}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 5}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 1}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 2}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 1}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 2}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 3}, "weight": 20}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 0}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 1}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 2}, "weight": 30},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 3}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 4}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 5}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 1}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 2}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 1}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 2}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 3}, "weight": 20}
+				]
+			},
+			"pillar": {"name": "twilightforest:castle_brick", "meta": 3},
+			"stair": {"name": "twilightforest:castle_stairs_cracked"},
+        	"lightblock": {"name": "twilightforest:castle_rune_brick", "meta": 1},
+        	"liquid": {"name": "twilightforest:molten_knightmetal"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 0}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 1}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 2}, "weight": 30},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 3}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 4}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 5}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 1}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 2}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 1}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 2}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 3}, "weight": 20}
+				]
+			},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 0}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 1}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 2}, "weight": 30},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 3}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 4}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_brick", "meta": 5}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 1}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 2}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_pillar", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 1}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 2}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "twilightforest:castle_rune_brick", "meta": 3}, "weight": 20}
+				]
+			},
+			"pillar": {"name": "twilightforest:castle_brick", "meta": 3},
+			"stair": {"name": "twilightforest:castle_stairs_cracked"},
+        	"lightblock": {"name": "twilightforest:castle_rune_brick", "meta": 1},
+        	"liquid": {"name": "twilightforest:molten_knightmetal"}
+      	}
+    }
+  ]
+}

@@ -1,191 +1,266 @@
 {
-  "name": "theme:midori",
-  "themes": [
-    {
-      "base": "SANDSTONE",
-      "level": 0,
-      "primary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {"name": "quark:midori_pillar"},
-        "walls": {"name": "quark:midori_block"},
-        "pillar": {"name": "quark:midori_pillar"},
-        "stair": {"name": "quark:midori_block_stairs"},
-        "lightblock": {"name": "quark:blaze_lantern"},
-        "liquid": {"name": "fossil:tar"}
-      },
-      "secondary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {"name": "quark:midori_pillar"},
-        "walls": {"name": "quark:midori_block"},
-        "pillar": {"name": "quark:midori_pillar"},
-        "stair": {"name": "quark:midori_block_stairs"},
-        "lightblock": {"name": "quark:blaze_lantern"},
-        "liquid": {"name": "fossil:tar"}
-      }
-    },    
-    {
-      "base": "SANDSTONERED",
-      "level": 1,
-      "primary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:white_sandstone", "meta": 0}, "weight": 70},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:white_sand", "meta": 0}, "weight": 30}
-          ]
-	},
-	"walls": {"name": "biomesoplenty:white_sandstone", "meta": 0},
-        "pillar": {"name": "biomesoplenty:white_sandstone", "meta": 1},
-        "stair": {"name": "biomesoplenty:white_sandstone_stairs", "meta": 0},
-        "lightblock": {"name": "sea_lantern"},
-        "liquid": {"name": "fossil:tar"}
-      },
-      "secondary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:white_sandstone", "meta": 0}, "weight": 70},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:white_sand", "meta": 0}, "weight": 30}
-          ]
-	},
-	"walls": {"name": "biomesoplenty:white_sandstone", "meta": 0},
-        "pillar": {"name": "biomesoplenty:white_sandstone", "meta": 1},
-        "stair": {"name": "biomesoplenty:white_sandstone_stairs", "meta": 0},
-        "lightblock": {"name": "sea_lantern"},
-        "liquid": {"name": "fossil:tar"}
-      }
-    },
-    {
-      "base": "TEMPLE",
-      "level": 2,
-      "primary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {"name": "quark:elder_prismarine", "meta": 0},
-        "walls": {"name": "quark:elder_prismarine", "meta": 1},
-        "pillar": {"name": "quark:elder_prismarine", "meta": 2},
-        "stair": {"name": "quark:elder_prismarine_stairs"},
-        "lightblock": {"name": "quark:elder_sea_lantern"},
-        "liquid": {"name": "fossil:tar"}
-      },
-      "secondary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {"name": "quark:elder_prismarine", "meta": 0},
-        "walls": {"name": "quark:elder_prismarine", "meta": 1},
-        "pillar": {"name": "quark:elder_prismarine", "meta": 2},
-        "stair": {"name": "quark:elder_prismarine_stairs"},
-        "lightblock": {"name": "quark:elder_sea_lantern"},
-        "liquid": {"name": "fossil:tar"}
-      }
-    },
-    {
-      "base": "NETHER",
-      "level": 3,
-      "primary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "quark:soul_sandstone", "meta": 0}, "weight": 70},
-            {"type": "METABLOCK", "data": {"name": "minecraft:soul_sand"}, "weight": 30},
-            {"type": "METABLOCK", "data": {"name": "fossil:tar"}, "weight": 10}
-          ]
-	},
-	"walls": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "quark:soul_sandstone", "meta": 0}, "weight": 70},
-            {"type": "METABLOCK", "data": {"name": "minecraft:soul_sand"}, "weight": 30}
-          ]
-	},
-        "pillar": {"name": "quark:soul_sandstone", "meta": 1},
-        "stair": {"name": "quark:soul_sandstone_stairs"},
-        "lightblock": {"name": "quark:elder_sea_lantern"},
-        "liquid": {"name": "fossil:tar"}
-      },
-      "secondary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "quark:soul_sandstone", "meta": 0}, "weight": 70},
-            {"type": "METABLOCK", "data": {"name": "minecraft:soul_sand"}, "weight": 30},
-            {"type": "METABLOCK", "data": {"name": "fossil:tar"}, "weight": 10}
-          ]
-	},
-	"walls": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "quark:soul_sandstone", "meta": 0}, "weight": 70},
-            {"type": "METABLOCK", "data": {"name": "minecraft:soul_sand"}, "weight": 30}
-          ]
-	},
-        "pillar": {"name": "quark:soul_sandstone", "meta": 1},
-        "stair": {"name": "quark:soul_sandstone_stairs"},
-        "lightblock": {"name": "quark:elder_sea_lantern"},
-        "liquid": {"name": "fossil:tar"}
-      }
-    },
-    {
-      "base": "NETHER",
-      "level": 4,
-      "primary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 0}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 1}, "weight": 90},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey"}, "weight": 20}
-          ]
-	},
-        "walls": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 0}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 1}, "weight": 90},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60}
-          ]
-	},
-        "pillar": {"name": "biomesoplenty:honey_block", "meta": 0},
-        "stair": {"name": "quark:midori_block_stairs"},
-        "lightblock": {"name": "quark:blaze_lantern"},
-        "liquid": {"name": "biomesoplenty:honey"}
-      },
-      "secondary": {
-        "door": {"name": "minecraft:iron_door"},
-        "floor": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 0}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 1}, "weight": 90},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey"}, "weight": 20}
-          ]
-	},
-        "walls": {
-	  "type": "WEIGHTED",
-          "data": [
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 0}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 1}, "weight": 90},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
-            {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60}
-          ]
-	},
-        "pillar": {"name": "biomesoplenty:honey_block", "meta": 0},
-        "stair": {"name": "quark:midori_block_stairs"},
-        "lightblock": {"name": "quark:blaze_lantern"},
-        "liquid": {"name": "biomesoplenty:honey"}
-      }
-    }
-  ]
+    "name": "theme:midori",
+    "themes": [
+        {
+            "base": "SANDSTONE",
+            "level": 0,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {"name": "quark:midori_pillar"},
+                "walls": {"name": "quark:midori_block"},
+                "pillar": {"name": "quark:midori_pillar"},
+                "stair": {"name": "quark:midori_block_stairs"},
+                "lightblock": {"name": "quark:blaze_lantern"},
+                "liquid": {"name": "fossil:tar"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {"name": "quark:midori_pillar"},
+                "walls": {"name": "quark:midori_block"},
+                "pillar": {"name": "quark:midori_pillar"},
+                "stair": {"name": "quark:midori_block_stairs"},
+                "lightblock": {"name": "quark:blaze_lantern"},
+                "liquid": {"name": "fossil:tar"}
+            }
+        },    
+        {
+            "base": "SANDSTONERED",
+            "level": 1,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 2}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 3}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 4}, "weight": 10}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 2}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 3}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 4}, "weight": 10}
+                    ]
+                },
+                "pillar": {"name": "twilightforest:tower_wood", "meta": 1},
+                "stair": {"name": "twilightforest:mangrove_stairs"},
+                "lightblock": {"name": "quark:blaze_lantern"},
+                "liquid": {"name": "twilightforest:fiery_essence"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 2}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 3}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 4}, "weight": 10}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 2}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 3}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "twilightforest:tower_wood", "meta": 4}, "weight": 10}
+                    ]
+                },
+                "pillar": {"name": "twilightforest:tower_wood", "meta": 1},
+                "stair": {"name": "twilightforest:mangrove_stairs"},
+                "lightblock": {"name": "quark:blaze_lantern"},
+                "liquid": {"name": "twilightforest:fiery_essence"}
+            }
+        },
+        {
+            "base": "MOSSY",
+            "level": 2,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 1}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 5}, "weight": 40},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 2}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 1}, "weight": 90}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 1}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 5}, "weight": 40},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 2}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 1}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "erebus:dung_spawner_fly"}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "erebus:dung_spawner_bot_fly"}, "weight": 1}
+                    ]
+                },
+                "pillar": {"name": "erebus:umberstone_pillar"},
+                "stair": {"name": "erebus:stairs_umberpaver_mossy"},
+                "lightblock": {"name": "erebus:red_gem", "meta": 0},
+                "liquid": {"name": "biomesoplenty:poison"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 1}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 5}, "weight": 40},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 2}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 1}, "weight": 90}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 1}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 5}, "weight": 40},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 2}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 1}, "weight": 90}
+                    ]
+                },
+                "pillar": {"name": "erebus:umberstone_pillar"},
+                "stair": {"name": "erebus:stairs_umberpaver"},
+                "lightblock": {"name": "erebus:red_gem", "meta": 0},
+                "liquid": {"name": "biomesoplenty:poison"}
+            }
+        },    
+        {
+            "base": "MOSSY",
+            "level": 3,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:biome_cobblestone", "meta": 2}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:cobblestone"}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:monster_egg", "meta": 1}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 2}, "weight": 80},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 3}, "weight": 80}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:biome_cobblestone", "meta": 2}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:cobblestone"}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:monster_egg", "meta": 1}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 2}, "weight": 80},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 3}, "weight": 80},
+                        {"type": "METABLOCK", "data": {"name": "erebus:jumping_spider_spawner", "meta": 3}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:web"}, "weight": 20}
+                    ]
+                },
+                "pillar": {"name": "quark:biome_cobblestone", "meta": 2},
+                "stair": {"name": "quark:cobbed_stone_stairs"},
+                "lightblock": {"name": "fossil:skull_lantern"},
+                "liquid": {"name": "biomesoplenty:poison"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:biome_cobblestone", "meta": 2}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:cobblestone"}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:monster_egg", "meta": 1}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 2}, "weight": 80},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 3}, "weight": 80}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:biome_cobblestone", "meta": 2}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:cobblestone"}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:monster_egg", "meta": 1}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberpaver", "meta": 2}, "weight": 80},
+                        {"type": "METABLOCK", "data": {"name": "erebus:umberstone", "meta": 3}, "weight": 80},
+                        {"type": "METABLOCK", "data": {"name": "minecraft:web"}, "weight": 20}
+                    ]
+                },
+                "pillar": {"name": "minecraft:cobblestone"},
+                "stair": {"name": "quark:cobbed_stone_stairs"},
+                "lightblock": {"name": "fossil:skull_lantern"},
+                "liquid": {"name": "biomesoplenty:poison"}
+            }
+        },
+        {
+            "base": "NETHER",
+            "level": 4,
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 1}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey"}, "weight": 20}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 1}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60}
+                    ]
+                },
+                "pillar": {"name": "biomesoplenty:honey_block", "meta": 0},
+                "stair": {"name": "quark:midori_block_stairs"},
+                "lightblock": {"name": "quark:blaze_lantern"},
+                "liquid": {"name": "biomesoplenty:honey"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 1}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey"}, "weight": 20}
+                    ]
+                },
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 0}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 1}, "weight": 90},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 2}, "weight": 1},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:hive", "meta": 3}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "biomesoplenty:honey_block", "meta": 0}, "weight": 60}
+                    ]
+                },
+                "pillar": {"name": "biomesoplenty:honey_block", "meta": 0},
+                "stair": {"name": "quark:midori_block_stairs"},
+                "lightblock": {"name": "quark:blaze_lantern"},
+                "liquid": {"name": "biomesoplenty:honey"}
+            }
+        }
+    ]
 }

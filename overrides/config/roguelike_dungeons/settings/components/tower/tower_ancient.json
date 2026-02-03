@@ -1,0 +1,87 @@
+{
+    "name": "tower:ancient",
+    "tower": {
+        "type": "ROGUE",
+        "theme": {
+            "base": "MOSSY",
+            "primary": {
+                "door": {"name": "minecraft:iron_door"},
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_bricks"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_bricks"}, "weight": 20},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_bricks"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_tiles"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:smooth_betweenstone"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_smooth_betweenstone"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_mossy_betweenstone_tiles"}, "weight": 5}
+                    ]
+                },
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_bricks"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_bricks"}, "weight": 20},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_bricks"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_tiles"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:smooth_betweenstone"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_smooth_betweenstone"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_mossy_betweenstone_tiles"}, "weight": 5}
+                    ]
+                },
+                "pillar": {"name": "thebetweenlands:betweenstone_chiseled"},
+                "stair": {"name": "thebetweenlands:mossy_betweenstone_brick_stairs"},
+                "lightblock": {"name": "thebetweenlands:glowing_betweenstone_tile"},
+                "liquid": {"name": "thebetweenlands:swamp_water"}
+            },
+            "secondary": {
+                "door": {"name": "minecraft:iron_door"},
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_bricks"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_bricks"}, "weight": 20},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_bricks"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_tiles"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:smooth_betweenstone"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_smooth_betweenstone"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_mossy_betweenstone_tiles"}, "weight": 5}
+                    ]
+                },
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_bricks"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_bricks"}, "weight": 20},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_bricks"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:cracked_betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_betweenstone_tiles"}, "weight": 10},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:smooth_betweenstone"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:mossy_smooth_betweenstone"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_betweenstone_tiles"}, "weight": 5},
+                        {"type": "METABLOCK", "data": {"name": "thebetweenlands:weak_mossy_betweenstone_tiles"}, "weight": 5}
+                    ]
+                },
+                "pillar": {"name": "thebetweenlands:betweenstone_chiseled"},
+                "stair": {"name": "thebetweenlands:mossy_betweenstone_brick_stairs"},
+                "lightblock": {"name": "thebetweenlands:glowing_betweenstone_tile"},
+                "liquid": {"name": "thebetweenlands:swamp_water"}
+            }
+        }
+    }
+}

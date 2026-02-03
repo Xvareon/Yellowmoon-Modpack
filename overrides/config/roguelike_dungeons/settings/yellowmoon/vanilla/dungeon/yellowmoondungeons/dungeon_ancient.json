@@ -1,7 +1,7 @@
 {
-  "name": "yellowmoon:dungeon_ebwiz2",
+  "name": "yellowmoon:dungeon_ancient",
   "exclusive": true,
-  "criteria": {"biomeTypes": ["TWILIGHT", "MAGICAL"]},
+  "criteria": {"biomeTypes": ["JUNGLE"]},
   "inherit": [
     "yellowmoon:dungeon_base",
     "rooms:all",
@@ -10,7 +10,8 @@
     "spawners:evil_humanoids",
     "spawners:spiders",
     "spawners:creeper",
-    "theme:ebwiz2",
-    "tower:ebwiz2"
+    "spawners:end",
+    "theme:ancient",
+    "tower:ancient"
   ]
 }

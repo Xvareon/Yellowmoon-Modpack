@@ -1,3 +1,16 @@
+Version 6.6 - THE DUNGEON UPDATE
+
+- Updated default server.properties file which optimizes performance for servers
+- More Ice and Fire items are now brewable into alchemical essences
+- Changed Philosopher's Stone recipe
+- Alchemical Essence is now stackable
+- HUGE enhancements to roguelike dungeons! (Rebalancing and added a TON of dungeon theme variety!)
+- Trolls cannot have different sizes anymore (they were clipping through underground walls)
+- Nerfed bone sword and fang arrow damage cap from 200 -> 75 (enemies can only get 5000 HP at max, so a maximum 3% bonus damage would be 150, so, it is being halved)
+- Ebwiz-themed roguelike dungeons can now only spawn in the Twilight Forest dimension and magical biomes in the overworld
+- Rebalanced the difficulty curve of Champion tiers
+- Trimmed Tips so that more relevant tips can show
+
 Version 6.5 - THE BED UPDATE
 
 - Added BedBreakBegone
@@ -11,23 +24,3 @@ Version 6.5 - THE BED UPDATE
 -- Added the shivaxi dragon to the transformation powder list
 -- Dread Queen sword now has different crit potion effect (mind control was useless when it got the freeze effect)
 - Fossils and Archaeology ancient sword now has mind control and buffed crit chance
-
-Version 6.4
-
-- Added FermiumASM
-- Added Ping
-- Adjusted scaling of mobs (they scaled too fast, so we are lowering the curve), Also lowered maximum melee attack multiplier
-- Buffed Barako damage
-- Increased Ghoul spawnrate (FUR)
-
-Version 6.3
-
-- Updated Fish's Undead Rising (fixing the glowshroom bug)
-- Disabled Amphithere Dynamic Trees Smooth Leaves Pass Trough
-- Adjusted Skeleton King Damage and HP
-- Rebalanced bone sword again
-- Downgraded JEI
-- Removed Ender Dragon from always being a champion mob
-- Added recipe for unbreakable glass sword
-- Updated Simple Voice Chat
-- Added more Zombie Player names

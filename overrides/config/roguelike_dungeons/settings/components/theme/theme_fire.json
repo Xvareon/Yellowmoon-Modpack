@@ -1,51 +1,283 @@
 {
   "name": "theme:fire",
   "themes": [
-    {"base": "SANDSTONERED", "level": [0,1]},
     {
-      	"base": "SANDSTONERED",
+      	"base": "HELL",
+      	"level": 0,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "quark:magma_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 6}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "quark:jasper", "meta": 1}, "weight": 10}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "quark:magma_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 6}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "quark:jasper", "meta": 1}, "weight": 10}
+				]
+			},
+        	"pillar": {"name": "quark:jasper", "meta": 1},
+        	"stair": {"name": "quark:stone_jasper_bricks_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "twilightforest:fiery_essence"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "quark:magma_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 6}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "quark:jasper", "meta": 1}, "weight": 10}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "quark:magma_bricks"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 6}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "quark:jasper", "meta": 1}, "weight": 10}
+				]
+			},
+        	"pillar": {"name": "quark:jasper", "meta": 1},
+        	"stair": {"name": "quark:stone_jasper_bricks_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "twilightforest:fiery_essence"}
+      	}
+    },
+    {
+      	"base": "HELL",
+      	"level": 1,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_brick"}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_rock"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_ash"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "biomesoplenty:ash_block", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "quark:basalt", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 3}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_carved", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_pavement", "meta": 3}, "weight": 10}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_brick"}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_rock"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_ash"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "biomesoplenty:ash_block", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "quark:basalt", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 3}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_carved", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_pavement", "meta": 3}, "weight": 10}
+				]
+			},
+        	"pillar": {"name": "minecraft:magma"},
+        	"stair": {"name": "fossil:volcanic_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "minecraft:lava"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_brick"}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_rock"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_ash"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "biomesoplenty:ash_block", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "quark:basalt", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 3}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_carved", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_pavement", "meta": 3}, "weight": 10}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_brick"}, "weight": 60},
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_rock"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "fossil:volcanic_ash"}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "biomesoplenty:ash_block", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "quark:basalt", "meta": 0}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 3}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_carved", "meta": 3}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:world_stone_pavement", "meta": 3}, "weight": 10}
+				]
+			},
+        	"pillar": {"name": "minecraft:magma"},
+        	"stair": {"name": "fossil:volcanic_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "minecraft:lava"}
+		}
+    },
+    {
+      	"base": "HELL",
       	"level": 2,
       	"primary": {
         	"door": {"name": "minecraft:iron_door"},
-		"floor": {"name": "quark:magma_bricks"},
-		"walls": {"name": "quark:magma_bricks"},
-        	"pillar": {"name": "minecraft:magma"},
-        	"stair": {"name": "quark:magma_bricks_stairs"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_large"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_square"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_carved"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_scale"}, "weight": 20}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_large"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_square"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_carved"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_scale"}, "weight": 20}
+				]
+			},
+        	"pillar": {"name": "cqrepoured:red_netherbrick_cube"},
+        	"stair": {"name": "quark:red_nether_brick_stairs"},
         	"lightblock": {"name": "quark:blaze_lantern"},
         	"liquid": {"name": "minecraft:lava"}
       	},
       	"secondary": {
         	"door": {"name": "minecraft:iron_door"},
-		"floor": {"name": "quark:magma_bricks"},
-		"walls": {"name": "quark:magma_bricks"},
-        	"pillar": {"name": "minecraft:magma"},
-        	"stair": {"name": "quark:magma_bricks_stairs"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_large"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_square"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_carved"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_scale"}, "weight": 20}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_large"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_square"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_carved"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_scale"}, "weight": 20}
+				]
+			},
+        	"pillar": {"name": "cqrepoured:red_netherbrick_cube"},
+        	"stair": {"name": "quark:red_nether_brick_stairs"},
         	"lightblock": {"name": "quark:blaze_lantern"},
         	"liquid": {"name": "minecraft:lava"}
       	}
     },
     {
-      	"base": "SANDSTONERED",
+      	"base": "HELL",
       	"level": 3,
       	"primary": {
         	"door": {"name": "minecraft:iron_door"},
-		"floor": {"name": "quark:biome_brick", "meta": 0},
-		"walls": {"name": "quark:biome_brick", "meta": 0},
-        	"pillar": {"name": "minecraft:magma"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "iceandfire:chared_stone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "iceandfire:chared_cobblestone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:charred_nether_bricks"}, "weight": 30},
+					{"type": "METABLOCK", "data": {"name": "minecraft:magma"}, "weight": 10}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "iceandfire:chared_stone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "iceandfire:chared_cobblestone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:charred_nether_bricks"}, "weight": 30},
+					{"type": "METABLOCK", "data": {"name": "minecraft:magma"}, "weight": 10}
+				]
+			},
+        	"pillar": {"name": "cqrepoured:red_netherbrick_pillar"},
+        	"stair": {"name": "quark:charred_nether_brick_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "twilightforest:molten_fierymetal"}
+      	},
+      	"secondary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "iceandfire:chared_stone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "iceandfire:chared_cobblestone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:charred_nether_bricks"}, "weight": 30},
+					{"type": "METABLOCK", "data": {"name": "minecraft:magma"}, "weight": 10}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "iceandfire:chared_stone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "iceandfire:chared_cobblestone"}, "weight": 10},
+					{"type": "METABLOCK", "data": {"name": "quark:charred_nether_bricks"}, "weight": 30},
+					{"type": "METABLOCK", "data": {"name": "minecraft:magma"}, "weight": 10}
+				]
+			},
+        	"pillar": {"name": "cqrepoured:red_netherbrick_pillar"},
+        	"stair": {"name": "quark:charred_nether_brick_stairs"},
+        	"lightblock": {"name": "quark:blaze_lantern"},
+        	"liquid": {"name": "twilightforest:molten_fierymetal"}
+      	}
+    },
+    {
+      	"base": "HELL",
+      	"level": 4,
+      	"primary": {
+        	"door": {"name": "minecraft:iron_door"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "quark:biome_brick", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "minecraft:magma"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_large"}, "weight": 40}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "quark:biome_brick", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "minecraft:magma"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_large"}, "weight": 40}
+				]
+			},
+        	"pillar": {"name": "minecraft:red_glazed_terracotta"},
         	"stair": {"name": "quark:fire_stone_brick_stairs"},
         	"lightblock": {"name": "quark:blaze_lantern"},
         	"liquid": {"name": "minecraft:lava"}
       	},
       	"secondary": {
         	"door": {"name": "minecraft:iron_door"},
-		"floor": {"name": "quark:biome_brick", "meta": 0},
-		"walls": {"name": "quark:biome_brick", "meta": 0},
-        	"pillar": {"name": "minecraft:magma"},
+			"floor": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "quark:biome_brick", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "minecraft:magma"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_large"}, "weight": 40}
+				]
+			},
+			"walls": {
+				"type": "WEIGHTED",
+				"data": [
+					{"type": "METABLOCK", "data": {"name": "quark:biome_brick", "meta": 0}, "weight": 20},
+					{"type": "METABLOCK", "data": {"name": "minecraft:magma"}, "weight": 5},
+					{"type": "METABLOCK", "data": {"name": "cqrepoured:red_netherbrick_large"}, "weight": 40}
+				]
+			},
+        	"pillar": {"name": "minecraft:red_glazed_terracotta"},
         	"stair": {"name": "quark:fire_stone_brick_stairs"},
         	"lightblock": {"name": "quark:blaze_lantern"},
         	"liquid": {"name": "minecraft:lava"}
       	}
-    },
-    {"base": "HELL", "level": 4}
+    }
   ]
 }

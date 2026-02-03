@@ -240,7 +240,6 @@
     {
         "mob": [
             "iceandfire:cyclops",
-            "iceandfire:if_troll",
             "iceandfire:stymphalianbird"
         ],
         "random": 0.3,

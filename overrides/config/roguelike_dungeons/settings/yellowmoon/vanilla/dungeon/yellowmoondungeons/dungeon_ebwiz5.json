@@ -1,7 +1,7 @@
 {
   "name": "yellowmoon:dungeon_ebwiz5",
   "exclusive": true,
-  "criteria": {"biomeTypes": ["FOREST"]},
+  "criteria": {"biomeTypes": ["TWILIGHT", "MAGICAL"]},
   "inherit": [
     "yellowmoon:dungeon_base",
     "rooms:all",

@@ -964,7 +964,11 @@ recipes.addShapeless("grateFour",<quark:grate>*4,[<minecraft:iron_bars>,<minecra
 recipes.addShapeless("grateToIronBarsOne",<minecraft:iron_bars>*1,[<quark:grate>]);
 recipes.addShapeless("grateToIronBarsFour",<minecraft:iron_bars>*4,[<quark:grate>,<quark:grate>,<quark:grate>,<quark:grate>]);
 
-recipes.addShapeless("philosophersStone",<ancientspellcraft:charm_philosophers_stone>*1,[<ancientspellcraft:alchemical_essence>,<ancientspellcraft:alchemical_essence>,<ancientspellcraft:alchemical_essence>,<twilightforest:carminite>]);
+recipes.addShaped("philosophersStone",<ancientspellcraft:charm_philosophers_stone>,[
+    [<ancientspellcraft:alchemical_essence>,<ancientspellcraft:alchemical_essence>,<ancientspellcraft:alchemical_essence>],
+    [<ancientspellcraft:alchemical_essence>,<twilightforest:carminite>,<ancientspellcraft:alchemical_essence>],
+    [<ancientspellcraft:alchemical_essence>,<ancientspellcraft:alchemical_essence>,<ancientspellcraft:alchemical_essence>]
+]);
 
 recipes.addShaped("magicDucttape",<dungeontactics:ducttape>*1,[
     [<ore:slimeball>,<ore:slimeball>,<ore:slimeball>],

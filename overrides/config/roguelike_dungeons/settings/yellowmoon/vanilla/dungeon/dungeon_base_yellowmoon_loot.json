@@ -14,13 +14,19 @@
     "spawners:undead",
     "spawners:evil_humanoids",
     "spawners:spiders",
-    "spawners:creeper",
-    "theme:aether"
+    "spawners:creeper"
   ],
   "tower": {
     "type": "ETHO",
     "theme": {
       "base": "ENIKO"
     }
-  }
+  },
+  "themes": [
+    {"level": [0], "base": "ETHO"},
+    {"level": [1], "base": "SPRUCE"},
+    {"level": [2], "base": "MOSSY"},
+    {"level": [3], "base": "ENDER"},
+    {"level": [4], "base": "HELL"}
+  ]
 }

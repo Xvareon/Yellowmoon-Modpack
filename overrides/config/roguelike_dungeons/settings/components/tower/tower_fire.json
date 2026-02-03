@@ -1,17 +1,45 @@
 {
-  "name": "tower:fire",
-  "tower": {
-    "type": "JUNGLE",
-    "theme": {
-      "base": "SANDSTONERED",
-      "primary": {
-        "walls": {"name": "quark:magma_bricks"}
-      },
-      "secondary": {
-        "pillar": {"name": "minecraft:magma"},
-        "walls": {"name": "quark:magma_bricks"},
-	      "stair": {"name": "quark:magma_bricks_stairs"}
-      }
+    "name": "tower:fire",
+    "tower": {
+        "type": "ROGUE",
+        "theme": {
+            "base": "HELL",
+            "primary": {
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 6}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "quark:jasper", "meta": 1}, "weight": 10}
+                    ]
+                },
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 6}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "quark:jasper", "meta": 1}, "weight": 10}
+                    ]
+                },
+                "pillar": {"name": "minecraft:red_glazed_terracotta"},
+	            "stair": {"name": "quark:stone_jasper_bricks_stairs"}
+            },
+            "secondary": {
+                "walls": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 6}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "quark:jasper", "meta": 1}, "weight": 10}
+                    ]
+                },
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [
+                        {"type": "METABLOCK", "data": {"name": "quark:world_stone_bricks", "meta": 6}, "weight": 60},
+                        {"type": "METABLOCK", "data": {"name": "quark:jasper", "meta": 1}, "weight": 10}
+                    ]
+                },
+                "pillar": {"name": "minecraft:red_glazed_terracotta"},
+	            "stair": {"name": "quark:stone_jasper_bricks_stairs"}
+            }
+        }
     }
-  }
 }
