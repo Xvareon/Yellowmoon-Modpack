@@ -1,0 +1,219 @@
+// DO NOT EDIT!
+[
+    {
+        "blockId": [
+            "thebetweenlands:alembic",
+            "thebetweenlands:bauble",
+            "thebetweenlands:betweenstone_pebble_pile",
+            "thebetweenlands:betweenstone_pillar",
+            "thebetweenlands:caving_rope_light",
+            "thebetweenlands:crab_pot_filter",
+            "thebetweenlands:crab_pot",
+            "thebetweenlands:cragrock_pillar",
+            "thebetweenlands:damp_torch",
+            "thebetweenlands:dungeon_wall_candle",
+            "thebetweenlands:filtered_silt_glass_jar",
+            "thebetweenlands:fish_trimming_table",
+            "thebetweenlands:fishing_tackle_box",
+            "thebetweenlands:giant_root_plank_fence_gate_treated",
+            "thebetweenlands:giant_root_plank_fence_gate",
+            "thebetweenlands:giant_root_plank_fence_treated",
+            "thebetweenlands:giant_root_plank_fence",
+            "thebetweenlands:hearthgrove_plank_fence_gate_treated",
+            "thebetweenlands:hearthgrove_plank_fence_gate",
+            "thebetweenlands:hearthgrove_plank_fence_treated",
+            "thebetweenlands:hearthgrove_plank_fence",
+            "thebetweenlands:item_cage",
+            "thebetweenlands:item_shelf",
+            "thebetweenlands:lantern_paper_1",
+            "thebetweenlands:lantern_paper_2",
+            "thebetweenlands:lantern_paper_3",
+            "thebetweenlands:lantern_silt_glass",
+            "thebetweenlands:limestone_pillar",
+            "thebetweenlands:log_rubber",
+            "thebetweenlands:loot_pot",
+            "thebetweenlands:loot_urn",
+            "thebetweenlands:mob_spawner",
+            "thebetweenlands:mud_flower_pot",
+            "thebetweenlands:mud_tower_beam_lens_supports",
+            "thebetweenlands:mud_tower_brazier",
+            "thebetweenlands:nibbletwig_plank_fence_gate_treated",
+            "thebetweenlands:nibbletwig_plank_fence_gate",
+            "thebetweenlands:nibbletwig_plank_fence_treated",
+            "thebetweenlands:nibbletwig_plank_fence",
+            "thebetweenlands:offering_table",
+            "thebetweenlands:pitstone_pillar",
+            "thebetweenlands:present",
+            "thebetweenlands:repeller",
+            "thebetweenlands:root",
+            "thebetweenlands:rope",
+            "thebetweenlands:rotten_plank_fence_gate_treated",
+            "thebetweenlands:rotten_plank_fence_gate",
+            "thebetweenlands:rotten_plank_fence_treated",
+            "thebetweenlands:rotten_plank_fence",
+            "thebetweenlands:rubber_tree_plank_fence_gate_treated",
+            "thebetweenlands:rubber_tree_plank_fence_gate",
+            "thebetweenlands:rubber_tree_plank_fence_treated",
+            "thebetweenlands:rubber_tree_plank_fence",
+            "thebetweenlands:samite_canvas_panel_rotated",
+            "thebetweenlands:samite_canvas_panel",
+            "thebetweenlands:simulacrum_deepman",
+            "thebetweenlands:simulacrum_lake_cavern",
+            "thebetweenlands:simulacrum_rootman",
+            "thebetweenlands:sludge",
+            "thebetweenlands:stalactite",
+            "thebetweenlands:sulfur_torch_extinguished",
+            "thebetweenlands:sulfur_torch",
+            "thebetweenlands:temple_pillar",
+            "thebetweenlands:walkway",
+            "thebetweenlands:water_filter",
+            "thebetweenlands:waystone",
+            "thebetweenlands:weedwood_log_fence_gate",
+            "thebetweenlands:weedwood_log_fence",
+            "thebetweenlands:weedwood_plank_fence_gate_treated",
+            "thebetweenlands:weedwood_plank_fence_gate",
+            "thebetweenlands:weedwood_plank_fence_treated",
+            "thebetweenlands:weedwood_plank_fence",
+            "thebetweenlands:wind_chime",
+            "thebetweenlands:wisp",
+            "thebetweenlands:worm_dungeon_pillar",
+            "thebetweenlands:wooden_support_beam_rotten_1",
+            "thebetweenlands:wooden_support_beam_rotten_2",
+            "thebetweenlands:wooden_support_beam_rotten_3"
+        ],
+        "canFluidFlow": true
+    },
+    {
+        "blockId": "thebetweenlands:animator",
+        "boxes": {"min": 0, "max": 4},
+        "canFluidFlow": ["up", "north", "south", "east", "west"]
+    },
+    {
+        "blockId": [
+            "thebetweenlands:betweenstone_brick_slab",
+            "thebetweenlands:betweenstone_slab",
+            "thebetweenlands:compacted_mud_slab",
+            "thebetweenlands:cracked_betweenstone_brick_slab",
+            "thebetweenlands:cragrock_brick_slab",
+            "thebetweenlands:cragrock_slab",
+            "thebetweenlands:giant_root_plank_slab_treated",
+            "thebetweenlands:giant_root_plank_slab",
+            "thebetweenlands:hearthgrove_plank_slab_treated",
+            "thebetweenlands:hearthgrove_plank_slab",
+            "thebetweenlands:limestone_brick_slab",
+            "thebetweenlands:limestone_slab",
+            "thebetweenlands:mossy_betweenstone_brick_slab",
+            "thebetweenlands:mossy_smooth_betweenstone_slab",
+            "thebetweenlands:mud_brick_shingle_slab_stained_brown_rust",
+            "thebetweenlands:mud_brick_shingle_slab_stained_cadmium_green",
+            "thebetweenlands:mud_brick_shingle_slab_stained_camelot_magenta",
+            "thebetweenlands:mud_brick_shingle_slab_stained_caribbean_green",
+            "thebetweenlands:mud_brick_shingle_slab_stained_champagne",
+            "thebetweenlands:mud_brick_shingle_slab_stained_dull_lavender",
+            "thebetweenlands:mud_brick_shingle_slab_stained_elm_cyan",
+            "thebetweenlands:mud_brick_shingle_slab_stained_lavender_blue",
+            "thebetweenlands:mud_brick_shingle_slab_stained_maroon",
+            "thebetweenlands:mud_brick_shingle_slab_stained_midnight_purple",
+            "thebetweenlands:mud_brick_shingle_slab_stained_pewter_grey",
+            "thebetweenlands:mud_brick_shingle_slab_stained_raisin_black",
+            "thebetweenlands:mud_brick_shingle_slab_stained_saffron",
+            "thebetweenlands:mud_brick_shingle_slab_stained_shadow_green",
+            "thebetweenlands:mud_brick_shingle_slab_stained_sushi_green",
+            "thebetweenlands:mud_brick_shingle_slab_stained_vivid_tangerine",
+            "thebetweenlands:mud_brick_shingle_slab",
+            "thebetweenlands:mud_brick_slab_decay_1",
+            "thebetweenlands:mud_brick_slab_decay_2",
+            "thebetweenlands:mud_brick_slab_decay_3",
+            "thebetweenlands:mud_brick_slab_decay_4",
+            "thebetweenlands:mud_brick_slab",
+            "thebetweenlands:nibbletwig_plank_slab_treated",
+            "thebetweenlands:nibbletwig_plank_slab",
+            "thebetweenlands:pitstone_brick_slab",
+            "thebetweenlands:pitstone_slab",
+            "thebetweenlands:polished_limestone_slab",
+            "thebetweenlands:rotten_plank_slab_treated",
+            "thebetweenlands:rotten_plank_slab",
+            "thebetweenlands:rubber_tree_plank_slab_treated",
+            "thebetweenlands:rubber_tree_plank_slab",
+            "thebetweenlands:scabyst_brick_slab",
+            "thebetweenlands:smooth_betweenstone_slab",
+            "thebetweenlands:smooth_cragrock_slab",
+            "thebetweenlands:smooth_pitstone_slab",
+            "thebetweenlands:tar_solid_slab",
+            "thebetweenlands:temple_brick_slab",
+            "thebetweenlands:thatch_slab",
+            "thebetweenlands:weedwood_plank_slab_treated",
+            "thebetweenlands:weedwood_plank_slab"
+        ],
+        "states": {"half": ["bottom", "top"]}
+    },
+    {
+        "blockId": [    
+            "thebetweenlands:compacted_mud_slope",
+            "thebetweenlands:mud_brick_roof",
+            "thebetweenlands:thatch_roof"
+        ],
+        "boxes": {"min": 0, "max": 3},
+        "states": {"half": "bottom"}
+    },
+    {
+        "blockId": [    
+            "thebetweenlands:compacted_mud_slope",
+            "thebetweenlands:mud_brick_roof",
+            "thebetweenlands:thatch_roof"
+        ],
+        "boxes": {"min": 13, "max": 16},
+        "states": {"half": "top"}
+    },
+    {
+        "blockId": "thebetweenlands:compost_bin",
+        "boxes": {"min": 14, "max": 16},
+        "canFluidFlow": ["down", "north", "south", "east", "west"]
+    },
+    {
+        "blockId": "thebetweenlands:hollow_log",
+        "boxes": []
+    },
+    {
+        "blockId": "thebetweenlands:mud_brick_alcove",
+        "boxes": {"min": 12, "max": 16}
+    },
+    {
+        "blockId": "thebetweenlands:mud_bricks_climbable",
+        "canFluidFlow": ["up", "down", "north", "east", "west"],
+        "states": {"facing": "north"}
+    },
+    {
+        "blockId": "thebetweenlands:mud_bricks_climbable",
+        "canFluidFlow": ["up", "down", "south", "east", "west"],
+        "states": {"facing": "south"}
+    },
+    {
+        "blockId": "thebetweenlands:mud_bricks_climbable",
+        "canFluidFlow": ["up", "down", "north", "south", "east"],
+        "states": {"facing": "east"}
+    },
+    {
+        "blockId": "thebetweenlands:mud_bricks_climbable",
+        "canFluidFlow": ["up", "down", "north", "south", "west"],
+        "states": {"facing": "west"}
+    },
+    {
+        "blockId": [
+            "thebetweenlands:reed_mat_colored",
+            "thebetweenlands:reed_mat",
+            "thebetweenlands:wood_chip_path"
+        ],
+        "canFluidFlow": ["up", "north", "south", "east", "west"]
+    },
+    {
+        "blockId": [
+            "thebetweenlands:sulfur_furnace_active",
+            "thebetweenlands:sulfur_furnace_dual_active",
+            "thebetweenlands:sulfur_furnace_dual",
+            "thebetweenlands:sulfur_furnace"
+        ],
+        "boxes": {"min": 0, "max": 5},
+        "canFluidFlow": ["up", "north", "south", "east", "west"]
+    }
+]

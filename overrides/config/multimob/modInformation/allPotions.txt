@@ -103,6 +103,10 @@ mowziesmobs:suns_blessing
 mowziesmobs:geomancy
 mowziesmobs:frozen
 mowziesmobs:poison_resist
+oe:conduit_power
+oe:descent
+oe:seeping
+oe:dolphins_grace
 potioncore:flight
 potioncore:iron_skin
 potioncore:diamond_skin

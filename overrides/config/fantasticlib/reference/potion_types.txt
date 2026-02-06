@@ -85,6 +85,11 @@ mod_lavacow:ravens_grace
 mod_lavacow:long_ravens_grace
 mowziesmobs:poison_resist
 mowziesmobs:long_poison_resist
+oe:turtle_master
+oe:turtle_master_long
+oe:turtle_master_strong
+oe:descent
+oe:seeping
 potioncore:levitation
 potioncore:flight
 potioncore:long_flight

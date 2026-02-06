@@ -755,9 +755,6 @@ furnace.addRecipe(<ancientwarfare:steel_ingot>*1,<dungeontactics:backfire_cannon
 
 furnace.addRecipe(<minecraft:gold_ingot>*13,<dungeontactics:peg_hammer:*>, 99999);
 
-furnace.addRecipe(<iceandfire:copper_ingot>*1,<better_diving:copper_ore:*>, 99999);
-furnace.addRecipe(<iceandfire:silver_ingot>*1,<better_diving:silver_ore:*>, 99999);
-
 furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:copper_sword:*>, 99999);
 furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:copper_shovel:*>, 99999);
 furnace.addRecipe(<iceandfire:copper_ingot>*1,<iceandfire:copper_pickaxe:*>, 99999);

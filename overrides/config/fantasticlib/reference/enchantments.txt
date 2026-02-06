@@ -93,6 +93,13 @@ bettercombat:lightning
 bettercombat:revitalize
 bettercombat:sorcery
 bettercombat:webbing
+oe:is_watermob
+oe:is_wet
+oe:loyalty
+oe:channeling
+oe:riptide
+oe:mobstomp
+oe:rebound
 simpledifficulty:chilling
 simpledifficulty:heating
 spartanweaponry:propulsion

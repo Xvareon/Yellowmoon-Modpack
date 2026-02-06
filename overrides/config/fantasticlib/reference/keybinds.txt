@@ -89,11 +89,11 @@ keybind.vehicle.right
 keybind.vehicle.turret.left
 keybind.vehicle.turret.right
 
+key.aquaacrobatics.category
+key.aquaacrobatics.toggle_crawling
+
 key.categories.astikorcarts
 key.astikorcarts.desc
-
-Better Diving
-Seamoth descend
 
 key.callablehorses.category
 key.callhorse.desc

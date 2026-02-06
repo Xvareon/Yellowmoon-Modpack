@@ -1234,9 +1234,9 @@ recipes.addShaped("xpJar",<disenchanter:experience_jar>,[
 ]);
 
 recipes.addShaped("storageMaster",<storagenetwork:master>,[
-    [<iceandfire:silver_block>,<storagenetwork:kabel>,<iceandfire:silver_block>],
+    [<iceandfire:silver_block>,<storagenetwork:kabel>,<iceandfire:copper_block>],
     [<storagenetwork:kabel>,<minecraft:diamond>,<storagenetwork:kabel>],
-    [<iceandfire:silver_block>,<storagenetwork:kabel>,<iceandfire:silver_block>]
+    [<iceandfire:copper_block>,<storagenetwork:kabel>,<iceandfire:silver_block>]
 ]);
 
 recipes.addShaped("storageInventory",<storagenetwork:inventory>,[
@@ -1325,5 +1325,7 @@ recipes.addShaped("tfGlassSwordUnbreakable",
         [<minecraft:nether_star>,<twilightforest:glass_sword>,<minecraft:nether_star>],
         [<minecraft:nether_star>,<minecraft:nether_star>,<minecraft:nether_star>]
 ]);
+
+recipes.addShapeless("lightningStone",<iceandfire:lightning_stone>,[<minecraft:magma>,<charm:charged_emerald>]);
 
 print("Script modifiedRecipes ending!");

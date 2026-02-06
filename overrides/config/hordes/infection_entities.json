@@ -17,5 +17,7 @@
 	"quark:dweller",
 	"zombie_players:zombie_player",
 	"ancientbeasts:boulderer",
-	"ancientbeasts:frost_walker"
+	"ancientbeasts:frost_walker",
+	"oe:drowned",
+	"oe:pickled"
  ]

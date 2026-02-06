@@ -1,5 +1,5 @@
-#Tue Jan 27 00:32:55 SGT 2026
-shaderPack=BSL_v10.0.zip
+#Sat Feb 07 00:26:34 SGT 2026
+shaderPack=OFF
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

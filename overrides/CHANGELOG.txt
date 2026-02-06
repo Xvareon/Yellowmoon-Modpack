@@ -1,26 +1,22 @@
-Version 6.6 - THE DUNGEON UPDATE
+Version 7.0 - Ocean Update
 
-- Updated default server.properties file which optimizes performance for servers
-- More Ice and Fire items are now brewable into alchemical essences
-- Changed Philosopher's Stone recipe
-- Alchemical Essence is now stackable
-- HUGE enhancements to roguelike dungeons! (Rebalancing and added a TON of dungeon theme variety!)
-- Trolls cannot have different sizes anymore (they were clipping through underground walls)
-- Nerfed bone sword and fang arrow damage cap from 200 -> 75 (enemies can only get 5000 HP at max, so a maximum 3% bonus damage would be 150, so, it is being halved)
-- Ebwiz-themed roguelike dungeons can now only spawn in the Twilight Forest dimension and magical biomes in the overworld
-- Rebalanced the difficulty curve of Champion tiers
-- Trimmed Tips so that more relevant tips can show
+=== PREVIOUS WORLDS WILL BE INCOMPATIBLE! ===
 
-Version 6.5 - THE BED UPDATE
-
-- Added BedBreakBegone
-- Added Bedspreads
-- Added Bed Spawn Backport
-- Nerfed Bone Sword % damage from 5% -> 3% and capped bonus damage to 200
-- Replaced FoamFix with VintageFix for some updated optimizations
-- Added Particle Culling (configured to ignore ebwiz, ancientspellcraft, tfspellpack, twilightforest, betweenlands, beastslayer, fishs undead rising, erebus, and cqr particles)
-- Updated Ice and Fire (Shivaxi Dragon! also a lot of performance fixes!)
--- Increased maximum dragon flight
--- Added the shivaxi dragon to the transformation powder list
--- Dread Queen sword now has different crit potion effect (mind control was useless when it got the freeze effect)
-- Fossils and Archaeology ancient sword now has mind control and buffed crit chance
+- Removed Better Diving
+- Added Oceanic Expanse (Fully configured to have compatibility with other mods in the pack!)
+- Added FluidLoggedAPI
+- Added Aqua Acrobatics (You can now also crawl on demand by using the right-shift key)
+- Updated Ice and Fire
+- Added some mobs that can be summoned by Dream Catcher and possible parasite hosts
+- Added more mobs that can be transformed via transformation powder
+- Added Lightning Stone recipe
+- Dragon Collar, Scepter of the Overlord, and Royal Crown (toroquest) can now drop from Tier 8 champions (Note that the Black Frost is tameable)
+- Rebalanced Shopkeeper silver and copper trades since those are rarer than gold now
+- Bears and Lammergeiers will now attack cod and salmon on sight
+- Increased minimum hunger points when respawning (It was too rough, I deeply apologize.)
+- Hid some spell bundle items that are unobtainable from JEI since they cause crashes if used
+- Reverted some textures in the custom texture pack
+- Tweaked Neptune Set Bonus! (buffed)
+- Adjusted Storage Network Master recipe
+- Removed transformation powder transformations for fire dragon and ice dragon
+- Buffed Tide Trident throwing damage to 30 damage (to align with javelin damages and its enchantments scarcity)
