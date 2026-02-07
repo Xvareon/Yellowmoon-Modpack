@@ -29,5 +29,6 @@ mods.wizardryutils.MinionSpells.create("summon_aetherwinds", "com.gildedgames.th
 mods.wizardryutils.MinionSpells.create("summon_swetarmy", "com.gildedgames.the_aether.entities.passive.mountable.EntitySwet");
 mods.wizardryutils.MinionSpells.create("summon_carminitegolem", "twilightforest.entity.EntityTFTowerGolem");
 mods.wizardryutils.MinionSpells.create("summon_remnantswarm", "electroblob.wizardry.entity.living.EntityRemnant");
+mods.wizardryutils.MinionSpells.create("summon_mosquitoswarm", "twilightforest.entity.EntityTFMosquitoSwarm");
 
 print("Script customSpells ending!");

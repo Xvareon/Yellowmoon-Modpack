@@ -1,3 +1,10 @@
+Version 7.1
+
+- Added more mobs to transformation powder list
+- Added Mosquito Swarm spell
+- Added a tip for turning a dread lich to the Dread Queen and an evil wizard into an archmage
+- Buffed Archmage HP to maximum (5000 HP)
+
 Version 7.0 - Ocean Update
 
 === PREVIOUS WORLDS WILL BE INCOMPATIBLE! ===

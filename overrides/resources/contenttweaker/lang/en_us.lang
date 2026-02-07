@@ -48,3 +48,5 @@ spell.contenttweaker:summon_carminitegolem=Summon Carminite Golem
 spell.contenttweaker:summon_carminitegolem.desc=Conjures a Carminite Golem to fight for you.
 spell.contenttweaker:summon_remnantswarm=Summon Remnant Swarm
 spell.contenttweaker:summon_remnantswarm.desc=Conjures multiple remnants to fight for you.
+spell.contenttweaker:summon_mosquitoswarm=Summon Mosquito Swarm
+spell.contenttweaker:summon_mosquitoswarm.desc=Conjures a swarm of mosquitoes to fight for you.

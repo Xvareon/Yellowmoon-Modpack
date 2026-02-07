@@ -25,7 +25,8 @@
             "twilightforest:giant_miner",
             "twilightforest:armored_giant",
             "twilightforest:harbinger_cube",
-            "twilightforest:adherent"
+            "twilightforest:adherent",
+            "toroquest:toroquest_mage"
         ],
         "potion": [
             "minecraft:strength,20000000,3",
