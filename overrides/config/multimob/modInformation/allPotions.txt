@@ -39,11 +39,6 @@ rustic:magic_resistance
 rustic:wither_ward
 rustic:undying
 rustic:tipsy
-ancientbeasts:shielded
-ancientbeasts:possessed
-ancientbeasts:ghostly
-ancientbeasts:rifted
-ancientbeasts:undead
 hordes:infected
 hordes:immunity
 quark:blue
@@ -52,6 +47,14 @@ quark:white
 quark:resilience
 quark:curse
 quark:danger_sight
+ancientbeasts:shielded
+ancientbeasts:possessed
+ancientbeasts:ghostly
+ancientbeasts:rifted
+ancientbeasts:undead
+ancientbeasts:target
+ancientbeasts:fire_frenzy
+ancientbeasts:charmed
 champions:jailed
 champions:plague
 champions:injured

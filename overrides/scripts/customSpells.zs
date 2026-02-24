@@ -4,12 +4,12 @@ print("Script customSpells starting!");
 
 mods.wizardryutils.MinionSpells.create("cow_minion", "net.minecraft.entity.passive.EntityCow");
 mods.wizardryutils.MinionSpells.create("summon_grizzlybear", "its_meow.betteranimalsplus.common.entity.EntityBear");
-mods.wizardryutils.MinionSpells.create("summon_sandmonster", "com.unoriginal.ancientbeasts.entity.Entities.EntitySandy");
-mods.wizardryutils.MinionSpells.create("summon_ghost", "com.unoriginal.ancientbeasts.entity.Entities.EntityGhost");
-mods.wizardryutils.MinionSpells.create("summon_nekros", "com.unoriginal.ancientbeasts.entity.Entities.EntityNekros");
-mods.wizardryutils.MinionSpells.create("summon_damcell", "com.unoriginal.ancientbeasts.entity.Entities.EntityDamcell");
-mods.wizardryutils.MinionSpells.create("summon_frostwalker", "com.unoriginal.ancientbeasts.entity.Entities.EntityFrostWalker");
-mods.wizardryutils.MinionSpells.create("summon_boulderer", "com.unoriginal.ancientbeasts.entity.Entities.EntityBoulderer");
+mods.wizardryutils.MinionSpells.create("summon_sandmonster", "com.unoriginal.beastslayer.entity.Entities.EntitySandy");
+mods.wizardryutils.MinionSpells.create("summon_ghost", "com.unoriginal.beastslayer.entity.Entities.EntityGhost");
+mods.wizardryutils.MinionSpells.create("summon_nekros", "com.unoriginal.beastslayer.entity.Entities.EntityNekros");
+mods.wizardryutils.MinionSpells.create("summon_damcell", "com.unoriginal.beastslayer.entity.Entities.EntityDamcell");
+mods.wizardryutils.MinionSpells.create("summon_frostwalker", "com.unoriginal.beastslayer.entity.Entities.EntityFrostWalker");
+mods.wizardryutils.MinionSpells.create("summon_boulderer", "com.unoriginal.beastslayer.entity.Entities.EntityBoulderer");
 mods.wizardryutils.MinionSpells.create("summon_ashen", "vazkii.quark.world.entity.EntityAshen");
 mods.wizardryutils.MinionSpells.create("summon_dweller", "vazkii.quark.world.entity.EntityDweller");
 mods.wizardryutils.MinionSpells.create("summon_skeletonwarrior", "net.daveyx0.primitivemobs.entity.monster.EntitySkeletonWarrior");

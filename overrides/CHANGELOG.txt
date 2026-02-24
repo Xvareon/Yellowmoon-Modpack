@@ -1,3 +1,16 @@
+Version 7.2
+
+- Updated FluidLoggedAPI
+- Updated Essential
+- Updated Beast Slayer
+-- Adjusted equipments.json and armorunder configs
+- Updated Ice and Fire RlCraft
+- Lowered dragon maximum flying height
+- Increased stymphalian bird flying height
+- Lowered extra attack width and height (To prevent accidentally hitting entities not intended to be hit)
+- Lowered camera pitch when swinging
+- Shivaxi Dragon can now only be transformed via transformation powder on the Black Frost instead of Lightning Dragons
+
 Version 7.1
 
 - Added more mobs to transformation powder list

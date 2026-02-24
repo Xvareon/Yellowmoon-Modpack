@@ -312,8 +312,13 @@ boneWithered
 boneDragon
 dragonEgg
 dragonScales
+fireDragonScaleBlock
+iceDragonScaleBlock
+lightningDragonScaleBlock
 seaSerpentScales
 heartDragon
+desertMyrmexEgg
+jungleMyrmexEgg
 listAllEgg
 objectEgg
 bakingEgg
@@ -1576,6 +1581,7 @@ plankRotten
 plankMarshwood
 plankScorched
 plankVarnished
+ectoplasm
 ingotSteel
 itemArmor
 itemPakFiller
@@ -1628,8 +1634,6 @@ dinosaurSkull
 dinosaurRibCage
 dinosaurVertebrae
 dinosaurFoot
-jungleMyrmexEgg
-desertMyrmexEgg
 foodSpiceleaf
 foodYogurt
 materialPigskin
@@ -1704,7 +1708,6 @@ clusterTitanium
 clusterOsmium
 oreMithril
 craftingTableWood
-ectoplasm
 sapling
 saplingTree
 stoneBasaltBricks
