@@ -123,24 +123,6 @@ key.erebus.glide
 key.erebus.poweredglide
 key.erebus.beetlemine
 
-Essential
-Chat Peek
-Invite Friends
-keybind.name.EMOTE_WHEEL
-Open Friends Gui
-keybind.name.MENU_ACCESS
-Open Cosmetic Studio
-keybind.name.EMOTE_SLOT_6
-keybind.name.EMOTE_SLOT_7
-keybind.name.EMOTE_SLOT_8
-keybind.name.EMOTE_SLOT_4
-keybind.name.EMOTE_SLOT_5
-keybind.name.EMOTE_SLOT_1
-keybind.name.EMOTE_SLOT_2
-keybind.name.EMOTE_SLOT_3
-keybind.name.SCREENSHOT_MANAGER
-Cosmetic Visibility Toggle
-
 First Aid
 keybinds.show_wounds
 

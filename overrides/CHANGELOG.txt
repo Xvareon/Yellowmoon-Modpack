@@ -1,7 +1,7 @@
 Version 7.2
 
+- Removed Essential by default since its causing issues with other mods
 - Updated FluidLoggedAPI
-- Updated Essential
 - Updated Beast Slayer
 -- Adjusted equipments.json and armorunder configs
 - Updated Ice and Fire RlCraft
