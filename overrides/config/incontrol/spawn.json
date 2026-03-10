@@ -26,7 +26,8 @@
             "twilightforest:armored_giant",
             "twilightforest:harbinger_cube",
             "twilightforest:adherent",
-            "toroquest:toroquest_mage"
+            "toroquest:toroquest_mage",
+            "ancientbeasts:fire_elemental"
         ],
         "potion": [
             "minecraft:strength,20000000,3",
