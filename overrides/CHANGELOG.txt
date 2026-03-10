@@ -2,3 +2,5 @@ Version 7.3
 
 - Enabled Beast Slayer experimental Mobs
 - The Fire Elemental can now be summoned by using transformation powder on blazes
+- More tribal additions to dungeons
+- Tribal children can be obtained via transformation powders on imps, isnachis, and foglets

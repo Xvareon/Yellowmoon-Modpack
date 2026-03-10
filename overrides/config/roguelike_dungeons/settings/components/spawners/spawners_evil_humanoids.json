@@ -112,8 +112,28 @@
           "name": "twilightforest:unstable_ice_core"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "name": "minecraft:zombie_villager"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:tribewarrior"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:hunter"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:scorcher"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:priest"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:storm_mob"
         }
       ]
     },
@@ -410,6 +430,26 @@
         {
           "weight": 3,
           "name": "primitivemobs:haunted_tool"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:tribewarrior"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:hunter"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:scorcher"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:priest"
+        },
+        {
+          "weight": 3,
+          "name": "ancientbeasts:storm_mob"
         }
       ]
     },
