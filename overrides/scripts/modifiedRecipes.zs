@@ -1328,4 +1328,17 @@ recipes.addShaped("tfGlassSwordUnbreakable",
 
 recipes.addShapeless("lightningStone",<iceandfire:lightning_stone>,[<minecraft:magma>,<charm:charged_emerald>]);
 
+recipes.addShapeless("jam",<dungeontactics:jam>*3,[<minecraft:glass_bottle>,<minecraft:sugar>,
+    <minecraft:apple>|<minecraft:melon>|<dungeontactics:cherry_bomb>|<dungeontactics:incindiberry>|<dungeontactics:glowcurrent>|
+    <rustic:grapes>|<rustic:wildberries>|<biomesoplenty:berries>|<biomesoplenty:peach>|<aether_legacy:white_apple>|<aether_legacy:blue_berry>|
+    <harvestcraft:pineappleitem>|<harvestcraft:blackberryitem>|<harvestcraft:blueberryitem>|<harvestcraft:candleberryitem>|<harvestcraft:raspberryitem>
+    |<harvestcraft:strawberryitem>|<harvestcraft:cranberryitem>|<harvestcraft:elderberryitem>|<harvestcraft:huckleberryitem>
+    |<harvestcraft:mulberryitem>|<harvestcraft:juniperberryitem>|<harvestcraft:gooseberryitem>|<harvestcraft:mangoitem>|<harvestcraft:peachitem>,
+    <minecraft:apple>|<minecraft:melon>|<dungeontactics:cherry_bomb>|<dungeontactics:incindiberry>|<dungeontactics:glowcurrent>|
+    <rustic:grapes>|<rustic:wildberries>|<biomesoplenty:berries>|<biomesoplenty:peach>|<aether_legacy:white_apple>|<aether_legacy:blue_berry>|
+    <harvestcraft:pineappleitem>|<harvestcraft:blackberryitem>|<harvestcraft:blueberryitem>|<harvestcraft:candleberryitem>|<harvestcraft:raspberryitem>
+    |<harvestcraft:strawberryitem>|<harvestcraft:cranberryitem>|<harvestcraft:elderberryitem>|<harvestcraft:huckleberryitem>
+    |<harvestcraft:mulberryitem>|<harvestcraft:juniperberryitem>|<harvestcraft:gooseberryitem>|<harvestcraft:mangoitem>|<harvestcraft:peachitem>
+]);
+
 print("Script modifiedRecipes ending!");

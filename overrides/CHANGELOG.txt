@@ -1,6 +1,25 @@
-Version 7.3
+Version 7.4
 
-- Enabled Beast Slayer experimental Mobs
-- The Fire Elemental can now be summoned by using transformation powder on blazes
-- More tribal additions to dungeons
-- Tribal children can be obtained via transformation powders on imps, isnachis, and foglets
+- Updated Ice and Fire RlCraft
+- Updated Amphithere Mod
+- Updated FermiumASM
+- Updated Simple Voice Chat
+- Updated Beast Slayer
+- Added Fire Frenzy Buff to Fiery Set but removed Armor Toughness setbonus
+- Buffed Damcell damage multiplier
+- Removed beast slayer storm mob from spawning in roguelike dungeons
+- Lowered Dolphin Spawnrate
+- Lowered Aquatic Dinosaur spawnrate
+- Lowered Death Worm spawnrate
+- Lowered Lamprey spawnrate
+- Lowered Maximum Flight Height of Dragons
+- Lowered Frost Stash Foxes spawnrate
+- Slightly buffed battle tower loot and increased the chance for it to be underground
+- Dragons, some animals and dinosaurs will now attack bandits
+- Added Fire Elemental boss to immunity list of Mowzies Ice Crystal and Ebwiz Mind Control
+- Added some mobs to list of mobs that cannot drop intestines
+- Added some mobs to CQR factions
+- Replaced Blazes with Blazing Juggernauts for summoning the Fire Elemental boss via transformation powder
+- Lowered player rescue time 5 -> 3 seconds due to revival failing sometimes if damage is too high
+- Added more fruity items to make Jam
+- Updated some textures

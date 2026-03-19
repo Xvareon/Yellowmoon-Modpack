@@ -701,8 +701,13 @@ bettercombat:player.sheathe_other_right_2
 amphitheremod:amphithere_hurt_0
 amphitheremod:amphithere_hurt_1
 amphitheremod:amphithere_hurt_2
-amphitheremod:amphithere_wing_flap
-amphitheremod:amphithere_music_disc
+amphitheremod:amphithere_hurt_3
+amphitheremod:amphithere_hurt_4
+amphitheremod:amphithere_hurt_5
+amphitheremod:amphithere_hurt_6
+amphitheremod:amphithere_hurt_7
+amphitheremod:amphithere_hurt_8
+amphitheremod:amphithere_hurt_9
 ancientwarfarenpc:bard.tune1
 ancientwarfarenpc:bard.tune2
 ancientwarfarenpc:bard.tune3
@@ -1131,6 +1136,7 @@ ancientbeasts:mosq_loop
 ancientbeasts:mosq_gulp
 ancientbeasts:mosq_hurt
 ancientbeasts:mosq_death
+ancientbeasts:giant_growl
 camera:take_image
 cqrepoured:item.magic_bell.use
 cqrepoured:item.gun.shoot

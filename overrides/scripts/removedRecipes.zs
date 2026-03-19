@@ -111,5 +111,6 @@ recipes.remove(<dungeontactics:silver_shovel>);
 recipes.remove(<dungeontactics:silver_axe>);
 recipes.remove(<dungeontactics:silver_hoe>);
 recipes.remove(<dungeontactics:lantern_magic>);
+recipes.remove(<dungeontactics:jam>);
 
 print("Script removedRecipes ending!");

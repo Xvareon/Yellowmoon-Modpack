@@ -161,7 +161,7 @@
         ],
         "biometype": "OCEAN",
         "maxcount": {
-            "amount": 150,
+            "amount": 130,
             "hostile": true,
             "perplayer": true
         },
@@ -249,5 +249,14 @@
             "ancientspellcraft:growth,20000000,1"
         ], 
         "onjoin": true
+    },
+    {
+        "mob": "oe:dolphin",
+        "mincount": {
+            "amount": 2,
+            "mob": "oe:dolphin",
+            "perplayer": true
+        },
+        "result": "deny"
     }
 ]

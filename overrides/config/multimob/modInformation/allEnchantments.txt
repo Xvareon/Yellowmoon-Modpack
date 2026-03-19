@@ -72,6 +72,8 @@ dungeontactics:poison_tangle
 dungeontactics:poison_ailment
 dungeontactics:poison_fade
 dungeontactics:poison_feather
+ancientbeasts:pulling
+ancientbeasts:hook
 cqrepoured:lightning_protection
 cqrepoured:spectral
 ebwizardry:magic_sword

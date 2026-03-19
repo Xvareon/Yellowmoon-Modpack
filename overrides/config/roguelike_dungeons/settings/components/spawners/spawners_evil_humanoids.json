@@ -130,10 +130,6 @@
         {
           "weight": 3,
           "name": "ancientbeasts:priest"
-        },
-        {
-          "weight": 3,
-          "name": "ancientbeasts:storm_mob"
         }
       ]
     },
@@ -446,10 +442,6 @@
         {
           "weight": 3,
           "name": "ancientbeasts:priest"
-        },
-        {
-          "weight": 3,
-          "name": "ancientbeasts:storm_mob"
         }
       ]
     },
