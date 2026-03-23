@@ -86,8 +86,6 @@ ancientwarfarestructure:seat
 ancientwarfarevehicle:vehicle
 ancientwarfarevehicle:missile
 quark:chest_passenger
-quark:seat
-quark:gravisand
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -108,6 +106,8 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
+quark:gravisand
+quark:seat
 ancientbeasts:sandy
 ancientbeasts:ghost
 ancientbeasts:zealot

@@ -1,3 +1,7 @@
+Version 7.6
+
+- Increased the ceiling of melee and projectile damage and movementspeed of mobs
+
 Version 7.5 - Enchantment Update
 
 - Add the 4 Unique Enchantment mods
