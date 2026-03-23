@@ -2,7 +2,6 @@
     {  
         "mob": [
             "aether_legacy:slider",
-            "aether_legacy:valkyrie",
             "aether_legacy:valkyrie_queen",
             "betteranimalsplus:hirschgeist",
             "dungeonsmod:crawler",
@@ -26,14 +25,13 @@
             "twilightforest:armored_giant",
             "twilightforest:harbinger_cube",
             "twilightforest:adherent",
-            "toroquest:toroquest_mage",
-            "ancientbeasts:fire_elemental"
+            "toroquest:toroquest_mage"
         ],
         "potion": [
-            "minecraft:strength,20000000,3",
-            "potioncore:archery,20000000,3",
-            "minecraft:resistance,20000000,3",
-            "rustic:magic_resistance,20000000,1"
+            "minecraft:strength,20000000,2",
+            "potioncore:archery,20000000,2",
+            "minecraft:resistance,20000000,2",
+            "rustic:magic_resistance,20000000,0"
         ],
         "healthadd": 5000,
         "onjoin": true
@@ -195,8 +193,8 @@
             "quark:resilience,20000000,9",
             "minecraft:regeneration,20000000,1",
             "ancientspellcraft:arcane_aegis,20000000,1",
-            "minecraft:resistance,20000000,1",
-            "rustic:magic_resistance,20000000,1",
+            "minecraft:resistance,20000000,0",
+            "rustic:magic_resistance,20000000,0",
             "potioncore:cure,20000000,1"
         ],
         "onjoin": true
@@ -258,5 +256,17 @@
             "perplayer": true
         },
         "result": "deny"
+    },
+    {
+        "mob": "ancientbeasts:fire_elemental",
+        "potion": [
+            "minecraft:strength,20000000,2",
+            "potioncore:archery,20000000,2",
+            "minecraft:resistance,20000000,2",
+            "rustic:magic_resistance,20000000,0",
+            "ancientbeasts:fire_frenzy,20000000,0"
+        ],
+        "healthadd": 5000,
+        "onjoin": true
     }
 ]

@@ -39,6 +39,10 @@ rustic:magic_resistance
 rustic:wither_ward
 rustic:undying
 rustic:tipsy
+uniqueebattle:toughend
+uniqueebattle:bleed
+uniqueeutil:saturation
+uniquee:pestilences_odium
 hordes:infected
 hordes:immunity
 quark:blue
@@ -128,6 +132,8 @@ potioncore:spin
 potioncore:curse
 potioncore:burst
 potioncore:archery
+radenchants:vulnerable
+radenchants:insomnia
 simpledifficulty:hyperthermia
 simpledifficulty:hypothermia
 simpledifficulty:thirsty

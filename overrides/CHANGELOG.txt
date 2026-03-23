@@ -1,25 +1,23 @@
-Version 7.4
+Version 7.5 - Enchantment Update
 
-- Updated Ice and Fire RlCraft
-- Updated Amphithere Mod
-- Updated FermiumASM
-- Updated Simple Voice Chat
-- Updated Beast Slayer
-- Added Fire Frenzy Buff to Fiery Set but removed Armor Toughness setbonus
-- Buffed Damcell damage multiplier
-- Removed beast slayer storm mob from spawning in roguelike dungeons
-- Lowered Dolphin Spawnrate
-- Lowered Aquatic Dinosaur spawnrate
-- Lowered Death Worm spawnrate
-- Lowered Lamprey spawnrate
-- Lowered Maximum Flight Height of Dragons
-- Lowered Frost Stash Foxes spawnrate
-- Slightly buffed battle tower loot and increased the chance for it to be underground
-- Dragons, some animals and dinosaurs will now attack bandits
-- Added Fire Elemental boss to immunity list of Mowzies Ice Crystal and Ebwiz Mind Control
-- Added some mobs to list of mobs that cannot drop intestines
-- Added some mobs to CQR factions
-- Replaced Blazes with Blazing Juggernauts for summoning the Fire Elemental boss via transformation powder
-- Lowered player rescue time 5 -> 3 seconds due to revival failing sometimes if damage is too high
-- Added more fruity items to make Jam
-- Updated some textures
+- Add the 4 Unique Enchantment mods
+- Added a specific version of Rad Enchants that does not crash with Betweenlands
+- Adjusted difficulty scaling
+- Buffed Fire Elemental by making it always an infernal and a champion. Also Added it to special AI enhanced list to make the fight more entertaining
+- Fire Elementals will now always have the Fire Frenzy buff
+- Fire Elementals are now guaranteed to have cinder and molten affixes. It will never have arctic.
+- Dread Queen is now guaranteed to have arctic affix
+- Nerfed Skeleton King summons, they were too many
+- Lowered cooldown for fire frenzy in Fiery armor set
+- Added bonus attack damage for Bull/Warmonger armor set
+- Adjusted Copper armor set
+- Renamed some set bonuses
+- Tweaked Back Pergamine recipe
+- Tweaked recipe of waystones and magic mirrors
+- Some animals, dinosaurs, boss, and dragons will now attack rogues
+- Lowered potion buffs of some bosses and dragons
+- Adjusted valkyries, they were too OP
+- Added some inventory GUIs to quark's inventory action buttons
+- Disabled RMB mouse tweak as it was causing problems
+- Increased Disenchanting damage to items from 300 -> 500
+- Added more tips

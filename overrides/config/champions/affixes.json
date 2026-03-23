@@ -10,14 +10,14 @@
     "identifier": "cinder",
     "enabled": true,
     "entityBlacklist": [],
-    "alwaysOnEntity": [],
+    "alwaysOnEntity": ["ancientbeasts:fire_elemental"],
     "tier": 1
   },
   {
     "identifier": "arctic",
     "enabled": true,
-    "entityBlacklist": [],
-    "alwaysOnEntity": [],
+    "entityBlacklist": ["ancientbeasts:fire_elemental"],
+    "alwaysOnEntity": ["iceandfire:dread_queen"],
     "tier": 1
   },
   {
@@ -186,7 +186,7 @@
     "identifier": "molten",
     "enabled": true,
     "entityBlacklist": [],
-    "alwaysOnEntity": [],
+    "alwaysOnEntity": ["ancientbeasts:fire_elemental"],
     "tier": 1
   },
   {

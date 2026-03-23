@@ -193,6 +193,10 @@ quark.gui.keygroupMisc
 quark.keybind.changeHotbar
 quark.keybind.lockBuilding
 
+key.radenchants:category.title
+key.radenchants.access_ender_chest
+key.radenchants.access_pocket
+
 key.categories.randomtweaks
 key.reloadSoundSystem
 key.toggleFoVChanges
@@ -212,6 +216,11 @@ key.toolbelt.category
 key.toolbelt.open
 key.toolbelt.cycle.left
 key.toolbelt.cycle.right
+
+UE Keys
+Enchantment Gui
+Granis Soul Dash
+Pegasus Soul Key
 
 key.categories.voicechat
 key.voice_chat_adjust_volumes

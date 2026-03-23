@@ -15,7 +15,7 @@ recipes.addShaped("backpack",<backpacked:backpack>,[
 recipes.addShaped("waystone",<waystones:waystone>,[
     [<minecraft:stonebrick>,<waystones:warp_stone>,<minecraft:stonebrick>],
     [<minecraft:stonebrick>,<minecraft:end_crystal>,<minecraft:stonebrick>],
-    [<quark:biotite_block>,<minecraft:beacon>,<quark:biotite_block>]
+    [<quark:biotite_block>,<minecraft:nether_star>,<quark:biotite_block>]
 ]);
 
 // recipes.addShaped("dreadWoodLog",<iceandfire:dreadwood_log>*8,[
@@ -319,7 +319,7 @@ recipes.addShapeless("blackDyeQuark",<quark:root_dye:1>*1,[<quark:black_ash>]);
 
 recipes.addShaped("magicMirror",<bountifulbaubles:magicmirror>,[
     [<bountifulbaubles:spectralsilt>,<bountifulbaubles:potionrecall>,<bountifulbaubles:spectralsilt>],
-    [<minecraft:end_crystal>,<minecraft:beacon>,<minecraft:end_crystal>],
+    [<minecraft:end_crystal>,<minecraft:nether_star>,<minecraft:end_crystal>],
     [<bountifulbaubles:spectralsilt>,<bountifulbaubles:potionrecall>,<bountifulbaubles:spectralsilt>]
 ]);
 
@@ -329,7 +329,7 @@ recipes.addShaped("wormholeMirror",<bountifulbaubles:wormholemirror>,[
     [<charm:endermite_powder>,<bountifulbaubles:potionwormhole>,<charm:endermite_powder>]
 ]);
 
-recipes.addShapeless("backPergamine",<dungeonsmod:back_pergamine>*1,[<mod_lavacow:curseweave_cloth>,<minecraft:ender_pearl>,<minecraft:skull:*>]);
+recipes.addShapeless("backPergamine",<dungeonsmod:back_pergamine>*3,[<mod_lavacow:curseweave_cloth>,<mod_lavacow:curseweave_cloth>,<mod_lavacow:curseweave_cloth>,<minecraft:ender_pearl>,<minecraft:skull:*>]);
 recipes.addShapeless("lifeShard",<aether_legacy:life_shard>*1,[<minecraft:glowstone_dust>,<minecraft:redstone>,<minecraft:gunpowder>,<iceandfire:pixie_dust>,<bountifulbaubles:spectralsilt>,<quark:black_ash>,<biomesoplenty:shroompowder>,<dungeontactics:magic_powder>,<biomesoplenty:crystal_shard>]);
 
 recipes.addShaped("magicFeather",<magicfeather:magicfeather>,[

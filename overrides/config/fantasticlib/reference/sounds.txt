@@ -698,6 +698,7 @@ bettercombat:player.sheathe_other_left_2
 bettercombat:player.sheathe_other_right_0
 bettercombat:player.sheathe_other_right_1
 bettercombat:player.sheathe_other_right_2
+uniqueeutil:resonance_found
 amphitheremod:amphithere_hurt_0
 amphitheremod:amphithere_hurt_1
 amphitheremod:amphithere_hurt_2
@@ -2690,12 +2691,6 @@ primitivemobs:entity.harpy.idle
 primitivemobs:entity.harpy.hurt
 primitivemobs:entity.flamespewer.idle
 primitivemobs:entity.voideye.idle
-artifacts:fart
-artifacts:bubble_wrap
-artifacts:mimic.close
-artifacts:mimic.open
-artifacts:mimic.hurt
-artifacts:mimic.death
 spartanweaponry:crossbow_load
 spartanweaponry:crossbow_fire
 spartanweaponry:throwing_weapon_throw
@@ -2703,6 +2698,12 @@ spartanweaponry:throwing_weapon_hit
 spartanweaponry:throwing_weapon_return
 spartanweaponry:boomerang_throw
 spartanweaponry:boomerang_flight
+artifacts:fart
+artifacts:bubble_wrap
+artifacts:mimic.close
+artifacts:mimic.open
+artifacts:mimic.hurt
+artifacts:mimic.death
 twilightforest:mob.kobold.die
 twilightforest:mob.kobold.kobold
 twilightforest:mob.kobold.hurt

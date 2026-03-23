@@ -45,7 +45,7 @@ reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
 mainHand:right
-attackIndicator:0
+attackIndicator:2
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
@@ -103,13 +103,6 @@ key_keybind.name.EMOTE_SLOT_6:0
 key_keybind.name.EMOTE_SLOT_7:0
 key_keybind.name.EMOTE_SLOT_8:0
 key_keybind.baublesinventory:23
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:15
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.playerSort:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -129,6 +122,13 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:15
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.playerSort:0
 key_key.death_history:0
 key_cos.key.opencosarmorinventory:0
 key_key.ebwizardry.next_spell:0
@@ -147,10 +147,13 @@ key_ping.key.alert:-96
 key_ping.key.mine:76
 key_ping.key.look:77
 key_ping.key.goto:-97
+key_key.spartanweaponry.access_quiver:0
 key_key.toggleFoVChanges:0
 key_key.reloadSoundSystem:0
 key_key.togglePotionParticles:0
-key_key.spartanweaponry.access_quiver:0
+key_Enchantment Gui:56
+key_Granis Soul Dash:0
+key_Pegasus Soul Key:29
 key_key.backpack:48
 key_key.dismount:42
 key_key.narrator:0
@@ -216,6 +219,11 @@ key_key.itemzoom.toggle:0
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
+key_key.radenchants.access_ender_chest:52
+key_key.radenchants.access_pocket:51
+key_key.radenchants.gallop:43
+key_key.radenchants.sockets_show:42
+key_key.radenchants.sockets_info:56
 key_key.toolbelt.open:20
 key_key.toolbelt.cycle.left:0
 key_key.toolbelt.cycle.right:0
