@@ -85,7 +85,6 @@ ancientwarfarestructure:aw_gate
 ancientwarfarestructure:seat
 ancientwarfarevehicle:vehicle
 ancientwarfarevehicle:missile
-quark:chest_passenger
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -99,6 +98,9 @@ quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
+quark:chest_passenger
+quark:gravisand
+quark:seat
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -106,8 +108,6 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:gravisand
-quark:seat
 ancientbeasts:sandy
 ancientbeasts:ghost
 ancientbeasts:zealot

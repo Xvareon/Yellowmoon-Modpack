@@ -109,6 +109,8 @@ potioncore:long_step_up
 potioncore:disorganization
 potioncore:perplexity
 potioncore:long_perplexity
+potioncore:explode
+potioncore:strong_explode
 potioncore:lightning
 potioncore:chance
 potioncore:strong_chance

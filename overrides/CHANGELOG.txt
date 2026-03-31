@@ -1,3 +1,15 @@
+Version 7.7
+
+- Added RlTweaker2 0.6.8 (Lots of bug fixes, witch buffs, and Investigative AI!)
+- Updated Simple Voice Chat
+- Updated AtlasLib
+- Removed hordes zombie player in horde waves since its causing exceptions
+- Disabled automatic ping on death
+- Added buffer for HP and Hunger when being revived
+- Slightly lowered badger and lamprey spawnrate
+- Battletower underground chance from 40 -> 30
+- Enabled Sticky Infernals
+
 Version 7.6
 
 - Increased the ceiling of melee and projectile damage and movementspeed of mobs

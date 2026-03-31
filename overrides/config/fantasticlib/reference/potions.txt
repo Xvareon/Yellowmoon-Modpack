@@ -122,6 +122,7 @@ potioncore:cure
 potioncore:step_up
 potioncore:disorganization
 potioncore:perplexity
+potioncore:explode
 potioncore:lightning
 potioncore:chance
 potioncore:dispel
