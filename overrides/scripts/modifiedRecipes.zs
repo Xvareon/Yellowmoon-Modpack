@@ -224,9 +224,9 @@ recipes.addShaped("framedGlass",<quark:framed_glass>*4,[
 ]);
 
 recipes.addShaped("ghGlass",<sereneseasons:greenhouse_glass>*4,[
-    [<minecraft:stained_glass:9>,<minecraft:stick>,<minecraft:stained_glass:9>],
-    [<minecraft:stick>,<minecraft:stick>,<minecraft:stick>],
-    [<minecraft:stained_glass:9>,<minecraft:stick>,<minecraft:stained_glass:9>]
+    [<minecraft:stained_glass:9>,<ore:stickWood>,<minecraft:stained_glass:9>],
+    [<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],
+    [<minecraft:stained_glass:9>,<ore:stickWood>,<minecraft:stained_glass:9>]
 ]);
 
 recipes.addShapeless("woolToString",<minecraft:string>*4,[<minecraft:wool:*>]);
@@ -245,49 +245,49 @@ recipes.addShapeless("warpScroll",<waystones:warp_scroll>*2,[<minecraft:paper>,<
 
 recipes.addShaped("noviceWand",<ebwizardry:magic_wand>,[
     [null,null,<ebwizardry:magic_crystal:0>],
-    [null,<minecraft:stick>,null],
+    [null,<ore:stickWood>,null],
     [<biomesoplenty:gem:6>|<iceandfire:sapphire_gem>,null,null]
 ]);
 
 recipes.addShaped("noviceWandFire",<ebwizardry:novice_fire_wand>,[
     [null,null,<ebwizardry:magic_crystal:1>],
-    [null,<minecraft:stick>,null],
+    [null,<ore:stickWood>,null],
     [<biomesoplenty:gem:1>|<iceandfire:ruby_gem>,null,null]
 ]);
 
 recipes.addShaped("noviceWandIce",<ebwizardry:novice_ice_wand>,[
     [null,null,<ebwizardry:magic_crystal:2>],
-    [null,<minecraft:stick>,null],
+    [null,<ore:stickWood>,null],
     [<biomesoplenty:gem:4>,null,null]
 ]);
 
 recipes.addShaped("noviceWandLightning",<ebwizardry:novice_lightning_wand>,[
     [null,null,<ebwizardry:magic_crystal:3>],
-    [null,<minecraft:stick>,null],
+    [null,<ore:stickWood>,null],
     [<biomesoplenty:gem:3>,null,null]
 ]);
 
 recipes.addShaped("noviceWandNecromancy",<ebwizardry:novice_necromancy_wand>,[
     [null,null,<ebwizardry:magic_crystal:4>],
-    [null,<minecraft:stick>,null],
+    [null,<ore:stickWood>,null],
     [<iceandfire:amethyst_gem>|<biomesoplenty:gem:0>,null,null]
 ]);
 
 recipes.addShaped("noviceWandEarth",<ebwizardry:novice_earth_wand>,[
     [null,null,<ebwizardry:magic_crystal:5>],
-    [null,<minecraft:stick>,null],
+    [null,<ore:stickWood>,null],
     [<biomesoplenty:gem:2>,null,null]
 ]);
 
 recipes.addShaped("noviceWandSorcery",<ebwizardry:novice_sorcery_wand>,[
     [null,null,<ebwizardry:magic_crystal:6>],
-    [null,<minecraft:stick>,null],
+    [null,<ore:stickWood>,null],
     [<biomesoplenty:gem:5>,null,null]
 ]);
 
 recipes.addShaped("noviceWandHealing",<ebwizardry:novice_healing_wand>,[
     [null,null,<ebwizardry:magic_crystal:7>],
-    [null,<minecraft:stick>,null],
+    [null,<ore:stickWood>,null],
     [<biomesoplenty:gem:7>|<mod_lavacow:ancient_amber>|<fossil:amber>,null,null]
 ]);
 
@@ -346,7 +346,7 @@ recipes.addShapeless("biotiteBlockToBiotite",<quark:biotite>*4,[<quark:biotite_b
 
 recipes.addShapeless("spiderEyeSoup",<dungeontactics:spidereye_soup>*1,[<minecraft:bowl>,<minecraft:spider_eye>,<harvestcraft:saltitem>]);
 
-recipes.addShapeless("plaster",<firstaid:plaster>*2,[<biomesoplenty:shroompowder>,<minecraft:wool:*>,<minecraft:string>]);
+recipes.addShapeless("plaster",<firstaid:plaster>*2,[<biomesoplenty:shroompowder>|<rustic:aloe_vera>|<rustic:blood_orchid>|<rustic:chamomile>|<rustic:cohosh>,<minecraft:wool:*>,<minecraft:string>]);
 
 recipes.addShapeless("bandage",<firstaid:bandage>*2,[<firstaid:plaster>,<firstaid:plaster>]);
 
@@ -1383,5 +1383,35 @@ recipes.addShaped("twilightLeafPile",<twilightforest:twilight_plant:9>*6,[
 ]);
 
 recipes.addShapeless("iAmTheWalrusDisc",<betteranimalsplus:record_walrus>,[<betteranimalsplus:blubber>,<minecraft:record_cat>]);
+
+recipes.addShapeless("riftedEnderPearlToEnderPearl",<minecraft:ender_pearl>,[<ancientbeasts:rifted_pearl>,<dungeontactics:magic_powder>]);
+
+recipes.addShaped("weepingTorch4",<ancientbeasts:green_torch>*4,[
+    [<iceandfire:copper_nugget>],
+    [<minecraft:coal:0>|<minecraft:coal:1>|<betteranimalsplus:blubber>],
+    [<ore:stickWood>]
+]);
+
+recipes.addShaped("weepingTorch5",<ancientbeasts:green_torch>*5,[
+    [<iceandfire:copper_nugget>],
+    [<twilightforest:torchberries>],
+    [<ore:stickWood>]
+]);
+
+recipes.addShapeless("phantasmalIngotToEctoplasm",<ancientbeasts:ectoplasm>*4,[<iceandfire:ghost_ingot>]);
+
+recipes.addShapeless("fishEctoplasmToBeastEctoplasm",<ancientbeasts:ectoplasm>,[<mod_lavacow:ectoplasm>]);
+
+recipes.addShapeless("beastEctoplasmToFishEctoplasm",<mod_lavacow:ectoplasm>,[<ancientbeasts:ectoplasm>]);
+
+recipes.addShaped("ectoplasmMassViaBeastEctoplasm",<mod_lavacow:ectoplasm_mass>,[
+    [<ancientbeasts:ectoplasm>,<ancientbeasts:ectoplasm>],
+    [<ancientbeasts:ectoplasm>,<ancientbeasts:ectoplasm>]
+]);
+
+recipes.addShaped("ghostjellyViaBeastEctoplasm",<mod_lavacow:ghostjelly>,[
+    [<minecraft:bowl>,<mod_lavacow:moltenpan>|<mod_lavacow:soulforged_pan>],
+    [<ancientbeasts:ectoplasm>,<mod_lavacow:glowshroom>]
+]);
 
 print("Script modifiedRecipes ending!");

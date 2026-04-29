@@ -36,7 +36,15 @@ Version 7.8 - Rebalancing Update
 - Added interchangeable recipe for steel ingots just like silver
 - Changed recipe of spark bomb and frost bomb to use cheaper materials instead of elemental magic crystals
 - Increased stacksize of dungeon tactics loot bags
-- Disabled bubble columns as they are causing crashes
+- Disabled bubble columns from aqua acrobatics as they are causing crashes
+- Added VARIOUS (Pam's included) entries to list of items that can be composted by charm's composter
+- Added entries of items that can be put inside charm bookshelves
+- Added rifted ender pearl to ender pearl recipe
+- Added weeping torch crafting recipes
+- Added more ectoplasm recipes for compatibility
+- Added more recipe use for ore:stickWood
+- Added more recipes to plasters
+- Added more tips
 
 Version 7.7
 
