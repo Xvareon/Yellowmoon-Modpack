@@ -1,3 +1,43 @@
+Version 7.8 - Rebalancing Update
+
+- Added Pigstep
+- Updated Beast Slayer
+- Updated Ancientspellcraft, fixing the creeper and many other bugs
+- Updated Fish's Undead Rising, fixing many issues with mobs
+- Updated Vintage Fix, fixing many issues as well
+- Updated Simple Voice Chat
+- Reduced extra attack height and width in better combat again to avoid unwanted and accidental mob hits
+- Added recipe for Swamp Oak and Blossoming Leaf carpets
+- Added recipe for turning wool carpets back to wool blocks
+- Disabled Charm's SpectreHaunting as it was causing crashes
+- Removed guaranteed drowning potion from witches (it was too OP, the curse potion can still give it to you but that would be RNG so its fair)
+- Slightly lowered difficulty curve for mobs.
+- Removed magic resistance gain from mob scaling
+- Slightly increased damage scaling of players from 2.0 -> 2.2
+- Added Dungeon Tactic charms to items that can be put into the toolbelt
+- Removed iron ingot from framed glass recipe
+- Tweaked recipe of plaster and bandage recipe to be more lenient
+- Added Summon Valkyrie and Summon Fire Minions spells
+- Added ability to craft candy canes using candy cane sword
+- Lowered chance of various items to drop in intestine loot table
+- Added a ton of new items to intestine, raven, and seagull loot table
+- Nerfed frost stash fox spawnrate
+- Fixed FermiumASM culling arcane lock rendering
+- Added recipe for Twilight Forest leaf pile
+- Suspicious Soups with the same effects will now stack
+- Ice and Fire Ambrosia is now stackable
+- Added a recipe for I am the Walrus music disc
+- Music discs from Charm, F&A, Betweenlands, and Better Animals plus are now stackable too
+- The Maze Breaker is now smeltable into diamonds
+- Adjusted spawnrate of aquatic dinosaurs
+- Dungeon Tactics special flowers and traps can now be equipped in the toolbelt
+- Disabled Player Head dropping when not killed by players or charged creepers
+- Added Silver, Copper, Steel, and Mithril to roguelike dungeon loot
+- Added interchangeable recipe for steel ingots just like silver
+- Changed recipe of spark bomb and frost bomb to use cheaper materials instead of elemental magic crystals
+- Increased stacksize of dungeon tactics loot bags
+- Disabled bubble columns as they are causing crashes
+
 Version 7.7
 
 - Added RlTweaker2 0.6.8 (Lots of bug fixes, witch buffs, and Investigative AI!)

@@ -159,8 +159,7 @@
         ],
         "biometype": "OCEAN",
         "maxcount": {
-            "amount": 130,
-            "hostile": true,
+            "amount": 4,
             "perplayer": true
         },
         "random": 0.1,

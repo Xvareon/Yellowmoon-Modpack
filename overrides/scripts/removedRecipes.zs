@@ -45,6 +45,7 @@ recipes.remove(<iceandfire:dragon_meal>);
 recipes.remove(<iceandfire:sickly_dragon_meal>);
 recipes.remove(<disenchanter:disenchantmenttable>);
 recipes.remove(<dungeontactics:silver_ingot>);
+recipes.remove(<dungeontactics:steel_ingot>);
 recipes.remove(<ebwizardry:large_mana_flask>);
 recipes.remove(<mod_lavacow:goldenheart>);
 recipes.remove(<necromancersdelight:frost_bomb>);

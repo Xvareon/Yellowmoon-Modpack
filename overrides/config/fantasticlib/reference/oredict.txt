@@ -1536,7 +1536,6 @@ gemCrimsonMiddleGem
 gemGreenMiddleGem
 gemLifeCrystal
 gemScabyst
-stonePolished
 stoneBasaltPolished
 stoneMarblePolished
 stoneLimestonePolished
@@ -1558,6 +1557,7 @@ blockCandle
 pressurePlateWood
 blockCharcoal
 shardGlass
+stonePolished
 oreJade
 orePetrifiedWood
 oreFossil

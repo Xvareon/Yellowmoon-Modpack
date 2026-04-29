@@ -31,4 +31,7 @@ mods.wizardryutils.MinionSpells.create("summon_carminitegolem", "twilightforest.
 mods.wizardryutils.MinionSpells.create("summon_remnantswarm", "electroblob.wizardry.entity.living.EntityRemnant");
 mods.wizardryutils.MinionSpells.create("summon_mosquitoswarm", "twilightforest.entity.EntityTFMosquitoSwarm");
 
+mods.wizardryutils.MinionSpells.create("summon_valkyrie", "com.gildedgames.the_aether.entities.bosses.EntityValkyrie");
+mods.wizardryutils.MinionSpells.create("summon_fireminions", "com.gildedgames.the_aether.entities.bosses.EntityFireMinion");
+
 print("Script customSpells ending!");

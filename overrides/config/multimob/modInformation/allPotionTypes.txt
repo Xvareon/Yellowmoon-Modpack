@@ -106,6 +106,8 @@ potioncore:cure
 potioncore:step_up
 potioncore:strong_step_up
 potioncore:long_step_up
+potioncore:drown
+potioncore:long_drown
 potioncore:disorganization
 potioncore:perplexity
 potioncore:long_perplexity

@@ -2219,6 +2219,38 @@
         },
         {
           "data": {
+            "name": "iceandfire:silver_ingot",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "iceandfire:copper_ingot",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "ancientwarfare:steel_ingot",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "name": "dungeontactics:mithril_ingot",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 1
+        },
+        {
+          "data": {
             "name": "minecraft:emerald",
             "min": 1,
             "max": 3
@@ -2479,6 +2511,30 @@
             "name": "minecraft:gold_ingot"
           },
           "weight": 10
+        },
+        {
+          "data": {
+            "name": "iceandfire:silver_ingot"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "iceandfire:copper_ingot"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "ancientwarfare:steel_ingot"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "dungeontactics:mithril_ingot"
+          },
+          "weight": 1
         },
         {
           "data": {

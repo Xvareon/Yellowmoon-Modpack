@@ -219,7 +219,7 @@ recipes.addShaped("gapple",<minecraft:golden_apple:1>,[
 
 recipes.addShaped("framedGlass",<quark:framed_glass>*4,[
     [<minecraft:iron_bars>,<minecraft:glass>,<minecraft:iron_bars>],
-    [<minecraft:glass>,<minecraft:iron_ingot>,<minecraft:glass>],
+    [<minecraft:glass>,null,<minecraft:glass>],
     [<minecraft:iron_bars>,<minecraft:glass>,<minecraft:iron_bars>]
 ]);
 
@@ -346,9 +346,9 @@ recipes.addShapeless("biotiteBlockToBiotite",<quark:biotite>*4,[<quark:biotite_b
 
 recipes.addShapeless("spiderEyeSoup",<dungeontactics:spidereye_soup>*1,[<minecraft:bowl>,<minecraft:spider_eye>,<harvestcraft:saltitem>]);
 
-recipes.addShapeless("plaster",<firstaid:plaster>*1,[<biomesoplenty:shroompowder>,<minecraft:wool:*>,<minecraft:string>]);
+recipes.addShapeless("plaster",<firstaid:plaster>*2,[<biomesoplenty:shroompowder>,<minecraft:wool:*>,<minecraft:string>]);
 
-recipes.addShapeless("bandage",<firstaid:bandage>*1,[<firstaid:plaster>,<firstaid:plaster>]);
+recipes.addShapeless("bandage",<firstaid:bandage>*2,[<firstaid:plaster>,<firstaid:plaster>]);
 
 recipes.addShaped("dragonMeal",<iceandfire:dragon_meal>*1,[
     [<iceandfire:dragonbone>,<mod_lavacow:moltenbeef>|<fossil:iced_meat>|<charm:charged_emerald>,<iceandfire:dragonbone>],
@@ -378,9 +378,19 @@ recipes.addShaped("snorkle",<artifacts:snorkel>,[
     [<bountifulbaubles:spectralsilt>,<minecraft:prismarine_shard>,<bountifulbaubles:spectralsilt>]
 ]);
 
-recipes.addShapeless("silverBlockToIngot",<dungeontactics:silver_ingot>*9,[<dungeontactics:silver_block>]);
+recipes.addShapeless("silverBlockToIngot",<iceandfire:silver_ingot>*9,[<dungeontactics:silver_block>]);
 recipes.addShapeless("silverDTToSilverIAF",<dungeontactics:silver_ingot>*1,[<iceandfire:silver_ingot>]);
 recipes.addShapeless("silverIAFToSilverDT",<iceandfire:silver_ingot>*1,[<dungeontactics:silver_ingot>]);
+
+
+recipes.addShaped("steelNuggetsToIngot",<ancientwarfare:steel_ingot>,[
+    [<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>],
+    [<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>],
+    [<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>]
+]);
+recipes.addShapeless("steelBlockToIngot",<ancientwarfare:steel_ingot>*9,[<dungeontactics:steel_block>]);
+recipes.addShapeless("steelDTToSteelAW",<dungeontactics:steel_ingot>*1,[<ancientwarfare:steel_ingot>]);
+recipes.addShapeless("steelAWToSteelDT",<ancientwarfare:steel_ingot>*1,[<dungeontactics:steel_ingot>]);
 
 recipes.addShapeless("dreadHole",<iceandfire:dreadwood_planks_lock>*1,[<iceandfire:dreadwood_planks>,<iceandfire:dread_key>]);
 
@@ -1007,8 +1017,8 @@ recipes.addShapeless("fireCharge",<minecraft:fire_charge>*4,[<minecraft:blaze_po
 recipes.addShapeless("fireBombCharge",<ebwizardry:firebomb>*4,[<minecraft:blaze_powder>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
 recipes.addShapeless("poisonBombCharge",<ebwizardry:poison_bomb>*4,[<minecraft:spider_eye>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
 recipes.addShapeless("smokeBombCharge",<ebwizardry:smoke_bomb>*4,[<minecraft:coal:0>|<minecraft:coal:1>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
-recipes.addShapeless("sparkBombCharge",<ebwizardry:spark_bomb>*4,[<ebwizardry:magic_crystal:3>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
-recipes.addShapeless("frostBombCharge",<necromancersdelight:frost_bomb>*4,[<ebwizardry:magic_crystal:2>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
+recipes.addShapeless("sparkBombCharge",<ebwizardry:spark_bomb>*4,[<charm:charged_emerald>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
+recipes.addShapeless("frostBombCharge",<necromancersdelight:frost_bomb>*4,[<mod_lavacow:shattered_ice>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
 recipes.addShapeless("stinkBombCharge",<necromancersdelight:stink_bomb>*4,[<mod_lavacow:foul_bristle>,<minecraft:gunpowder>,<minecraft:glass_bottle>]);
 
 recipes.addShapeless("bombFrag",<dungeontactics:bomb_frag>*3,[<minecraft:string>,<minecraft:gunpowder>,<minecraft:flower_pot>]);
@@ -1340,5 +1350,38 @@ recipes.addShapeless("jam",<dungeontactics:jam>*3,[<minecraft:glass_bottle>,<min
     |<harvestcraft:strawberryitem>|<harvestcraft:cranberryitem>|<harvestcraft:elderberryitem>|<harvestcraft:huckleberryitem>
     |<harvestcraft:mulberryitem>|<harvestcraft:juniperberryitem>|<harvestcraft:gooseberryitem>|<harvestcraft:mangoitem>|<harvestcraft:peachitem>
 ]);
+
+recipes.addShaped("swampOakCarpet",<quark:leaf_carpet:6>*3,[
+    [<quark:variant_leaves:0>,<quark:variant_leaves:0>]
+]);
+
+recipes.addShaped("blossomingLeafCarpet",<quark:leaf_carpet:7>*3,[
+    [<quark:variant_leaves:1>,<quark:variant_leaves:1>]
+]);
+
+recipes.addShapeless("carpetToWhiteWool",<minecraft:wool:0>*2,[<minecraft:carpet:0>,<minecraft:carpet:0>,<minecraft:carpet:0>]);
+recipes.addShapeless("carpetToOrangeWool",<minecraft:wool:1>*2,[<minecraft:carpet:1>,<minecraft:carpet:1>,<minecraft:carpet:1>]);
+recipes.addShapeless("carpetToMagentaWool",<minecraft:wool:2>*2,[<minecraft:carpet:2>,<minecraft:carpet:2>,<minecraft:carpet:2>]);
+recipes.addShapeless("carpetToLightBlueWool",<minecraft:wool:3>*2,[<minecraft:carpet:3>,<minecraft:carpet:3>,<minecraft:carpet:3>]);
+recipes.addShapeless("carpetToYellowWool",<minecraft:wool:4>*2,[<minecraft:carpet:4>,<minecraft:carpet:4>,<minecraft:carpet:4>]);
+recipes.addShapeless("carpetToLimeWool",<minecraft:wool:5>*2,[<minecraft:carpet:5>,<minecraft:carpet:5>,<minecraft:carpet:5>]);
+recipes.addShapeless("carpetToPinkWool",<minecraft:wool:6>*2,[<minecraft:carpet:6>,<minecraft:carpet:6>,<minecraft:carpet:6>]);
+recipes.addShapeless("carpetToGrayWool",<minecraft:wool:7>*2,[<minecraft:carpet:7>,<minecraft:carpet:7>,<minecraft:carpet:7>]);
+recipes.addShapeless("carpetToLightGrayWool",<minecraft:wool:8>*2,[<minecraft:carpet:8>,<minecraft:carpet:8>,<minecraft:carpet:8>]);
+recipes.addShapeless("carpetToCyanWool",<minecraft:wool:9>*2,[<minecraft:carpet:9>,<minecraft:carpet:9>,<minecraft:carpet:9>]);
+recipes.addShapeless("carpetToPurpleWool",<minecraft:wool:10>*2,[<minecraft:carpet:10>,<minecraft:carpet:10>,<minecraft:carpet:10>]);
+recipes.addShapeless("carpetToBlueWool",<minecraft:wool:11>*2,[<minecraft:carpet:11>,<minecraft:carpet:11>,<minecraft:carpet:11>]);
+recipes.addShapeless("carpetToBrownWool",<minecraft:wool:12>*2,[<minecraft:carpet:12>,<minecraft:carpet:12>,<minecraft:carpet:12>]);
+recipes.addShapeless("carpetToGreenWool",<minecraft:wool:13>*2,[<minecraft:carpet:13>,<minecraft:carpet:13>,<minecraft:carpet:13>]);
+recipes.addShapeless("carpetToRedWool",<minecraft:wool:14>*2,[<minecraft:carpet:14>,<minecraft:carpet:14>,<minecraft:carpet:14>]);
+recipes.addShapeless("carpetToBlackWool",<minecraft:wool:15>*2,[<minecraft:carpet:15>,<minecraft:carpet:15>,<minecraft:carpet:15>]);
+
+recipes.addShapeless("candyCane",<aether_legacy:candy_cane>*4,[<aether_legacy:candy_cane_sword>]);
+
+recipes.addShaped("twilightLeafPile",<twilightforest:twilight_plant:9>*6,[
+    [<twilightforest:twilight_leaves:0>|<twilightforest:twilight_leaves:1>|<twilightforest:twilight_leaves:2>|<twilightforest:twilight_leaves:3>,<twilightforest:twilight_leaves:0>|<twilightforest:twilight_leaves:1>|<twilightforest:twilight_leaves:2>|<twilightforest:twilight_leaves:3>,<twilightforest:twilight_leaves:0>|<twilightforest:twilight_leaves:1>|<twilightforest:twilight_leaves:2>|<twilightforest:twilight_leaves:3>]
+]);
+
+recipes.addShapeless("iAmTheWalrusDisc",<betteranimalsplus:record_walrus>,[<betteranimalsplus:blubber>,<minecraft:record_cat>]);
 
 print("Script modifiedRecipes ending!");

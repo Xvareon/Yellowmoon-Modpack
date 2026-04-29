@@ -854,4 +854,6 @@ furnace.addRecipe(<ebwizardry:spectral_dust:5>*1,<ebwizardry:magic_crystal:5>, 9
 furnace.addRecipe(<ebwizardry:spectral_dust:6>*1,<ebwizardry:magic_crystal:6>, 99999);
 furnace.addRecipe(<ebwizardry:spectral_dust:7>*1,<ebwizardry:magic_crystal:7>, 99999);
 
+furnace.addRecipe(<minecraft:diamond>*2,<twilightforest:mazebreaker_pickaxe:*>, 99999);
+
 print("Script furnaceRecipes ending!");

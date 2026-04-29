@@ -120,6 +120,7 @@ potioncore:diamond_skin
 potioncore:magic_focus
 potioncore:cure
 potioncore:step_up
+potioncore:drown
 potioncore:disorganization
 potioncore:perplexity
 potioncore:explode

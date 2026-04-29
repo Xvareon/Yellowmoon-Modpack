@@ -50,3 +50,7 @@ spell.contenttweaker:summon_remnantswarm=Summon Remnant Swarm
 spell.contenttweaker:summon_remnantswarm.desc=Conjures multiple remnants to fight for you.
 spell.contenttweaker:summon_mosquitoswarm=Summon Mosquito Swarm
 spell.contenttweaker:summon_mosquitoswarm.desc=Conjures a swarm of mosquitoes to fight for you.
+spell.contenttweaker:summon_valkyrie=Summon Valkyrie
+spell.contenttweaker:summon_valkyrie.desc=Conjures a powerful valkyrie to fight for you.
+spell.contenttweaker:summon_fireminions=Summon Fire Minions
+spell.contenttweaker:summon_fireminions.desc=Conjures fire minions to fight for you.

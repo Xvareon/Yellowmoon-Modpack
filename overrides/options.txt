@@ -2,9 +2,9 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.15492958
 fov:0.125
-gamma:1.0
+gamma:0.0
 saturation:0.0
-renderDistance:8
+renderDistance:12
 guiScale:2
 particles:0
 bobView:true
@@ -269,7 +269,7 @@ key_key.use_secondary_ring:184:SHIFT
 key_key.open_pouch:24
 key_key.connect_caving_rope:19
 soundCategory_master:0.102649
-soundCategory_music:0.056338027
+soundCategory_music:0.20422535
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
